@@ -16,7 +16,6 @@ Built largely upon the graphic work of GNOME's [Adwaita designers](https://gitla
 ![icon](./Adwaitaru/scalable/apps/cemu.svg "Cemu")
 ![icon](./Adwaitaru/scalable/apps/chrome.svg "Chrome")
 ![icon](./Adwaitaru/scalable/apps/chromium.svg "Chromium")
-![icon](./Adwaitaru/scalable/apps/coulomb.svg "Coulomb")
 ![icon](./Adwaitaru/scalable/apps/darktable.svg "Darktable")
 ![icon](./Adwaitaru/scalable/apps/resolve.svg "DaVinci Resolve")
 ![icon](./Adwaitaru/scalable/apps/discord.svg "Discord")
