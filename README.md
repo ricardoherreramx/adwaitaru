@@ -352,7 +352,7 @@ Built largely upon the graphic work of GNOME's [Adwaita designers](https://gitla
 ![icon](./Adwaitaru/scalable/devices/audio-headset.svg "Headset")
 ![icon](./Adwaitaru/scalable/devices/audio-speakers.svg "Speaker")
 ![icon](./Adwaitaru/scalable/devices/battery.svg "Battery")
-![icon](./Adwaitaru/scalable/devices/blueman.svg "Bluetooth/Blueman Device")
+![icon](./Adwaitaru/scalable/devices/blueman-device.svg "Blueman Device")
 ![icon](./Adwaitaru/scalable/devices/camera-photo.svg "Photo Camera")
 ![icon](./Adwaitaru/scalable/devices/camera-video.svg "Video Camera")
 ![icon](./Adwaitaru/scalable/devices/camera-web.svg "Webcam")
