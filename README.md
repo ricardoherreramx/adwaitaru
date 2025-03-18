@@ -355,7 +355,7 @@ Built largely upon the graphic work of GNOME's [Adwaita designers](https://gitla
 ![icon](./Adwaitaru/scalable/categories/preferences-color.svg "Color")
 ![icon](./Adwaitaru/scalable/apps/re.sonny.Junction.svg "Default Apps")
 ![icon](./Adwaitaru/scalable/categories/applications-development.svg "Development")
-![icon](./Adwaitaru/scalable/devices/video-display.svg.svg "Display")
+![icon](./Adwaitaru/scalable/devices/video-display.svg "Display")
 ![icon](./Adwaitaru/scalable/devices/cpu.svg "Driver / Firmware")
 ![icon](./Adwaitaru/scalable/categories/applications-education.svg "Education")
 ![icon](./Adwaitaru/scalable/apps/org.gnome.font-viewer.svg "Fonts")
