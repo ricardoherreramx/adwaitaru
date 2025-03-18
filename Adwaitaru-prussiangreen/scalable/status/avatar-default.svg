@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<circle r="60" cx="64" cy="64" fill="#308280"/>
+<g fill="#F6F5F4" transform="translate(30 28)">
+<path id="body" d="M33.1861 0C17.2705 0 3.9094 10.292 0.205843 24.19C-0.917383 28.4053 2.72231 32 7.0845 32L59.2876 32C63.65 32 67.29 28.4053 66.1663 24.19C62.4627 10.292 49.1016 0 33.1861 0Z" transform="translate(0 40)"/>
+<circle id="head" r="16" transform="translate(34 16)"/>
+</g></svg>
