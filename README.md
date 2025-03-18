@@ -345,6 +345,43 @@ Built largely upon the graphic work of GNOME's [Adwaita designers](https://gitla
 ![icon](./Adwaitaru/scalable/status/folder-open.svg "Folder (open)")
 </details>
 <details>
+<summary><h3>Categories</h3></summary>
+
+![icon](./Adwaitaru/scalable/status/avatar-default.svg "User")
+![icon](./Adwaitaru/scalable/categories/preferences-desktop-online-accounts.svg "Online Accounts")
+![icon](./Adwaitaru/scalable/categories/preferences-desktop-accessibility.svg "Accessibility")
+![icon](./Adwaitaru/scalable/apps/org.gnome.design.AppIconPreview.svg "Accessories")
+![icon](./Adwaitaru/scalable/categories/preferences-system-bluetooth.svg "Bluetooth")
+![icon](./Adwaitaru/scalable/categories/preferences-color.svg "Color")
+![icon](./Adwaitaru/scalable/apps/re.sonny.Junction.svg "Default Apps")
+![icon](./Adwaitaru/scalable/categories/applications-development.svg "Development")
+![icon](./Adwaitaru/scalable/devices/video-display.svg.svg "Display")
+![icon](./Adwaitaru/scalable/devices/cpu.svg "Driver / Firmware")
+![icon](./Adwaitaru/scalable/categories/applications-education.svg "Education")
+![icon](./Adwaitaru/scalable/apps/org.gnome.font-viewer.svg "Fonts")
+![icon](./Adwaitaru/scalable/devices/input-keyboard.svg "Keyboard")
+![icon](./Adwaitaru/scalable/categories/preferences-desktop-keyboard-shortcuts.svg "Keyboard Shortcuts")
+![icon](./Adwaitaru/scalable/categories/preferences-desktop-locale.svg "Languages")
+![icon](./Adwaitaru/scalable/apps/se.sjoerd.Graphs.svg "Mathematics")
+![icon](./Adwaitaru/scalable/categories/applications-engineering.svg "Engineering")
+![icon](./Adwaitaru/scalable/categories/applications-games.svg "Games")
+![icon](./Adwaitaru/scalable/mimetypes/application-drawing.svg "Graphics")
+![icon](./Adwaitaru/scalable/apps/dev.Cogitri.Health.svg "Health")
+![icon](./Adwaitaru/scalable/devices/input-tablet.svg "Input Sources")
+![icon](./Adwaitaru/scalable/apps/org.gnome.Epiphany.svg "Internet")
+![icon](./Adwaitaru/scalable/categories/applications-multimedia.svg "Multimedia / Codecs")
+![icon](./Adwaitaru/scalable/categories/preferences-system-network.svg "Network")
+![icon](./Adwaitaru/scalable/apps/dev.tchx84.Portfolio.svg "Office")
+![icon](./Adwaitaru/scalable/devices/audio-headset.svg "Peripherals")
+![icon](./Adwaitaru/scalable/apps/org.gnome.Papers.svg "Science")
+![icon](./Adwaitaru/scalable/devices/audio-speakers.svg "Sound")
+![icon](./Adwaitaru/scalable/apps/org.gnome.Settings.svg "System")
+![icon](./Adwaitaru/scalable/apps/me.iepure.devtoolbox.svg "Utilities")
+![icon](./Adwaitaru/scalable/apps/org.gnome.clocks.svg "Time")
+![icon](./Adwaitaru/scalable/places/user-desktop.svg "Desktop")
+![icon](./Adwaitaru/scalable/categories/preferences-desktop-wallpaper.svg "Wallpaper")
+</details>
+<details>
 <summary><h3>Devices</h3></summary>
 
 ![icon](./Adwaitaru/scalable/devices/audio-headphones.svg "Headphones")
