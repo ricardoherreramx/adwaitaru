@@ -1,6 +1,6 @@
 [Icon Theme]
-Name=Adwaitaru-color
-Comment=Gnome's Adwaita meets Ubuntu's Yaru - accent color
+Name=Adwaitaru-red
+Comment=Gnome's Adwaita meets Ubuntu's Yaru - red accent color
 Example=folder
 Inherits=Adwaitaru,Adwaita,gnome,hicolor
 
