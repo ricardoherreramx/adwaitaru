@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="grayish" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="88" y2="0">
+<stop offset="0" stop-color="#9A9996"/>
+<stop offset="0.08" stop-color="#DEDDDA"/>
+<stop offset="0.18" stop-color="#9A9996"/>
+<stop offset="0.85" stop-color="#9A9996"/>
+<stop offset="0.92" stop-color="#DEDDDA"/>
+<stop offset="0.98" stop-color="#A8A7A4"/>
+<stop offset="1" stop-color="#F6F5F4"/>
+</linearGradient>
+<linearGradient id="blackish" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="72" y2="72">
+<stop offset="0" stop-color="#31434F"/>
+<stop offset="1" stop-color="#000000"/>
+</linearGradient>
+<linearGradient id="blueish" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="68" y2="68">
+<stop offset="0" stop-color="#60D5F7"/>
+<stop offset="0.511" stop-color="#0182C4"/>
+</linearGradient>
+</defs>
+<rect width="88" height="112" rx="8" fill="url(#grayish)" transform="translate(20 8)"/>
+<rect width="88" height="106" rx="8" fill="#C0BFBC" transform="translate(20 8)"/>
+<g id="display" transform="translate(28 16)">
+<rect id="screen" width="72" height="72" fill="url(#blackish)"/>
+<path id="paper" d="M0 0L68 0L68 44L44 68L0 68L0 0Z" fill="url(#blueish)" transform="translate(2 2)"/>
+<path id="corner" d="M0 24L24 0L0 0L0 24Z" fill="#FFFFFF" transform="translate(46 46)"/>
+</g><g id="buttons" fill="#FD1C10" stroke="#500000" stroke-width="2" transform="translate(36 101)">
+<circle r="7" transform="translate(22 0)"/>
+<circle r="7"/>
+</g></svg>

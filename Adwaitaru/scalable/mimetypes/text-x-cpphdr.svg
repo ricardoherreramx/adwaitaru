@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<path id="paper" d="M108 36L108 112C108 116.4 104.4 120 100 120L28 120C23.6 120 20 116.4 20 112L20 16C20 11.6 23.6 8 28 8L80 8Z" fill="#0080CD"/>
+<path id="corner" d="M0 0L28 28L0 28Z" fill="#00549E" transform="translate(80 8)"/>
+<path id="H++" d="M0 60L0 0L15 0L15 22L45 22L45 0L60 0L60 60L45 60L45 38L15 38L15 60ZM35 35L35 32L32 32L32 28L35 28L35 25L39 25L39 28L42 28L42 32L39 32L39 35ZM48 32L48 35L52 35L52 32L55 32L55 28L52 28L52 25L48 25L48 28L45 28L45 32Z" fill="#FFFFFF" fill-rule="evenodd" transform="translate(34 46)"/>
+</svg>

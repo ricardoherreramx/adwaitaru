@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="white" gradientUnits="userSpaceOnUse" x1="0" y1="120" x2="0" y2="0">
+<stop offset="0" stop-color="#C6CDD1"/>
+<stop offset="1" stop-color="#E0E5E7"/>
+</linearGradient>
+<linearGradient id="shadow" gradientUnits="userSpaceOnUse" x1="18.6" y1="24" x2="67" y2="72.57">
+<stop offset="0" stop-color="#000000"/>
+<stop offset="1" stop-color="#000000" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="turquoise" gradientUnits="userSpaceOnUse" x1="0" y1="100" x2="0" y2="3.8">
+<stop offset="0" stop-color="#663579"/>
+<stop offset="1" stop-color="#16A085"/>
+</linearGradient>
+<linearGradient id="bezier" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="97" y2="0">
+<stop offset="0" stop-color="#1D1E1E"/>
+<stop offset="1" stop-color="#2C2F32"/>
+</linearGradient>
+</defs>
+<circle r="60" cx="64" cy="64" fill="url(#white)"/>
+<path d="M37.277 0 0 45l38.9 38.9a60 60 0 0 0 50.208-32.07L37.277 0Z" fill="url(#shadow)" opacity="0.2" transform="translate(28 40)"/>
+<path d="M12.706 0A60 60 0 0 0 0 36.805c0 33.137 26.863 60 60 60a60 60 0 0 0 49.655-26.334c-6.754-.08-50.117-1.084-55.79-15.263-6.133-15.336 15.336-18.4 12.27-33.74C62.293 2.27 25.157.147 12.704 0Z" fill="url(#turquoise)" transform="translate(4 27.195)"/>
+<path d="M4.047 62.916C4.04 63.278 4 63.637 4 64c0 33.137 26.863 60 60 60a60 60 0 0 0 49.652-26.332c-.44-0-1.4-.036-2.132-.053A60 60 0 0 1 64 121C31.5 121 5.06 95.164 4 62.916Z" fill="#4F2C60"/>
+<path d="M.064 0C.042.029.022.06 0 .088 14.394.52 46.902 3.5 50.496 21.468 53.563 36.805 31.96 39.74 38.094 55.075c5.672 14.18 50.513 20.648 57.267 20.729l1.653-5.332c-6.754-.08-50.116-1.085-55.787-15.264-6.135-15.335 15.336-18.403 12.27-33.738C49.655 2.268 12.516.147.063 0Z" fill="url(#bezier)" transform="translate(16.64 27.2)"/>
+<g fill="#FFFFFF" stroke="#44484C" stroke-width="3">
+<circle r="4.5" transform="translate(19 28)"/>
+<circle r="6" transform="translate(68.5 50.5)"/>
+<circle r="7.5" transform="translate(58 82)"/>
+<circle r="10.5" transform="translate(106 97)"/>
+</g></svg>

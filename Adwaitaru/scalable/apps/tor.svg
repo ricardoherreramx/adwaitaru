@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="gradient_1" gradientUnits="userSpaceOnUse" x1="60" y1="120" x2="60" y2="0">
+<stop offset="0" stop-color="#730CDA"/>
+<stop offset="1" stop-color="#A02FDB"/>
+</linearGradient>
+<linearGradient id="gradient_2" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="109">
+<stop offset="0" stop-color="#BA50F6"/>
+<stop offset="1" stop-color="#9032E6"/>
+</linearGradient>
+<linearGradient id="gradient_3" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="27.25" y2="0">
+<stop offset="0" stop-color="#3C003C" stop-opacity="0.5"/>
+<stop offset="1" stop-color="#000000" stop-opacity="0"/>
+</linearGradient>
+</defs>
+<circle r="60" cx="64" cy="64" fill="url(#gradient_1)"/>
+<g fill="none" stroke="#EACCFF" stroke-width="7">
+<circle r="45.5" cx="64" cy="64"/>
+<circle r="27.5" cx="64" cy="64"/>
+<circle r="9.5" cx="64" cy="64" fill="#EACCFF"/>
+</g>
+<path d="M54.5 0C24.4 0 0 24.4 0 54.5C0 84.6 24.4 109 54.5 109L54.5 0Z" fill="url(#gradient_2)" transform="translate(9.5 4)"/>
+<path d="M0 0C30.1 0 54.5 24.4 54.5 54.5C54.5 84.6 30.1 109 0 109L0 0Z" fill="url(#gradient_3)" transform="translate(64 4)"/>
+</svg>

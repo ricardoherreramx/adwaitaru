@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path id="paper" d="M16 0L0 0L0 14L11.5 14L16 9.5L16 0Z" fill="#E01B24" transform="translate(0 1)"/>
+<path id="corner-big" d="M0 8L2.00455 6L2.00455 1.93724L6 2L8 0L0 0L0 8L0 8Z" fill="#FFFFFF" transform="translate(8 7)"/>
+<path id="corner-small" d="M0 4L4 0L0 0L0 4L0 4Z" fill="#FFFFFF" transform="translate(11 10)"/>
+</svg>

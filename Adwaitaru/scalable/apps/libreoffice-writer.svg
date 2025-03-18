@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="gradient" gradientUnits="userSpaceOnUse" x1="88" y1="0" x2="0" y2="112">
+<stop offset="0" stop-color="#2DCBFD"/>
+<stop offset="1" stop-color="#083FA6"/>
+</linearGradient>
+</defs>
+<path id="sheet" d="M88 104C88 108.419 84.4189 112 80 112L8 112C3.58112 112 0 108.419 0 104L0 8C0 3.58118 3.58112 0 8 0L52 0L88 36L88 104ZM60 0L88 28L88 0L60 0Z" fill="url(#gradient)" fill-rule="evenodd" transform="translate(20 8)"/>
+<g id="shadows" fill="black" opacity="0.3" transform="translate(20 8)">
+<path id="shadow_corner" d="M0 0L28 28L28 23L5 0L0 0Z" transform="translate(60 0)"/>
+<path id="shadow_down" d="M88 0C88 4.41895 84.4189 8 80 8L8 8C3.58112 8 0 4.41895 0 0L0 4C0 8.41895 3.58112 12 8 12L80 12C84.4189 12 88 8.41895 88 4L88 0L88 0Z" transform="translate(0 100)"/>
+</g><g fill="#FAFAFA" transform="translate(36 46)">
+<rect width="24" height="2"/>
+<rect width="24" height="2" transform="translate(0 8)"/>
+<rect width="24" height="2" transform="translate(0 16)"/>
+<rect width="24" height="2" transform="translate(0 24)"/>
+<rect width="56" height="2" transform="translate(0 32)"/>
+<rect width="56" height="2" transform="translate(0 40)"/>
+<rect width="56" height="2" transform="translate(0 48)"/>
+<rect width="28" height="2" transform="translate(0 56)"/>
+</g>
+<path id="pic" d="M21.3571 0C23.9217 0 26 2.07833 26 4.64286L26 21.3571C26 23.9217 23.9217 26 21.3571 26L4.64286 26C2.07832 26 0 23.9217 0 21.3571L0 4.64286C0 2.07833 2.07832 0 4.64286 0L21.3571 0L21.3571 0ZM5.57143 8.35714C5.57143 6.81863 6.81863 5.57143 8.35714 5.57143C9.89565 5.57143 11.1429 6.81863 11.1429 8.35714C11.1429 9.89566 9.89565 11.1429 8.35714 11.1429C6.81863 11.1429 5.57143 9.89566 5.57143 8.35714L5.57143 8.35714ZM3.71429 20.4286C3.71429 21.445 4.53081 22.2707 5.54388 22.2858L20.4286 22.2858C21.4543 22.2857 22.2857 21.4542 22.2857 20.4286L22.2857 16.7143L16.7143 11.1429L10.2143 17.6429L7.42857 14.8572L3.71429 18.5714L3.71429 20.4286L3.71429 20.4286Z" fill="#9AE9F9" fill-rule="evenodd" transform="translate(66 46)"/>
+</svg>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<filter id="blur" x="0" y="0">
+<feGaussianBlur in="SourceGraphic" stdDeviation="3"/>
+</filter>
+</defs>
+<g transform="translate(20 8)">
+<rect width="88" height="112" rx="8" fill="#185E81" id="bottom"/>
+<rect width="88" height="108" rx="8" fill="#208CC2" id="bag"/>
+</g><g id="holder" transform="translate(38 12)">
+<g fill="#1A1A1A" opacity="0.3">
+<circle r="4" transform="translate(48 4)"/>
+<circle r="4" transform="translate(4 4)"/>
+</g><g fill="none" stroke-linecap="round" transform="translate(4 4)">
+<path id="shadow" filter="url(#blur)" d="M44 0C44 14.36 34.15 26 22 26C9.85 26 0 14.36 0 0" stroke-width="4" stroke="#1A1A1A" opacity="0.2"/>
+<path d="M44 0C44 12.15 34.15 22 22 22C9.85 22 0 12.15 0 0" stroke-width="4" stroke="#E4D1C1"/>
+<path d="M44 0C44 12.15 34.15 22 22 22C9.85 22 0 12.15 0 0" stroke-width="2" stroke="#F5F4F3"/>
+</g></g>
+<path id="path312" d="M27.9991 0C25.5045 6.11152 24 10.1171 21.2259 16.0468C22.93 17.8507 25.015 19.94 28.4054 22.3124C24.7588 20.8116 22.2737 19.3135 20.4134 17.75C16.8607 25.1616 11.2927 35.71 0 56C8.875 50.877 15.955 47.7214 22.3665 46.5155C22.09 45.3322 21.9412 44.0477 21.952 42.7108C21.952 42.7108 21.9613 42.4375 21.9613 42.4375C22.1 36.7515 24.863 31.7043 28.3673 32C31.8717 32.296 34.197 37.8218 34.0547 43.5079C34.0318 44.5773 33.905 45.6018 33.696 46.5547C40.0362 47.7977 47.2506 50.9483 56 56C54.2735 52.8228 52.7207 49.9622 51.25 47.2344C48.932 45.4367 46.5265 43.1 41.5943 40.5704C44.982 41.4523 47.4134 42.4639 49.305 43.6017C34.3432 15.744 33.1294 12.0406 28 0C28 0 28 0 28 0Z" fill="#FFFFFF" opacity="0.5" transform="translate(36 50)"/>
+</svg>

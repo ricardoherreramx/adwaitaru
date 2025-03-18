@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="gradient" gradientUnits="userSpaceOnUse" x1="78" y1="7" x2="86" y2="7">
+<stop offset="0" stop-color="#DEDDDA"/>
+<stop offset="0.5" stop-color="#FFFFFF"/>
+<stop offset="1" stop-color="#C0BFBC"/>
+</linearGradient>
+</defs>
+<rect fill="#F8E45C" width="16" height="24" rx="8" id="yellow" x="100" y="24"/>
+<rect fill="#2EC27E" width="16" height="24" rx="8" id="green" x="100" y="40"/>
+<rect fill="#3584E4" width="16" height="24" rx="8" id="blue" x="100" y="56"/>
+<rect fill="#F66151" width="16" height="24" rx="8" id="orange" x="100" y="72"/>
+<path id="hardback" d="M0 0L0 112C0 112 80 112 80 112C84.432 112 88 108.432 88 104C88 104 88 8 88 8C88 3.568 84.432 0 80 0C80 0 0 0 0 0Z" fill="#9332BF" transform="translate(20 8)"/>
+<path id="pages" d="M0 14L0 8L78 8C82.432 8 86 4.432 86 0L86 6C86 10.432 82.432 14 78 14L0 14L0 14Z" fill="url(#gradient)" transform="translate(22 104)"/>
+<path id="hardcover" d="M0 0L0 102C0 102 80 102 80 102C84.432 102 88 98.432 88 94C88 94 88 8 88 8C88 3.568 84.432 0 80 0C80 0 0 0 0 0Z" fill="#CA64EA" transform="translate(20 8)"/>
+<rect id="shineline" width="2" height="102" fill="#FFFFFF" opacity="0.2" transform="translate(22 8)"/>
+<path id="N" d="M0 40L8 40L8 12L27.1935 40L36 40L36 0L28 0L28 28L9.03178 3.8147e-06L0 3.8147e-06L0 40Z" fill="#FFFFFF" transform="translate(46 40)"/>
+</svg>

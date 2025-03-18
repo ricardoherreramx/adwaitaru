@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="gradient" gradientUnits="userSpaceOnUse" x1="56" y1="0" x2="56" y2="16">
+<stop offset="0" stop-color="#BBBBBB"/>
+<stop offset="1" stop-color="#777777"/>
+</linearGradient>
+</defs>
+<g id="screen" transform="translate(14 20)">
+<path d="M0 20L20 0L40 20" fill="none" stroke-width="6" stroke="#505050" stroke-linecap="round" transform="translate(30 78)"/>
+<rect width="100" height="86" rx="8" fill="#888888"/>
+<rect width="96" height="80" x="2" rx="6" fill="#F6F5F4"/>
+</g><g fill="#5A5A5A" transform="translate(82 43)">
+<rect width="16" height="3"/>
+<rect width="16" height="3" y="8"/>
+<rect width="16" height="3" y="16"/>
+<rect width="16" height="3" y="24"/>
+<rect width="16" height="3" y="32"/>
+<rect width="16" height="3" y="40"/>
+</g><g id="piechart" transform="translate(30 42)">
+<path id="pacman" d="M0 20C0 8.9543 8.9543 0 20 0L20 20L40 20C40 31.0457 31.0457 40 20 40C8.9543 40 0 31.0457 0 20Z" fill="#197DDD" transform="translate(0 4)"/>
+<path id="corner" d="M0 0C11.0457 0 20 8.95431 20 20L0 20L0 0Z" fill="#DC3C28" transform="translate(24 0)"/>
+</g><g id="hold" transform="translate(8 12)">
+<rect width="112" height="16" rx="8" fill="url(#gradient)"/>
+<path d="M0 0L96 0" stroke="#DEDDDA" stroke-width="4" stroke-linecap="round" transform="translate(8 5)"/>
+</g></svg>

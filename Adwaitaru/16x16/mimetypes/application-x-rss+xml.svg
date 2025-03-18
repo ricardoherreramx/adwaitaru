@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+<circle r="2.5" fill="#FF6618" transform="translate(2.5 13.5)"/>
+<g id="waves" fill="none" stroke="#FF6618" stroke-width="2">
+<path d="M0 0C5.52286 0 10 4.47715 10 10" transform="translate(0 6)"/>
+<path d="M0 0C8.28429 0 15 6.71573 15 15" transform="translate(0 1)"/>
+</g></svg>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<g id="sheet" stroke="#707070" stroke-width="2" stroke-linejoin="round" transform="translate(19 7)">
+<path id="paper" fill="#F6F5F4" d="M61.5 0L90 28.5L90 105C90 109.971 85.9712 114 81 114L9 114C4.02876 114 0 109.971 0 105L0 9C0 4.02876 4.02876 0 9 0L61.5 0Z"/>
+<path id="corner" fill="#C8C8C8" d="M0 0L28 28L0 28Z" transform="translate(62 0)"/>
+</g><g id="comic" transform="translate(28.597 16.481)">
+<path d="M19.3106 0L0 3.08486L0 22.6282L19.3106 22.6282L19.3106 0Z" fill="#99C1F1" transform="translate(51.495 22.628)"/>
+<path d="M8.75922 0L0 0L0 23.247L8.78149 22.0192L8.75922 0Z" fill="#D1D0CE" transform="translate(38.621 0)"/>
+<path d="M34.33 0L0 0L0 29.4166L34.33 23.932L34.33 0Z" fill="#FFBE6F"/>
+<path d="M70.8055 11.3141L0 0L0 29.4166L70.8055 29.4166L70.8055 11.3141Z" fill="#F66151" transform="translate(0 65.622)"/>
+<path d="M47.2037 0L0 7.5442L0 34.698L47.2037 42.2422L47.2037 0Z" fill="#D1D0CE" transform="translate(0 26.398)"/>
+<path d="M19.3106 0L0 0L0 19.5433L19.3106 22.6282L19.3106 0Z" fill="#D1D0CE" transform="translate(51.495 49.782)"/>
+</g></svg>

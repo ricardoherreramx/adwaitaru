@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="red" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="44" y2="21">
+<stop offset="0" stop-color="#E66100"/>
+<stop offset="1" stop-color="#ED333B"/>
+</linearGradient>
+</defs>
+<path id="paper" d="M61.5 0L90 28.5L90 105C90 109.97 85.97 114 81 114L9 114C4.02876 114 0 109.97 0 105L0 9C0 4.02876 4.02876 0 9 0L61.5 0Z" fill="#F8F6F4" stroke="#707070" stroke-width="2" transform="translate(19 7)"/>
+<path id="header" d="M60 0L88 28L88 52L0 52L0 8C0 3.58 3.58 0 8 0L60 0Z" fill="url(#red)" transform="translate(20 8)"/>
+<path id="corner" d="M0 0L28 28L0 28Z" fill="#FFFFFF" transform="translate(80 8)"/>
+<g fill="#5A5A5A" transform="translate(36 70)">
+<rect width="56" height="2"/>
+<rect width="56" height="2" y="8"/>
+<rect width="56" height="2" y="16"/>
+<rect width="56" height="2" y="24"/>
+<rect width="28" height="2" y="32"/>
+</g><g fill="#FFFFFF">
+<rect id="subtitle" width="18" height="4" rx="2" x="36" y="48" opacity="0.75"/>
+<rect id="title" width="34" height="6" rx="3" x="36" y="36"/>
+</g></svg>

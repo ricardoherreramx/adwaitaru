@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g>
+    <path id="border" d="M11.5 0C12.8809 0 14 1.1191 14 2.5L14 13.5C14 14.8809 12.8809 16 11.5 16L2.5 16C1.11911 16 0 14.8809 0 13.5L0 2.5C0 1.1191 1.11911 0 2.5 0L11.5 0L11.5 0ZM2.5 1L11.5 1C11.9143 1 12.2679 1.14642 12.5607 1.43927C12.8536 1.73212 13 2.08569 13 2.5L13 13.5C13 13.9143 12.8536 14.2679 12.5607 14.5607C12.2679 14.8536 11.9143 15 11.5 15L2.5 15C2.08569 15 1.73212 14.8536 1.43927 14.5607C1.14642 14.2679 1 13.9143 1 13.5L1 2.5C1 2.08569 1.14642 1.73212 1.43927 1.43927C1.73212 1.14642 2.08569 1 2.5 1L2.5 1Z" fill="#808080" fill-rule="evenodd" transform="translate(1 0)"/>
+    <path id="Óvalo" d="M0 2C0 0.895431 0.895431 0 2 0C3.10457 0 4 0.895431 4 2C4 3.10457 3.10457 4 2 4C0.895431 4 0 3.10457 0 2Z" fill="#808080" fill-rule="evenodd" transform="translate(4 3)"/>
+    <path id="Triángulo" d="M2.5 0L5 4L0 4L2.5 0Z" fill="#808080" fill-rule="evenodd" transform="translate(8 4)"/>
+    <rect id="Rectángulo" width="4" height="4" fill="#808080" fill-rule="evenodd" transform="translate(5 9)"/>
+  </g>
+</svg>

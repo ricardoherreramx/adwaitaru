@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<g id="sheet" stroke="#707070" stroke-width="2" stroke-linejoin="round" transform="translate(19 7)">
+<path id="paper" fill="#F6F5F4" d="M61.5 0L90 28.5L90 105C90 109.97 85.97 114 81 114L9 114C4.02876 114 0 109.97 0 105L0 9C0 4.02876 4.02876 0 9 0Z"/>
+<path id="corner" fill="#C8C8C8" d="M0 0L28 28L0 28Z" transform="translate(62 0)"/>
+</g><g id="text" fill="#5A5A5A" transform="translate(36 48)">
+<rect width="26" height="2" x="30"/>
+<rect width="26" height="2" x="30" y="8"/>
+<rect width="26" height="2" x="30" y="16"/>
+<rect width="26" height="2" x="30" y="24"/>
+<rect width="56" height="2" y="32"/>
+<rect width="56" height="2" y="40"/>
+<rect width="56" height="2" y="48"/>
+<rect width="28" height="2" y="56"/>
+</g><path id="A" d="M14.4624 0L11.5374 0L2.505 23.8333L0 23.8333L0 26L6.5 26L6.5 23.8333L4.82 23.8333L7.3 17.3333L16.4616 17.3333L18.9372 23.8333L17.3333 23.8333L17.3333 26L26 26L26 23.8333L23.571 23.8333L14.4624 0L14.4624 0ZM11.8784 5.30658L15.6363 15.1666L8.121 15.1666L11.8784 5.3066L11.8784 5.3066Z" fill="#5A5A5A" fill-rule="evenodd" transform="translate(36 48)"/>
+</svg>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="16" height="16" viewBox="0 0 16 16" fill="gray" xmlns="http://www.w3.org/2000/svg">
+<path id="window" d="M2 0L3 0L3 2L1 2L1 9C1 9.55236 1.44764 10 2 10L10 10C10.5524 10 11 9.55236 11 9L11 7L12 7L12 9C12 10.1047 11.1047 11 10 11L2 11C0.89528 11 0 10.1047 0 9L0 2C0 0.89528 0.89528 0 2 0L2 0Z" transform="translate(0 5)" opacity="0.5"/>
+<path id="window" d="M10 0C11.1047 0 12 0.89528 12 2L12 9C12 10.1047 11.1047 11 10 11L2 11C0.89528 11 0 10.1047 0 9L0 2C0 0.89528 0.89528 0 2 0L10 0ZM11 2L11 9C11 9.55236 10.5524 10 10 10L2 10C1.44764 10 1 9.55236 1 9L1 2L11 2Z" fill-rule="evenodd" transform="translate(4 0)"/>
+</svg>

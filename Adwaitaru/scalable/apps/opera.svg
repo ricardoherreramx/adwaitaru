@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128px" height="128px" viewBox="0 0 128 128" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient gradientUnits="objectBoundingBox" x1="0.50001484" y1="0.9836795" x2="0.50001484" y2="0.014536679" id="gradient_1">
+      <stop offset="0%" stop-color="#FF1B2D" />
+      <stop offset="30.000002%" stop-color="#FF1B2D" />
+      <stop offset="61.4%" stop-color="#FF1B2D" />
+      <stop offset="100%" stop-color="#A70014" />
+    </linearGradient>
+    <linearGradient gradientUnits="objectBoundingBox" x1="0.49998537" y1="0.9914771" x2="0.49998537" y2="0.0039423704" id="gradient_2">
+      <stop offset="0%" stop-color="#9C0000" />
+      <stop offset="70%" stop-color="#FF4B4B" />
+      <stop offset="100%" stop-color="#FF4B4B" />
+    </linearGradient>
+    <path d="M128 0L128 0L128 128L0 128L0 0L128 0Z" id="path_1" />
+    <clipPath id="clip_1">
+      <use xlink:href="#path_1" clip-rule="evenodd" fill-rule="evenodd" />
+    </clipPath>
+  </defs>
+  <g id="com.opera.Opera">
+    <path d="M128 0L128 0L128 128L0 128L0 0L128 0Z" id="com.opera.Opera" fill="none" stroke="none" />
+    <g id="O" transform="translate(4 4)" clip-path="url(#clip_1)">
+      <path d="M59.9972 0.00267029C26.8618 0.00267029 0 26.8645 0 59.9998C0 92.1764 25.3315 118.437 57.1398 119.927C58.089 119.972 59.0397 119.997 59.998 119.997C75.359 119.997 89.368 114.221 99.9827 104.729C92.9499 109.393 84.7275 112.077 75.9403 112.077C61.6524 112.077 48.8562 104.988 40.2501 93.8109C33.6159 85.9797 29.319 74.4036 29.0262 61.4121L29.0262 58.5867C29.3188 45.5956 33.6157 34.0172 40.2484 26.1879C48.8558 15.0103 61.6515 7.92225 75.9386 7.92225C84.728 7.92225 92.9518 10.6059 99.9853 15.273C89.4226 5.82384 75.4983 0.0597076 60.2228 0.00297546C60.1467 0.00297546 60.0721 7.62939e-06 59.996 7.62939e-06L59.9972 0.00267029Z" id="Forma" fill="url(#gradient_1)" stroke="none" />
+      <path d="M40.2493 26.1914C45.7552 19.6915 52.8657 15.772 60.6343 15.772C78.1013 15.772 92.2584 35.5749 92.2584 60.0026C92.2584 84.4303 78.1002 104.233 60.6342 104.233C52.8657 104.233 45.7552 100.315 40.2507 93.8153C48.8566 104.993 61.6517 112.081 75.9409 112.081C84.7288 112.081 92.9512 109.397 99.9833 104.733C112.264 93.7467 119.997 77.7782 119.997 60.003C119.997 42.2299 112.265 26.2623 99.9878 15.2771C92.9535 10.61 84.7296 7.92637 75.9411 7.92637C61.6532 7.92637 48.8571 15.0144 40.251 26.192" id="Forma" fill="url(#gradient_2)" stroke="none" />
+    </g>
+  </g>
+</svg>

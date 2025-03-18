@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradient_1" gradientUnits="userSpaceOnUse" x1="0.917" y1="31.556" x2="31" y2="1.111">
+      <stop offset="0" stop-color="#E01B24" />
+      <stop offset="0.394" stop-color="#E66100" />
+      <stop offset="1" stop-color="#DF97E0" />
+    </linearGradient>
+  </defs>
+<path id="paper" d="M108 36L108 112C108 116.4 104.4 120 100 120L28 120C23.6 120 20 116.4 20 112L20 16C20 11.6 23.6 8 28 8L80 8Z" fill="#505050"/>
+<path id="corner" d="M0 0L28 28L0 28Z" fill="#808080" transform="translate(80 8)"/>
+    <g transform="translate(36 74)">
+      <rect width="56" height="30" />
+      <g id="track">
+        <rect id="line" width="46" height="2" fill="#FFFFFF" fill-rule="evenodd" transform="translate(10 2)" />
+        <path id="dot" d="M0 3C0 1.34315 1.34315 0 3 0C4.65685 0 6 1.34315 6 3C6 4.65685 4.65685 6 3 6C1.34315 6 0 4.65685 0 3Z" fill="#FFFFFF" fill-rule="evenodd" />
+      </g>
+      <g id="track" transform="translate(0 12)">
+        <rect id="line" width="46" height="2" fill="#FFFFFF" fill-rule="evenodd" transform="translate(10 2)" />
+        <path id="dot" d="M0 3C0 1.34315 1.34315 0 3 0C4.65685 0 6 1.34315 6 3C6 4.65685 4.65685 6 3 6C1.34315 6 0 4.65685 0 3Z" fill="#FFFFFF" fill-rule="evenodd" />
+      </g>
+      <g id="track" transform="translate(0 24)">
+        <rect id="line" width="46" height="2" fill="#FFFFFF" fill-rule="evenodd" transform="translate(10 2)" />
+        <path id="dot" d="M0 3C0 1.34315 1.34315 0 3 0C4.65685 0 6 1.34315 6 3C6 4.65685 4.65685 6 3 6C1.34315 6 0 4.65685 0 3Z" fill="#FFFFFF" fill-rule="evenodd" />
+      </g>
+    </g>
+    <g id="button" transform="translate(36 36)">
+      <g>
+        <path id="cover" d="M0 16C0 7.16344 7.16345 0 16 0C24.8366 0 32 7.16344 32 16C32 24.8366 24.8366 32 16 32C7.16345 32 0 24.8366 0 16Z" />
+        <path d="M16 0C7.16345 0 0 7.16344 0 16C0 24.8366 7.16345 32 16 32C24.8366 32 32 24.8366 32 16C32 7.16344 24.8366 0 16 0ZM7.51472 24.4853Q4 20.9706 4 16Q4 11.0294 7.51472 7.51472Q11.0294 4 16 4Q20.9706 4 24.4853 7.51472Q28 11.0294 28 16Q28 20.9706 24.4853 24.4853Q20.9706 28 16 28Q11.0294 28 7.51472 24.4853Z" fill="url(#gradient_1)" fill-rule="evenodd" />
+      </g>
+      <path id="play" d="M0 0L0 14C0 14 1.44416 14 1.44416 14C1.69554 14 1.94179 13.9379 2.16239 13.8161C2.16239 13.8161 12.2715 8.21804 12.2715 8.21804C12.723 7.96697 13 7.50213 13 7C13 6.49787 12.723 6.03303 12.2715 5.78445C12.2715 5.78445 2.16239 0.183949 2.16239 0.183949C1.95205 0.0671167 1.7135 0.0049715 1.47238 0C1.46468 0 1.45442 0 1.44416 0C1.44416 0 0 0 0 0Z" fill="#FFFFFF" transform="translate(11 9)" />
+    </g>
+</svg>

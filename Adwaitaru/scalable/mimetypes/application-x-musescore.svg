@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="sheet" stroke="#707070" stroke-width="2" stroke-linejoin="round" transform="translate(19 7)">
+<path id="paper" fill="#F6F5F4" d="M61.5 0L90 28.5L90 105C90 109.971 85.9712 114 81 114L9 114C4.02876 114 0 109.971 0 105L0 9C0 4.02876 4.02876 0 9 0L61.5 0Z"/>
+<path id="corner" fill="#C8C8C8" d="M0 0L28 28L0 28Z" transform="translate(62 0)"/>
+</g><g id="score" transform="translate(20 48)">
+<g fill="#5A5A5A" transform="translate(0 10)">
+<rect width="88" height="2"/>
+<rect width="88" height="2" transform="translate(0 14)"/>
+<rect width="88" height="2" transform="translate(0 28)"/>
+<rect width="88" height="2" transform="translate(0 42)"/>
+</g>
+<path id="crochet" d="M16 35C16 39.4183 12.4183 43 8 43C3.58173 43 0 39.4183 0 35C0 30.5817 3.58173 27 8 27C9.45715 27 10.8233 27.3896 12 28.0703L12 0L16 0L16 35L16 35Z" fill="#121212" transform="translate(58 18)" />
+<path id="quavers" d="M12 7L12 39.0703C10.8233 38.3896 9.45715 38 8 38C3.58173 38 0 41.5817 0 46C0 50.4183 3.58173 54 8 54C12.4183 54 16 50.4183 16 46L16 16.125L40 10.875L40 32.0703C38.8233 31.3896 37.4572 31 36 31C31.5817 31 28 34.5817 28 39C28 43.4183 31.5817 47 36 47C40.4183 47 44 43.4183 44 39L44 0L12 7L12 7Z" fill="#121212" transform="translate(10 0)" />
+</g></svg>

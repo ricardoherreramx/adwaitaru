@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+    <rect id="tape" width="18" height="66" fill="#A1724B" transform="translate(55 54)" />
+    <rect id="tape" width="18" height="66" fill="#A1724B" transform="translate(55 44)" />
+    <path id="box" d="M7.89844 0L80.1016 0C82.2827 0 84.1443 0.771132 85.6866 2.3134C87.2289 3.85566 88 5.71734 88 7.89844L88 104.102C88 106.283 87.2289 108.144 85.6866 109.687C84.1444 111.229 82.2827 112 80.1016 112L7.89844 112C5.71734 112 3.85567 111.229 2.3134 109.687C0.771133 108.144 0 106.283 0 104.102L0 7.89844C0 5.71734 0.771133 3.85566 2.3134 2.3134C3.85567 0.771132 5.71734 0 7.89844 0L7.89844 0Z" fill="#D5A571" transform="translate(20 8)" />
+    <g id="close" transform="translate(52 8)">
+      <rect id="tape" width="18" height="86" fill="#A1724B" transform="translate(3 26)" />
+      <path id="squares" d="M6 0L6 4L0 4L0 8L6 8L6 12L0 12L0 16L6 16L6 20L0 20L0 24L6 24L6 28L0 28L0 32L6 32L6 36L0 36L0 40L6 40L6 44L0 44L0 48L6 48L6 52L0 52L0 56L6 56L6 60L0 60L0 64L6 64L6 60L12 60L12 56L6 56L6 52L12 52L12 48L6 48L6 44L12 44L12 40L6 40L6 36L12 36L12 32L6 32L6 28L12 28L12 24L6 24L6 20L12 20L12 16L6 16L6 12L12 12L12 8L6 8L6 4L12 4L12 0L6 0L6 0Z" fill="#FFFFFF" transform="translate(6 42)" />
+      <g id="shadows" transform="translate(6 46)">
+        <rect width="6" height="2" fill="#808080" transform="translate(6 0)" />
+        <rect width="6" height="2" fill="#808080" transform="translate(0 4)" />
+        <rect width="6" height="2" fill="#808080" transform="translate(6 8)" />
+        <rect width="6" height="2" fill="#808080" transform="translate(0 12)" />
+        <rect width="6" height="2" fill="#808080" transform="translate(6 16)" />
+        <rect width="6" height="2" fill="#808080" transform="translate(0 20)" />
+        <rect width="6" height="2" fill="#808080" transform="translate(6 24)" />
+        <rect width="6" height="2" fill="#808080" transform="translate(0 28)" />
+        <rect width="6" height="2" fill="#808080" transform="translate(6 32)" />
+        <rect width="6" height="2" fill="#808080" transform="translate(0 36)" />
+        <rect width="6" height="2" fill="#808080" transform="translate(6 40)" />
+        <rect width="6" height="2" fill="#808080" transform="translate(0 44)" />
+        <rect width="6" height="2" fill="#808080" transform="translate(6 48)" />
+        <rect width="6" height="2" fill="#808080" transform="translate(0 52)" />
+        <rect width="6" height="2" fill="#808080" transform="translate(6 56)" />
+        <rect width="6" height="2" fill="#808080" transform="translate(0 60)" />
+      </g>
+      <g id="zipper">
+        <g>
+          <path d="M3.75586 0C3.75586 0 20.2441 0 20.2441 0C22.3184 0 24 1.68164 24 3.75586C24 3.75586 24 26.2441 24 26.2441C24 28.3184 22.3184 30 20.2441 30C20.2441 30 3.75586 30 3.75586 30C1.68164 30 0 28.3184 0 26.2441C0 26.2441 0 3.75586 0 3.75586C0 1.68164 1.68164 0 3.75586 0C3.75586 0 3.75586 0 3.75586 0Z" fill="#3D3846" />
+          <path d="M3.75586 0C3.75586 0 20.2441 0 20.2441 0C22.3184 0 24 1.68164 24 3.75586C24 3.75586 24 23.2441 24 23.2441C24 25.3184 22.3184 27 20.2441 27C20.2441 27 3.75586 27 3.75586 27C1.68164 27 0 25.3184 0 23.2441C0 23.2441 0 3.75586 0 3.75586C0 1.68164 1.68164 0 3.75586 0C3.75586 0 3.75586 0 3.75586 0Z" fill="#5E5C64" transform="translate(0 0)" />
+        </g>
+        <g transform="translate(6 9)">
+          <path id="Forma" d="M3 0C1.33594 0 0 1.33594 0 3C0 3 0 33 0 33C0 34.6641 1.33594 36 3 36C3 36 9 36 9 36C10.6641 36 12 34.6641 12 33C12 33 12 3 12 3C12 1.33594 10.6641 0 9 0C9 0 3 0 3 0ZM3 27L9 27L9 33L3 33L3 27Z" fill="#77767B" transform="translate(0 0)" />
+          <path id="Forma" d="M3 0C1.33594 0 0 1.33594 0 3C0 3 0 30 0 30C0 31.6641 1.33594 33 3 33C3 33 9 33 9 33C10.6641 33 12 31.6641 12 30C12 30 12 3 12 3C12 1.33594 10.6641 0 9 0C9 0 3 0 3 0ZM3 24L9 24L9 30L3 30L3 24Z" fill="#FFFFFF" />
+        </g>
+        <g transform="translate(9 3)">
+          <path d="M3 15C4.6582 15 6 13.6582 6 12C6 12 6 3 6 3C6 1.3418 4.6582 0 3 0C1.3418 0 0 1.3418 0 3C0 3 0 12 0 12C0 13.6582 1.3418 15 3 15C3 15 3 15 3 15Z" fill="#77767B" />
+          <path d="M3 12C4.6582 12 6 10.6582 6 9C6 9 6 3 6 3C6 1.3418 4.6582 0 3 0C1.3418 0 0 1.3418 0 3C0 3 0 9 0 9C0 10.6582 1.3418 12 3 12C3 12 3 12 3 12Z" fill="#9A9996" transform="translate(0 0)" />
+        </g>
+      </g>
+    </g>
+    <path id="volume" d="M88 2C88 6.41895 84.4189 8 80 8L8 8C3.58112 8 0 4.41895 0 0L0 6C0 10.419 3.58112 14 8 14L80 14C84.4189 14 88 10.419 88 6L88 0L88 2Z" fill="#000000" opacity="0.3" transform="translate(20 106)" />
+    <path id="volume" d="M88 2C88 6.41895 84.4189 8 80 8L8 8C3.58112 8 0 4.41895 0 0L0 6C0 10.419 3.58112 14 8 14L80 14C84.4189 14 88 10.419 88 6L88 0L88 2Z" fill="#000000" opacity="0.3" transform="translate(20 94)" />
+    <path id="volume" d="M88 2C88 6.41895 84.4189 8 80 8L8 8C3.58112 8 0 4.41895 0 0L0 6C0 10.419 3.58112 14 8 14L80 14C84.4189 14 88 10.419 88 6L88 0L88 2Z" fill="#000000" opacity="0.3" transform="translate(20 82)" />
+</svg>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="gradient" gradientUnits="userSpaceOnUse" x1="8" y1="0" x2="8" y2="16">
+<stop offset="0" stop-color="#F66050"/>
+<stop offset="1" stop-color="#D81D25"/>
+</linearGradient>
+</defs>
+<path id="pin" d="M0 5.71438C-1.45435e-05 2.55841 2.55197 -6.31253e-06 5.7 9.53686e-07C8.848 9.53686e-07 11.4 2.55842 11.4 5.71438C11.4 6.91753 11.0291 8.03383 10.3957 8.95464L6.3 15.0985L5.7 16L5.1 15.0985L1 8.95372C0.370645 8.03308 0 6.91713 0 5.71438L0 5.71438Z" fill="url(#gradient)" transform="translate(2.3 0)"/>
+<path id="dot" d="M0 2.5C0 1.1193 1.1193 0 2.5 0C3.8807 0 5 1.1193 5 2.5C5 3.8807 3.8807 5 2.5 5C1.1193 5 0 3.8807 0 2.5Z" fill="#8D0C1B" transform="translate(5.5 3.2)"/>
+</svg>

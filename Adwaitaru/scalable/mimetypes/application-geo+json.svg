@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="gradient" gradientUnits="userSpaceOnUse" x1="28" y1="60.5" x2="28" y2="0">
+<stop offset="0" stop-color="#D81D25"/>
+<stop offset="1" stop-color="#F66151"/>
+</linearGradient>
+</defs>
+<path id="paper" d="M108 36L108 112C108 116.4 104.4 120 100 120L28 120C23.6 120 20 116.4 20 112L20 16C20 11.6 23.6 8 28 8L80 8Z" fill="#CDAB8F"/>
+<path id="frontier" d="M72 0L72 0L72 100L8 100C3.58112 100 0 96.4189 0 92L0 0L72 0Z" fill="#FFFFFF" transform="translate(20 20)"/>
+<path id="water" d="M64 0L64 0L64 24L8 24C3.58112 24 0 20.4189 0 16L0 0L64 0Z" fill="#55A7EB" transform="translate(20 96)"/>
+<rect id="land" width="64" height="60" fill="#2EC27E" fill-rule="evenodd" transform="translate(20 28)"/>
+<rect id="shadow-corner" width="28" height="2" fill="#000000" fill-rule="evenodd" fill-opacity="0.4" transform="translate(80 36)"/>
+<path id="corner" d="M0 0L28 28L0 28Z" fill="#9C816A" transform="translate(80 8)"/>
+<g id="pin" transform="translate(44 44)">
+<path id="shadow" d="M28 0C20.834 0 13.6683 2.73383 8.20102 8.20117C-2.73367 19.1358 -2.73367 36.8642 8.20102 47.8C8.20102 47.8 28 67.6 28 67.6C28 67.6 41.8212 53.7763 47.7987 47.8C58.7334 36.8642 58.7334 19.1358 47.7987 8.20117C42.3314 2.73383 35.1657 0 28 0C28 0 28 0 28 0Z" fill="#A51D2D" transform="translate(0 2)"/>
+<path id="pin" d="M28 0C20.834 0 13.6683 2.7338 8.20103 8.2012C-2.73368 19.1359 -2.73368 36.8642 8.20103 47.8C8.20103 47.8 28 67.5982 28 67.5982C28 67.5982 41.8211 53.7763 47.7986 47.8C58.7333 36.8642 58.7333 19.1359 47.7986 8.2012C42.3313 2.7338 35.1656 0 28 0C28 0 28 0 28 0Z" fill="url(#gradient)"/>
+<path id="ball" d="M10 0C15.5228 0 20 4.47716 20 10C20 15.5228 15.5228 20 10 20C4.47715 20 0 15.5228 0 10C0 4.47716 4.47715 0 10 0C10 0 10 0 10 0Z" fill="#A51D2D" transform="translate(18 18)"/>
+</g></svg>

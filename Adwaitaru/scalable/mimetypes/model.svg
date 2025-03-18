@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<path d="M92 108L16 108C11.6 108 8 104.4 8 100L8 28C8 23.6 11.6 20 16 20L112 20C116.4 20 120 23.6 120 28L120 80Z" fill="#1B71D8"/>
+<g fill="none" stroke="#FFFFFF">
+<g stroke-width="2" opacity="0.6" stroke-dasharray="2 2">
+<line x1="47" y1="36" x2="47" y2="92"/>
+<line x1="81" y1="36" x2="81" y2="92"/>
+<rect width="56" height="23" rx="10" x="36" y="69"/>
+</g><g stroke-width="4">
+<rect width="56" height="56" rx="10" x="36" y="36"/>
+<rect width="56" height="24" rx="10" x="36" y="36" stroke-dasharray="4 4"/>
+</g></g>
+<path d="M92 80L120 80L92 108Z" fill="#5BA7FF"/>
+</svg>

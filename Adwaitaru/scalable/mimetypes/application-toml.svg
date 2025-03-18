@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<path id="paper" d="M108 36L108 112C108 116.4 104.4 120 100 120L28 120C23.6 120 20 116.4 20 112L20 16C20 11.6 23.6 8 28 8L80 8Z" fill="#9C4221"/>
+<path id="corner" d="M0 0L28 28L0 28Z" fill="#FFFFFF" opacity="0.34" transform="translate(80 8)"/>
+<g id="toml" fill="#F6F5F4" transform="translate(37 49)">
+<path id="]" d="M12 54L12 0L0 0L0 6L6 6L6 48L0 48L0 54L12 54Z" transform="translate(42 0)"/>
+<path id="T" d="M0 0L30 0L30 6L18 6L18 36L12 36L12 6L0 6L0 0Z" transform="translate(12 12)"/>
+<path id="[" d="M0 0L0 54L12 54L12 48L6 48L6 6L12 6L12 0L0 0Z"/>
+</g></svg>

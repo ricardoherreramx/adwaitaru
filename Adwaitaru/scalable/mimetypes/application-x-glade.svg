@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="gradient_1" gradientUnits="userSpaceOnUse" x1="-4.168" y1="6.919" x2="2.382" y2="0.2">
+<stop offset="0" stop-color="#D0BB8E" />
+<stop offset="1" stop-color="#FFFFFF" />
+</linearGradient>
+<linearGradient id="gradient_2" gradientUnits="userSpaceOnUse" x1="18.925" y1="10.727" x2="22.725" y2="-10.158">
+<stop offset="0" stop-color="#E5A50A" />
+<stop offset="1" stop-color="#EDD400" stop-opacity="0.988" />
+</linearGradient>
+</defs>
+<g id="sheet" transform="translate(8 20)">
+<path id="paper" d="M84 88L8 88C3.581 88 0 84.419 0 80L0 8C0 3.581 3.581 0 8 0L104 0C108.419 0 112 3.581 112 8L112 60L84 88L84 88Z" fill="#3584E4"/>
+<path id="corner" d="M0 0L28 0L0 28L0 0Z" fill="#98C1F1" transform="translate(84 60)"/>
+</g><g id="g1982" fill="none" stroke="#D1E3F9" stroke-width="2" transform="translate(16 32)">
+<path d="M0 0L0 64" transform="translate(7 0)"/>
+<path d="M96 0L0 0" transform="translate(0 7)"/>
+<path d="M46 0L0 0" transform="translate(0 57)"/>
+<path d="M0 0L0 34" transform="translate(89 0)"/>
+<path d="M40 0L0 0" transform="translate(29 27)"/>
+<path d="M33 0L0 0" transform="translate(29 40)"/>
+<path d="M84 0L0 0" transform="translate(6 15)"/>
+<circle r="3" transform="translate(20 27)"/>
+<circle r="3" transform="translate(20 40)"/>
+</g><g id="g2000" transform="translate(39 33)">
+<g id="g1998" transform="matrix(0.577 0.816 -0.612 0.866 12.215 0)">
+<path d="M0 7.60461L11.53 0L9.3777 11.8272L0 7.60461Z" fill="url(#gradient_1)" transform="matrix(1 0 0 1 0 8.12)"/>
+<path d="M0 3.05617L4.63373 0L3.79891 4.76674L0 3.05617Z" fill="#424048" transform="matrix(1 0 0 1 0 12.667)"/>
+<path d="M0 19.9402L2.15232 8.11299L53.352 0L51.1997 11.8272L0 19.9402Z" fill="#F6D32D" transform="matrix(1 0 0 1 9.378 0)"/>
+<path d="M0 12.0615L0.717432 8.11908L51.9548 0L51.1997 3.94849L0 12.0615Z" fill="#F9F06B" transform="matrix(1 0 0 1 10.813 0)"/>
+<path d="M0.717445 8.11299L0 12.0554L51.2374 3.9363L51.9172 0L0.717445 8.11299Z" fill="url(#gradient_2)" transform="matrix(1 0 0 1 9.378 7.891)"/>
+</g></g></svg>

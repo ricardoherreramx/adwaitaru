@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<path id="cover" d="M80 0C84.4189 0 88 3.58112 88 8L88 84C88 88.4189 84.4189 92 80 92L0 92L0 0L80 0Z" fill="#B34CB3" transform="translate(20 8)"/>
+<path id="darker" d="M0 18L0 8L80 8C84.4 8 88 4.4 88 0L88 10C88 14.4 84.4 18 80 18L0 18L0 18Z" fill="#000000" fill-opacity="0.3" transform="translate(20 82)"/>
+<path id="darker" d="M0 18L0 8L80 8C84.4 8 88 4.4 88 0L88 10C88 14.4 84.4 18 80 18L0 18L0 18Z" fill="#4935AC" transform="translate(20 92)"/>
+<path id="darker" d="M0 18L0 8L80 8C84.4 8 88 4.4 88 0L88 10C88 14.4 84.4 18 80 18L0 18L0 18Z" fill="#4B8500" transform="translate(20 102)"/>
+<path id="paper" d="M0 14L0 8L78 8C82.4 8 86 4.4 86 0L86 6C86 10.4 82.4 14 78 14L0 14L0 14Z" fill="#E8E7E4" transform="translate(22 94)"/>
+<path id="paper" d="M0 14L0 8L78 8C82.4 8 86 4.4 86 0L86 6C86 10.4 82.4 14 78 14L0 14L0 14Z" fill="#E8E7E4" transform="translate(22 84)"/>
+<path id="paper" d="M0 14L0 8L78 8C82.4 8 86 4.4 86 0L86 6C86 10.4 82.4 14 78 14L0 14L0 14Z" fill="#E8E7E4" transform="translate(22 104)"/>
+<rect id="shine" width="2" height="82" fill="#FFFFFF" fill-opacity="0.2" transform="translate(22 8)"/>
+<g id="belt" transform="translate(52 8)">
+<rect id="belt" width="16" height="112" fill="#C9912C" transform="translate(4 0)"/>
+<rect id="belt" width="16" height="30" fill="#000000" fill-opacity="0.36" transform="translate(4 82)"/>
+<rect id="buckle" width="24" height="30" rx="4" ry="4" fill="#3D3846" transform="translate(0 26)"/>
+<rect id="buckle" width="24" height="27" rx="4" ry="4" fill="#5E5C64" transform="translate(0 26)"/>
+<path id="tape" d="M16 0L16 0L16 28C16 32.4189 12.4189 36 8 36L8 36C3.58112 36 0 32.4189 0 28L0 0L16 0Z" fill="#000000" fill-opacity="0.36" transform="translate(4 32)"/>
+<path id="tape" d="M16 0L16 0L16 28C16 32.4189 12.4189 36 8 36L8 36C3.58112 36 0 32.4189 0 28L0 0L16 0Z" fill="#E3A941" transform="translate(4 30)"/>
+<rect id="stick" width="4" height="15" rx="2" ry="2" fill="#77767B" transform="translate(10 27)"/>
+<rect id="stick" width="4" height="12" rx="2" ry="2" fill="#FFFFFF" transform="translate(10 27)"/>
+</g></svg>

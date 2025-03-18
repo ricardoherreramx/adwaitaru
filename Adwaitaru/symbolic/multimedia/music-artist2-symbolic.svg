@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="16" height="16" viewBox="0 0 16 16" fill="gray" xmlns="http://www.w3.org/2000/svg">
+<path id="body" d="M8 0L8 6L0 6L0 6C0 2.686 2.686 0 6 0L8 0Z" transform="translate(0 10)"/>
+<circle id="head" r="4" transform="translate(8 4)"/>
+<path id="quaver" d="M3 3.05176e-05C3 3.05176e-05 3 3.26953 3 3.26953C2.69615 3.09344 2.35125 3 2 3C1.98375 3 1.96748 3 1.9512 3C0.8657 3.02651 0 3.91422 0 5C0 6.1046 0.89543 7 2 7C3.1046 7 4 6.10457 4 5C4 5 4 1 4 1L6 1L6 0L3 3.05176e-05Z" transform="translate(10 9)"/>
+</svg>

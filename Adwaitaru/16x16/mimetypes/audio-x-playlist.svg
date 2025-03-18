@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="16" height="16" viewBox="0 0 16 16" fill="#33D17A" xmlns="http://www.w3.org/2000/svg">
+<g transform="translate(9 5)">
+<rect width="7" height="1"/>
+<rect width="7" height="1" y="3"/>
+<rect width="7" height="1" y="6"/>
+<rect width="7" height="1" y="9"/>
+</g><g transform="translate(7 5)">
+<rect width="1" height="1"/>
+<rect width="1" height="1" y="3"/>
+<rect width="1" height="1" y="6"/>
+<rect width="1" height="1" y="9"/>
+</g><g>
+<path d="M5 1L5 12.5L6 12.5L6 4L9 4L9 1Z"/>
+<circle r="2.5" cx="3.5" cy="12.5"/>
+</g></svg>

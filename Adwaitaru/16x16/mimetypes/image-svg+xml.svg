@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+<g stroke="#FE9900" stroke-width="1">
+<line x1="7.5" y1="1.5" x2="7.5" y2="13.5"/>
+<line x1="1.5" y1="7.5" x2="13.5" y2="7.5"/>
+<line x1="3.5" y1="3.5" x2="11.5" y2="11.5"/>
+<line x1="3.5" y1="11.5" x2="11.5" y2="3.5"/>
+</g><g fill="#FE9900" transform="translate(1.5 1.5)">
+<circle r="1.5" cx="10" cy="2"/>
+<circle r="1.5" cx="10" cy="10"/>
+<circle r="1.5" cx="2" cy="10"/>
+<circle r="1.5" cx="2" cy="2"/>
+<circle r="1.5" cx="12" cy="6"/>
+<circle r="1.5" cx="0" cy="6"/>
+<circle r="1.5" cx="6" cy="12"/>
+<circle r="1.5" cx="6" cy="0"/>
+</g></svg>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="88" height="112" rx="8" ry="8" fill="#505050" transform="translate(20 8)"/>
+<rect width="68" height="72" fill="#303030" transform="translate(30 22)"/>
+<rect width="64" height="48" fill="#285AF0" transform="translate(32 24)"/>
+<rect width="64" height="20" fill="#F6F5F4" transform="translate(32 72)"/>
+<rect width="6" height="4" fill="#285AF0" transform="translate(52 84)"/>
+<rect width="12" height="4" fill="#285AF0" transform="translate(36 84)"/>
+<rect width="68" height="18" fill="#303030" transform="translate(30 102)"/>
+<g fill="#F9F06B" transform="translate(34 102)">
+<path d="M2 0C3.1 0 4 0.9 4 2L4 13L0 13L0 2C0 0.9 0.9 0 2 0Z" transform="translate(0 5)"/>
+<path d="M2 0C3.1 0 4 0.9 4 2L4 13L0 13L0 2C0 0.9 0.9 0 2 0Z" transform="translate(8 5)"/>
+<path d="M2 0C3.1 0 4 0.9 4 2L4 13L0 13L0 2C0 0.9 0.9 0 2 0Z" transform="translate(16 5)"/>
+<path d="M2 0C3.1 0 4 0.9 4 2L4 13L0 13L0 2C0 0.9 0.9 0 2 0Z" transform="translate(24 5)"/>
+<path d="M2 0C3.1 0 4 0.9 4 2L4 13L0 13L0 2C0 0.9 0.9 0 2 0Z" transform="translate(32 5)"/>
+<path d="M2 0C3.1 0 4 0.9 4 2L4 13L0 13L0 2C0 0.9 0.9 0 2 0Z" transform="translate(40 5)"/>
+<path d="M2 0C3.1 0 4 0.9 4 2L4 13L0 13L0 2C0 0.9 0.9 0 2 0Z" transform="translate(48 5)"/>
+<path d="M2 0C3.1 0 4 0.9 4 2L4 13L0 13L0 2C0 0.9 0.9 0 2 0Z" transform="translate(56 5)"/>
+</g>
+<path d="M0 4L0 0C0 4.418 3.582 8 8 8L80 8C84.4166 8 88 4.42 88 0L88 4C88 8.418 84.418 12 80 12L8 12C3.582 12 0 8.418 0 4L0 4Z" fill="#000000" opacity="0.4" transform="translate(20 108)"/>
+</svg>

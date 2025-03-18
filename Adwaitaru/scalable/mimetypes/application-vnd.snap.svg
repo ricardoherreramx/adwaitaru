@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<filter id="blur" x="0" y="0">
+<feGaussianBlur in="SourceGraphic" stdDeviation="3"/>
+</filter>
+</defs>
+<g transform="translate(20 8)">
+<rect width="88" height="112" rx="8" fill="#033C4A" id="bottom"/>
+<rect width="88" height="108" rx="8" fill="#125D6F" id="bag"/>
+</g><g id="holder" transform="translate(38 12)">
+<g fill="#1A1A1A" opacity="0.3">
+<circle r="4" transform="translate(48 4)"/>
+<circle r="4" transform="translate(4 4)"/>
+</g><g fill="none" stroke-linecap="round" transform="translate(4 4)">
+<path id="shadow" filter="url(#blur)" d="M44 0C44 14.36 34.15 26 22 26C9.85 26 0 14.36 0 0" stroke-width="4" stroke="#1A1A1A" opacity="0.2"/>
+<path d="M44 0C44 12.15 34.15 22 22 22C9.85 22 0 12.15 0 0" stroke-width="4" stroke="#E4D1C1"/>
+<path d="M44 0C44 12.15 34.15 22 22 22C9.85 22 0 12.15 0 0" stroke-width="2" stroke="#F5F4F3"/>
+</g></g>
+<g id="bird" fill="#82BFA1" transform="translate(31 40)">
+<path id="wing" d="M36 18L0 0L36 39L36 18Z"/>
+<path id="tail" d="M18 0L0 36L26 9L18 0Z" transform="translate(8 31)"/>
+<path id="belly" d="M0 18L0 0L12 6L0 18Z" transform="translate(38 19)"/>
+<path id="head" d="M28 14L22 0L0 0L28 14Z" fill="#FA6340" transform="translate(38 17)"/>
+</g></svg>

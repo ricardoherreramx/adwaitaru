@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+<g id="sheet" transform="translate(1 0)">
+<path id="border" d="M0 0L10 0L14 4L14 16L0 16L0 0Z" fill="#FF9A00"/>
+<path id="paper" d="M0 0L8 0L8 4L12 4L12 14L0 14L0 0Z" fill="#702500" transform="translate(1 1)"/>
+</g><g id="Ai" fill="none" stroke-width="1" stroke="#FF9A00" stroke-linecap="round" stroke-linejoin="round" transform="translate(4.5 5.5)">
+<path id="A" d="M0 7L2.5 0L5 7L4.09523 4.46665L0.904766 4.46665"/>
+<line id="I" x1="0" y1="0" x2="0" y2="3" transform="translate(7 4)"/>
+<circle id="." r="0.5" fill="#FF9A00" stroke-width="0" transform="translate(7 2)"/>
+</g></svg>

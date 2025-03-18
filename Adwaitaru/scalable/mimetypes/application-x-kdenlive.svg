@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<g id="sheet" transform="translate(8 20)">
+<path id="paper" d="M84 88L8 88C3.58112 88 0 84.419 0 80L0 8C0 3.58112 3.58112 0 8 0L104 0C108.419 0 112 3.58112 112 8L112 60L84 88L84 88Z" fill="#505050"/>
+<path id="corner" d="M0 0L28 0L0 28L0 0Z" fill="#808080" transform="translate(84 60)"/>
+</g>
+<rect id="line" width="6" height="88" fill="#E05E4C" transform="translate(61 20)"/>
+<path id="progress" d="M32 0L0 0L16 20L32 0Z" fill="#E05E4C" transform="translate(48 20)"/>
+<path id="play" d="M2.41935 0C1.27364 0.0727234 0.04 1.20605 0.0428391 2.46184C0.0428391 2.46184 0 39.5386 0 39.5386C0 41.2131 2.19072 42.6702 3.44393 41.6754C3.44393 41.6754 27.055 23.0737 27.055 23.0737C28.3164 22.0912 28.3135 19.7865 27.055 18.8C27.055 18.8 3.48772 0.325 3.48772 0.325C3.17312 0.0785141 2.8022 -0.019703 2.42012 0C2.42 0 2.42 0 2.42 0Z" fill="#E6E6E6" fill-rule="evenodd" transform="translate(72 43)"/>
+<g id="frames" fill="#BDBDBD" transform="translate(16 42)">
+<rect width="8" height="4" transform="translate(32 0)"/>
+<rect width="16" height="4" transform="translate(24 8)"/>
+<rect width="30" height="4" transform="translate(10 16)"/>
+<rect width="40" height="4" transform="translate(0 24)"/>
+<rect width="30" height="4" transform="translate(10 32)"/>
+<rect width="16" height="4" transform="translate(24 40)"/>
+</g></svg>

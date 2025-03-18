@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="16" height="16" viewBox="0 0 16 16" fill="gray" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 0L0 0L0 16L12 16L12 0L12 0ZM1 15L1 1L11 1L11 15L1 15L1 15Z" fill-rule="evenodd" transform="translate(2 0)"/>
+<rect id="display" width="8" height="3" transform="translate(4 2)"/>
+<g id="buttons" transform="translate(4 6)">
+<rect width="2" height="2"/>
+<rect width="2" height="2" transform="translate(0 6)"/>
+<rect width="2" height="2" transform="translate(3 6)"/>
+<rect width="2" height="2" transform="translate(0 3)"/>
+<rect width="2" height="2" transform="translate(3 3)"/>
+<rect width="2" height="5" transform="translate(6 3)"/>
+<rect width="2" height="2" transform="translate(3 0)"/>
+<rect width="2" height="2" transform="translate(6 0)"/>
+</g></svg>

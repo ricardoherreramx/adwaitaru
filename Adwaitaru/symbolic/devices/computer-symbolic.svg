@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="16" height="16" viewBox="0 0 16 16" fill="gray" xmlns="http://www.w3.org/2000/svg">
+<path d="M8 0C9.105 0 10 0.9 10 2L10 2L0 2L0 2C0 0.9 0.9 0 2 0L8 0Z" transform="translate(3 14)"/>
+<path d="M14 0C15.105 0 16 0.9 16 2L16 10C16 11.105 15.105 12 14 12L2 12C0.9 12 0 11.105 0 10L0 2C0 0.9 0.9 0 2 0ZM14 1C14.55 1 15 1.45 15 2L15 10C15 10.55 14.55 11 14 11L2 11C1.45 11 1 10.55 1 10L1 2C1 1.45 1.45 1 2 1Z" fill-rule="evenodd" transform="translate(0 1)"/>
+</svg>

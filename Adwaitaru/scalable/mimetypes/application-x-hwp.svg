@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<g id="sheet" stroke="#707070" stroke-width="2" stroke-linejoin="round" transform="translate(19 7)">
+<path id="paper" fill="#F6F5F4" d="M61.5 0L90 28.5L90 105C90 109.971 85.9712 114 81 114L9 114C4.02876 114 0 109.971 0 105L0 9C0 4.02876 4.02876 0 9 0L61.5 0Z"/>
+<path id="corner" fill="#C8C8C8" d="M0 0L28 28L0 28Z" transform="translate(62 0)"/>
+</g><g id="text" fill="#5A5A5A" transform="translate(36 48)">
+<rect width="26" height="2" transform="translate(30 0)"/>
+<rect width="26" height="2" transform="translate(30 8)"/>
+<rect width="26" height="2" transform="translate(30 16)"/>
+<rect width="26" height="2" transform="translate(30 24)"/>
+<rect width="26" height="2" transform="translate(30 32)"/>
+<rect width="56" height="2" transform="translate(0 40)"/>
+<rect width="56" height="2" transform="translate(0 48)"/>
+<rect width="28" height="2" transform="translate(0 56)"/>
+</g><g id="hwp" fill="#3584E4" transform="translate(36 44)">
+<path d="M9.83477e-07 0L4 0L4 6L26 6L26 10L0 10L9.83477e-07 0L9.83477e-07 0Z" transform="translate(0 28)"/>
+<circle r="3" transform="translate(13 29)"/>
+<path d="M0 7C0 3.134 3.134 0 7 0C10.866 0 14 3.134 14 7C14 10.866 10.866 14 7 14C3.13401 14 0 10.866 0 7ZM4 7C4 5.34315 5.34315 4 7 4C8.65685 4 10 5.34315 10 7C10 8.65685 8.65685 10 7 10C5.34315 10 4 8.65685 4 7Z" fill-rule="evenodd" transform="translate(6 10)"/>
+<path d="M11 0L15 0L15 4L26 4L26 8L0 8L0 4L11 4L11 0L11 0Z"/>
+</g></svg>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+<circle r="8" cx="8" cy="8" fill="#F6F5F4"/>
+<circle r="7" cx="8" cy="8" fill="#3D3846"/>
+<rect width="1" height="4" fill="#ED333B" x="7" y="8"/>
+<path id="handles" d="M0.707107 0L4.35356 3.64645L6.73484 1.26517L7 1L7.70711 1.70711L4.35356 5.06067L0 0.707107L0.353554 0.353553L0.707107 0L0.707107 0Z" fill="#D5D3CF" transform="translate(3.646 3.646)"/>
+</svg>

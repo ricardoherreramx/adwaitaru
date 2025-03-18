@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="16" height="16" viewBox="0 0 16 16" fill="gray" xmlns="http://www.w3.org/2000/svg">
+<path id="+" d="M3 0L3 3L0 3L0 4L3 4L3 7L4 7L4 4L7 4L7 3L4 3L4 0L3 0Z" transform="translate(9 9)"/>
+<path id="shoulder" d="M8 0L8 1L6 1C3.238 1 1 3.238 1 6L0 6C0 2.686 2.686 0 6 0L8 0L8 0Z" transform="translate(0 10)"/>
+<path id="head" d="M0 4C0 1.791 1.791 0 4 0C6.209 0 8 1.791 8 4C8 6.209 6.209 8 4 8C1.791 8 0 6.209 0 4L0 4ZM1 4C1 2.343 2.343 1 4 1C5.657 1 7 2.343 7 4C7 5.657 5.657 7 4 7C2.343 7 1 5.657 1 4L1 4Z" fill-rule="evenodd" transform="translate(4 0)"/>
+</svg>

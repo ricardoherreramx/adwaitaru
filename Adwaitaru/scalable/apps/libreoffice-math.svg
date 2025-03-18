@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="gradient" gradientUnits="userSpaceOnUse" x1="-0" y1="112" x2="88" y2="0">
+<stop offset="0" stop-color="#C10018"/>
+<stop offset="1" stop-color="#FF5A96"/>
+</linearGradient>
+</defs>
+<path id="sheet" d="M88 104C88 108.419 84.4189 112 80 112L8 112C3.58112 112 0 108.419 0 104L0 8C0 3.58118 3.58112 0 8 0L52 0L88 36L88 104ZM60 0L88 28L88 0L60 0Z" fill="url(#gradient)" fill-rule="evenodd" transform="translate(20 8)" />
+<g id="shadows" fill="black" opacity="0.3" transform="translate(20 8)">
+<path id="shadow_corner" d="M0 0L28 28L28 23L5 0L0 0Z" transform="translate(60 0)"/>
+<path id="shadow_down" d="M88 0C88 4.41895 84.4189 8 80 8L8 8C3.58112 8 0 4.41895 0 0L0 4C0 8.41895 3.58112 12 8 12L80 12C84.4189 12 88 8.41895 88 4L88 0L88 0Z" transform="translate(0 100)"/>
+</g><g id="math" fill="#FAFAFA" transform="translate(32 52)">
+<rect width="16" height="4" transform="translate(0 44)"/>
+<rect width="16" height="4" transform="translate(24 44)"/>
+<rect width="16" height="4" transform="translate(48 44)"/>
+<path id="x" d="M3.55415 0.0246868C2.65263 0.126211 1.8124 0.531172 1.17135 1.17312C-0.39045 2.73517 -0.39045 5.26748 1.17135 6.83C1.17135 6.83 6.34335 12 6.34335 12C6.34335 12 1.17135 17.1735 1.17135 17.1735C-0.39045 18.7356 -0.39045 21.268 1.17135 22.83C2.7334 24.3917 5.26571 24.3917 6.82775 22.83C6.82775 22.83 12 17.658 12 17.6579C11.9997 17.6579 17.1717 22.83 17.1717 22.83C18.7338 24.3917 21.2661 24.3917 22.8281 22.83C24.39 21.2679 24.39 18.7356 22.8281 17.1735C22.8281 17.1735 17.6562 12 17.6562 12C17.6562 12 22.8281 6.833 22.8281 6.83C24.39 5.26748 24.39 2.73517 22.8281 1.17312C21.2661 -0.388674 18.7338 -0.388674 17.1717 1.17312C17.1717 1.17312 12 6.34512 12 6.34512C12 6.34512 6.82775 1.17312 6.82775 1.17312C5.968 0.31246 4.76333 -0.110186 3.55431 0.0246868C3.55431 0.0246868 3.55415 0.0246868 3.55415 0.0246868Z" fill="#FDA8B3" transform="translate(36 12)"/>
+<path id="root" d="M28.7656 3.8147e-06L14 29.5312L7.2344 16L0 16L0 20L4.76564 20L14 38.4688L31.2344 4L64 4L64 0L28.7656 3.8147e-06Z"/>
+</g></svg>

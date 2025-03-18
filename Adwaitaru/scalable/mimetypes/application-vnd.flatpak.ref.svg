@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<filter id="shadow">
+<feDropShadow dx="0" dy="3" flood-color="#000000" stdDeviation="1"/>
+</filter>
+<linearGradient id="gradient" gradientUnits="userSpaceOnUse" x1="-0" y1="0" x2="80" y2="0">
+<stop offset="0" stop-color="#3D3846"/>
+<stop offset="0.05" stop-color="#77767B"/>
+<stop offset="0.1" stop-color="#5E5C64"/>
+<stop offset="0.9" stop-color="#504E56"/>
+<stop offset="0.95" stop-color="#77767B"/>
+<stop offset="1" stop-color="#3D3846"/>
+</linearGradient>
+</defs>
+<path d="M56 0L112 32L56 64L0 32L56 0Z" fill="#E2BA8D" transform="translate(8 0)"/>
+<path d="M56 0L56 64L8.39233e-05 96L0 32L56 0Z" fill="#7D5C3B" transform="translate(64 32)"/>
+<path d="M56 32L56 96L0 64L0 0L56 32Z" fill="#BA945E" transform="translate(8 32)"/>
+<path d="M42 0L42 48L0 24L42 0Z" fill="#7D5C3B" transform="translate(22 8)"/>
+<path d="M0 0L0 48L42 24L0 0Z" fill="#BA945E" transform="translate(64 8)"/>
+<g id="cursor" transform="translate(48 54)">
+<rect width="80" height="74" rx="8" fill="url(#gradient)"/>
+<rect width="80" height="66" rx="8" fill="#3D3846"/>
+<path id="arrow" d="M0 0L11.6328 34.9062L19.2227 28.4063C19.2227 28.4063 24.1562 34.3242 24.1562 34.3242C25.4414 35.8672 27.7383 36.0781 29.2812 34.793C30.8203 33.5039 31.0312 31.2148 29.7461 29.6719C29.7461 29.6719 24.7461 23.6719 24.7461 23.6719L32 17.4531L0 0Z" fill="#FFFFFF" filter="url(#shadow)" transform="translate(24 15.184)"/>
+<path id="arrow-half" d="M0 0L11.6328 34.9062L19.2227 28.4063C19.2227 28.4063 24.1562 34.3242 24.1562 34.3242C25.4414 35.8672 27.7383 36.0781 29.2812 34.793C29.4023 34.6875 29.5195 34.5742 29.625 34.4531C29.625 34.4531 0 0 0 0Z" fill="#DEDDDA" transform="translate(24 15.184)"/>
+</g></svg>

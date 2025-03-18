@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradient_1" gradientUnits="userSpaceOnUse" x1="41.448" y1="118.159" x2="63.633" y2="35.362">
+      <stop offset="0" stop-color="#C061CB" />
+      <stop offset="1" stop-color="#3584E4" />
+    </linearGradient>
+    <linearGradient id="gradient_2" gradientUnits="userSpaceOnUse" x1="12" y1="24.67" x2="7" y2="24.67">
+      <stop offset="0" stop-color="#000000" stop-opacity="0.216" />
+      <stop offset="1" stop-color="#000000" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="gradient_3" gradientUnits="userSpaceOnUse" x1="88" y1="22" x2="-0" y2="22">
+      <stop offset="0" stop-color="#C0BFBC" />
+      <stop offset="0.045" stop-color="#F6F5F4" />
+      <stop offset="0.091" stop-color="#DEDDDA" />
+      <stop offset="0.909" stop-color="#DEDDDA" />
+      <stop offset="0.955" stop-color="#F6F5F4" />
+      <stop offset="1" stop-color="#C0BFBC" />
+    </linearGradient>
+    <linearGradient id="gradient_4" gradientUnits="userSpaceOnUse" x1="8" y1="20.188" x2="12" y2="20.188">
+      <stop offset="0" stop-color="#000000" stop-opacity="0.157" />
+      <stop offset="1" stop-color="#000000" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="gradient_5" gradientUnits="userSpaceOnUse" x1="10.164" y1="59.649" x2="6.164" y2="59.649">
+      <stop offset="0" stop-color="#000000" stop-opacity="0.157" />
+      <stop offset="1" stop-color="#000000" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="gradient_6" gradientUnits="userSpaceOnUse" x1="0" y1="90.337" x2="5.738" y2="90.337">
+      <stop offset="0" stop-color="#DEDDDA" />
+      <stop offset="0.28" stop-color="#FBFBFA" />
+      <stop offset="0.568" stop-color="#FAF9F8" />
+      <stop offset="1" stop-color="#F8F6F4" />
+    </linearGradient>
+    <linearGradient id="gradient_7" gradientUnits="userSpaceOnUse" x1="14" y1="14" x2="28" y2="0">
+      <stop offset="0" stop-color="#DEDDDA" />
+      <stop offset="0.494" stop-color="#F3F2EF" />
+    </linearGradient>
+    <linearGradient id="gradient_8" gradientUnits="userSpaceOnUse" x1="0" y1="-0.59" x2="47.233" y2="23.161">
+      <stop offset="0" stop-color="#E66100" />
+      <stop offset="1" stop-color="#ED333B" />
+    </linearGradient>
+    <linearGradient id="gradient_9" gradientUnits="userSpaceOnUse" x1="0" y1="39" x2="7" y2="39">
+      <stop offset="0" stop-color="#FF7800" stop-opacity="0" />
+      <stop offset="0.24" stop-color="#F5C211" stop-opacity="0.604" />
+      <stop offset="0.376" stop-color="#F5C211" stop-opacity="0.443" />
+      <stop offset="1" stop-color="#FF7800" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="gradient_10" gradientUnits="userSpaceOnUse" x1="1.75" y1="5" x2="24.9" y2="5">
+      <stop offset="0" stop-color="#B0B0B0" />
+      <stop offset="1" stop-color="#DEDDDA" />
+    </linearGradient>
+    <linearGradient id="gradient_11" gradientUnits="userSpaceOnUse" x1="8.41" y1="0.23" x2="8.41" y2="2.81">
+      <stop offset="0" stop-color="#000000" stop-opacity="0.525" />
+      <stop offset="1" stop-color="#000000" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="gradient_12" gradientUnits="userSpaceOnUse" x1="0" y1="17.917" x2="4.754" y2="17.741">
+      <stop offset="0" stop-color="#000000" stop-opacity="0.243" />
+      <stop offset="1" stop-color="#000000" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+    <path d="M5.93363 18.9102C5.93363 18.9102 75.4766 0.273471 75.4766 0.273471C79.7461 -0.867154 84.1328 1.6641 85.2774 5.93363C85.2774 5.93363 108.051 90.9336 108.051 90.9336C109.195 95.1993 106.664 99.586 102.395 100.731C102.395 100.731 32.8477 119.367 32.8477 119.367C28.5821 120.512 24.1953 117.977 23.0508 113.711C23.0508 113.711 0.273471 28.7071 0.273471 28.7071C-0.867154 24.4414 1.6641 20.0547 5.93363 18.9102C5.93363 18.9102 5.93363 18.9102 5.93363 18.9102Z" fill="url(#gradient_1)" transform="translate(7.043 5.387)" />
+    <path d="M13.1665 0C13.1665 0 5.93211 1.9375 5.93211 1.9375C1.65086 3.08594 -0.868668 7.45312 0.275863 11.7344C0.275863 11.7344 13.1665 59.8359 13.1665 59.8359L13.1665 0Z" fill="url(#gradient_2)" transform="translate(6.978 22.328)" />
+    <path d="M32.8477 0.273488C32.8477 0.273488 102.395 18.9102 102.395 18.9102C106.664 20.0547 109.195 24.4415 108.055 28.7071C108.055 28.7071 85.2774 113.711 85.2774 113.711C84.1328 117.977 79.7461 120.508 75.4805 119.367C75.4805 119.367 5.93363 100.731 5.93363 100.731C1.6641 99.586 -0.867154 95.1993 0.273471 90.9336C0.273471 90.9336 23.0508 5.92974 23.0508 5.92974C24.1953 1.66411 28.5821 -0.867137 32.8477 0.273488C32.8477 0.273488 32.8477 0.273488 32.8477 0.273488Z" fill="#DEDDDA" transform="translate(9.836 0.18)" />
+    <path d="M8 0C8 0 80 0 80 0C84.418 0 88 3.58203 88 8C88 8 88 51 88 51C88 55.418 84.418 59 80 59C80 59 8 59 8 59C3.58203 59 0 55.418 0 51C0 51 0 8 0 8C0 3.58203 3.58203 0 8 0C8 0 8 0 8 0Z" fill="#DEDDDA" transform="translate(20 61)" />
+    <path d="M80 40C80 40 8 40 8 40C3.58203 40 0 36.418 0 32C0 32 0 8 0 8C0 3.58203 3.58203 0 8 0C8 0 80 0 80 0C84.418 0 88 3.58203 88 8C88 8 88 32 88 32C88 36.418 84.418 40 80 40C80 40 80 40 80 40Z" fill="url(#gradient_3)" transform="translate(20 80)" />
+    <path d="M0 0L0 79.8398C0 79.8398 17.8906 13.0742 17.8906 13.0742C19.0352 8.79297 16.5117 4.42578 12.2305 3.27734C12.2305 3.27734 0 0 0 0Z" fill="url(#gradient_4)" transform="translate(100 15.813)" />
+    <path d="M18.1639 79.8359L18.1639 0C18.1639 0 0.277203 66.7617 0.277203 66.7617C-0.871235 71.043 1.6522 75.4141 5.93345 76.5586C5.93345 76.5586 18.1639 79.8359 18.1639 79.8359Z" fill="url(#gradient_5)" transform="translate(9.824 24.344)" />
+    <path d="M8 0C8 0 80 0 80 0C84.4336 0 88 3.56641 88 8C88 8 88 96 88 96C88 100.434 84.4336 104 80 104C80 104 4 104 4 104C1.65625 104 0 105.953 0 107.754C0 107.754 0 8 0 8C0 3.56641 3.56641 0 8 0C8 0 8 0 8 0Z" fill="url(#gradient_6)" transform="translate(20 8)" />
+    <path d="M0 0L28 28C28 28 28.0001 8.00001 28.0001 8.00001C28.0001 3.56641 24.4337 0 20 0C20 0 0 0 0 0Z" fill="url(#gradient_7)" transform="translate(80 8)" />
+    <path d="M25 25L0 0C0 0 0 20 0 20C0 24.4297 3.56641 28 8 28C8 28 23.7969 28 23.7969 28C26 28 28.3594 30.5078 28 32C27.9688 29.3594 26.8906 26.8438 25 25C25 25 25 25 25 25Z" fill="#000000" transform="translate(80 10.277)" />
+    <path d="M8 0L59.75 0L88 28L88 52C88 52 4.05859 52 4.05859 52C1.95703 52 0 53.9961 0 56C0 56 0 6.875 0 6.875C0 3.07812 3.58203 0 8 0C8 0 8 0 8 0Z" fill="url(#gradient_8)" transform="translate(20 8)" />
+    <path d="M8 0L59.75 0L88 28L88 52C88 52 4.05859 52 4.05859 52C1.95703 52 0 53.9961 0 56C0 56 0 6.875 0 6.875C0 3.07812 3.58203 0 8 0C8 0 8 0 8 0Z" fill="url(#gradient_9)" transform="translate(20 8)" />
+    <path d="M3.75391 0C3.75391 0 52.2461 0 52.2461 0C54.3203 0 56 1.67969 56 3.75391C56 3.75391 56 4.24609 56 4.24609C56 6.32031 54.3203 8 52.2461 8C52.2461 8 3.75391 8 3.75391 8C1.67969 8 0 6.32031 0 4.24609C0 4.24609 0 3.75391 0 3.75391C0 1.67969 1.67969 0 3.75391 0C3.75391 0 3.75391 0 3.75391 0Z" fill="url(#gradient_10)" transform="translate(20 112)" />
+    <path d="M0 0C1.51562 3.65234 5.51562 5.69922 9.44531 4.64453C9.44531 4.64453 26.7852 0 26.7852 0C26.7852 0 0 0 0 0Z" fill="url(#gradient_11)" transform="translate(30.402 120.023)" />
+    <path d="M0 0L0 35.8359C0 35.8359 1.23047 35.5039 1.23047 35.5039C5.51172 34.3594 8.03516 29.9883 6.88672 25.707C6.88672 25.707 0 0 0 0Z" fill="url(#gradient_12)" transform="translate(108 70.727)" />
+    <g transform="translate(36 70)">
+      <rect width="56" height="2" fill="#5A5A5A" />
+      <rect width="56" height="2" fill="#5A5A5A" transform="translate(0 8)" />
+      <rect width="56" height="2" fill="#5A5A5A" transform="translate(0 16)" />
+      <rect width="56" height="2" fill="#5A5A5A" transform="translate(0 24)" />
+      <rect width="28" height="2" fill="#5A5A5A" transform="translate(0 32)" />
+    </g>
+    <path id="subtitle" d="M16 0C17.1047 0 18 0.895279 18 2L18 2C18 3.10472 17.1047 4 16 4L2 4C0.895279 4 0 3.10472 0 2L0 2C0 0.895279 0.895279 0 2 0L16 0Z" fill="#FFFFFF" fill-opacity="0.75" transform="translate(36 48)" />
+    <path id="title" d="M31 0C32.6571 0 34 1.34292 34 3L34 3C34 4.65708 32.6571 6 31 6L3 6C1.34292 6 0 4.65708 0 3L0 3C0 1.34292 1.34292 0 3 0L31 0Z" fill="#FFFFFF" transform="translate(36 36)" />
+    <path id="corner" d="M0 0L28 28L0 28Z" fill="#FFFFFF" fill-rule="evenodd" transform="translate(80 8)" />
+    <g id="glasses" transform="translate(29.346 68)">
+      <path id="patilla" d="M13.6538 26.6062C13.6538 26.6062 0.564001 5.66477 0.564001 5.66477C-0.498499 3.96164 -0.0180306 1.71945 1.65384 0.606174C3.31009 -0.499295 5.54838 -0.0500765 6.65384 1.60617C6.65384 1.60617 8.65384 4.60617 8.65384 4.60617" fill="none" stroke-width="2" stroke="#000000" transform="translate(0 3.394)" />
+      <path id="patilla" d="M4 30L4.00001 2C4.00001 2 4.00001 0 2.00001 0C0 0 0 2 0 2L0 7" fill="none" stroke-width="2" stroke="#000000" transform="translate(67.654 0)" />
+      <path id="armazon" d="M15 26C11.332 26 8.00781 24.4648 5.64062 22C5.64062 22 0 22 0 22L0 16C0 16 2.35547 16 2.35547 16C2.125 15.0391 2 14.0352 2 13C2 5.84766 7.84375 0 15 0C22.668 0 27.4141 6.09375 27.9414 12.0078C28.0391 13.1055 28.8516 14 29.9531 14C29.9531 14 30.0469 14 30.0469 14C31.1484 14 31.9609 13.1055 32.0586 12.0078C32.5859 6.09375 37.332 0 45 0C52.1562 0 58 5.84766 58 13C58 14.0352 57.875 15.0391 57.6445 16C57.6445 16 60 16 60 16L60 22C60 22 54.3594 22 54.3594 22C51.9922 24.4648 48.668 26 45 26C41.332 26 38.0078 24.4648 35.6406 22C35.6406 22 24.3594 22 24.3594 22C21.9922 24.4648 18.668 26 15 26C15 26 15 26 15 26ZM15 22C19.9961 22 24 17.9961 24 13C24 8.00781 19.9961 4 15 4C10.0039 4 6 8.00781 6 13C6 17.9961 10.0039 22 15 22C15 22 15 22 15 22ZM45 22C49.9961 22 54 17.9961 54 13C54 8.00781 49.9961 4 45 4C40.0039 4 36 8.00781 36 13C36 17.9961 40.0039 22 45 22C45 22 45 22 45 22Z" fill="#241F31" transform="translate(12.654 13)" />
+      <path id="circle" d="M0 9C0 4.02944 4.02944 0 9 0C13.9706 0 18 4.02944 18 9C18 13.9706 13.9706 18 9 18C4.02944 18 0 13.9706 0 9Z" fill="#FFFFFF" fill-rule="evenodd" fill-opacity="0.6" transform="translate(48.654 17)" />
+      <path id="circle" d="M0 9C0 4.02944 4.02944 0 9 0C13.9706 0 18 4.02944 18 9C18 13.9706 13.9706 18 9 18C4.02944 18 0 13.9706 0 9Z" fill="#FFFFFF" fill-rule="evenodd" fill-opacity="0.6" transform="translate(18.654 17)" />
+    </g>
+</svg>

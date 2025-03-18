@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<path id="paper" d="M108 36L108 112C108 116.4 104.4 120 100 120L28 120C23.6 120 20 116.4 20 112L20 16C20 11.6 23.6 8 28 8L80 8Z" fill="#269C80"/>
+<path id="corner" d="M0 0L28 28L0 28Z" fill="#7FC9B7" transform="translate(80 8)"/>
+<path id="cells" d="M36 0L36 32L0 32L0 58L56 58L56 0L36 0ZM54 2L54 56L38 56L38 2L54 2ZM18 34L18 56L2 56L2 34L18 34ZM20 34L36 34L36 56L20 56L20 34Z" fill="#FFFFFF" fill-rule="evenodd" transform="translate(36 48)"/>
+<path d="M8 0L16 8L8 16L0 8L8 0Z" fill="#FFFFFF" transform="translate(41 61)" />
+<path d="M0 0L0 4L22 4L22 10L16 10L24 18L32 10L26 10L26 0L0 0L0 0Z" fill="#FFFFFF" transform="translate(36 48)"/>
+</svg>

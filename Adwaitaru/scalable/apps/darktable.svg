@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128px" height="128px" viewBox="0 0 128 128" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path d="M128 0L128 0L128 128L0 128L0 0L128 0Z" id="path_1" />
+    <clipPath id="clip_1">
+      <use xlink:href="#path_1" clip-rule="evenodd" fill-rule="evenodd" />
+    </clipPath>
+  </defs>
+  <g id="darktable_104513">
+    <path d="M128 0L128 0L128 128L0 128L0 0L128 0Z" id="darktable_104513" fill="none" stroke="none" />
+    <g id="g59" transform="translate(3.9999847 4)" clip-path="url(#clip_1)">
+      <path d="M72.3298 2.51276L57.8846 43.1343L114.857 33.6792C106.444 17.7058 90.9057 5.94991 72.3298 2.51277" id="path65" fill="#FE6323" stroke="none" />
+      <path d="M116.638 41.7579L73.6587 49.7126L110.478 93.6473C120.313 78.4542 122.846 59.2918 116.59 41.7539" id="path67" fill="#F8EE37" stroke="none" />
+      <path d="M104.31 99.2171L75.8081 66.5502L55.5951 119.944C73.8708 120.724 91.9784 113.318 104.25 99.2171" id="path69" fill="#00AB29" stroke="none" />
+      <path d="M47.6821 117.427L62.1593 76.8056L5.15489 86.2608C13.5963 102.25 29.1542 114.006 47.6821 117.427" id="path71" fill="#016FDE" stroke="none" />
+      <path d="M3.37375 78.2101L46.3372 70.2554L9.51767 26.3207C-0.300603 41.5298 -2.85023 60.6762 3.40577 78.2141" id="path73" fill="#CD16C6" stroke="none" />
+      <path d="M15.6776 20.7829L44.1798 53.4498L64.3928 0.0559345C46.1291 -0.724325 28.0095 6.68215 15.7537 20.7829" id="path75" fill="#D6001C" stroke="none" />
+      <path d="M68.3673 59.968C68.3673 64.5175 64.6289 68.2067 60.018 68.2067C55.407 68.2067 51.6526 64.5175 51.6526 59.968C51.6526 55.4185 55.407 51.7292 60.018 51.7292C64.6289 51.7292 68.3673 55.4185 68.3673 59.968" id="path77" fill="#F9F9F9" stroke="none" />
+    </g>
+  </g>
+</svg>

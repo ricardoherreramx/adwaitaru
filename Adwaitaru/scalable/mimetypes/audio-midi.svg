@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<rect width="104" height="104" fill="#505050" rx="8" x="12" y="12"/>
+<g fill="#FFFFFF" transform="translate(20 56)">
+<rect id="C" width="13" height="52"/>
+<rect id="D" width="13" height="52" transform="translate(15 0)"/>
+<rect id="E" width="13" height="52" transform="translate(30 0)"/>
+<rect id="F" width="13" height="52" transform="translate(45 0)"/>
+<rect id="G" width="13" height="52" transform="translate(60 0)"/>
+<rect id="A" width="13" height="52" transform="translate(75 0)"/>
+<rect id="C#" width="12" height="32" fill="#505050" transform="translate(6 0)"/>
+<rect id="D#" width="12" height="32" fill="#505050" transform="translate(25 0)"/>
+<rect id="F#" width="12" height="32" fill="#505050" transform="translate(51 0)"/>
+<rect id="G#" width="12" height="32" fill="#505050" transform="translate(70 0)"/>
+<rect id="c#" width="8" height="30" fill="#248EFF" transform="translate(8 0)"/>
+<rect id="d#" width="8" height="30" fill="#248EFF" transform="translate(27 0)"/>
+<rect id="f#" width="8" height="30" fill="#90C418" transform="translate(53 0)"/>
+<rect id="g#" width="8" height="30" fill="#90C418" transform="translate(72 0)"/>
+</g><g id="midi" fill="#FFFFFF" transform="translate(20 20)">
+<path id="M" d="M0 0L0 32L8 32L8 8L12 8L12 32L20 32L20 8L24 8L24 32L32 32L32 8C32 3.58112 28.4189 0 24 0L0 0Z"/>
+<rect id="I" width="8" height="32" transform="translate(36 0)"/>
+<path id="D" d="M20 0C24.4189 0 28 3.58112 28 8L28 24C28 28.4189 24.4189 32 20 32L0 32L0 12L8 12L8 24L20 24L20 8L0 8L0 0L20 0L20 0Z" transform="translate(48 0)"/>
+<rect id="I" width="8" height="32" transform="translate(80 0)"/>
+</g></svg>

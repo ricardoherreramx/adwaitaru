@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<filter id="blur" x="0" y="0">
+<feGaussianBlur in="SourceGraphic" stdDeviation="3"/>
+</filter>
+</defs>
+<g transform="translate(20 8)">
+<rect width="88" height="112" rx="8" fill="#AD421C" id="bottom"/>
+<rect width="88" height="108" rx="8" fill="#F3662B" id="bag"/>
+</g><g id="holder" transform="translate(38 12)">
+<g fill="#1A1A1A" opacity="0.3">
+<circle r="4" transform="translate(48 4)"/>
+<circle r="4" transform="translate(4 4)"/>
+</g><g fill="none" stroke-linecap="round" transform="translate(4 4)">
+<path id="shadow" filter="url(#blur)" d="M44 0C44 14.36 34.15 26 22 26C9.85 26 0 14.36 0 0" stroke-width="4" stroke="#1A1A1A" opacity="0.2"/>
+<path d="M44 0C44 12.15 34.15 22 22 22C9.85 22 0 12.15 0 0" stroke-width="4" stroke="#E4D1C1"/>
+<path d="M44 0C44 12.15 34.15 22 22 22C9.85 22 0 12.15 0 0" stroke-width="2" stroke="#F5F4F3"/>
+</g></g>
+<g id="A" transform="translate(34 48)">
+<path id="A" d="M48.6 31.5L36 0L24 0L11.4 31.5L23.4 31.5L30 15L36.6 31.5L48.6 31.5ZM55.4 48.5L43.4 48.5L48 60L60 60L55.4 48.5ZM16.6 48.5L4.6 48.5L0 60L12 60L16.6 48.5Z" fill="#F6F5F4"/>
+<g stroke-linecap="round" transform="translate(5 40)">
+<path d="M0 0L50 0" stroke-width="12" stroke="#F6F5F4"/>
+<path d="M0 0L50 0" stroke-width="4" stroke="#F3662B"/>
+</g></g>
+</svg>

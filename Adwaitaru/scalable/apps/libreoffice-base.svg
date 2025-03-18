@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="gradient" gradientUnits="userSpaceOnUse" x1="0" y1="112" x2="88" y2="0">
+<stop offset="0" stop-color="#7324A9" />
+<stop offset="1" stop-color="#FA51FD" />
+</linearGradient>
+</defs>
+<path id="sheet" d="M88 104C88 108.419 84.419 112 80 112L8 112C3.58112 112 0 108.419 0 104L0 8C0 3.58118 3.58112 0 8 0L52 0L88 36L88 104ZM60 0L88 28L88 0L60 0Z" fill="url(#gradient)" transform="translate(20 8)" />
+<g id="shadows" transform="translate(20 8)">
+<path id="shadow_corner" d="M0 0L28 28L28 23L5 0L0 0Z" fill="#000000" fill-rule="evenodd" fill-opacity="0.361" transform="translate(60 0)" />
+<path id="shadow_down" d="M88 0C88 4.41895 84.4189 8 80 8L8 8C3.58112 8 0 4.41895 0 0L0 4C0 8.41895 3.58112 12 8 12L80 12C84.4189 12 88 8.41895 88 4L88 0L88 0Z" fill="#000000" fill-rule="evenodd" fill-opacity="0.361" transform="translate(0 100)" />
+</g>
+<path id="cells" d="M0 0L26 0L26 38L0 38L0 0ZM2 2L12 2L12 12L2 12L2 2ZM14 2L24 2L24 12L14 12L14 2ZM2 14L12 14L12 24L2 24L2 14ZM14 14L24 14L24 24L14 24L14 14ZM2 26L12 26L12 36L2 36L2 26ZM14 26L24 26L24 36L14 36L14 26Z" fill="#FAFAFA" fill-rule="evenodd" transform="translate(70 58)" />
+<path id="base" d="M16 0C7.16344 0 0 1.79086 0 4C0 4 0 8 0 8C0 10.2091 7.16344 12 16 12C24.8366 12 32 10.2091 32 8C32 8 32 4 32 4C32 1.79086 24.8366 0 16 0C16 0 16 0 16 0ZM0 10C0 10 0 18 0 18C0 20.2091 7.16344 22 16 22C24.8366 22 32 20.2091 32 18C32 18 32 10 32 10C32 12.2091 24.8366 14 16 14C7.16344 14 0 12.2091 0 10C0 10 0 10 0 10ZM0 20C0 20 0 28 0 28C0 30.2091 7.16344 32 16 32C24.8366 32 32 30.2091 32 28C32 28 32 20 32 20C32 22.2091 24.8366 24 16 24C7.16344 24 0 22.2091 0 20C0 20 0 20 0 20ZM0 30C0 30 0 38 0 38C0 40.2091 7.16344 42 16 42C24.8366 42 32 40.2091 32 38C32 38 32 30 32 30C32 32.2091 24.8366 34 16 34C7.16344 34 0 32.2091 0 30C0 30 0 30 0 30Z" fill="#FA9BFD" transform="translate(32 52)" />
+</svg>

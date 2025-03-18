@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<clipPath id="squircle">
+<rect width="104" height="104" rx="8"/>
+</clipPath>
+<filter id="shadow">
+<feDropShadow dx="0" dy="2" flood-color="#CA6B05" stdDeviation="1"/>
+</filter>
+<linearGradient id="sky" gradientUnits="userSpaceOnUse" x1="104" y1="0" x2="0" y2="104">
+<stop offset="0" stop-color="#62A0EA"/>
+<stop offset="1" stop-color="#1C71D8"/>
+</linearGradient>
+<linearGradient id="green" gradientUnits="userSpaceOnUse" x1="0" y1="72" x2="0" y2="144">
+<stop offset="0" stop-color="#05C96B"/>
+<stop offset="1" stop-color="#028747"/>
+</linearGradient>
+</defs>
+<rect fill="#FF354A" width="104" height="104" rx="8" x="12" y="12" transform="rotate(15 64 64)"/>
+<g clip-path="url(#squircle)" transform="translate(12 12)">
+<rect width="104" height="104" rx="8" fill="url(#sky)"/>
+<rect fill="#184696" width="72" height="72" rx="9" x="64" y="52" transform="rotate(45 64 52)"/>
+<rect fill="url(#green)" width="96" height="72" rx="10" x="24" y="42" transform="rotate(45 24 42)"/>
+<circle r="12" fill="#FFD76A" transform="translate(76 28)"/>
+</g><g id="tag" transform="translate(80 78)">
+<path d="M11.9823 0C8.208 0.0453186 5.44565 0 3.1875 1.16C2.0584 1.783 1.16785 2.83264 0.673828 4.14844C0.179718 5.46423 0 7.02722 0 9C0 9 0 21 0 21C0 21 0 21 0 21C-0.053 22 0.121857 23 0.57 24.0177C1.178 25.3586 2.2 26.6518 3.66266 28.1133C3.66266 28.1133 19.8873 44.34 19.8873 44.3379C21.345 45.8 22.6425 46.822 24 47.4315C25.324 48 26.7686 48.164 28.0668 47.8C30.6632 47 32.61 44.893 35.44 42.1288C35.438 42.1288 35.4438 42.1168 35.444 42.1168L42.1293 35.437C42.13 35.437 42.13 35.431 42.13 35.431C44.8922 32.6 47.033 30.6556 47.7837 28.06C48.16 26.762 48 25.3227 47.432 23.9818C46.8233 22.64 45.8 21.3476 44.3385 19.8862C44.3385 19.8862 28.114 3.66156 28.114 3.66156C26.6522 2.2 25.36 1.17682 24.0183 0.567993C23.348 0.263672 22.652 0.0827637 21.9617 0.0230713C21.64 0 21.3177 0 21 0.0230713C21 0.023 21 9.15527e-05 21 9.15527e-05L12 9.15527e-05C12 9.15527e-05 11.9823 0 11.9823 0Z" fill="#FFB41D" filter="url(#shadow)"/>
+<circle r="3" fill="#000000" opacity="0.5" transform="translate(9 9)"/>
+</g></svg>

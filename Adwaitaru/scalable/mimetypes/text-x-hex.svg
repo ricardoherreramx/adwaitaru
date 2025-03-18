@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<path d="M108 36L108 112C108 116.4 104.4 120 100 120L28 120C23.6 120 20 116.4 20 112L20 16C20 11.6 23.6 8 28 8L80 8Z" fill="#505050"/>
+<path d="M0 0L28 28L0 28Z" fill="#808080" transform="translate(80 8)"/>
+<path d="M6 0L6 6L0 6L0 10L6 10L6 16L0 16L0 20L6 20L6 26L10 26L10 20L16 20L16 26L20 26L20 20L26 20L26 16L20 16L20 10L26 10L26 6L20 6L20 0L16 0L16 6L10 6L10 0ZM10 16L10 10L16 10L16 16Z" fill="#F6F5F4" fill-rule="evenodd" transform="translate(36 48)"/>
+<g fill="#F6F5F4" transform="translate(36 48)">
+<rect width="26" height="2" x="30"/>
+<rect width="26" height="2" x="30" y="8"/>
+<rect width="26" height="2" x="30" y="16"/>
+<rect width="26" height="2" x="30" y="24"/>
+<rect width="56" height="2" y="32"/>
+<rect width="56" height="2" y="40"/>
+<rect width="56" height="2" y="48"/>
+<rect width="28" height="2" y="56"/>
+</g></svg>

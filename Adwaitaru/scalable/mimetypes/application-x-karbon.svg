@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="gradient" gradientUnits="userSpaceOnUse" x1="0" y1="88" x2="0" y2="0">
+<stop offset="0" stop-color="#663579"/>
+<stop offset="1" stop-color="#16A085"/>
+</linearGradient>
+</defs>
+<g id="sheet" transform="translate(8 20)">
+<path id="paper" d="M84 88L8 88C3.581 88 0 84.419 0 80L0 8C0 3.581 3.581 0 8 0L104 0C108.419 0 112 3.581 112 8L112 60L84 88L84 88Z" fill="url(#gradient)"/>
+<path id="corner" d="M0 0L28 0L0 28L0 0Z" fill="#FFFFFF" opacity="0.27" transform="translate(84 60)"/>
+</g><g fill="#FFFFFF" stroke="#44484C" stroke-width="2" transform="translate(33 34)">
+<path d="M32.363 18.5C32.363 23.1163 24.9656 27.74 24.9656 33.2874C24.9656 39.76 32.363 42.534 55.48 42.534C55.48 42.534 55.48 46.2325 55.48 46.2325C32.363 46.2325 23.1163 41.61 23.1163 33.2874C23.1163 26.815 30.5135 22.1916 30.5135 18.5C30.5135 15.72 27.74 0 0 0C27.74 0 32.363 13.87 32.363 18.5C32.363 18.5 32.363 18.5 32.363 18.5Z" fill="#232425" stroke="#232425" stroke-width="1" transform="translate(3 4)"/>
+<circle r="4.5" transform="translate(4.5 4.5)"/>
+<circle r="5" transform="translate(34 19)"/>
+<circle r="5.5" transform="translate(27.5 37.5)"/>
+</g></svg>

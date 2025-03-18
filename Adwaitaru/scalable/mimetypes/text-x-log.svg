@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<g id="sheet" stroke="#707070" stroke-width="2" stroke-linejoin="round" transform="translate(19 7)">
+<path id="paper" fill="#F6F5F4" d="M61.5 0L90 28.5L90 105C90 109.97 85.97 114 81 114L9 114C4.02876 114 0 109.97 0 105L0 9C0 4.02876 4.02876 0 9 0L61.5 0Z"/>
+<path id="corner" fill="#C8C8C8" d="M0 0L28 28L0 28Z" transform="translate(62 0)"/>
+</g><g id="text" transform="translate(36 48)">
+<rect width="56" height="2" fill="#3963CE"/>
+<rect width="28" height="2" fill="#3963CE" y="8"/>
+<rect width="16" height="2" fill="#FF7500" y="16"/>
+<rect width="16" height="2" fill="#FF7500" y="24"/>
+<rect width="16" height="2" fill="#E63E51" y="32"/>
+<rect width="16" height="2" fill="#E63E51" y="40"/>
+<rect width="56" height="2" fill="#808080" y="48"/>
+<rect width="28" height="2" fill="#808080" y="56"/>
+<rect width="33" height="2" fill="#D061D0" x="20" y="16"/>
+<rect width="28" height="2" fill="#D061D0" x="20" y="24"/>
+<rect width="36" height="2" fill="#61972D" x="20" y="32"/>
+<rect width="28" height="2" fill="#61972D" x="20" y="40"/>
+</g></svg>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+<circle r="8" cx="8" cy="8" fill="#730CDA"/>
+<g fill="none" stroke="#EACCFF" stroke-width="1">
+<circle r="5.5" cx="8" cy="8"/>
+<circle r="3.5" cx="8" cy="8"/>
+</g><circle r="2" cx="8" cy="8" fill="#EACCFF"/>
+<path id="half" d="M0 8C0 3.582 3.582 0 8 0L8 16C3.582 16 0 12.418 0 8Z" fill="#730CDA"/>
+</svg>

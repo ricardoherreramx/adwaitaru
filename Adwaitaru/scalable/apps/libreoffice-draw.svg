@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="gradient" gradientUnits="userSpaceOnUse" x1="-0" y1="112" x2="88" y2="0">
+<stop offset="0" stop-color="#CB6D30"/>
+<stop offset="1" stop-color="#FFFB57"/>
+</linearGradient>
+</defs>
+<path id="sheet" d="M88 104C88 108.419 84.4189 112 80 112L8 112C3.58112 112 0 108.419 0 104L0 8C0 3.58118 3.58112 0 8 0L52 0L88 36L88 104ZM60 0L88 28L88 0L60 0Z" fill="url(#gradient)" transform="translate(20 8)"/>
+<g id="shadows" fill="black" opacity="0.3" transform="translate(20 8)">
+<path id="shadow_corner" d="M0 0L28 28L28 23L5 0L0 0Z" transform="translate(60 0)"/>
+<path id="shadow_down" d="M88 0C88 4.41895 84.4189 8 80 8L8 8C3.58112 8 0 4.41895 0 0L0 4C0 8.41895 3.58112 12 8 12L80 12C84.4189 12 88 8.41895 88 4L88 0L88 0Z" transform="translate(0 100)"/>
+</g><g id="shapes" transform="translate(32 52)">
+<path id="circle" d="M0 16C0 7.16344 7.16344 0 16 0C24.8366 0 32 7.16344 32 16C32 24.8366 24.8366 32 16 32C7.16344 32 0 24.8366 0 16Z" fill="#FAFAFA"/>
+<path id="square" d="M4 0C1.784 0 0 1.784 0 4C0 4 0 24 0 24C0 26.216 1.784 28 4 28C4 28 24 28 24 28C26.216 28 28 26.216 28 24C28 24 28 4 28 4C28 1.784 26.216 0 24 0C24 0 4 0 4 0ZM4 4L24 4L24 24L4 24L4 4Z" fill="#FAFAFA" transform="translate(36 8)"/>
+<path id="triangle" d="M21.0938 1.15434C21.0938 1.15434 37.8786 30.2263 37.8786 30.2263C38.2911 30.9409 38.2911 31.8212 37.8786 32.5357C37.4661 33.2502 36.7037 33.6904 35.8786 33.6904C35.8786 33.6904 2.30941 33.6904 2.30941 33.6904C1.48434 33.6904 0.721932 33.2503 0.3094 32.5357C-0.103137 31.8212 -0.103133 30.9408 0.309411 30.2263C0.309411 30.2263 17.0942 1.1547 17.0942 1.1547C17.5067 0.44017 18.2691 0 19.0942 0C19.9193 0 20.6817 0.44017 21.0942 1.1547C21.0942 1.1547 21.0938 1.15434 21.0938 1.15434Z" fill="#F9E186" transform="translate(7 14)"/>
+</g></svg>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<path id="paper" d="M88 28L88 104C88 108.4 84.4 112 80 112L8 112C3.6 112 0 108.4 0 104L0 8C0 3.6 3.6 0 8 0L60 0Z" fill="#DE5245" transform="translate(20 8)"/>
+<path id="corner" d="M0 0L28 28L0 28Z" fill="#EEA6A0" transform="translate(80 8)"/>
+<path id="drawing" d="M15 30C6.81818 30 0 23.1818 0 15C0 6.81818 6.81818 0 15 0C23.1818 0 30 6.81818 30 15C30 23.1818 23.1818 30 15 30C15 30 15 30 15 30ZM15 5C9.57143 5 5 9.57143 5 15C5 20.4286 9.57143 25 15 25C20.4286 25 25 20.4286 25 15C25 9.57143 20.4286 5 15 5C15 5 15 5 15 5ZM33.6 22C32 26.8 28.5333 30.8 24 32.9333C24 32.9333 24 46 24 46L48 46L48 22L33.6 22C33.6 22 33.6 22 33.6 22Z" fill="#FFFFFF" transform="translate(40 56)"/>
+</svg>

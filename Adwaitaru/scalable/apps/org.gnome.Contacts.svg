@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="gradient" gradientUnits="userSpaceOnUse" x1="78" y1="7" x2="86" y2="7">
+<stop offset="0" stop-color="#DEDDDA"/>
+<stop offset="0.5" stop-color="#FFFFFF"/>
+<stop offset="1" stop-color="#C0BFBC"/>
+</linearGradient>
+</defs>
+<g id="tags" transform="translate(100 24)">
+<rect fill="#F8E45C" width="16" height="24" rx="8" id="yellow"/>
+<rect fill="#2EC27E" width="16" height="24" rx="8" id="green" transform="translate(0 16)"/>
+<rect fill="#C061CB" width="16" height="24" rx="8" id="purple" transform="translate(0 32)"/>
+<rect fill="#F66151" width="16" height="24" rx="8" id="orange" transform="translate(0 48)"/>
+</g>
+<path id="hardback" d="M0 0L0 112C0 112 80 112 80 112C84.432 112 88 108.432 88 104C88 104 88 8 88 8C88 3.568 84.432 0 80 0C80 0 0 0 0 0Z" fill="#1D60B5" transform="translate(20 8)"/>
+<path id="pages" d="M0 14L0 8L78 8C82.432 8 86 4.432 86 0L86 6C86 10.432 82.432 14 78 14L0 14L0 14Z" fill="url(#gradient)" transform="translate(22 104)"/>
+<path id="hardcover" d="M0 0L0 102C0 102 80 102 80 102C84.432 102 88 98.432 88 94C88 94 88 8 88 8C88 3.568 84.432 0 80 0C80 0 0 0 0 0Z" fill="#3584E4" transform="translate(20 8)"/>
+<rect id="shineline" width="2" height="102" fill="#FFFFFF" opacity="0.2" transform="translate(22 8)"/>
+<path id="@" d="M19.1534 0.0198441C12.6181 0.293282 6.63957 3.74055 3.1228 9.25813C-1.64436 16.7581 -0.892162 26.5042 4.95934 33.1937C10.83 39.8636 20.404 41.8753 28.4631 38.1155C29.7135 37.53 30.2605 36.0452 29.6744 34.7952C29.0883 33.5452 27.6034 33 26.3432 33.5843C20.3061 36.4163 13.1163 34.9124 8.72033 29.893C4.3146 24.8831 3.75 17.56 7.343 11.9437C10.9183 6.31 17.7955 3.72 24.194 5.596C30.6024 7.46125 35 13.33 35 20C35 20 35 20.1 35 20.1C35 20.1 35 22.5 35 22.5C35 23.4 34.53 24.21 33.748 24.6585C32.9762 25.1077 32.0287 25.1077 31.2472 24.6585C30.4754 24.22 30 23.4 30 22.5C30 22.5 30 20 30 20C30 14.5023 25.4933 10 20 10C14.5035 10 10 14.5023 10 20C10 25.4886 14.5035 30 20 30C22.6115 30 24.9756 28.9554 26.7633 27.305C27.32 27.97 27.9844 28.5452 28.7464 29C31.0713 30.3323 33.9336 30.3323 36.2488 29C38.5738 27.6468 40 25.1761 40 22.5C40 22.5 40 20 40 20C40 11.1038 34.13 3.29133 25.59 0.791328C23.5 0.18586 21.3318 -0.0778122 19.1534 0.02C19.1534 0.02 19.1534 0.02 19.1534 0.02ZM20 15C22.7874 15 25 17.2073 25 20C25 22.7835 22.7874 25 20 25C17.2094 25 15 22.7835 15 20C15 17.2073 17.2094 15 20 15C20 15 20 15 20 15Z" fill="#FFFFFF" transform="translate(44 39)"/>
+</svg>

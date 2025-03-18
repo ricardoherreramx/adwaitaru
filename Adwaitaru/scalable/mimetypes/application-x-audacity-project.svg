@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<path id="paper" d="M108 36L108 112C108 116.4 104.4 120 100 120L28 120C23.6 120 20 116.4 20 112L20 16C20 11.6 23.6 8 28 8L80 8Z" fill="#1E4DC5"/>
+<path id="corner" d="M0 0L28 28L0 28Z" fill="#617ECC" transform="translate(80 8)"/>
+<g id="soundwave" fill="none" transform="translate(20 53)" opacity="0.9">
+<path d="M0 32L8 32L20 0L36 50L46 20L54 43L58 32L88 32" stroke="#FFDC6E" stroke-width="8"/>
+<path d="M0 32L8 32L20 0L36 50L46 20L54 43L58 32L88 32" stroke="#F83333" stroke-width="2"/>
+</g></svg>

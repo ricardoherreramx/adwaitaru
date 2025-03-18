@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<path id="paper" d="M108 36L108 112C108 116.4 104.4 120 100 120L28 120C23.6 120 20 116.4 20 112L20 16C20 11.6 23.6 8 28 8L80 8Z" fill="#E94848"/>
+<path id="corner" d="M0 0L28 28L0 28Z" fill="#F19191" transform="translate(80 8)"/>
+<g id="database" fill="#F6F5F4" transform="translate(40 48)">
+<path d="M0 0L0 10C0 15.523 10.745 20 24 20C37.255 20 48 15.523 48 10L48 0C48 5.523 37.255 10 24 10C10.745 10 0 5.523 0 0L0 0Z" transform="translate(0 39)"/>
+<path d="M0 0L0 10C0 15.523 10.745 20 24 20C37.255 20 48 15.523 48 10L48 0C48 5.523 37.255 10 24 10C10.745 10 0 5.523 0 0L0 0Z" transform="translate(0 26)"/>
+<path d="M0 0L0 10C0 15.523 10.745 20 24 20C37.255 20 48 15.523 48 10L48 0C48 5.523 37.255 10 24 10C10.745 10 0 5.523 0 0L0 0Z" transform="translate(0 13)"/>
+<path d="M0 10C0 4.47715 10.745 0 24 0C37.255 0 48 4.47715 48 10C48 15.523 37.255 20 24 20C10.745 20 0 15.523 0 10L0 10Z"/>
+</g></svg>

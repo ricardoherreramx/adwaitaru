@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="16" height="16" viewBox="0 0 16 16" fill="gray" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 0L2 3L2 16L3 16L3 3L5 0Z" transform="translate(6 0)"/>
+<path d="M0 0L6 5L0 10Z" transform="translate(10 4)"/>
+<g transform="translate(0 4)">
+<rect width="4" height="2" transform="translate(3 8)"/>
+<rect width="7" height="2" transform="translate(0 4)"/>
+<rect width="5" height="2" transform="translate(2 0)"/>
+</g></svg>

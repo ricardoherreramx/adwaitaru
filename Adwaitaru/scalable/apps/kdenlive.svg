@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradient_1" gradientUnits="userSpaceOnUse" x1="-1033.553" y1="97.14" x2="-1033.553" y2="2.94">
+      <stop offset="0" stop-color="#2A2C2F" />
+      <stop offset="1" stop-color="#424649" />
+    </linearGradient>
+    <linearGradient id="gradient_2" gradientUnits="userSpaceOnUse" x1="1.771" y1="0.017" x2="33.915" y2="34.858">
+      <stop offset="0" stop-color="#000000" />
+      <stop offset="1" stop-color="#000000" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="gradient_3" gradientUnits="userSpaceOnUse" x1="5.525" y1="2.003" x2="35.784" y2="27.601">
+      <stop offset="0" stop-color="#000000" />
+      <stop offset="1" stop-color="#000000" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="gradient_4" gradientUnits="userSpaceOnUse" x1="21.333" y1="48" x2="13.333" y2="0">
+      <stop offset="0" stop-color="#375A7D" />
+      <stop offset="1" stop-color="#54A3D8" />
+    </linearGradient>
+    <linearGradient id="gradient_5" gradientUnits="userSpaceOnUse" x1="16.955" y1="-17.952" x2="10.907" y2="-1.423">
+      <stop offset="0" stop-color="#C42C2C" />
+      <stop offset="1" stop-color="#F36856" />
+    </linearGradient>
+    <linearGradient id="gradient_6" gradientUnits="userSpaceOnUse" x1="0" y1="18.105" x2="40" y2="27.5">
+      <stop offset="0" stop-color="#ABDAF9" />
+      <stop offset="1" stop-color="#7CBCEC" />
+    </linearGradient>
+  </defs>
+    <path id="rectangle" d="M0 0L112 0L112 100L0 100L0 0Z" fill="url(#gradient_1)" transform="translate(8 14)" />
+    <path id="shadow-border" d="M0 0L0 5L112 5L112 0L0 0Z" fill="#000000" fill-opacity="0.15" transform="translate(8 109)" />
+    <path id="line" d="M0 0L0.117188 106L6 106L6 0L0 0Z" fill="#E05E4C" transform="translate(61 10)" />
+    <path id="shadow-progress" d="M0 16.9913L56 72.3113L56 34.9988L20 0L0 0L0 16.9913Z" fill="url(#gradient_2)" fill-opacity="0.4" transform="translate(64 14)" />
+    <path id="shadow-play" d="M0 25.4219L26.7969 52.3021L41.7969 52.3021L41.7969 11.3021L30.2031 0L0 25.4219Z" fill="url(#gradient_3)" fill-opacity="0.4" transform="translate(78.203 61.698)" />
+    <path id="play" d="M2.76497 0.00370026C1.45559 0.0831146 0.0456696 1.37835 0.0489578 2.81353C0.0489578 2.81353 0 45.187 0 45.187C0 47.1007 2.50368 48.766 3.93592 47.6291C3.93592 47.6291 30.92 26.3699 30.92 26.3699C32.3616 25.2471 32.3583 22.6132 30.92 21.4853C30.92 21.4853 3.98597 0.371437 3.98597 0.371437C3.62643 0.0897293 3.2025 -0.0225182 2.76585 0.00369644C2.76585 0.00369644 2.76497 0.00370026 2.76497 0.00370026Z" fill="url(#gradient_4)" transform="translate(77.333 40)" />
+    <path id="progress" d="M32 0L16 0L0 0L8.00001 10.5L16 21L24 10.5L32 0Z" fill="url(#gradient_5)" transform="translate(48 10)" />
+    <path id="frames" d="M32 0L32 5L40 5L40 0L32 0L32 0ZM24 10L24 15L40 15L40 10L24 10L24 10ZM10 20L10 25L40 25L40 20L10 20L10 20ZM0 30L0 35L40 35L40 30L0 30L0 30ZM10 40L10 45L40 45L40 40L10 40L10 40ZM24 50L24 55L40 55L40 50L24 50L24 50Z" fill="url(#gradient_6)" fill-rule="evenodd" transform="translate(15 36.5)" />
+</svg>

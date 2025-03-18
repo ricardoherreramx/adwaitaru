@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<path id="paper" d="M108 36L108 112C108 116.4 104.4 120 100 120L28 120C23.6 120 20 116.4 20 112L20 16C20 11.6 23.6 8 28 8L80 8Z" fill="#505050"/>
+<path id="corner" d="M0 0L28 28L0 28Z" fill="#808080" transform="translate(80 8)"/>
+<g fill="#FFFFFF" transform="translate(36 72)">
+<rect width="56" height="2"/>
+<rect width="56" height="2" y="8"/>
+<rect width="56" height="2" y="16"/>
+<rect width="56" height="2" y="24"/>
+<rect width="28" height="2" y="32"/>
+</g><g id="YAML" fill="#FF9B00" transform="translate(36 52)">
+<path id="Y" d="M0 14L4 14L18 0L14 0L9 5L4 0L0 0L7 7L0 14Z"/>
+<path id="A" d="M0 14L4 14L14 4L14 14L17 14L17 0L14 0L0 14Z" transform="translate(7 0)"/>
+<path id="L" d="M0 0L3 0L3 11L11 11L14 14L0 14L0 0Z" transform="translate(42 0)"/>
+<path id="M" d="M0 0L0 14L3 14L3 4L7 8L11 4L11 14L14 14L14 0L11 0L7 4L3 0L0 0L0 0Z" transform="translate(26 0)"/>
+</g></svg>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="blue" gradientUnits="userSpaceOnUse" x1="106" y1="-0" x2="0" y2="66">
+<stop offset="0" stop-color="#62A0EA"/>
+<stop offset="1" stop-color="#1C71D8"/>
+</linearGradient>
+<linearGradient id="gray" gradientUnits="userSpaceOnUse" x1="64" y1="4" x2="64" y2="8">
+<stop offset="0" stop-color="#BDBDBD"/>
+<stop offset="1" stop-color="#505050"/>
+</linearGradient>
+</defs>
+<g id="screen" transform="translate(8 20)">
+<rect width="112" height="88" rx="8" fill="#000000"/>
+<path d="M101 0C103.762 0 106 2.2382 106 5L106 74L0 74L0 5C0 2.2382 2.2382 0 5 0L101 0Z" fill="url(#blue)" stroke-width="2" stroke="#241F31" transform="translate(3 3)"/>
+</g><g id="keyboard" transform="translate(0 100)">
+<rect width="128" height="8" rx="8" ry="4" fill="url(#gray)"/>
+<rect width="128" height="4" fill="#BDBDBD"/>
+<path id="bisel" d="M40 0L40 0L40 0C40 2.21 38.21 4 36 4L4 4C1.79 4 0 2.21 0 0L0 0L40 0Z" fill="#808080" transform="translate(44 0)"/>
+</g></svg>

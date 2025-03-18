@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs><filter id="shadow">
+<feDropShadow dx="0" dy="4" flood-color="#000000" flood-opacity="0.3" stdDeviation="1"/>
+</filter></defs>
+<path id="paper" d="M108 36L108 112C108 116.4 104.4 120 100 120L28 120C23.6 120 20 116.4 20 112L20 16C20 11.6 23.6 8 28 8L80 8Z" fill="#27AB5F"/>
+<path id="corner" d="M0 0L28 28L0 28Z" fill="#000000" opacity="0.3" transform="translate(80 8)"/>
+<path id="headphones" d="M27 0L0 14.5L0 47L9 52L18 47L18 36L9 31L9 20L27 10L45 20L45 31L36 36L36 47L45 52L54 47L54 14.5L27 0Z" fill="#F6F5F4" filter="url(#shadow)" transform="translate(37 48)"/>
+</svg>

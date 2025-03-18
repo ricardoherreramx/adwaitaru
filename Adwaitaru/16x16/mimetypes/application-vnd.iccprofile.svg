@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 0L4 8L0 1.0718L4 0Z" fill="#99013B" transform="translate(4 0)"/>
+<path d="M6.9282 6.9282L0 2.9282L2.9282 0L6.9282 6.9282Z" fill="#621C72" transform="translate(1.072 1.072)"/>
+<path d="M8 4L0 4L1.0718 0L8 4Z" fill="#3F1F74" transform="translate(0 4)"/>
+<path d="M8 0L1.0718 4L0 0L8 0Z" fill="#0D3781" transform="translate(0 8)"/>
+<path d="M2.9282 6.9282L0 4L6.9282 0L2.9282 6.9282Z" fill="#006EAE" transform="translate(1.072 8)"/>
+<path d="M4 0L4 8L0 6.9282L4 0Z" fill="#469E2C" transform="translate(4 8)"/>
+<path d="M0 0L4 6.9282L9.5367e-07 8L0 0Z" fill="#94AC04" transform="translate(8 8)"/>
+<path d="M0 0L6.9282 4L4 6.9486L0 0Z" fill="#E4D401" transform="translate(8 7.956)"/>
+<path d="M8 0L6.9282 4L0 0L8 0Z" fill="#DEA401" transform="translate(8 8)"/>
+<path d="M6.9282 0L8 4L0 4L6.9282 0Z" fill="#E28800" transform="translate(8 4)"/>
+<path d="M4 0L6.9282 2.9282L0 6.9282L4 0Z" fill="#CF4409" transform="translate(8 1.072)"/>
+<path d="M0 0L4 1.0718L1.812e-05 8L0 0Z" fill="#C4010D" transform="translate(8 0)"/>
+</svg>

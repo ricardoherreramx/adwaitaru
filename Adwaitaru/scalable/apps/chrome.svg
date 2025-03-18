@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128px" height="128px" viewBox="0 0 128 128" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient gradientUnits="objectBoundingBox" x1="-5.2154E-08" y1="0.5" x2="1" y2="0.5" id="gradient_1">
+      <stop offset="0%" stop-color="#D93025"/>
+      <stop offset="100%" stop-color="#EA4335"/>
+    </linearGradient>
+    <linearGradient gradientUnits="objectBoundingBox" x1="-0.13642836" y1="0.9910854" x2="0.72943056" y2="-0.008873105" id="gradient_2">
+      <stop offset="0%" stop-color="#FCC934"/>
+      <stop offset="100%" stop-color="#FBBC04"/>
+    </linearGradient>
+    <linearGradient gradientUnits="objectBoundingBox" x1="0.77334464" y1="0.95836806" x2="0.16906594" y2="-0.0416736" id="gradient_3">
+      <stop offset="0%" stop-color="#1E8E3E"/>
+      <stop offset="100%" stop-color="#34A853"/>
+    </linearGradient>
+    <path d="M128 0L128 0L128 128L0 128L0 0L128 0Z" id="path_1"/>
+    <clipPath id="clip_1">
+      <use xlink:href="#path_1" clip-rule="evenodd" fill-rule="evenodd"/>
+    </clipPath>
+  </defs>
+  <g id="org.google.Chrome">
+    <path d="M128 0L128 0L128 128L0 128L0 0L128 0Z" id="org.google.Chrome" fill="none" stroke="none"/>
+    <g id="chrome" transform="translate(2.9858093 2.999874)" clip-path="url(#clip_1)">
+      <path d="M30.0242 59.9871C30.0242 43.4186 43.4556 29.9871 60.0242 29.9871C76.5927 29.9871 90.0242 43.4186 90.0242 59.9871C90.0242 76.5556 76.5927 89.9871 60.0242 89.9871C43.4556 89.9871 30.0242 76.5556 30.0242 59.9871Z" id="Círculo" fill="#FFFFFF" fill-rule="evenodd" stroke="none"/>
+      <path d="M8.04762 90.0002C20.1802 111.017 43.7768 122.655 67.8343 119.487C91.8918 116.319 111.673 98.9702 117.953 75.5294C124.233 52.0885 115.776 27.1723 96.5253 12.399C77.2745 -2.37424 51.0209 -4.09514 30.0067 8.03875C1.31231 24.6073 -8.51912 61.3027 8.04762 90.0002L8.04762 90.0002ZM85.9815 45.0002C92.0478 55.5085 91.1874 68.6366 83.8016 78.2631C76.4157 87.8895 63.9589 92.1185 52.2398 88.978C40.5206 85.8375 31.847 75.9461 30.2634 63.916C28.6798 51.886 34.498 40.0864 45.0051 34.0195C59.3524 25.7352 77.6981 30.6515 85.9815 45.0002L85.9815 45.0002Z" id="Forma" fill="none" fill-rule="evenodd" stroke="none"/>
+      <path d="M60.0242 30.0004L111.977 30.0004C101.262 11.4354 81.4554 -0.00124086 60.0202 0.000251644C38.585 0.00174414 18.7796 11.4411 8.06741 30.0076L34.0439 75.0004L34.0672 74.9944C28.6887 65.7195 28.6758 54.2776 34.0334 44.9906C39.3911 35.7037 49.3026 29.9871 60.0242 30.0004L60.0242 30.0004Z" id="Forma" fill="url(#gradient_1)" stroke="none"/>
+      <path d="M36 60C36 46.7452 46.7452 36 60 36C73.2548 36 84 46.7452 84 60C84 73.2548 73.2548 84 60 84C46.7452 84 36 73.2548 36 60Z" id="Círculo" fill="#1A73E8" fill-rule="evenodd" stroke="none"/>
+      <path d="M86.0024 75.0076L60.0259 120C81.461 120.003 101.269 108.568 111.985 90.0041C122.701 71.4399 122.697 48.5684 111.974 30.0081L60.0214 30.0081L60.0152 30.0314C70.7368 30.0107 80.6523 35.7204 86.0162 45.0038C91.3801 54.2872 91.3749 65.7292 86.0024 75.0076L86.0024 75.0076Z" id="Forma" fill="url(#gradient_2)" stroke="none"/>
+      <path d="M34.0457 75.0081L8.06917 30.0154C-2.65108 48.5772 -2.65194 71.4488 8.06694 90.0115C18.7858 108.574 38.5953 120.006 60.0304 120L86.0069 75.0076L85.9902 74.9906C80.6471 84.286 70.7446 90.0181 60.023 90.0217C49.3014 90.0253 39.395 84.2999 34.0457 75.0081L34.0457 75.0081Z" id="Forma" fill="url(#gradient_3)" stroke="none"/>
+    </g>
+  </g>
+</svg>

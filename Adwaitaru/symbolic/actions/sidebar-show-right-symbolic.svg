@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="16" height="16" viewBox="0 0 16 16" fill="gray" xmlns="http://www.w3.org/2000/svg">
+<path id="window" d="M13.5 0C14.881 0 16 1.1191 16 2.5L16 13.5C16 14.881 14.881 16 13.5 16L2.5 16C1.1191 16 0 14.881 0 13.5L0 2.5C0 1.1191 1.1191 0 2.5 0L13.5 0ZM15 3L15 3L15 13.5C15 14.3285 14.3285 15 13.5 15L11 15L11 3L15 3ZM10 3L10 3L10 15L2.5 15C1.6715 15 1 14.3285 1 13.5L1 3L10 3Z" fill-rule="evenodd"/>
+<path id="sidebar" d="M4 0L4 0L4 10.5C4 11.3285 3.3285 12 2.5 12L0 12L0 0L4 0Z" opacity="0.5" transform="translate(11 3)"/>
+</svg>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="gradient" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="14" y2="12">
+<stop offset="0" stop-color="#D53A63"/>
+<stop offset="0.5" stop-color="#A247BA"/>
+<stop offset="1" stop-color="#386CD4"/>
+</linearGradient>
+</defs>
+<rect width="16" height="16" fill="#F6F5F4"/>
+<rect width="14" height="12" fill="url(#gradient)" x="1" y="1"/>
+<path d="M0 4C0 1.8 1.8 0 4 0L8 0L8 4C8 6.2 6.2 8 4 8C1.8 8 0 6.2 0 4L0 4ZM1 4C1 2.35 2.35 1 4 1C5.65 1 7 2.35 7 4C7 5.65 5.65 7 4 7C2.35 7 1 5.65 1 4L1 4Z" fill="#DEDDDA" fill-rule="evenodd" transform="translate(0 6)"/>
+</svg>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<path id="paper" d="M108 36L108 112C108 116.4 104.4 120 100 120L28 120C23.6 120 20 116.4 20 112L20 16C20 11.6 23.6 8 28 8L80 8Z" fill="#DF720D"/>
+<path id="corner" d="M0 0L28 28L0 28Z" fill="#A44B17" transform="translate(80 8)"/>
+<g stroke-width="5" stroke="#FFFFFF" stroke-linecap="round">
+<line x1="0" y1="0" x2="0" y2="22" transform="translate(31 52.5)"/>
+<line x1="0" y1="0" x2="0" y2="22" transform="translate(39 62.5)"/>
+<line x1="0" y1="0" x2="0" y2="22" transform="translate(47 69.5)"/>
+<line x1="0" y1="0" x2="0" y2="22" transform="translate(55 70.5)"/>
+<line x1="0" y1="0" x2="0" y2="22" transform="translate(63 68.5)"/>
+<line x1="0" y1="0" x2="0" y2="22" transform="translate(71 64.5)"/>
+<line x1="0" y1="0" x2="0" y2="22" transform="translate(79 64.5)"/>
+<line x1="0" y1="0" x2="0" y2="22" transform="translate(87 69.5)"/>
+<line x1="0" y1="0" x2="0" y2="22" transform="translate(95 78.5)"/>
+</g></svg>

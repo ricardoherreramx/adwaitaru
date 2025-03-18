@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="16" height="16" viewBox="0 0 16 16" fill="gray" xmlns="http://www.w3.org/2000/svg">
+<path id="mouse" d="M7 0C9.7618 0 12 2.2382 12 5L12 11C12 13.7618 9.7618 16 7 16L5 16C2.2382 16 0 13.7618 0 11L0 5C0 2.2382 2.2382 0 5 0L7 0ZM7 1C9.2094 1 11 2.79056 11 5L11 11C11 13.2094 9.2094 15 7 15L5 15C2.79056 15 1 13.2094 1 11L1 5C1 2.79056 2.79056 1 5 1L7 1Z" fill-rule="evenodd" transform="translate(2 0)"/>
+<rect id="wheel" width="2" height="4" x="7" y="3" rx="1" ry="1"/>
+</svg>

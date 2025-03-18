@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg enable-background="new" height="128" viewBox="0 0 128 128" width="128" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg">
+    <clipPath>
+        <rect height="320" rx="32" width="448" x="32" y="-116"/>
+    </clipPath>
+    <clipPath id="a">
+        <path d="m 64 -148 h 64 l 64 -64 l 64 64 h 192 c 17.728 0 32 14.272 32 32 v 288 c 0 17.728 -14.272 32 -32 32 h -192 l -64 -64 l -64 64 h -64 c -17.728 0 -32 -14.272 -32 -32 v -288 c 0 -17.728 14.408898 -34.19889 32 -32 z" vector-effect="none" paint-order="normal"/>
+    </clipPath>
+    <linearGradient id="b" gradientUnits="userSpaceOnUse" x1="92.00029664" x2="92.00029664" y1="240.49999938" y2="180.0000018">
+        <stop offset="0" stop-color="#d81d25"/>
+        <stop offset="1" stop-color="#f66151"/>
+    </linearGradient>
+    <linearGradient id="c" gradientUnits="userSpaceOnUse" x1="195.999994595" x2="219.999995645" y1="92.00019188" y2="92.00019188">
+        <stop offset="0" stop-color="#a51d2d"/>
+        <stop offset="1" stop-color="#ce1921"/>
+    </linearGradient>
+    <g transform="matrix(1 0 0 1 0 -172)">
+        <g clip-path="url(#a)" enable-background="new" transform="matrix(0.24999999 0 0 0.24999999 0 237)">
+            <path d="m 256.00001 124 h 160.00001 l -0.00002 -272 h 96 v 384 h -256 l -64 -64 l -64 64 h -128.00000096 l -0.00000032 -112 h 128.00000128 l 64 -64 z" fill="#cdab8f" vector-effect="none" paint-order="normal"/>
+            <path d="m -0.00000128 123.9746 l 128.00000128 0.0508 v -272.02541 l -128.0000032 0.00001 z" fill="#55a7eb" vector-effect="none" paint-order="normal"/>
+            <path d="m 144 -164.00001 v 272.00001 l 48.00001 -47.999998 l 63.99999 64.058448 l 144.00001 -0.00005 l 16.00001 -16.0584 v -256.00001 h -160.00001 l -64 -64 z" fill="#2ec27e"/>
+            <path d="m 399.89844 -147.89077 v 238 c 0 10.02823 -9.37384 17.94922 -16.94922 17.94922 h -126.94922 l -64 -63.46861 l -39.375 39.53516 l -0.625 -296.06661 h -24 v 319.94161 l -128.00000128 0.0584 v 32.10156 h 127.00000128 l 65 -64.15996 l 64 64.16001 h 126.94922 c 26.42462 0 47.96327 -22.04752 49.05078 -50.05078 v -238 z" fill="#ffffff" font-variant-ligatures="normal" font-variant-position="normal" font-variant-caps="normal" font-variant-numeric="normal" font-variant-alternates="normal" font-feature-settings="normal" text-indent="0" text-align="start" text-decoration-line="none" text-decoration-style="solid" text-decoration-color="#000000" text-transform="none" text-orientation="mixed" white-space="normal" shape-padding="0" isolation="auto" mix-blend-mode="normal" solid-color="#000000" solid-opacity="1" vector-effect="none"/>
+            <path d="m 128.00001 267.9746 l 64 0.0508 v -480.02541 l -64.00001 0.00001 z" fill="#ffffff" opacity="0.3" vector-effect="none" paint-order="normal"/>
+            <path d="m 192.00001 267.9746 l 64 0.0508 v -480.02541 l -64.00001 0.00001 z" opacity="0.15" vector-effect="none" paint-order="normal"/>
+        </g>
+        <circle cx="208" cy="92.000191" fill="url(#c)" r="12" transform="matrix(0 1 1 0 0 0)"/>
+        <path d="m 92.000189 182 c -7.165825 0 -14.3315 2.73383 -19.798825 8.20117 c -10.934699 10.93468 -10.934699 28.66298 0 39.59766 l 19.798825 19.79931 s 13.821321 -13.82183 19.798821 -19.79931 c 10.93468 -10.93468 10.93468 -28.66298 0 -39.59766 c -5.46732 -5.46734 -12.632997 -8.20117 -19.798821 -8.20117 z m 0 18 a 9.9999996 9.9999996 0 0 1 10.000001 10 a 9.9999996 9.9999996 0 0 1 -10.000001 10 a 9.9999996 9.9999996 0 0 1 -10 -10 a 9.9999996 9.9999996 0 0 1 10 -10 z" fill="#a51d2d" vector-effect="none" paint-order="normal"/>
+        <path d="m 92.0002 180 c -7.1658 0 -14.3315 2.7338 -19.7988 8.2012 c -10.9347 10.9347 -10.9347 28.663 0 39.5976 l 19.7988 19.7994 s 13.8213 -13.8219 19.79879 -19.7994 c 10.9347 -10.9346 10.9347 -28.6629 0 -39.5976 c -5.46729 -5.4674 -12.632995 -8.2012 -19.79879 -8.2012 z m 0 18 a 9.9999994 9.9999994 0 0 1 9.99999 10 a 9.9999994 9.9999994 0 0 1 -9.99999 10 a 9.9999994 9.9999994 0 0 1 -10 -10 a 9.9999994 9.9999994 0 0 1 10 -10 z" fill="url(#b)" vector-effect="none" paint-order="normal"/>
+    </g>
+</svg>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g>
+    <rect width="16" height="16" fill="#000000" fill-rule="evenodd" />
+    <path id="1" d="M0 0L0 1L2 1L2 5L0 5L0 6L5 6L5 3L4 3L4 5L3 5L3 0L0 0L0 0Z" fill="#FFFFFF" fill-rule="evenodd" transform="translate(9 9)" />
+    <path id="0" d="M0 0L5 0L5 6L0 6L0 0L0 0ZM1 1L4 1L4 5L1 5L1 1L1 1Z" fill="#FFFFFF" fill-rule="evenodd" transform="translate(2 9)" />
+    <path id="0" d="M0 0L5 0L5 6L0 6L0 0L0 0ZM1 1L4 1L4 5L1 5L1 1L1 1Z" fill="#FFFFFF" fill-rule="evenodd" transform="translate(9 1)" />
+    <path id="1" d="M0 0L0 1L2 1L2 5L0 5L0 6L5 6L5 3L4 3L4 5L3 5L3 0L0 0L0 0Z" fill="#FFFFFF" fill-rule="evenodd" transform="translate(2 1)" />
+  </g>
+</svg>

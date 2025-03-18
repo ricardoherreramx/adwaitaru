@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="gradient_1" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="46" y2="0">
+<stop offset="0" stop-color="#77767B"/>
+<stop offset="0.05" stop-color="#C0BFBC"/>
+<stop offset="0.08" stop-color="#9A9996"/>
+<stop offset="0.92" stop-color="#9A9996"/>
+<stop offset="0.96" stop-color="#C0BFBC"/>
+<stop offset="1" stop-color="#77767B"/>
+</linearGradient>
+<linearGradient id="gradient_2" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="112" y2="0">
+<stop offset="0" stop-color="#3D3846"/>
+<stop offset="0.04" stop-color="#79718E"/>
+<stop offset="0.08" stop-color="#4E475A"/>
+<stop offset="0.92" stop-color="#716881"/>
+<stop offset="0.96" stop-color="#847A96"/>
+<stop offset="1" stop-color="#3D3846"/>
+</linearGradient>
+<linearGradient id="gradient_3" gradientUnits="userSpaceOnUse" x1="106" y1="0" x2="0" y2="82">
+<stop offset="0" stop-color="#62A0EA"/>
+<stop offset="1" stop-color="#1C71D8"/>
+</linearGradient>
+</defs>
+<g id="base" transform="translate(41 100)">
+<rect id="volume" width="46" height="12" rx="4" fill="url(#gradient_1)" transform="translate(0 6)"/>
+<path id="support" d="M0 0L12.6054 0C14.68 3.5868 18.5583 6 23 6C27.4417 6 31.3198 3.5868 33.3946 0L46 0L46 12C46 14.2094 44.2094 16 42 16L4 16C1.79056 16 0 14.2094 0 12L0 0L0 0Z" fill="#77767B"/>
+<rect id="shadow" width="46" height="6" fill="#000000" opacity="0.25"/>
+</g><g id="monitor" transform="translate(8 8)">
+<rect id="box" width="112" height="92" rx="8" fill="url(#gradient_2)"/>
+<rect id="border" width="112" height="88" rx="8" fill="#9A94A4"/>
+<rect id="box" width="106" height="82" rx="5" fill="url(#gradient_3)" stroke-width="2" stroke="#241F31" transform="translate(3 3)"/>
+</g></svg>

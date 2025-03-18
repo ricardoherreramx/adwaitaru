@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="gradient" gradientUnits="userSpaceOnUse" x1="32.5" y1="6.7" x2="88" y2="113.2">
+<stop offset="0" stop-color="#5328E1"/>
+<stop offset="1" stop-color="#0F023A"/>
+</linearGradient>
+</defs>
+<circle cx="64" cy="64" r="60" fill="url(#gradient)"/>
+<path id="mu" d="M0 34.97L0 12C0 12 1.90735e-06 0 12 0C24 0 24 12 24 12L24 35L24 12C24 12 24 0 36 0C48 0 48 12 48 12L48 23C48 23 48 35 60 35C72 35 72 23 72 23L72 1" stroke-width="4" stroke="#D7D4E4" stroke-linecap="round" stroke-linejoin="round" transform="translate(27 54)"/>
+<circle cx="3" cy="3" r="3" fill="#D7D4E4" transform="translate(84 41)"/>
+<path id="fermatta" d="M0 12C0 12 0 0 12 0C24 0 24 12 24 12" stroke-width="4" stroke="#D7D4E4" stroke-linecap="round" stroke-linejoin="round" transform="translate(75 32)"/>
+</svg>

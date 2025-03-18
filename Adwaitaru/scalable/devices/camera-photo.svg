@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="gradient_1" gradientUnits="userSpaceOnUse" x1="-0" y1="88" x2="112" y2="88">
+<stop offset="0" stop-color="#707070"/>
+<stop offset="0.04" stop-color="#BEBEBE"/>
+<stop offset="0.08" stop-color="#707070"/>
+<stop offset="0.92" stop-color="#707070"/>
+<stop offset="0.96" stop-color="#BEBEBE"/>
+<stop offset="1" stop-color="#707070"/>
+</linearGradient>
+<radialGradient id="gradient_2" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="1" gradientTransform="matrix(24.5 3 -16 127 35.5 10)">
+<stop offset="0" stop-color="#949390"/>
+<stop offset="1" stop-color="#191622"/>
+</radialGradient>
+<radialGradient id="gradient_3" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="1" gradientTransform="matrix(28.95 0 0 28.95 15.86 28.81)">
+<stop offset="0" stop-color="#68676B"/>
+<stop offset="1" stop-color="#191622"/>
+</radialGradient>
+<radialGradient id="gradient_4" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="1" gradientTransform="matrix(16 0 0 16 16 25)">
+<stop offset="0" stop-color="#5E5C64"/>
+<stop offset="1" stop-color="#241F31"/>
+</radialGradient>
+<linearGradient id="gradient_5" gradientUnits="userSpaceOnUse" x1="94" y1="-118" x2="102" y2="-118">
+<stop offset="0" stop-color="#424048"/>
+<stop offset="1" stop-color="#C01C28"/>
+</linearGradient>
+<linearGradient id="gradient_6" gradientUnits="userSpaceOnUse" x1="70.5" y1="-88.5" x2="76.5" y2="-88.5">
+<stop offset="0" stop-color="#F66151"/>
+<stop offset="1" stop-color="#C01C28"/>
+</linearGradient>
+</defs>
+<rect width="112" height="20" rx="8" fill="url(#gradient_1)" transform="translate(8 88)"/>
+<rect width="112" height="84" rx="8" fill="#CCCCCC" transform="translate(8 20)"/>
+<rect id="strip" width="112" height="50" fill="#2A2A3B" transform="translate(8 36)"/>
+<g id="canon" transform="translate(32 30)">
+<circle r="32" cx="32" cy="32" fill="#CCC"/>
+<circle r="29" cx="32" cy="32" fill="url(#gradient_2)" stroke-width="2" stroke="#000000"/>
+<circle r="26" cx="32" cy="32" fill="#3D3846"/>
+<g id="lens" transform="translate(16 16)">
+<circle r="16" cx="16" cy="16" fill="url(#gradient_3)"/>
+<circle r="13" cx="16" cy="16" fill="url(#gradient_4)" stroke-width="2" stroke="#000000"/>
+<circle r="5" cx="16" cy="16" fill="#000000"/>
+<circle r="3.5" fill="#FFFFFF" opacity="0.8" transform="translate(11 11)"/>
+<circle r="2" fill="#FFFFFF" opacity="0.5" transform="translate(21.5 21.5)"/>
+<circle r="1" fill="#FFFFFF" opacity="0.6" transform="translate(18 18)"/>
+</g></g>
+<path id="button" d="M0 2C0 1.45 0.78 0.97 2.35 0.58C3.9 0.2 5.8 0 8 0C10.2 0 12.1 0.2 13.65 0.58C15.22 1 16 1.45 16 2L16 5L5.72e-06 5L0 2Z" fill="#808080" transform="translate(17 15)"/>
+<path id="viewfinder" d="M8.26563 0C7.27688 0 6.37115 0.27423 5.54846 0.8227C4.72577 1.37116 4.12428 2.10173 3.744 3.01443L0 12L48 12L44.256 3C43.876 2.10174 43.2743 1.37116 42.4516 0.8227C41.63 0.274232 40.7232 0 39.7345 0L8.26563 0ZM37 4C38.105 4 39 4.89528 39 6C39 7.105 38.105 8 37 8L11 8C9.89528 8 9 7.105 9 6C9 4.89528 9.89528 4 11 4L37 4Z" fill="#808080" fill-rule="evenodd" transform="translate(40 8)"/>
+</svg>

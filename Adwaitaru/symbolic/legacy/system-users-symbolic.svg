@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="16" height="16" viewBox="0 0 16 16" fill="gray" xmlns="http://www.w3.org/2000/svg">
+<g transform="translate(0 1)" opacity="0.5">
+<path id="body" d="M4 0L6 0C6 1.1947 6.52377 2.26706 7.3542 3L7 3C5.98536 3 5.05906 3.3776 4.35394 4L0 4C0 1.79056 1.79056 0 4 0L4 0Z" transform="translate(0 7)"/>
+<path id="head" d="M0 3C0 1.34315 1.34315 0 3 0C4.65685 0 6 1.34315 6 3C6 3.04244 6 3.08468 6 3.1267C4.6 3.48895 3.48895 4.6 3.1267 6C3.08468 6 3.04244 6 3 6C1.34315 6 0 4.65685 0 3L0 3Z" transform="translate(3 0)"/>
+</g><g transform="translate(4 5)">
+<path id="body" d="M8 0C10.2094 0 12 1.79056 12 4L12 4L0 4L0 4C0 1.79056 1.79056 0 4 0L8 0Z" transform="translate(0 7)"/>
+<path id="head" d="M0 3C0 1.34315 1.34315 0 3 0C4.65685 0 6 1.34315 6 3C6 4.65685 4.65685 6 3 6C1.34315 6 0 4.65685 0 3Z" transform="translate(3 0)"/>
+</g></svg>

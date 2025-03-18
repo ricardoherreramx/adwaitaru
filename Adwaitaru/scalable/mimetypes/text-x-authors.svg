@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<g id="sheet" stroke="#707070" stroke-width="2" stroke-linejoin="round" transform="translate(19 7)">
+<path id="paper" fill="#F6F5F4" d="M61.5 0L90 28.5L90 105C90 109.97 85.97 114 81 114L9 114C4.02876 114 0 109.97 0 105L0 9C0 4.02876 4.02876 0 9 0Z"/>
+<path id="corner" fill="#C8C8C8" d="M0 0L28 28L0 28Z" transform="translate(62 0)"/>
+</g><g fill="#5A5A5A" transform="translate(36 48)">
+<rect width="26" height="2" x="30"/>
+<rect width="26" height="2" x="30" y="8"/>
+<rect width="26" height="2" x="30" y="16"/>
+<rect width="26" height="2" x="30" y="24"/>
+<rect width="56" height="2" y="32"/>
+<rect width="56" height="2" y="40"/>
+<rect width="56" height="2" y="48"/>
+<rect width="28" height="2" y="56"/>
+</g><g id="author" fill="#5A5A5A" transform="translate(36 48)">
+<path id="body" d="M16 0C21.5236 0 26 4.4764 26 10L26 10L0 10L0 10C0 4.4764 4.4764 0 10 0Z" transform="translate(0 16)"/>
+<circle id="head" r="6" cx="13" cy="6"/>
+</g></svg>

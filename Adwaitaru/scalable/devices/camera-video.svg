@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="gradient_2" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="1" gradientTransform="matrix(58.772 0 0 36.267 8.333 9.067)">
+      <stop offset="0" stop-color="#50DBB5" />
+      <stop offset="1" stop-color="#4A86CF" />
+    </radialGradient>
+    <radialGradient id="gradient_3" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="1" gradientTransform="matrix(21.974 2.777 -14.396 113.907 31.958 8.977)">
+      <stop offset="0" stop-color="#759191" />
+      <stop offset="1" stop-color="#223232" />
+    </radialGradient>
+    <radialGradient id="gradient_4" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="1" gradientTransform="matrix(13 0 0 13 13 22.071)">
+      <stop offset="0" stop-color="#7DCCEC" />
+      <stop offset="1" stop-color="#2B567A" />
+    </radialGradient>
+  </defs>
+    <g id="main" transform="translate(8 8)">
+      <path id="extrude" d="M36 0C40.4189 0 44 3.58112 44 8L44 104C44 108.419 40.4189 112 36 112L8 112C3.58112 112 0 108.419 0 104L0 8C0 3.58112 3.58112 0 8 0L36 0Z" fill="#465C70" />
+      <path id="body" d="M36 0C40.4189 0 44 3.58112 44 8L44 100C44 104.419 40.4189 108 36 108L8 108C3.58112 108 0 104.419 0 100L0 8C0 3.58112 3.58112 0 8 0L36 0Z" fill="#7A8C9A" />
+      <path id="light-red" d="M0 4C0 1.79086 1.79086 0 4 0C6.20914 0 8 1.79086 8 4C8 6.20914 6.20914 8 4 8C1.79086 8 0 6.20914 0 4Z" fill="#241F31" fill-rule="evenodd" transform="translate(18 90)" />
+      <path id="light-yellow" d="M0 3C0 1.34315 1.34315 0 3 0C4.65685 0 6 1.34315 6 3C6 4.65685 4.65685 6 3 6C1.34315 6 0 4.65685 0 3Z" fill="#FFFFFF" fill-rule="evenodd" transform="translate(19 76)" />
+    </g>
+    <g id="screen" transform="translate(52 60)">
+      <path id="extrude" d="M52 0C56.4189 0 60 3.58112 60 8L60 40C60 44.4189 56.4189 48 52 48L8 48C3.58112 48 0 44.4189 0 40L0 8C0 3.58112 3.58112 0 8 0L52 0Z" fill="#465C6E" transform="translate(8 0)" />
+      <path id="border" d="M52 0C56.4189 0 60 3.58112 60 8L60 36C60 40.4189 56.4189 44 52 44L8 44C3.58112 44 0 40.4189 0 36L0 8C0 3.58112 3.58112 0 8 0L52 0Z" fill="#7A8C9A" transform="translate(8 0)" />
+      <path id="display" d="M47 0C48.6571 0 50 1.34292 50 3L50 31C50 32.6571 48.6571 34 47 34L3 34C1.34292 34 0 32.6571 0 31L0 3C0 1.34292 1.34292 0 3 0L47 0Z" fill="url(#gradient_2)" stroke-width="2" stroke="#241F31" transform="translate(13 5)" />
+      <g id="corners" transform="translate(17 9)">
+        <path d="M6 0L6 6L0 6" fill="none" stroke-width="2" stroke="#FFFFFF" stroke-opacity="0.749" stroke-linecap="round" transform="translate(36 20)" />
+        <path d="M6 6L0 6L0 0" fill="none" stroke-width="2" stroke="#FFFFFF" stroke-opacity="0.749" stroke-linecap="round" transform="translate(0 20)" />
+        <path d="M0 6L0 0L6 0" fill="none" stroke-width="2" stroke="#FFFFFF" stroke-opacity="0.749" stroke-linecap="round" />
+        <path d="M0 0L6 0L6 6" fill="none" stroke-width="2" stroke="#FFFFFF" stroke-opacity="0.749" stroke-linecap="round" transform="translate(36 0)" />
+      </g>
+      <rect id="Rectángulo" width="8" height="20" fill="#465C6E" fill-rule="evenodd" transform="translate(0 14)" />
+      <rect id="Rectángulo" width="8" height="4" fill="#000000" fill-rule="evenodd" fill-opacity="0.298" transform="translate(0 30)" />
+    </g>
+    <g id="lens" transform="translate(4 22)">
+      <path id="Óvalo" d="M0 26C0 11.6406 11.6406 0 26 0C40.3594 0 52 11.6406 52 26C52 40.3594 40.3594 52 26 52C11.6406 52 0 40.3594 0 26Z" fill="url(#gradient_3)" fill-rule="evenodd" transform="translate(0 4)" />
+      <path d="M0 26C0 11.6406 11.6406 0 26 0C40.3594 0 52 11.6406 52 26C52 40.3594 40.3594 52 26 52C11.6406 52 0 40.3594 0 26Z" fill="#506B78" fill-rule="evenodd" />
+      <path d="M0 16C0 7.16344 7.16344 0 16 0C24.8366 0 32 7.16344 32 16C32 24.8366 24.8366 32 16 32C7.16344 32 0 24.8366 0 16Z" fill="url(#gradient_3)" fill-rule="evenodd" transform="translate(10 10)" />
+      <path d="M26 13C26 5.81972 20.1803 0 13 0C5.81972 0 0 5.81972 0 13C0 20.1785 5.81972 25.9982 13 25.9982C20.1803 25.9982 26 20.1785 26 13C26 13 26 13 26 13Z" fill="url(#gradient_4)" stroke-width="2" stroke="#000000" transform="translate(13 13)" />
+      <path d="M5 0C7.76084 0 10 2.23767 10 5C10 7.76084 7.76084 9.99851 5 9.99851C2.23916 9.99851 0 7.76084 0 5C0 2.23767 2.23916 0 5 0C5 0 5 0 5 0Z" fill="#000000" transform="translate(21 21)" />
+      <path d="M7 3.50079C7 1.56785 5.43215 0 3.49921 0C1.56627 0 0 1.56785 0 3.50079C0 5.43373 1.56627 7 3.49921 7C5.43215 7 7 5.43373 7 3.50079C7 3.50079 7 3.50079 7 3.50079Z" fill="#FFFFFF" fill-opacity="0.749" transform="translate(18 18)" />
+      <path d="M4 2C4 0.896116 3.10389 0 2 0C0.894308 0 0 0.896116 0 2C0 3.10569 0.894308 4.00181 2 4.00181C3.10389 4.00181 4 3.10569 4 2C4 2 4 2 4 2Z" fill="#FFFFFF" fill-opacity="0.4" transform="translate(29.5 29.5)" />
+      <path d="M2 1C2 0.448509 1.55285 0 1 0C0.447155 0 0 0.448509 0 1C0 1.55285 0.447155 2.00135 1 2.00135C1.55285 2.00135 2 1.55285 2 1C2 1 2 1 2 1Z" fill="#FFFFFF" fill-opacity="0.4" transform="translate(27 27)" />
+    </g>
+</svg>

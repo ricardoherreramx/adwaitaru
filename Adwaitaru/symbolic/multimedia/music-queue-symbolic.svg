@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="16" height="16" viewBox="0 0 16 16" fill="gray" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 2L1 2L1 15L14 15L14 16L0 16Z"/>
+<path d="M0 0L14 0L14 14L0 14ZM1 1L13 1L13 13L1 13Z" fill-rule="evenodd" transform="translate(2 0)"/>
+<path id="play" d="M0 0L7 4L0 8Z" transform="translate(6 3)"/>
+</svg>

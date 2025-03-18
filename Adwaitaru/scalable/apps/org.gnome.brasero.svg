@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="disc" gradientUnits="userSpaceOnUse" x1="0" y1="120" x2="120" y2="0">
+<stop offset="0" stop-color="#A3B6D1"/>
+<stop offset="0.35" stop-color="#A9C5F0"/>
+<stop offset="0.5" stop-color="#DBDEFF"/>
+<stop offset="0.65" stop-color="#B7C5EF"/>
+<stop offset="1" stop-color="#8FB2DD"/>
+</linearGradient>
+<linearGradient id="orange" gradientUnits="userSpaceOnUse" x1="86" y1="0" x2="43" y2="43">
+<stop offset="0" stop-color="#E95420" stop-opacity="0"/>
+<stop offset="1" stop-color="#E95420"/>
+</linearGradient>
+</defs>
+<circle r="36" cx="64" cy="64" stroke-width="48" stroke="#D8DAE5"/>
+<circle r="25" cx="64" cy="64" stroke-width="2" stroke="#757C9B"/>
+<circle r="42" cx="64" cy="64" stroke-width="32" stroke="url(#disc)"/>
+<path d="M86 0C86 23.7483 66.75 43 43 43C19.2501 43 0 23.7483 0 0" fill="none" stroke-width="4" stroke="url(#orange)" transform="matrix(0.707 0.707 -0.707 0.707 33.59 33.6)"/>
+<circle r="6" fill="#E95420" transform="translate(34 34)"/>
+</svg>

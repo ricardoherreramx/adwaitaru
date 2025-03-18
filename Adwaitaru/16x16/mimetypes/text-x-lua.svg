@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="16" height="16" viewBox="0 0 16 16" fill="#0073E5" xmlns="http://www.w3.org/2000/svg">
+<circle id="planet" r="6.5" transform="translate(6.5 9.5)"/>
+<circle id="crater" r="2.5" fill="white" transform="translate(8.5 7.5)"/>
+<circle id="moon" r="2.5" transform="translate(13.5 2.5)"/>
+</svg>

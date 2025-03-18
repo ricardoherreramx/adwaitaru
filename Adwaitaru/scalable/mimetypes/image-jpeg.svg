@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<clipPath id="squircle">
+<rect width="104" height="104" rx="8"/>
+</clipPath>
+<linearGradient id="sky" gradientUnits="userSpaceOnUse" x1="104" y1="0" x2="0" y2="104">
+<stop offset="0" stop-color="#62A0EA"/>
+<stop offset="1" stop-color="#1C71D8"/>
+</linearGradient>
+<linearGradient id="green" gradientUnits="userSpaceOnUse" x1="0" y1="72" x2="0" y2="144">
+<stop offset="0" stop-color="#05C96B"/>
+<stop offset="1" stop-color="#028747"/>
+</linearGradient>
+</defs>
+<g clip-path="url(#squircle)" transform="translate(12 12)">
+<rect width="104" height="104" rx="8" fill="url(#sky)"/>
+<rect fill="#184696" width="72" height="72" rx="9" x="64" y="52" transform="rotate(45 64 52)"/>
+<rect fill="url(#green)" width="96" height="72" rx="10" x="24" y="42" transform="rotate(45 24 42)"/>
+<circle r="12" fill="#FFD76A" transform="translate(76 28)"/>
+</g></svg>

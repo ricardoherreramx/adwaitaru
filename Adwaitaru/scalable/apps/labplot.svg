@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="dark" gradientUnits="userSpaceOnUse" x1="104" y1="76" x2="0" y2="0">
+<stop offset="0" stop-color="#343B40"/>
+<stop offset="1" stop-color="#555E63"/>
+</linearGradient>
+</defs>
+<rect width="112" height="88" rx="8" fill="#AA7F41" transform="translate(8 28)"/>
+<rect width="112" height="84" rx="8" fill="#E2B36B" transform="translate(8 28)"/>
+<rect width="104" height="76" rx="4" fill="url(#dark)" transform="translate(12 32)"/>
+<g fill="none" stroke-width="2">
+<path d="M0 0C26 0 32 30 43 30C54 30 54 0 80 0" stroke="#787E82" transform="translate(24 70)"/>
+<path d="M0 21C26 21 32 0 43 0C54 0 54 21 80 21" stroke="#5090C3" transform="translate(24 49)"/>
+<path d="M0 30C26 30 32 0 43 0C54 0 54 30 80 30" stroke="#D6D6D6" transform="translate(24 40)"/>
+</g><path id="axes" d="M0 0L0 76L2 76L2 39L13 39L13 41L15 41L15 39L41 39L41 41L43 41L43 39L69 39L69 41L71 41L71 39L92 39L92 37L71 37L71 35L69 35L69 37L43 37L43 35L41 35L41 37L15 37L15 35L13 35L13 37L2 37L2 0L0 0Z" fill="#D6D6D6" transform="translate(24 32)"/>
+</svg>

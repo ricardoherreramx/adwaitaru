@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="silver" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="112" y2="0">
+<stop offset="0" stop-color="#3D3846"/>
+<stop offset="0.04" stop-color="#79718E"/>
+<stop offset="0.08" stop-color="#4E475A"/>
+<stop offset="0.92" stop-color="#716881"/>
+<stop offset="0.96" stop-color="#847A96"/>
+<stop offset="1" stop-color="#3D3846"/>
+</linearGradient>
+<linearGradient id="reflect" gradientUnits="userSpaceOnUse" x1="92" y1="0" x2="0" y2="68">
+<stop offset="0" stop-color="#333333"/>
+<stop offset="1" stop-color="#1A1A1A"/>
+</linearGradient>
+</defs>
+<rect width="112" height="92" rx="8" fill="url(#silver)" transform="translate(8 18)"/>
+<rect width="112" height="88" rx="8" fill="#9A9A9A" transform="translate(8 18)"/>
+<rect width="108" height="84" rx="6" fill="#000000" transform="translate(10 20)"/>
+<rect width="92" height="68" fill="url(#reflect)" transform="translate(18 28)"/>
+</svg>

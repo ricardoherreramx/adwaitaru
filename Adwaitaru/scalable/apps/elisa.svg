@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="black" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="84">
+<stop offset="0" stop-color="#333333"/>
+<stop offset="1" stop-color="#000000"/>
+</linearGradient>
+<linearGradient id="blue" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="64">
+<stop offset="0" stop-color="#87DEAA"/>
+<stop offset="1" stop-color="#2CA0B9"/>
+</linearGradient>
+</defs>
+<g transform="translate(0 8)">
+<rect width="112" height="88" fill="#1A1A1A" rx="8" x="8" y="20"/>
+<rect width="112" height="84" fill="url(#black)" rx="8" x="8" y="20"/>
+<rect width="96" height="64" fill="url(#blue)" rx="4" x="16" y="28"/>
+<rect width="64" height="24" fill="#000000" rx="12" x="32" y="48"/>
+<rect width="10" height="12" fill="#DCE3E2" x="63" y="54"/>
+<rect width="8" height="12" fill="#552200" x="55" y="54"/>
+<path d="M0 10L56 10L52 0L4 0Z" fill="#4D4D4D" stroke-width="8" stroke="#4D4D4D" stroke-linecap="round" stroke-linejoin="round" transform="translate(36 92)"/>
+<rect width="64" height="6" fill="#1A1A1A" x="32" y="102"/>
+<g fill="#1E1E1E" stroke="#4D4D4D" stroke-width="2">
+<circle r="7" cx="44" cy="60"/>
+<circle r="7" cx="84" cy="60"/>
+</g><g fill="#000000">
+<circle r="2" cx="44" cy="95"/>
+<circle r="2" cx="84" cy="95"/>
+</g></g></svg>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<g id="sheet" transform="translate(8 20)">
+<path id="paper" d="M8 88L84 88L84 60L112 60L112 8C112 3.581 108.419 0 104 0L8 0C3.581 0 0 3.581 0 8L0 80C0 84.419 3.581 88 8 88L8 88Z" fill="#808080"/>
+<path id="corner" d="M0 0L28 0L0 28L0 0Z" fill="#505050" transform="translate(84 60)"/>
+</g><g id="dots" fill="#464646">
+<circle r="6" cx="46" cy="64"/>
+<circle r="6" cx="64" cy="64"/>
+<circle r="6" cx="82" cy="64"/>
+</g></svg>

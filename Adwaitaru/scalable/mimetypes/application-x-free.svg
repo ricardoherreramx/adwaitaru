@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<path id="paper" d="M108 36L108 112C108 116.4 104.4 120 100 120L28 120C23.6 120 20 116.4 20 112L20 16C20 11.6 23.6 8 28 8L80 8Z" fill="#50E6FF"/>
+<path id="corner" d="M0 0L28 28L0 28Z" fill="#3079D6" transform="translate(80 8)"/>
+<g id="lunacy" fill="#3079D6" transform="translate(40 52)">
+<path id="L" d="M24 0L0 0L0 48L48 48L48 24L24 47.984L24 0Z"/>
+<path id="star" d="M18.984 9.5C14.5868 7.87067 11.1219 4.4 9.5 0C7.8667 4.39827 4.39827 7.8667 0 9.5C4.39532 11.138 7.86213 14.6047 9.5 19C11.121 14.6 14.5843 11.13 18.98 9.5C18.98 9.5 18.98 9.5 18.98 9.5Z" transform="translate(32 0)"/>
+</g></svg>

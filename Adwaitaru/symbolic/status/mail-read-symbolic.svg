@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="16" height="16" viewBox="0 0 16 16" fill="gray" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 3L8 0L12 3L10.3 3L8 1.25L5.7 3L4 3ZM3 3.75L0 6L0 16L16 16L16 6L13 3.75L13 5L14.3 6L13 7L8 10.75L3 7L1.7 6L3 5L3 3.75ZM1 6.75L8 12L15 6.75L15 15L1 15L1 6.75Z" fill-rule="evenodd"/>
+<g id="message" transform="translate(2 3)">
+<path d="M12 0L0 0L0 4.25L1 5L1 1L11 1L11 5L12 4.25L12 0L12 0Z"/>
+<rect width="6" height="1" transform="translate(3 2)" />
+<rect width="6" height="1" transform="translate(3 4)" />
+</g></svg>

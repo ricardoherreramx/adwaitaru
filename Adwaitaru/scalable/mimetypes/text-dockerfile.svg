@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="sheet" transform="translate(20 8)">
+<path id="paper" d="M88 28L88 104C88 108.4 84.4 112 80 112L8 112C3.6 112 0 108.4 0 104L0 8C0 3.6 3.6 0 8 0L60 0Z" fill="#1D63ED"/>
+<path id="corner" d="M0 0L28 28L0 28Z" fill="#FFFFFF" opacity="0.3" transform="translate(60 0)"/>
+</g><g id="docker" fill="#F6F5F4" transform="translate(38 52)">
+<path id="whale" d="M59.024 8.66111C57.5528 7.65532 53.688 7.2265 50.878 8C50.727 5.1517 49.2834 2.75552 46.6424 0.6663C46.6424 0.6663 45.6655 0 45.6655 0C45.6655 0 45 1 45 1C43.734 2.97311 43.1944 5.6 43.3846 8C43.5357 9.47 44 11.125 45 12.3267C41.3561 14.4818 36 14 23.0554 13.9925C23.0554 14 0 14 0 14C-0.0623674 17.417 0.479864 24 4.6035 29.3654C5.0586 29.9577 5.55817 30.531 6.1 31.083C9.45335 34.5 14.52 37 22.0945 37C33.65 37 43.5517 30.6655 49.575 15.3251C51.5572 15.3585 56.7884 15.6853 59.3484 10.661C59.41 10.5761 60 9.32832 60 9.32832C60 9.32832 59 8.662 59 8.662C59 8.662 59 8.66111 59 8.66111Z" transform="translate(0 10)"/>
+<g id="containers">
+<rect width="6" height="6" transform="translate(0 16)"/>
+<rect width="6" height="6" transform="translate(8 16)"/>
+<rect width="6" height="6" transform="translate(16 16)"/>
+<rect width="6" height="6" transform="translate(24 16)"/>
+<rect width="6" height="6" transform="translate(8 8)"/>
+<rect width="6" height="6" transform="translate(16 8)"/>
+<rect width="6" height="6" transform="translate(24 8)"/>
+<rect width="6" height="6" transform="translate(24 0)"/>
+<rect width="6" height="6" transform="translate(32 16)"/>
+</g></g></svg>

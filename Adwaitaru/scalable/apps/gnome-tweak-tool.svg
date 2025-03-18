@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<rect width="104" height="104" rx="8" x="12" y="12" fill="#999999"/>
+<rect width="104" height="100" rx="8" x="12" y="12" fill="#F6F5F4"/>
+<g id="switch-off" transform="translate(34 66)">
+<rect width="60" height="30" rx="15" fill="#999999"/>
+<circle r="13" fill="#FFFFFF" cx="15" cy="15"/>
+</g><g id="switch-on" transform="translate(34 28)">
+<rect width="60" height="30" rx="15" fill="#3584E4"/>
+<circle r="13" fill="#FFFFFF" cx="45" cy="15"/>
+</g></svg>

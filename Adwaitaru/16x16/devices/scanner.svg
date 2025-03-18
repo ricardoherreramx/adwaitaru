@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+<rect id="scanner" width="14" height="16" fill="#B5B3AE" x="1"/>
+<rect id="border" width="10" height="12" fill="#000000" x="3" y="2"/>
+<path id="sheet" d="M0 10L8 10L8 2.5L5.5 0L0 0Z" fill="#F6F5F4" transform="translate(4 3)"/>
+<rect width="10" height="4" fill="#FF7800" x="3" y="7"/>
+<rect width="10" height="2" fill="#F7DD44" x="3" y="8"/>
+</svg>

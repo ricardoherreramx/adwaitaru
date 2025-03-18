@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="16.003" height="16" viewBox="0 0 16.003 16" fill="#808080" xmlns="http://www.w3.org/2000/svg">
+<g id="squares" transform="translate(0 1)" opacity="0.5">
+<path d="M5 0L0 0L0 4L5 4L5 0L5 0ZM1 3L1 1L4 1L4 3L1 3L1 3Z" transform="translate(5 0)"/>
+<path d="M5 0L0 0L0 4L5 4L5 0L5 0ZM1 3L1 1L4 1L4 3L1 3L1 3Z" transform="translate(0 9)"/>
+<path d="M5 0L0 0L0 4L5 4L5 0L5 0ZM1 3L1 1L4 1L4 3L1 3L1 3Z" transform="translate(10 9)"/>
+</g><g id="dots" transform="translate(0.994 6)">
+<path d="M0 1.5C0 0.671573 0.671573 0 1.5 0C2.32843 0 3 0.671573 3 1.5C3 2.32843 2.32843 3 1.5 3C0.671573 3 0 2.32843 0 1.5Z"/>
+<path d="M0 1.5C0 0.671573 0.671573 0 1.5 0C2.32843 0 3 0.671573 3 1.5C3 2.32843 2.32843 3 1.5 3C0.671573 3 0 2.32843 0 1.5Z" transform="translate(5 0)"/>
+<path d="M0 1.5C0 0.671573 0.671573 0 1.5 0C2.32843 0 3 0.671573 3 1.5C3 2.32843 2.32843 3 1.5 3C0.671573 3 0 2.32843 0 1.5Z" transform="translate(10 0)"/>
+</g></svg>

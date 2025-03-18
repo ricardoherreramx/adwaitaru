@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="104" height="104" rx="8" fill="#808080" transform="translate(12 12)"/>
+<g fill="#F9F06B" transform="translate(28 98)">
+<rect width="72" height="18"/>
+<rect id="contour" width="72" height="18" fill="#505050"/>
+<rect id="board" width="68" height="16" fill="#2EC27E" transform="translate(2 2)"/>
+<path d="M2 0C3.1 0 4 0.9 4 2L4 13L0 13L0 2C0 0.9 0.9 0 2 0Z" transform="translate(6 5)"/>
+<path d="M2 0C3.1 0 4 0.9 4 2L4 13L0 13L0 2C0 0.9 0.9 0 2 0Z" transform="translate(14 5)"/>
+<path d="M2 0C3.1 0 4 0.9 4 2L4 13L0 13L0 2C0 0.9 0.9 0 2 0Z" transform="translate(22 5)"/>
+<path d="M2 0C3.1 0 4 0.9 4 2L4 13L0 13L0 2C0 0.9 0.9 0 2 0Z" transform="translate(30 5)"/>
+<path d="M2 0C3.1 0 4 0.9 4 2L4 13L0 13L0 2C0 0.9 0.9 0 2 0Z" transform="translate(38 5)"/>
+<path d="M2 0C3.1 0 4 0.9 4 2L4 13L0 13L0 2C0 0.9 0.9 0 2 0Z" transform="translate(46 5)"/>
+<path d="M2 0C3.1 0 4 0.9 4 2L4 13L0 13L0 2C0 0.9 0.9 0 2 0Z" transform="translate(54 5)"/>
+<path d="M2 0C3.1 0 4 0.9 4 2L4 13L0 13L0 2C0 0.9 0.9 0 2 0Z" transform="translate(62 5)"/>
+</g>
+<path id="shadow" d="M0 4L0 0C0 4.418 3.582 8 8 8L96 8C100.417 8 104 4.418 104 0L104 4C104 8.418 100.418 12 96 12L8 12C3.582 12 0 8.418 0 4L0 4Z" fill="#000000" fill-opacity="0.4" transform="translate(12 104)"/>
+<path id="arrow" d="M15 10L30 0L0 0L15 10L15 10Z" fill="#E6E6E6" transform="translate(49 80)"/>
+<rect id="cover" width="72" height="44" fill="#505050" transform="translate(28 28)"/>
+</svg>

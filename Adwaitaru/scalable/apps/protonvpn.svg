@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="gradient_1" gradientUnits="userSpaceOnUse" x1="99.46" y1="103.5" x2="28.7" y2="-31.28">
+<stop offset="0.06" stop-color="#8EFFEE"/>
+<stop offset="0.45" stop-color="#C9C7FF"/>
+<stop offset="1" stop-color="#7341FF"/>
+</linearGradient>
+<radialGradient id="gradient_2" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="1" gradientTransform="matrix(-7.352 123.734 -88.707 -5.271 45.024 -34.87)">
+<stop offset="0.4" stop-color="#6D4AFF"/>
+<stop offset="1" stop-color="#00F0C3"/>
+</radialGradient>
+</defs>
+<path d="M44.1831 103.488C48.3653 111.8 59.1016 112.246 63.8453 104.324C63.8453 104.324 108.108 30.4236 108.108 30.4236C112.8 22.5894 108.303 12.0847 99.8125 11.0216C99.8125 11.0216 12.822 0.0866 12.8221 0.0865898C3.54103 -1.07779 -3.05887 9.73066 1.45565 18.6786C1.45565 18.6786 44.1831 103.488 44.1831 103.488Z" fill="url(#gradient_1)" transform="translate(9 9)"/>
+<path d="M44.8816 76.3932L48.8003 69.926C48.8 69.926 78.6373 20.1614 78.6373 20.1614C81.25 15.82 78.7634 9.9858 74.0426 9.3783C74.0426 9.3783 0 0 0 0C0 0 38.35 76.1274 38.35 76.1274C39.75 78.8485 43.3 79 44.8816 76.3932C44.8816 76.3932 44.8816 76.3932 44.8816 76.3932Z" fill="url(#gradient_2)" transform="translate(10.799 28.362)"/>
+</svg>

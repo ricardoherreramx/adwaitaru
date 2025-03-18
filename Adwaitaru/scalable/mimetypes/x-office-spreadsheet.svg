@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<g id="sheet" stroke="#707070" stroke-width="2" stroke-linejoin="round" transform="translate(19 7)">
+<path id="paper" fill="#F6F5F4" d="M61.5 0L90 28.5L90 105C90 109.97 85.97 114 81 114L9 114C4.02876 114 0 109.97 0 105L0 9C0 4.02876 4.02876 0 9 0L61.5 0Z"/>
+<path id="corner" fill="#C8C8C8" d="M0 0L28 28L0 28Z" transform="translate(62 0)"/>
+</g>
+<path id="cells" d="M36 0L36 32L0 32L0 58L56 58L56 0L36 0ZM54 2L54 8L38 8L38 2L54 2ZM54 10L54 16L38 16L38 10L54 10ZM54 18L54 24L38 24L38 18L54 18ZM38 32L54 32L54 26L38 26L38 32ZM18 40L2 40L2 34L18 34L18 40ZM20 34L36 34L36 40L20 40L20 34ZM38 34L38 40L54 40L54 34L38 34ZM18 48L2 48L2 42L18 42L18 48ZM20 42L36 42L36 48L20 48L20 42ZM38 42L38 48L54 48L54 42L38 42ZM18 50L18 56L2 56L2 50L18 50ZM20 50L36 50L36 56L20 56L20 50ZM38 50L38 56L54 56L54 50L38 50Z" fill="#707070" fill-rule="evenodd" transform="translate(36 48)"/>
+<g id="graph" transform="translate(36 48)">
+<rect width="8" height="22" fill="#FB8C14" x="24" y="6"/>
+<rect width="8" height="28" fill="#E01B24" x="12"/>
+<rect width="8" height="16" fill="#4A86CF" y="12"/>
+</g></svg>

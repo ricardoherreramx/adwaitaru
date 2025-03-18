@@ -1,0 +1,49 @@
+<svg height="128" width="128" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <linearGradient id="a" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#ffffff"/>
+        <stop offset="0.4" stop-color="#ffffff"/>
+        <stop offset="1" stop-color="#f6f5f4"/>
+    </linearGradient>
+    <radialGradient id="b" cx="44.001" cy="250" r="8" xlink:href="#a"/>
+    <radialGradient id="c" cx="44.001" cy="210" r="8" xlink:href="#a"/>
+    <radialGradient id="d" cx="20.002" cy="272" r="12" xlink:href="#a"/>
+    <radialGradient id="e" cx="20.002" cy="184" r="12" xlink:href="#a"/>
+    <radialGradient id="f" cx="84.001" cy="210" r="8" xlink:href="#a"/>
+    <radialGradient id="g" cx="84.001" cy="250" r="8" xlink:href="#a"/>
+    <radialGradient id="h" cx="108.002" cy="272" r="12" xlink:href="#a"/>
+    <radialGradient id="i" cx="108.002" cy="184" r="12" xlink:href="#a"/>
+    <g transform="matrix(1 0 0 1 0 -172)">
+        <path d="m 22.352 194.352 h 82.687 v 82.687 h -82.687 z" fill="none" font-variant-ligatures="normal" font-variant-position="normal" font-variant-caps="normal" font-variant-numeric="normal" font-variant-alternates="normal" font-feature-settings="normal" text-indent="0" text-align="start" text-decoration-line="none" text-decoration-style="solid" text-decoration-color="#000" text-transform="none" text-orientation="mixed" white-space="normal" shape-padding="0" isolation="auto" mix-blend-mode="normal" solid-color="#000" solid-opacity="1"/>
+        <g fill="none" stroke="#f6f5f4" stroke-width="8">
+            <path d="m 84 256 l 24 24 m -24 -64 l 24 -24 m -64 64 l -24 24 m 24 -64 l -24 -24 m 24 24 h 40 v 40 h -40 z"/>
+            <path d="m 20 192 h 88 v 88 h -88 z"/>
+        </g>
+        <path d="m 98.5 194 v 2 h -69 v -2 z" fill="#d5d3cf"/>
+        <path d="m 120 192 c 0 6.627 -5.373 12 -12 12 c -1.85 0 -3.222 -0.095 -5.165 -1.166 c -1.092 -1.726 -3.55 -4.584 -5.668 -5.666 c -1.071 -1.944 -1.167 -3.318 -1.167 -5.168 c 0 -6.627 5.373 -12 12 -12 s 12 5.373 12 12 z" fill="#d5d3cf"/>
+        <path d="m 110 203 h 2 v 69 h -2 z" fill="#d5d3cf"/>
+        <circle cx="108" cy="280" fill="#d5d3cf" r="12"/>
+        <path d="m 79 258 v 2 h -30 v -2 z m 20.604 16.425 l -1.414 1.415 l -15 -15 l 1.415 -1.415 z m 3.454 -74.632 l 1.414 1.414 l -15 15 l -1.414 -1.414 z" fill="#d5d3cf"/>
+        <circle cx="108" cy="190" fill="url(#i)" r="12"/>
+        <path d="m 86 222 h 2 v 26 h -2 z m -7 -4 v 2 h -30 v -2 z" fill="#d5d3cf"/>
+        <circle cx="84" cy="216" fill="#d5d3cf" r="8"/>
+        <path d="m 98.5 282 v 2 h -69 v -2 z" fill="#d5d3cf"/>
+        <circle cx="108" cy="278" fill="url(#h)" r="12"/>
+        <path d="m 92 256 c 0 0.666 0 1 -0.235 1.932 c -1.165 0.59 -4.765 4.542 -5.787 5.822 c -0.502 0.246 -1.295 0.246 -1.978 0.246 a 8 8 0 1 1 8 -8 z" fill="#d5d3cf"/>
+        <circle cx="84" cy="254" fill="url(#g)" r="8"/>
+        <circle cx="84" cy="214" fill="url(#f)" r="8"/>
+        <g fill="#d5d3cf">
+            <path d="m 22 203 h 2 v 69 h -2 z"/>
+            <circle cx="20" cy="280" r="12"/>
+            <path d="m 46 222 h 2 v 26 h -2 z"/>
+            <circle cx="44" cy="216" r="8"/>
+            <path d="m 43.586 259.586 l 1.414 1.414 l -15 15 l -1.414 -1.414 z"/>
+            <path d="m 7.912 192 c 0 6.627 5.372 12 12 12 c 1.849 0 3.222 -0.095 5.165 -1.166 c 1.092 -1.726 3.55 -4.584 5.668 -5.666 c 1.071 -1.944 1.167 -3.318 1.167 -5.168 c 0 -6.627 -5.373 -12 -12 -12 c -6.628 0 -12 5.373 -12 12 z"/>
+            <path d="m 40.077 214.953 l -1.414 1.415 l -15 -15 l 1.415 -1.414 z"/>
+        </g>
+        <circle cx="20" cy="190" fill="url(#e)" r="12"/>
+        <circle cx="20" cy="278" fill="url(#d)" r="12"/>
+        <circle cx="44" cy="214" fill="url(#c)" r="8"/>
+        <path d="m 36 256 c 0 0.666 0 1 0.235 1.932 c 1.165 0.59 4.765 4.542 5.787 5.822 c 0.502 0.246 1.295 0.246 1.978 0.246 a 8 8 0 1 0 -8 -8 z" fill="#d5d3cf"/>
+        <circle cx="44" cy="254" fill="url(#b)" r="8"/>
+    </g>
+</svg>

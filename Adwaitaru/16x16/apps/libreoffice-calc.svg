@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="gradient" gradientUnits="userSpaceOnUse" x1="0" y1="16" x2="16" y2="0">
+<stop offset="0" stop-color="#007C3C"/>
+<stop offset="1" stop-color="#78FC4E"/>
+</linearGradient>
+</defs>
+<path id="sheet" d="M7.5 0L2.5 0C1.11911 0 0 1.11911 0 2.5L0 13.5C0 14.8809 1.11911 16 2.5 16L11.5 16C12.8809 16 14 14.8809 14 13.5L14 6.5L7.5 0L7.5 0ZM14 0L9 0L14 5L14 0L14 0Z" fill="url(#gradient)" transform="translate(1 0)"/>
+<path id="cells" d="M8 0L0 0L0 7L8 7L8 0L8 0ZM3 1L1 1L1 3L3 3L3 1L3 1ZM4 1L7 1L7 3L4 3L4 1L4 1ZM3 4L1 4L1 6L3 6L3 4L3 4ZM4 4L7 4L7 6L4 6L4 4L4 4Z" fill="#FFFFFF" fill-rule="evenodd" transform="translate(4 6)"/>
+</svg>

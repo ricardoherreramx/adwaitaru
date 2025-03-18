@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="16" height="16" viewBox="0 0 16 16" fill="gray" xmlns="http://www.w3.org/2000/svg">
+<path d="M14 0L0 0L0 16L14 16L14 0L14 0ZM1 14L1 1L13 1L13 14L1 14L1 14Z" fill-rule="evenodd" transform="translate(1 0)"/>
+<path d="M0 0L10 0L10 5L0 5L0 0L0 0ZM3 1L3 3L4 3L4 2L6 2L6 3L7 3L7 1L3 1L3 1Z" fill-rule="evenodd" transform="translate(3 8)"/>
+<path d="M0 0L10 0L10 5L0 5L0 0L0 0ZM3 1L3 3L4 3L4 2L6 2L6 3L7 3L7 1L3 1L3 1Z" fill-rule="evenodd" transform="translate(3 2)"/>
+</svg>

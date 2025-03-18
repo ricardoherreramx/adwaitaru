@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g fill="#808080" transform="translate(1 1)">
+<rect width="3" height="3"/>
+<rect width="3" height="3" transform="translate(5 0)"/>
+<rect width="3" height="3" transform="translate(10 0)"/>
+<rect width="3" height="3" transform="translate(0 5)"/>
+<rect width="3" height="3" transform="translate(5 5)"/>
+<rect width="3" height="3" transform="translate(10 5)"/>
+<rect width="3" height="3" transform="translate(0 10)"/>
+<rect width="3" height="3" transform="translate(5 10)"/>
+<rect width="3" height="3" transform="translate(10 10)"/>
+</g></svg>

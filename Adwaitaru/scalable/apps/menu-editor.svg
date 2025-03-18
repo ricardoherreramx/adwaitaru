@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<path d="M96 0C100.419 0 104 3.58112 104 8L104 96C104 100.419 100.419 104 96 104L38 104L28 116L18 104L8 104C3.58105 104 0 100.419 0 96L0 8C0 3.58112 3.58105 0 8 0L96 0L96 0Z" fill="#E4E4E4" transform="translate(12 12)"/>
+<rect width="104" height="30" fill="#00C7C5" transform="translate(12 49)"/>
+<path d="M0 0L40 0" fill="none" stroke-width="8" stroke="#FFFFFF" stroke-linecap="round" transform="translate(56 63)"/>
+<path d="M0 6C0 2.68629 2.68629 0 6 0C9.31371 0 12 2.68629 12 6C12 9.31371 9.31371 12 6 12C2.68629 12 0 9.31371 0 6Z" fill="#FFFFFF" transform="translate(28 58)"/>
+<path d="M0 0L40 0" fill="none" stroke-width="8" stroke="#5A5A5A" stroke-linecap="round" transform="translate(56 33)"/>
+<path d="M0 6C0 2.68629 2.68629 0 6 0C9.31371 0 12 2.68629 12 6C12 9.31371 9.31371 12 6 12C2.68629 12 0 9.31371 0 6Z" fill="#5A5A5A" transform="translate(28 28)"/>
+<path d="M0 0L40 0" fill="none" stroke-width="8" stroke="#5A5A5A" stroke-linecap="round" transform="translate(56 93)"/>
+<path d="M0 6C0 2.68629 2.68629 0 6 0C9.31371 0 12 2.68629 12 6C12 9.31371 9.31371 12 6 12C2.68629 12 0 9.31371 0 6Z" fill="#5A5A5A" transform="translate(28 88)"/>
+</svg>

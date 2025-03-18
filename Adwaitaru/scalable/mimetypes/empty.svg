@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="sheet" stroke="#707070" stroke-width="2" stroke-linejoin="round" transform="translate(19 7)">
+<path id="paper" d="M61.5 0L90 28.5L90 105C90 109.971 85.9712 114 81 114L9 114C4.02876 114 0 109.971 0 105L0 9C0 4.02876 4.02876 0 9 0L61.5 0Z"/>
+<path id="corner" d="M0 0L28 28L0 28Z" transform="translate(62 0)"/>
+</g></svg>

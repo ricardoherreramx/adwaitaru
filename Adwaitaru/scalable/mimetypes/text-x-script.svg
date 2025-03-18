@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<path id="paper" d="M108 36L108 112C108 116.4 104.4 120 100 120L28 120C23.6 120 20 116.4 20 112L20 16C20 11.6 23.6 8 28 8L80 8Z" fill="#0F46A0"/>
+<path id="corner" d="M0 0L28 28L0 28Z" fill="#2D7CD9" transform="translate(80 8)"/>
+<g transform="translate(36 48)">
+<rect width="56" height="2" fill="#FBAC01"/>
+<rect width="28" height="2" fill="#FBAC01" y="8"/>
+<rect width="16" height="2" fill="#5CA6F2" y="16"/>
+<rect width="16" height="2" fill="#5CA6F2" y="24"/>
+<rect width="16" height="2" fill="#F55668" y="32"/>
+<rect width="16" height="2" fill="#F55668" y="40"/>
+<rect width="56" height="2" fill="#AEAEAE" y="48"/>
+<rect width="28" height="2" fill="#AEAEAE" y="56"/>
+<rect width="33" height="2" fill="#D061D0" x="20" y="16"/>
+<rect width="28" height="2" fill="#D061D0" x="20" y="24"/>
+<rect width="36" height="2" fill="#30C687" x="20" y="32"/>
+<rect width="28" height="2" fill="#30C687" x="20" y="40"/>
+</g></svg>

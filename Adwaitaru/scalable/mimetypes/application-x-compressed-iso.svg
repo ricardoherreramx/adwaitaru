@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="gradient" gradientUnits="userSpaceOnUse" x1="36" y1="104" x2="92" y2="48">
+<stop offset="0" stop-color="#AAAAAA"/>
+<stop offset="0.3" stop-color="#CCCCCC"/>
+<stop offset="0.5" stop-color="#FFFFFF"/>
+<stop offset="0.7" stop-color="#CCCCCC"/>
+<stop offset="1" stop-color="#AAAAAA"/>
+</linearGradient>
+</defs>
+<rect id="box" width="88" height="112" rx="8" fill="#808080" transform="translate(20 8)"/>
+<g id="disc" fill="none">
+<circle r="18" cx="64" cy="76" stroke="#D8DAE5" stroke-width="24"/>
+<circle r="13" cx="64" cy="76" stroke="#5A5A5A" stroke-width="2"/>
+<circle r="21" cx="64" cy="76" stroke="url(#gradient)" stroke-width="14"/>
+</g><g id="close" transform="translate(52 8)">
+<rect id="tape" width="18" height="86" fill="#505050" transform="translate(3 26)"/>
+<path id="squares" d="M6 0L6 4L0 4L0 8L6 8L6 12L0 12L0 16L6 16L6 20L0 20L0 24L6 24L6 28L0 28L0 32L6 32L6 36L0 36L0 40L6 40L6 44L0 44L0 48L6 48L6 52L0 52L0 56L6 56L6 60L0 60L0 64L6 64L6 60L12 60L12 56L6 56L6 52L12 52L12 48L6 48L6 44L12 44L12 40L6 40L6 36L12 36L12 32L6 32L6 28L12 28L12 24L6 24L6 20L12 20L12 16L6 16L6 12L12 12L12 8L6 8L6 4L12 4L12 0L6 0L6 0Z" fill="#FFFFFF" transform="translate(6 42)"/>
+<g id="shadows" fill="#808080" transform="translate(6 46)">
+<rect width="6" height="2" transform="translate(6 0)"/>
+<rect width="6" height="2" transform="translate(0 4)"/>
+<rect width="6" height="2" transform="translate(6 8)"/>
+<rect width="6" height="2" transform="translate(0 12)"/>
+<rect width="6" height="2" transform="translate(6 16)"/>
+<rect width="6" height="2" transform="translate(0 20)"/>
+<rect width="6" height="2" transform="translate(6 24)"/>
+<rect width="6" height="2" transform="translate(0 28)"/>
+<rect width="6" height="2" transform="translate(6 32)"/>
+<rect width="6" height="2" transform="translate(0 36)"/>
+<rect width="6" height="2" transform="translate(6 40)"/>
+<rect width="6" height="2" transform="translate(0 44)"/>
+<rect width="6" height="2" transform="translate(6 48)"/>
+<rect width="6" height="2" transform="translate(0 52)"/>
+<rect width="6" height="2" transform="translate(6 56)"/>
+<rect width="6" height="2" transform="translate(0 60)"/>
+</g><g id="zipper">
+<rect width="24" height="30" rx="4" fill="#3D3846"/>
+<rect width="24" height="27" rx="4" fill="#5E5C64"/>
+<g transform="translate(6 9)">
+<path d="M3 0C1.33594 0 0 1.33594 0 3C0 3 0 33 0 33C0 34.6641 1.33594 36 3 36C3 36 9 36 9 36C10.6641 36 12 34.6641 12 33C12 33 12 3 12 3C12 1.33594 10.6641 0 9 0C9 0 3 0 3 0ZM3 27L9 27L9 33L3 33L3 27Z" fill="#77767B" transform="translate(0 0)"/>
+<path d="M3 0C1.33594 0 0 1.33594 0 3C0 3 0 30 0 30C0 31.6641 1.33594 33 3 33C3 33 9 33 9 33C10.6641 33 12 31.6641 12 30C12 30 12 3 12 3C12 1.33594 10.6641 0 9 0C9 0 3 0 3 0ZM3 24L9 24L9 30L3 30L3 24Z" fill="#FFFFFF"/>
+</g><g transform="translate(9 3)">
+<rect width="6" height="15" rx="3" fill="#77767B"/>
+<rect width="6" height="12" rx="3" fill="#9A9996"/>
+</g></g></g>
+<path d="M88 2C88 6.419 84.419 8 80 8L8 8C3.58112 8 0 4.419 0 0L0 6C0 10.419 3.581 14 8 14L80 14C84.419 14 88 10.419 88 6L88 0L88 2Z" fill="#000000" opacity="0.3" transform="translate(20 106)" />
+</svg>

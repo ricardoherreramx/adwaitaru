@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<g id="sheet" transform="translate(8 20)">
+<path id="paper" d="M84 88L8 88C3.581 88 0 84.419 0 80L0 8C0 3.581 3.581 0 8 0L104 0C108.419 0 112 3.581 112 8L112 60L84 60L84 88Z" fill="#505050"/>
+<path id="corner" d="M0 0L28 0L0 28L0 0Z" fill="#808080" transform="translate(84 60)"/>
+</g><g fill="none" stroke-width="2">
+<path d="M0 0C26 0 32 30 43 30C54 30 54 0 80 0" stroke="#1D99F3" transform="translate(24 64)"/>
+<path d="M0 21C26 21 32 0 43 0C54 0 54 21 80 21" stroke="#DA4453" transform="translate(24 43)"/>
+<path d="M0 30C26 30 32 0 43 0C54 0 54 30 80 30" stroke="#D6D6D6" transform="translate(24 34)"/>
+</g><path id="axes" d="M0 0L0 88L2 88L2 45L13 45L13 47L15 47L15 45L41 45L41 47L43 47L43 45L69 45L69 47L71 47L71 45L96 45L96 43L71 43L71 41L69 41L69 43L43 43L43 41L41 41L41 43L15 43L15 41L13 41L13 43L2 43L2 0L0 0Z" fill="#D6D6D6" transform="translate(24 20)"/>
+</svg>

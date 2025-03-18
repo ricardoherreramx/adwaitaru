@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<rect id="pages" width="108" height="108" rx="10" fill="#909090" transform="translate(10 11)"/>
+<rect id="sheet" width="104" height="85" rx="8" fill="#FDFCFC" transform="translate(12 24)"/>
+<path id="contour" d="M98 0C103.524 0 108 4.4764 108 10L108 25L0 25L0 10C0 4.4764 4.4764 0 10 0L98 0Z" fill="#1A5FB4" transform="translate(10 11)"/>
+<path id="top" d="M96 0C100.42 0 104 3.58 104 8L104 21L0 21L0 8C0 3.58 3.58 0 8 0L96 0Z" fill="#3584E4" transform="translate(12 13)"/>
+<g id="days" fill="#909090" stroke="#FDFCFC" stroke-width="2" transform="translate(24 50)">
+<circle r="4" transform="translate(0 46)"/>
+<circle r="4" transform="translate(16 46)"/>
+<circle r="4" transform="translate(32 46)"/>
+<circle r="4" transform="translate(0 23)"/>
+<circle r="4" transform="translate(16 23)"/>
+<circle r="4" transform="translate(32 23)"/>
+<circle r="4" transform="translate(48 23)"/>
+<circle r="4" transform="translate(64 23)"/>
+<circle r="4" transform="translate(80 23)"/>
+<circle r="4" transform="translate(16 0)"/>
+<circle r="4" transform="translate(32 0)"/>
+<circle r="4" transform="translate(48 0)"/>
+<circle r="4" transform="translate(64 0)"/>
+<circle r="4" transform="translate(80 0)"/>
+</g><circle id="today" r="8" fill="#D33E36" transform="translate(56 73)"/>
+</svg>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<path id="paper" d="M108 36L108 112C108 116.4 104.4 120 100 120L28 120C23.6 120 20 116.4 20 112L20 16C20 11.6 23.6 8 28 8L80 8Z" fill="#5770B8"/>
+<path id="corner" d="M0 0L28 28L0 28Z" fill="#FFFFFF" opacity="0.4" transform="translate(80 8)"/>
+<g fill="white" transform="translate(36 80)">
+<rect width="56" height="2"/>
+<rect width="56" height="2" y="8"/>
+<rect width="56" height="2" y="16"/>
+<rect width="56" height="2" y="24"/>
+</g><g id="php" fill="none">
+<g id="php-white" stroke="white" stroke-width="8" transform="translate(40 48)">
+<path id="p" d="M0 22L0 0L8 0C10.2 0 12 1.8 12 4L12 8C12 10.2 10.2 12 8 12L0 12" transform="translate(36 10)"/>
+<path id="h" d="M0 -2L0 26L0 10L8 10C10.2 10 12 11.8 12 14L12 26" transform="translate(18 0)"/>
+<path id="p" d="M0 22L0 0L8 0C10.2 0 12 1.8 12 4L12 8C12 10.2 10.2 12 8 12L0 12" transform="translate(0 10)"/>
+</g><g id="php-black" stroke="black" stroke-width="4" stroke-linecap="square" transform="translate(40 50)">
+<path id="p" d="M0 20L0 0L8 0C10.2 0 12 1.8 12 4L12 8C12 10.2 10.2 12 8 12L0 12" transform="translate(36 8)"/>
+<path id="h" d="M0 0L0 22L0 8L8 8C10.2 8 12 9.8 12 12L12 20" transform="translate(18 0)"/>
+<path id="p" d="M0 20L0 0L8 0C10.2 0 12 1.8 12 4L12 8C12 10.2 10.2 12 8 12L0 12" transform="translate(0 8)"/>
+</g></g></svg>

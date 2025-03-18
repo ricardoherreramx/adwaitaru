@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g>
+    <path id="sheet" d="M9.75 0L2.5 0C1.1191 0 0 1.1191 0 2.5L0 13.5C0 14.8809 1.1191 16 2.5 16L11.5 16C12.8809 16 14 14.8809 14 13.5L14 4.25L9.75 0L9.75 0ZM9 5L13 5L13 13.5C13 14.33 12.33 15 11.5 15L2.5 15C1.67 15 1 14.33 1 13.5L1 2.5C1 1.67 1.67 1 2.5 1L9 1L9 5L9 5Z" fill="#808080" fill-rule="evenodd" transform="translate(1 0)"/>
+    <g id="cells" transform="translate(4 4)">
+      <rect id="Rectángulo" width="2" height="1" fill="#808080" fill-rule="evenodd"/>
+      <rect id="Rectángulo" width="2" height="1" fill="#808080" fill-rule="evenodd" transform="translate(0 2)"/>
+      <rect id="Rectángulo" width="2" height="1" fill="#808080" fill-rule="evenodd" transform="translate(0 4)"/>
+      <rect id="Rectángulo" width="2" height="1" fill="#808080" fill-rule="evenodd" transform="translate(0 6)"/>
+      <rect id="Rectángulo" width="2" height="1" fill="#808080" fill-rule="evenodd" transform="translate(0 8)"/>
+      <rect id="Rectángulo" width="2" height="1" fill="#808080" fill-rule="evenodd" transform="translate(3 0)"/>
+      <rect id="Rectángulo" width="2" height="1" fill="#808080" fill-rule="evenodd" transform="translate(3 2)"/>
+      <rect id="Rectángulo" width="2" height="1" fill="#808080" fill-rule="evenodd" transform="translate(3 4)"/>
+      <rect id="Rectángulo" width="2" height="1" fill="#808080" fill-rule="evenodd" transform="translate(3 6)"/>
+      <rect id="Rectángulo" width="2" height="1" fill="#808080" fill-rule="evenodd" transform="translate(3 8)"/>
+      <rect id="Rectángulo" width="2" height="1" fill="#808080" fill-rule="evenodd" transform="translate(6 8)"/>
+      <rect id="Rectángulo" width="2" height="1" fill="#808080" fill-rule="evenodd" transform="translate(6 6)"/>
+      <rect id="Rectángulo" width="2" height="1" fill="#808080" fill-rule="evenodd" transform="translate(6 4)"/>
+      <rect id="Rectángulo" width="2" height="1" fill="#808080" fill-rule="evenodd" transform="translate(6 2)"/>
+    </g>
+  </g>
+</svg>

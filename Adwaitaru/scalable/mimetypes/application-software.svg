@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<filter id="blur" x="0" y="0">
+<feGaussianBlur in="SourceGraphic" stdDeviation="3"/>
+</filter>
+<linearGradient id="rtl" gradientUnits="userSpaceOnUse" x1="24" y1="13" x2="0" y2="13">
+<stop offset="0" stop-color="#F6F5F4"/>
+<stop offset="1" stop-color="#9FEAC1"/>
+</linearGradient>
+<linearGradient id="utd" gradientUnits="userSpaceOnUse" x1="12" y1="0" x2="12" y2="12">
+<stop offset="0" stop-color="#F6F5F4"/>
+<stop offset="1" stop-color="#9FEAC1"/>
+</linearGradient>
+<linearGradient id="ltr" gradientUnits="userSpaceOnUse" x1="0" y1="12" x2="24" y2="12">
+<stop offset="0" stop-color="#F6F5F4"/>
+<stop offset="1" stop-color="#9FEAC1"/>
+</linearGradient>
+</defs>
+<g transform="translate(20 8)">
+<rect width="88" height="112" rx="8" fill="#208858" id="bottom"/>
+<rect width="88" height="108" rx="8" fill="#2EC27E" id="bag"/>
+</g><g id="holder" transform="translate(38 12)">
+<g fill="#1A1A1A" opacity="0.3">
+<circle r="4" transform="translate(48 4)"/>
+<circle r="4" transform="translate(4 4)"/>
+</g><g fill="none" stroke-linecap="round" transform="translate(4 4)">
+<path id="shadow" filter="url(#blur)" d="M44 0C44 14.36 34.15 26 22 26C9.85 26 0 14.36 0 0" stroke-width="4" stroke="#1A1A1A" opacity="0.2"/>
+<path d="M44 0C44 12.15 34.15 22 22 22C9.85 22 0 12.15 0 0" stroke-width="4" stroke="#E4D1C1"/>
+<path d="M44 0C44 12.15 34.15 22 22 22C9.85 22 0 12.15 0 0" stroke-width="2" stroke="#F5F4F3"/>
+</g></g>
+<g id="shapes" transform="translate(38 49)">
+<path id="triangle" d="M19.3086 0.458525C19.3086 0.458525 1.73047 10.5054 1.73047 10.5054C0.660156 11.1148 0 12.2515 0 13.482C0 14.7124 0.660156 15.8491 1.73047 16.4585C1.73047 16.4585 19.3086 26.5054 19.3086 26.5054C20.3867 27.1226 21.7109 27.1148 22.7852 26.4937C23.8594 25.8687 24.5195 24.7241 24.5195 23.482C24.5195 23.482 24.5195 3.48196 24.5195 3.48196C24.5195 2.23977 23.8594 1.09524 22.7852 0.470243C21.7109 -0.15085 20.3867 -0.158663 19.3086 0.458525C19.3086 0.458525 19.3086 0.458525 19.3086 0.458525Z" fill="url(#rtl)" transform="translate(27 31)"/>
+<circle r="12" fill="url(#utd)" transform="translate(40 12)"/>
+<rect id="square" width="24" height="24" rx="6" fill="url(#ltr)" transform="translate(0 16)"/>
+</g></svg>

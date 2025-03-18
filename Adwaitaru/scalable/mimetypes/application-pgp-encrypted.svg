@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradient_1" gradientUnits="userSpaceOnUse" x1="-10.977" y1="2.995" x2="3.992" y2="2.995">
+      <stop offset="0" stop-color="#77767B" />
+      <stop offset="0.733" stop-color="#9A9996" />
+      <stop offset="0.833" stop-color="#F6F5F4" />
+      <stop offset="0.933" stop-color="#ADACAA" />
+      <stop offset="1" stop-color="#77767B" />
+    </linearGradient>
+    <radialGradient id="gradient_2" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="1" gradientTransform="matrix(23.949 0 0 23.959 22.951 21.962)">
+      <stop offset="0" stop-color="#C0BFBC" />
+      <stop offset="0.874" stop-color="#DEDDDA" />
+      <stop offset="0.917" stop-color="#B1B0AD" />
+      <stop offset="1" stop-color="#77767B" />
+    </radialGradient>
+    <linearGradient id="gradient_3" gradientUnits="userSpaceOnUse" x1="-0.471" y1="-7.117" x2="-7.221" y2="18.084">
+      <stop offset="0" stop-color="#241F31" />
+      <stop offset="1" stop-color="#3D3846" />
+    </linearGradient>
+    <filter color-interpolation-filters="sRGB" x="-3.986" y="-3.988" width="5.986" height="5.988" id="filter_4">
+      <feFlood flood-opacity="0" result="BackgroundImageFix_1" />
+      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix_1" result="Shape_2" />
+      <feGaussianBlur stdDeviation="0.599" />
+    </filter>
+    <linearGradient id="gradient_5" gradientUnits="userSpaceOnUse" x1="140.884" y1="529.625" x2="140.884" y2="558.908">
+      <stop offset="0" stop-color="#F2F2F2" />
+      <stop offset="1" stop-color="#808080" stop-opacity="0.8" />
+    </linearGradient>
+    <radialGradient id="gradient_6" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="1" gradientTransform="matrix(13.783 0.1 -0.097 13.475 11.975 11.48)">
+      <stop offset="0" stop-color="#77767B" />
+      <stop offset="0.733" stop-color="#9A9996" />
+      <stop offset="0.833" stop-color="#F6F5F4" />
+      <stop offset="0.933" stop-color="#ADACAA" />
+      <stop offset="1" stop-color="#77767B" />
+    </radialGradient>
+  </defs>
+    <g id="sheet" transform="translate(20 8)">
+      <path id="paper" d="M8 0L60 0L60 28L87.9778 28.1429C87.9778 28.1429 88 104 88 104C88 108.41 84.3896 112 79.9598 112C79.9598 112 8 112 8 112C3.56621 112 0 108.432 0 104C0 104 0 8 0 8C0 3.56799 3.56621 0 8 0C8 0 8 0 8 0Z" fill="#62A0EA" />
+      <path id="corner" d="M0 0L28 28L0 28Z" fill="#1A5FB4" transform="translate(60 0)" />
+    </g>
+    <rect id="rect1236" width="88" height="15.857" fill="#241F31" transform="translate(20 56)" />
+    <path id="codebar" d="M58.3086 0L58.3086 14.0117L60.625 14.0117L60.625 0L58.3086 0ZM59.4648 0L59.4648 14.0117L59.4648 0ZM52.293 0L52.293 14.0117L56.9219 14.0117L56.9219 0L52.293 0ZM54.6055 0L54.6055 14.0117L54.6055 0ZM48.5898 0L48.5898 14.0117L50.9062 14.0117L50.9062 0L48.5898 0ZM49.7461 0L49.7461 14.0117L49.7461 0ZM44.7031 0L44.7031 14.0117L47.0195 14.0117L47.0195 0L44.7031 0ZM45.8594 0L45.8594 14.0117L45.8594 0ZM40.8164 0L40.8164 14.0117L43.1289 14.0117L43.1289 0L40.8164 0ZM41.9727 0L41.9727 14.0117L41.9727 0ZM32.6719 0L32.6719 14.0117L39.6133 14.0117L39.6133 0L32.6719 0ZM36.1406 0L36.1406 14.0117L36.1406 0ZM23.3242 0L23.3242 14.0117L25.6367 14.0117L25.6367 0L23.3242 0ZM24.4805 0L24.4805 14.0117L24.4805 0ZM27.0273 0L27.0273 14.0117L31.6523 14.0117L31.6523 0L27.0273 0ZM29.3398 0L29.3398 14.0117L29.3398 0ZM17.3086 0L17.3086 14.0117L21.9336 14.0117L21.9336 0L17.3086 0ZM19.6211 0L19.6211 14.0117L19.6211 0ZM13.6055 0L13.6055 14.0117L15.918 14.0117L15.918 0L13.6055 0ZM14.7617 0L14.7617 14.0117L14.7617 0ZM9.71875 0L9.71875 14.0117L12.0312 14.0117L12.0312 0L9.71875 0ZM10.875 0L10.875 14.0117L10.875 0ZM3.70312 0L3.70312 14.0117L8.32812 14.0117L8.32812 0L3.70312 0ZM6.01562 0L6.01562 14.0117L6.01562 0ZM0 0L0 14.0117L2.3125 14.0117L2.3125 0L0 0ZM1.15625 0L1.15625 14.0117L1.15625 0Z" fill="#1A5FB4" fill-rule="evenodd" transform="translate(34 80)" />
+    <g id="asterisks" transform="translate(34 99)">
+      <path d="M3.28906 0L4.23047 3.98438L1.16797 1.40625L0.0234375 3.44141L3.96094 4.74609L0 5.99609L1.125 8.07031L4.23438 5.47266L3.28906 9.42969L5.96875 9.42969L5.10547 5.53125L8.11719 8.13672L9.27734 6.07812L5.36328 4.75391L9.38672 3.63281L8.24219 1.57812L5.07422 4L5.96875 0L3.28906 0Z" fill="#1A5FB4" transform="translate(50.285 0)" />
+      <path d="M3.29297 0L4.23438 3.98438L1.16797 1.40625L0.0273438 3.44141L3.96484 4.74609L0 5.99609L1.12891 8.07031L4.23438 5.47266L3.29297 9.42969L5.97266 9.42969L5.10547 5.53125L8.12109 8.13672L9.28125 6.07812L5.36719 4.75391L9.38672 3.63281L8.24609 1.57812L5.07812 4L5.97266 0L3.29297 0Z" fill="#1A5FB4" transform="translate(37.711 0)" />
+      <path d="M3.29297 0L4.23438 3.98438L1.16797 1.40625L0.0273438 3.44141L3.96094 4.74609L0 5.99609L1.125 8.07031L4.23438 5.47266L3.29297 9.42969L5.97266 9.42969L5.10547 5.53125L8.11719 8.13672L9.27734 6.07812L5.36719 4.75391L9.38672 3.63281L8.24609 1.57812L5.07812 4L5.96875 0L3.29297 0Z" fill="#1A5FB4" transform="translate(25.141 0)" />
+      <path d="M3.28906 0L4.23047 3.98438L1.16797 1.40625L0.0234375 3.44141L3.96094 4.74609L0 5.99609L1.125 8.07031L4.23438 5.47266L3.28906 9.42969L5.96875 9.42969L5.10547 5.53125L8.11719 8.13672L9.27734 6.07812L5.36719 4.75391L9.38672 3.63281L8.24609 1.57812L5.07422 4L5.96875 0L3.28906 0Z" fill="#1A5FB4" transform="translate(12.57 0)" />
+      <path d="M3.28906 0L4.23047 3.98438L1.16406 1.40625L0.0234375 3.44141L3.96094 4.74609L0 5.99609L1.125 8.07031L4.23047 5.47266L3.28906 9.42969L5.96875 9.42969L5.10547 5.53125L8.11719 8.13672L9.27734 6.07812L5.36328 4.75391L9.38672 3.63281L8.24219 1.57812L5.07422 4L5.96875 0L3.28906 0Z" fill="#1A5FB4" />
+    </g>
+    <g id="authenticator" transform="matrix(1 0 0 1 26.914 17.258)">
+      <rect id="rect4940#1" width="3.992" height="7.986" fill="url(#gradient_1)" fill-rule="evenodd" transform="translate(8.981 11.979)" />
+      <rect id="rect4940" width="3.992" height="7.986" fill="url(#gradient_1)" fill-rule="evenodd" transform="translate(32.93 11.979)" />
+      <path id="circle4922" d="M0 22.9604C0 10.2797 10.2756 0 22.9512 0C35.6268 0 45.9024 10.2797 45.9024 22.9604C45.9024 35.6411 35.6268 45.9208 22.9512 45.9208C10.2756 45.9208 0 35.6411 0 22.9604Z" fill="#5E5C64" fill-rule="evenodd" transform="translate(0 12.978)" />
+      <path id="circle4297" d="M0 22.9604C0 10.2797 10.2756 0 22.9512 0C35.6268 0 45.9024 10.2797 45.9024 22.9604C45.9024 35.6411 35.6268 45.9208 22.9512 45.9208C10.2756 45.9208 0 35.6411 0 22.9604Z" fill="url(#gradient_2)" fill-rule="evenodd" transform="translate(0 11.979)" />
+      <path id="circle1953" d="M0 20.9638C0 9.38583 9.38207 0 20.9554 0C32.5288 0 41.9109 9.38583 41.9109 20.9638C41.9109 32.5418 32.5288 41.9277 20.9554 41.9277C9.38207 41.9277 0 32.5418 0 20.9638Z" fill="#F6F5F4" fill-rule="evenodd" transform="translate(1.996 13.976)" />
+      <path id="circle4299" d="M18.9597 0C29.4308 0 37.9194 8.49194 37.9194 18.9673C37.9194 29.4426 29.4308 37.9346 18.9597 37.9346C8.48854 37.9346 0 29.4426 0 18.9673C0 8.49194 8.48854 0 18.9597 0Z" fill="#241F31" fill-rule="evenodd" transform="translate(3.992 15.972)" />
+      <path id="circle4301" d="M0.616493 13.3227C-1.951 22.9086 3.73539 32.7617 13.3174 35.3302C22.8994 37.8987 32.7485 32.21 35.316 22.6242C37.8835 13.0383 32.1971 3.18526 22.6151 0.616737C13.0331 -1.95178 3.18398 3.73689 0.616493 13.3227Z" fill="url(#gradient_3)" fill-rule="evenodd" transform="matrix(1 0 0 -1 4.985 52.913)" />
+      <g id="g3417" transform="translate(19.958 23.959)">
+        <path id="path1538" d="M2.99282 0L0 5.98803L5.98564 5.98803L2.99282 0Z" fill="#1A1A1A" fill-rule="evenodd" filter="url(#filter_4)" transform="translate(0 0.507)" />
+        <path id="path1540" d="M2.99363 0L0 5.98967L5.98727 5.98967L2.99363 0Z" fill="#ED333B" fill-rule="evenodd" transform="translate(0 0)" />
+        <path id="path1542" d="M2.99282 0L0 5.98804L2.99282 5.98804L2.99282 0Z" fill="#FFFFFF" fill-rule="evenodd" transform="translate(0 0.002)" />
+      </g>
+      <path id="circle1867" d="M0 5.98967C0 2.68167 2.68059 0 5.98727 0C9.29394 0 11.9745 2.68167 11.9745 5.98967C11.9745 9.29767 9.29394 11.9793 5.98727 11.9793C2.68059 11.9793 0 9.29767 0 5.98967Z" fill="#000000" fill-rule="evenodd" fill-opacity="0.2" transform="translate(16.964 29.948)" />
+      <path id="circle1548" d="M0 5.98967C0 2.68167 2.68059 0 5.98727 0C9.29394 0 11.9745 2.68167 11.9745 5.98967C11.9745 9.29767 9.29394 11.9793 5.98727 11.9793C2.68059 11.9793 0 9.29767 0 5.98967Z" fill="url(#gradient_5)" fill-rule="evenodd" transform="translate(16.964 28.95)" />
+      <path id="circle1550" d="M0 5.49053C0 8.52286 2.45721 10.9811 5.48833 10.9811C8.51945 10.9811 10.9767 8.52286 10.9767 5.49053C10.9767 2.45819 8.51945 0 5.48833 0C2.45721 0 0 2.45819 0 5.49053Z" fill="#CCCCCC" fill-rule="evenodd" transform="matrix(1 0 0 -1 17.463 39.931)" />
+      <g id="g1470" transform="matrix(1 0 0 -1 5.987 51.91)">
+        <path id="path4367" d="M0 0L0 2.99483" fill="none" stroke-width="1" stroke="#F6F5F4" transform="translate(16.964 0)" />
+        <path id="path1404" d="M0 0L0 2.99483" fill="none" stroke-width="1" stroke="#F6F5F4" transform="translate(16.964 30.947)" />
+        <path id="path1410" d="M2.99363 0L0 0" fill="none" stroke-width="1" stroke="#F6F5F4" transform="translate(30.934 16.971)" />
+        <path id="path1412" d="M2.99363 0L0 0" fill="none" stroke-width="1" stroke="#F6F5F4" transform="translate(0 16.971)" />
+        <path id="path1426" d="M0 0L2.11682 2.11767" fill="none" stroke-width="1" stroke="#F6F5F4" transform="translate(4.969 4.971)" />
+        <path id="path1428" d="M0 0L2.11681 2.11767" fill="none" stroke-width="1" stroke="#F6F5F4" transform="translate(26.842 26.853)" />
+        <path id="path1430" d="M2.11682 0L0 2.11767" fill="none" stroke-width="1" stroke="#F6F5F4" transform="translate(26.842 4.971)" />
+        <path id="path1432" d="M2.11682 0L0 2.11767" fill="none" stroke-width="1" stroke="#F6F5F4" transform="translate(4.969 26.853)" />
+      </g>
+      <g id="g1842" transform="translate(6.313 18.295)">
+        <path id="path1596" d="M0 1.95819L0.389351 0" fill="none" stroke-width="0.5" stroke="#FFFFFF" transform="translate(13.328 31.331)" />
+        <path id="path1598" d="M0 1.95819L0.389351 0" fill="none" stroke-width="0.5" stroke="#FFFFFF" transform="translate(19.558 0)" />
+        <path id="path1600" d="M1.95741 0.389511L0 0" fill="none" stroke-width="0.5" stroke="#FFFFFF" transform="translate(31.319 19.566)" />
+        <path id="path1602" d="M1.9574 0.38951L0 0" fill="none" stroke-width="0.5" stroke="#FFFFFF" transform="translate(0 13.334)" />
+        <path id="path1604" d="M0 1.10923L1.65941 0" fill="none" stroke-width="0.5" stroke="#FFFFFF" transform="translate(2.533 24.964)" />
+        <path id="path1606" d="M0 1.10923L1.65941 0" fill="none" stroke-width="0.5" stroke="#FFFFFF" transform="translate(29.084 7.216)" />
+        <path id="path1608" d="M1.10878 1.66009L0 0" fill="none" stroke-width="0.5" stroke="#FFFFFF" transform="translate(24.954 29.095)" />
+        <path id="path1610" d="M1.10878 1.66008L0 0" fill="none" stroke-width="0.5" stroke="#FFFFFF" transform="translate(7.213 2.534)" />
+        <path id="path1758" d="M0 1.84457L0.763741 0" fill="none" stroke-width="0.5" stroke="#FFFFFF" transform="translate(10.146 30.479)" />
+        <path id="path1760" d="M0 1.84457L0.763741 0" fill="none" stroke-width="0.5" stroke="#FFFFFF" transform="translate(22.366 0.966)" />
+        <path id="path1762" d="M1.84383 0.764048L0 0" fill="none" stroke-width="0.5" stroke="#FFFFFF" transform="translate(30.467 22.375)" />
+        <path id="path1764" d="M1.84383 0.764048L0 0" fill="none" stroke-width="0.5" stroke="#FFFFFF" transform="translate(0.965 10.15)" />
+        <path id="path1766" d="M0 0.764048L1.84384 0" fill="none" stroke-width="0.5" stroke="#FFFFFF" transform="translate(0.965 22.375)" />
+        <path id="path1768" d="M0 0.764055L1.84383 0" fill="none" stroke-width="0.5" stroke="#FFFFFF" transform="translate(30.467 10.15)" />
+        <path id="path1770" d="M0.763739 1.84458L0 0" fill="none" stroke-width="0.5" stroke="#FFFFFF" transform="translate(22.366 30.479)" />
+        <path id="path1772" d="M0.76374 1.84458L0 0" fill="none" stroke-width="0.5" stroke="#FFFFFF" transform="translate(10.146 0.966)" />
+        <path id="path1776" d="M0 1.66007L1.10878 0" fill="none" stroke-width="0.5" stroke="#FFFFFF" transform="translate(7.213 29.095)" />
+        <path id="path1778" d="M0 1.66007L1.10878 0" fill="none" stroke-width="0.5" stroke="#FFFFFF" transform="translate(24.954 2.534)" />
+        <path id="path1780" d="M1.6594 1.10922L0 0" fill="none" stroke-width="0.5" stroke="#FFFFFF" transform="translate(29.084 24.964)" />
+        <path id="path1782" d="M1.65941 1.10922L0 0" fill="none" stroke-width="0.5" stroke="#FFFFFF" transform="translate(2.533 7.216)" />
+        <path id="path1784" d="M0 0.389511L1.95741 0" fill="none" stroke-width="0.5" stroke="#FFFFFF" transform="translate(0 19.566)" />
+        <path id="path1786" d="M0 0.38951L1.95741 0" fill="none" stroke-width="0.5" stroke="#FFFFFF" transform="translate(31.319 13.334)" />
+        <path id="path1788" d="M0.389351 1.95819L0 0" fill="none" stroke-width="0.5" stroke="#FFFFFF" transform="translate(19.558 31.331)" />
+        <path id="path1790" d="M0.389349 1.95819L0 0" fill="none" stroke-width="0.5" stroke="#FFFFFF" transform="translate(13.328 0)" />
+      </g>
+      <path id="path1844" d="M0 11.9793C7.62939e-06 5.36333 5.36119 -3.80813e-06 11.9745 2.02791e-12C18.5879 1.90407e-06 23.9491 5.36333 23.9491 11.9793" fill="none" stroke-width="4" stroke="url(#gradient_6)" stroke-linejoin="round" transform="translate(10.977 0)" />
+    </g>
+</svg>

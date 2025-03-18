@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="sunset" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="16" y2="16">
+<stop offset="0" stop-color="#1C71D8"/>
+<stop offset="0.33" stop-color="#C061CB"/>
+<stop offset="0.66" stop-color="#FFA348"/>
+</linearGradient>
+<linearGradient id="slopes" gradientUnits="userSpaceOnUse" x1="8" y1="0" x2="8" y2="8">
+<stop offset="0" stop-color="#FFFFFF"/>
+<stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+</linearGradient>
+</defs>
+<rect width="16" height="16" fill="url(#sunset)"/>
+<path d="M0 8L16 8L8 0L0 8L0 8Z" fill="url(#slopes)" transform="translate(4 8)"/>
+<path d="M10 0L0 10L20 10L10 0Z" fill="url(#slopes)" transform="translate(-4 6)"/>
+<circle r="2" fill="#FFFFFF" cx="12" cy="4"/>
+</svg>

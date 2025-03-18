@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="gradient_1" gradientUnits="userSpaceOnUse" x1="0" y1="57" x2="0" y2="114">
+<stop offset="0" stop-color="#F6F5F4"/>
+<stop offset="1" stop-color="#808080" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="gradient_2" gradientUnits="userSpaceOnUse" x1="0" y1="57" x2="0" y2="114">
+<stop offset="0" stop-color="#707070"/>
+<stop offset="1" stop-color="#808080" stop-opacity="0"/>
+</linearGradient>
+</defs>
+<g id="sheet" transform="translate(19 7)">
+<path id="paper" d="M61.5 0L90 28.5L90 105C90 109.971 85.9712 114 81 114L9 114C4.02876 114 0 109.971 0 105L0 9C0 4.02876 4.02876 0 9 0L61.5 0Z" fill="url(#gradient_1)" stroke-width="2" stroke="url(#gradient_2)"/>
+<path id="corner" d="M0 0L28 28L0 28Z" fill="#C8C8C8" stroke-width="2" stroke="#707070" stroke-linejoin="round" transform="translate(62 0)"/>
+</g>
+<path id="@" d="M12.4519 0.0129013C8.20321 0.190666 4.31649 2.43179 2.03019 6.01885C-1.06903 10.8947 -0.580009 17.2308 3.22414 21.5797C7.041 25.9159 13.2648 27.2238 18.5043 24.7795C19.3172 24.3986 19.6728 23.4336 19.2918 22.6209C18.9107 21.8083 17.9454 21.4527 17.1261 21.8337C13.2013 23.6748 8.5271 22.6971 5.66922 19.4338C2.80499 16.1769 2.43664 11.4153 4.77375 7.76477C7.09816 4.10152 11.5692 2.41909 15.729 3.63806C19.8951 4.85067 22.7593 8.66629 22.753 13.0025C22.753 13.0025 22.753 13.066 22.753 13.066C22.753 13.066 22.753 14.6278 22.753 14.6278C22.753 15.2119 22.4481 15.7388 21.9401 16.0309C21.4384 16.3229 20.8223 16.3229 20.3143 16.0309C19.8125 15.7452 19.5014 15.2055 19.5014 14.6278C19.5014 14.6278 19.5014 13.0025 19.5014 13.0025C19.5014 9.42815 16.5736 6.50136 12.9981 6.50136C9.42892 6.50136 6.49483 9.42815 6.49483 13.0025C6.49483 16.5705 9.42892 19.5037 12.9981 19.5037C14.7001 19.5037 16.237 18.8243 17.3992 17.7514C17.7612 18.1831 18.1931 18.5577 18.6884 18.8497C20.1999 19.7195 22.0607 19.7195 23.5659 18.8497C25.0774 17.9736 26.0046 16.3674 26.0046 14.6278C26.0046 14.6278 26.0046 13.0025 26.0046 13.0025C26.0046 7.21877 22.1878 2.13974 16.6371 0.514454C15.278 0.120831 13.8682 -0.0505867 12.4519 0.0129013C12.4519 0.0129013 12.4519 0.0129013 12.4519 0.0129013ZM12.9981 9.75194C14.8144 9.75194 16.2497 11.1868 16.2497 13.0025C16.2497 14.8119 14.8144 16.2531 12.9981 16.2531C11.1881 16.2531 9.74646 14.8119 9.74646 13.0025C9.74646 11.1868 11.1881 9.75194 12.9981 9.75194C12.9981 9.75194 12.9981 9.75194 12.9981 9.75194Z" fill="#1A5EB2" transform="translate(36 48)"/>
+<g fill="#5A5A5A" transform="translate(36 48)">
+<rect width="26" height="2" transform="translate(30 0)"/>
+<rect width="26" height="2" transform="translate(30 8)"/>
+<rect width="26" height="2" transform="translate(30 16)"/>
+<rect width="26" height="2" transform="translate(30 24)"/>
+<rect width="56" height="2" opacity="0.8" transform="translate(0 32)"/>
+<rect width="56" height="2" opacity="0.6" transform="translate(0 40)"/>
+<rect width="56" height="2" opacity="0.4" transform="translate(0 48)"/>
+<rect width="28" height="2" opacity="0.2" transform="translate(0 56)"/>
+</g></svg>

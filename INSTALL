@@ -1,0 +1,28 @@
+INSTRUCTIONS:
+Create a new folder named '.icons' into your home folder (if it does not exist already).
+Press [Ctrl+H] in your keyboard to switch the view of hidden files & folders in the Nautilus File Explorer.
+Extract the contents of the compressed package in the '~/.icons/' directory using File-Roller or any similar program for such purpose.
+
+Download and install the GNOME Tweak Tool from either your distro's AppStore/Software Center or your software repository of choice where it is available.
+To install the .deb package on Debian/Ubuntu or any debian-based distros:
+1. open the terminal
+2. don't forget to update your system beforehand through the command 'sudo apt update'
+3. add the universe repository using 'sudo add-apt-repository universe' (if not added already)
+4. install gnome tweaks through the command 'sudo apt install gnome-tweaks'
+(Note: this method won't work with RPM, PakMan or other package managers on non-debian-based distros)
+
+Once installed, launch the 'Tweaks' app from the app-grid/app menu or through the command 'gnome-tweaks' from the terminal.
+Navigate to the 'Appeareance' section in the app's side panel.
+Go to Styles > Cursor and choose 'Adwaitaru' from the dropdown menu to customize your mouse's cursor pointer.
+Go to Styles > Icons and choose 'Adwaitaru' or any other color derivative ('Adwaitaru-colorname') from the dropdown menu to apply the Adwaitaru icon set to your desktop environment.
+
+======
+NOTES:
+• These instructions have been specified for the GNOME Desktop Environment. Instructions for KDEplasma, DeepIn, Pantheon, Cosmic, Cinammon, Unity or another environment may vary.
+• If all files & folders of the icon package are succesfully extracted and correctly located, all themes should appear in the GNOME Tweak tool's dropdown menus ready to apply. Do not change any folder's name nor delete the theme files (index.theme & cursor.theme) or else they will no longer appear. The path of the folder(s) containing the theme(s) should look like this: '/home/(yourusername)/.icons/Adwaitaru'.
+• Changes should apply instantly and be visible once selected (no restart/reboot/relaunch needed).
+• Sadly, icons & cursor themes can only be customized through the Tweaks App. Picking an accent color from the Settings App will not change to a custom color-icon theme accordingly and may even revert changes to the default theme in some distros.
+• Main theme ("Adwaitaru") inherits the Adwaita icon theme (preinstalled in all distros with the GNOME Desktop Environment), and Color themes inherit the main theme; so make sure to have the 'Adwaitaru' main theme installed even if attepting to apply a color theme or else most icons will be missing (or defaulted to a legacy theme).
+• Color themes contain only the icons for places (folders) and some base apps customized according to an accent color. Hence, those will be the only changes visible if the 'Adwaitaru' folder is missing in '.icons'.
+• In order to save storage space and make easier the icon pack's control and maintenance, many icons -especially symbolic icons- are symlinks (symbolic links) to other icons (in-between folders or within the same folder) if they are identically shaped. So make sure to copy/extract all folders and all icons contained in the package or else the icon theme may be broken and some icons may appear inconsistently.
+• Flatpak apps may not recognize the custom icon pack applied and default to the Adwaita theme instead or display missing icons, even if these apps are GTK-themed. This is most surely due to the sandboxed nature of flatpaks. Snappy packages (or 'snaps') show this behaviour as well. To fix this, you could either grant each flatpak permission to read [filesystem=home] using FlatSeal (available at FlatHub - com.github.tchx84.Flatseal) on a per-app basis, or copy the Adwaitaru theme folder to the path '/usr/share/icons/' instead of '~/icons/' using superuser domain (sudo). None of either solutions are encouraged, since -at least- flatpak mandatory sandboxing is for security reasons. Proceed with caution and at your own risk.

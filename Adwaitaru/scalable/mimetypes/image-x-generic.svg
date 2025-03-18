@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<clipPath id="squircle">
+<rect width="104" height="104" rx="8"/>
+</clipPath>
+<linearGradient id="sunset" gradientUnits="userSpaceOnUse" x1="104" y1="104" x2="0" y2="0">
+<stop offset="0.33" stop-color="#FFA348"/>
+<stop offset="0.66" stop-color="#C061CB"/>
+<stop offset="1" stop-color="#1C71D8"/>
+</linearGradient>
+<linearGradient id="white_1" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="144">
+<stop offset="0" stop-color="#FFFFFF"/>
+<stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="white_2" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="144">
+<stop offset="0" stop-color="#FFFFFF"/>
+<stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="white_3" gradientUnits="userSpaceOnUse" x1="0" y1="-12" x2="0" y2="12">
+<stop offset="0" stop-color="#FFFFFF"/>
+<stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+</linearGradient>
+</defs>
+<g clip-path="url(#squircle)" transform="translate(12 12)">
+<rect width="104" height="104" rx="8" fill="url(#sunset)"/>
+<rect fill="url(#white_1)" width="72" height="72" rx="9" x="64" y="52" transform="rotate(45 64 52)"/>
+<rect fill="url(#white_2)" width="96" height="72" rx="10" x="24" y="42" transform="rotate(45 24 42)"/>
+<circle r="12" fill="url(#white_3)" transform="translate(76 28)"/>
+</g></svg>

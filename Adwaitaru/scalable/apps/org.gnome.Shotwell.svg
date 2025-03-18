@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<radialGradient id="gradient_1" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="1" gradientTransform="matrix(0 -66.88 67.302 0 33.44 66.88)">
+<stop offset="0" stop-color="#FFFFFF" />
+<stop offset="0.547" stop-color="#4B74A6" />
+<stop offset="1" stop-color="#204E8B" />
+</radialGradient>
+</defs>
+<path d="M8 0C8 0 96 0 96 0C100.418 0 104 3.58203 104 8C104 8 104 96.043 104 96.043C104 100.461 100.418 104.043 96 104.043C96 104.043 8 104.043 8 104.043C3.58203 104.043 0 100.461 0 96.043C0 96.043 0 8 0 8C0 3.58203 3.58203 0 8 0C8 0 8 0 8 0Z" fill="#F6F5F4" transform="translate(12 12)"/>
+<g transform="translate(20 20)">
+<rect width="88" height="77" fill="url(#gradient_1)" fill-rule="evenodd"/>
+<path d="M19.2249 0C8.58849 0.0187721 -0.018795 8.65709 3.05176e-05 19.2942C0.0122461 21.3898 0.366329 23.4693 1.04832 25.4507C1.04832 25.4507 37.4751 25.4507 37.4751 25.4507C38.1626 23.4474 38.5149 21.3443 38.5179 19.2263C38.4992 8.58924 29.8615 -0.0186234 19.225 0.000160217C19.225 0.000160217 19.2249 0 19.2249 0Z" fill="#FFFFFF" transform="translate(14.619 48.461)"/>
+<rect width="88" height="8.8" fill="#020B12" fill-rule="evenodd" transform="translate(0 68.2)"/>
+<path d="M0 0L10.56 0L10.56 22.88L8.35477 23.76L3.68786 22.88L1.76 22.88L0 0Z" fill="#020B12" transform="translate(40.48 45.32)"/>
+<path d="M0 0L0 23.76L3.52 22.88L3.52 0L0 0Z" fill="#051A2D" transform="translate(47.52 45.32)"/>
+<path d="M0 0L0 22.88L5.28 23.76L3.52 0L0 0Z" fill="#051A2D" transform="translate(40.48 45.32)"/>
+<path d="M3.52 1.76L14.08 22.88L5.28001 22.88L0 0L3.52 1.76Z" fill="#020B12" transform="translate(33.44 22.44)"/>
+<path d="M12.32 0.879999L2.64 0L0 4.4L12.32 0.879999Z" fill="#041524" transform="translate(66.88 30.36)"/>
+<path d="M0 0L14.08 12.32L10.56 14.08L0 0Z" fill="#041524" transform="translate(22.88 11.88)"/>
+<path d="M0 5.28L10.56 0L12.32 5.28L0 5.28Z" fill="#041524" transform="translate(10.56 27.72)"/>
+<path d="M0 0L24.64 17.6L19.36 24.64L0 3.52L0 0Z" fill="#062036" transform="translate(21.12 27.72)"/>
+<path d="M23.76 0L0 14.96L5.28 20.24L24.64 2.64L23.76 0Z" fill="#062036" transform="translate(45.76 30.36)"/>
+</g></svg>

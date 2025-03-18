@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<g id="sheet" transform="translate(8 20)">
+<path d="M84 88L8 88C3.581 88 0 84.419 0 80L0 8C0 3.581 3.581 0 8 0L104 0C108.419 0 112 3.581 112 8L112 60L84 60L84 88Z" fill="#505050"/>
+<path d="M0 0L28 0L0 28Z" fill="#808080" transform="translate(84 60)"/>
+</g><g id="symlink" fill="none" stroke="#F6F5F4" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" transform="translate(48 48)">
+<path d="M12 0L0 0L0 32L32 32L32 20"/>
+<path d="M0 16L16 0" transform="translate(16 0)"/>
+<path d="M0 0L12 0L12 12" transform="translate(20 0)"/>
+</g></svg>

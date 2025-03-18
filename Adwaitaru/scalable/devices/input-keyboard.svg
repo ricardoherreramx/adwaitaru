@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="gradient" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="112" y2="0">
+<stop offset="0" stop-color="#5E5C64"/>
+<stop offset="0.04" stop-color="#9A9996"/>
+<stop offset="0.08" stop-color="#5E5C64"/>
+<stop offset="0.92" stop-color="#77767B"/>
+<stop offset="0.96" stop-color="#DEDDDA"/>
+<stop offset="1" stop-color="#5E5C64"/>
+</linearGradient>
+<filter id="shadow">
+<feDropShadow dx="0" dy="1" flood-color="#241F31" stdDeviation="1"/>
+</filter>
+</defs>
+<rect id="volume" width="112" height="88" rx="8" fill="url(#gradient)" transform="translate(8 20)"/>
+<rect id="board" width="112" height="84" rx="8" fill="#9A9996" transform="translate(8 20)"/>
+<g id="lights" fill="#F9F06B" transform="translate(100 24)">
+<circle r="2" transform="translate(2 2)"/>
+<circle r="2" transform="translate(10 2)"/>
+</g><g id="fkeys" filter="url(#shadow)" fill="#3D3846" transform="translate(12 36)">
+<rect id="f1" width="12" height="5" rx="2.5"/>
+<rect id="f2" width="12" height="5" rx="2.5" transform="translate(14 0)"/>
+<rect id="f3" width="12" height="5" rx="2.5" transform="translate(28 0)"/>
+<rect id="f4" width="12" height="5" rx="2.5" transform="translate(42 0)"/>
+<rect id="f5" width="12" height="5" rx="2.5" transform="translate(56 0)"/>
+<rect id="f6" width="12" height="5" rx="2.5" transform="translate(78 0)"/>
+<rect id="f7" width="12" height="5" rx="2.5" transform="translate(92 0)"/>
+</g><g id="keys" filter="url(#shadow)" fill="#3D3846" transform="translate(12 46)">
+<rect width="12" height="11" rx="3"/>
+<rect width="12" height="11" rx="3" transform="translate(14 0)"/>
+<rect width="12" height="11" rx="3" transform="translate(28 0)"/>
+<rect width="12" height="11" rx="3" transform="translate(42 0)"/>
+<rect width="12" height="11" rx="3" transform="translate(56 0)"/>
+<rect width="12" height="11" rx="3" transform="translate(70 0)"/>
+<rect width="20" height="11" rx="3" transform="translate(84 0)" id="backspace"/>
+<rect width="20" height="11" rx="3" transform="translate(0 14)" id="bloqmayus"/>
+<rect width="12" height="11" rx="3" transform="translate(22 14)"/>
+<rect width="12" height="11" rx="3" transform="translate(36 14)"/>
+<rect width="12" height="11" rx="3" transform="translate(50 14)"/>
+<rect width="12" height="11" rx="3" transform="translate(64 14)"/>
+<rect width="12" height="11" rx="3" transform="translate(78 14)"/>
+<rect width="12" height="11" rx="3" transform="translate(0 28)"/>
+<rect width="12" height="11" rx="3" transform="translate(14 28)"/>
+<rect width="12" height="11" rx="3" transform="translate(28 28)"/>
+<rect width="12" height="11" rx="3" transform="translate(42 28)"/>
+<rect width="12" height="11" rx="3" transform="translate(56 28)"/>
+<rect width="12" height="11" rx="3" transform="translate(70 28)"/>
+<rect width="12" height="11" rx="3" transform="translate(84 28)"/>
+<rect width="20" height="11" rx="3" transform="translate(0 42)" id="control"/>
+<rect width="12" height="11" rx="3" transform="translate(22 42)"/>
+<rect width="12" height="11" rx="3" transform="translate(36 42)"/>
+<rect width="40" height="11" rx="3" transform="translate(50 42)" id="space"/>
+<rect width="12" height="11" rx="3" transform="translate(92 42)"/>
+<path d="M9 0C12 0 12 3 12 3L12 22C12 22 12 25 9 25C6 25 6 22 6 22L6 14C6 14 6 11 3 11C0 11 0 8 0 8L0 3C0 3 0 0 3 0L9 0Z" transform="translate(92 14)" id="enter"/>
+</g></svg>

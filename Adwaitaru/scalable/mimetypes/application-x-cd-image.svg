@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="gradient" gradientUnits="userSpaceOnUse" x1="36" y1="104" x2="92" y2="48">
+<stop offset="0" stop-color="#AAAAAA"/>
+<stop offset="0.3" stop-color="#CCCCCC"/>
+<stop offset="0.5" stop-color="#FFFFFF"/>
+<stop offset="0.7" stop-color="#CCCCCC"/>
+<stop offset="1" stop-color="#AAAAAA"/>
+</linearGradient>
+</defs>
+<path id="paper" d="M108 36L108 112C108 116.4 104.4 120 100 120L28 120C23.6 120 20 116.4 20 112L20 16C20 11.6 23.6 8 28 8L80 8Z" fill="#505050"/>
+<path id="corner" d="M0 0L28 28L0 28Z" fill="#808080" transform="translate(80 8)"/>
+<g id="disc" fill="none">
+<circle r="18" cx="64" cy="76" stroke="#D8DAE5" stroke-width="24"/>
+<circle r="13" cx="64" cy="76" stroke="#5A5A5A" stroke-width="2"/>
+<circle r="21" cx="64" cy="76" stroke="url(#gradient)" stroke-width="14"/>
+</g></svg>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="16" height="16" viewBox="0 0 16 16" fill="gray" xmlns="http://www.w3.org/2000/svg">
+<path id="folder" d="M9 2L7 0L2 0C1 0 0 1 0 2L0 12C0 13 1 14 2 14L4 14L4 13L2 13C1.5 13 1 12.5 1 12L1 2C1 1.5 1.5 1 2 1L6.5 1L8.5 3L14 3C14.5 3 15 3.5 15 4L15 11L16 11L16 4C16 3 15 2 14 2L9 2Z" transform="translate(0 1)"/>
+<path id="magnify" d="M5 0C2.245 0 0 2.245 0 5C0 7.755 2.245 10 5 10C6.2 10 7.3 9.5757 8.1616 8.87L10.146 10.854L10.854 10.146L8.87 8.1616C9.5757 7.29914 10 6.2 10 5C10 2.245 7.755 0 5 0L5 0ZM1 5C1 2.791 2.791 1 5 1C7.21 1 9 2.791 9 5C9 7.21 7.21 9 5 9C2.791 9 1 7.21 1 5Z" transform="translate(4 5)"/>
+</svg>

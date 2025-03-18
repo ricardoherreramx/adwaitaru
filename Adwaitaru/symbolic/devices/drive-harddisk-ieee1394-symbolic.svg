@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="16" height="16" viewBox="0 0 16 16" fill="gray" xmlns="http://www.w3.org/2000/svg">
+<path id="ring" d="M0 3C0 1.34315 1.34315 0 3 0C4.65685 0 6 1.34315 6 3C6 4.65685 4.65685 6 3 6C1.34315 6 0 4.65685 0 3ZM1 3C1 1.89543 1.89543 1 3 1C4.10457 1 5 1.89543 5 3C5 4.10457 4.10457 5 3 5C1.89543 5 1 4.10457 1 3Z" fill-rule="evenodd" transform="translate(5 5)"/>
+<rect width="4" height="1" transform="translate(6 15)"/>
+<rect width="4" height="1" transform="translate(6 13)"/>
+<path d="M3.53554 0.707108L0.707108 3.53554L0 2.82843L2.82843 0L3.53554 0.707108L3.53554 0.707108Z" transform="translate(2.336 2.325)"/>
+<path d="M3.53554 0.707108L0.707108 3.53554L0 2.82843L2.82843 0L3.53554 0.707108L3.53554 0.707108Z" transform="translate(0.464 0.293)"/>
+<path d="M0 3L3 0L6 3L3 6L0 3Z" transform="translate(10 0)"/>
+</svg>

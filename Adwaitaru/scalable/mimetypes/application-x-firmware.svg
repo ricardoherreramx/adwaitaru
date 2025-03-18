@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path id="path_1" d="M0 0L86 0L86 14L0 14L0 0Z" />
+    <clipPath id="clip_path_2">
+      <use p4:href="#path_1" xmlns:p4="http://www.w3.org/1999/xlink" />
+    </clipPath>
+    <linearGradient id="gradient_3" gradientUnits="userSpaceOnUse" x1="6" y1="2.622" x2="6" y2="11.358">
+      <stop offset="0" stop-color="#F9F06B" />
+      <stop offset="0.512" stop-color="#FCF7AC" />
+      <stop offset="1" stop-color="#F9F06B" />
+    </linearGradient>
+    <path id="path_4" d="M0 0L6 0L6 3L0 3L0 0Z" />
+    <clipPath id="clip_path_5">
+      <use p4:href="#path_4" xmlns:p4="http://www.w3.org/1999/xlink" />
+    </clipPath>
+    <path id="path_6" d="M8 1.90735e-06C8 1.90735e-06 104.176 1.90735e-06 104.176 1.90735e-06C108.594 1.90735e-06 112.176 3.575 112.176 7.989C112.176 7.989 112.176 81.567 112.176 81.567C112.176 85.981 108.594 89.555 104.176 89.555C104.176 89.555 8 89.555 8 89.555C3.582 89.555 0 85.981 0 81.567C0 81.567 0 7.989 0 7.989C0 3.575 3.582 0 8 0C8 0 8 1.90735e-06 8 1.90735e-06Z" />
+    <clipPath id="clip_path_7">
+      <use p4:href="#path_6" xmlns:p4="http://www.w3.org/1999/xlink" />
+    </clipPath>
+    <linearGradient id="gradient_8" gradientUnits="userSpaceOnUse" x1="1.909" y1="0.504" x2="1.909" y2="5.504">
+      <stop offset="0" stop-color="#D5D1CC" />
+      <stop offset="0.183" stop-color="#F6F5F4" />
+      <stop offset="0.395" stop-color="#FFFFFF" />
+      <stop offset="0.784" stop-color="#D7D3CE" />
+      <stop offset="1" stop-color="#C8C2BB" />
+    </linearGradient>
+    <linearGradient id="gradient_9" gradientUnits="userSpaceOnUse" x1="5" y1="-1" x2="6.608" y2="5">
+      <stop offset="0" stop-color="#F9F06B" />
+      <stop offset="0.512" stop-color="#FCF7AC" />
+      <stop offset="1" stop-color="#F9F06B" />
+    </linearGradient>
+    <linearGradient id="gradient_10" gradientUnits="userSpaceOnUse" x1="5" y1="-0.335" x2="6.608" y2="1.665">
+      <stop offset="0" stop-color="#F9F06B" />
+      <stop offset="0.512" stop-color="#FCF7AC" />
+      <stop offset="1" stop-color="#F9F06B" />
+    </linearGradient>
+    <linearGradient id="gradient_11" gradientUnits="userSpaceOnUse" x1="0.2" y1="-1" x2="0.2" y2="4">
+      <stop offset="0" stop-color="#D5D1CC" />
+      <stop offset="0.183" stop-color="#F6F5F4" />
+      <stop offset="0.395" stop-color="#FFFFFF" />
+      <stop offset="0.784" stop-color="#D7D3CE" />
+      <stop offset="1" stop-color="#C8C2BB" />
+    </linearGradient>
+    <linearGradient id="gradient_12" gradientUnits="userSpaceOnUse" x1="0.2" y1="5" x2="0.2" y2="0">
+      <stop offset="0" stop-color="#D5D1CC" />
+      <stop offset="0.183" stop-color="#F6F5F4" />
+      <stop offset="0.395" stop-color="#FFFFFF" />
+      <stop offset="0.784" stop-color="#D7D3CE" />
+      <stop offset="1" stop-color="#C8C2BB" />
+    </linearGradient>
+    <linearGradient id="gradient_13" gradientUnits="userSpaceOnUse" x1="0.091" y1="0" x2="0.091" y2="5">
+      <stop offset="0" stop-color="#D5D1CC" />
+      <stop offset="0.183" stop-color="#F6F5F4" />
+      <stop offset="0.395" stop-color="#FFFFFF" />
+      <stop offset="0.784" stop-color="#D7D3CE" />
+      <stop offset="1" stop-color="#C8C2BB" />
+    </linearGradient>
+  </defs>
+    <path id="path598" d="M7.988 0C3.563 0 0 3.582 0 8.027C0 8.027 0 79.973 0 79.973C0 84.418 3.563 88 7.988 88C7.988 88 104.012 88 104.012 88C108.437 88 112 84.418 112 79.973C112 79.973 112 8.027 112 8.027C112 3.582 108.437 0 104.012 0C104.012 0 100 0 100 0C100 4.41828 96.4183 8 92 8C87.5817 8 84 4.41828 84 0C84 0 7.988 0 7.988 0Z" fill="#2EC27E" transform="translate(8 20)" />
+    <path id="path600" d="M0 29.1363L0 21.1366L10 11.1367L10 0" fill="none" stroke-width="2" stroke="#F9F06B" transform="translate(31 71.863)" />
+    <path id="path600" d="M0 34.9919L0 23.1249L6 17.1248L11 17.1248L16 12.1248L16 0" fill="none" stroke-width="2" stroke="#F9F06B" transform="translate(21 67.875)" />
+    <g id="Grupo de máscaras" transform="translate(18 94)">
+      <path id="path576" d="M0 0L86 0L86 14L0 14L0 0Z" />
+      <g clip-path="url(#clip_path_2)">
+        <g id="g606" transform="translate(0 0.769)">
+          <g id="Grupo de máscaras">
+            <path id="path602" d="M83 0C84.66 0 86 1.169 86 2.6215C86 2.6215 86 14.8514 86 14.8514C86 16.3039 84.66 17.4729 83 17.4729C81.34 17.4729 80 16.3039 80 14.8514C80 14.8514 80 2.6215 80 2.6215C80 1.169 81.34 0 83 0C83 0 83 0 83 0ZM73 0C74.66 0 76 1.169 76 2.6215C76 2.6215 76 14.8514 76 14.8514C76 16.3039 74.66 17.4729 73 17.4729C71.34 17.4729 70 16.3039 70 14.8514C70 14.8514 70 2.6215 70 2.6215C70 1.169 71.34 0 73 0C73 0 73 0 73 0ZM63 0C64.66 0 66 1.169 66 2.6215C66 2.6215 66 14.8514 66 14.8514C66 16.3039 64.66 17.4729 63 17.4729C61.34 17.4729 60 16.3039 60 14.8514C60 14.8514 60 2.6215 60 2.6215C60 1.169 61.34 0 63 0C63 0 63 0 63 0ZM53 0C54.66 0 56 1.169 56 2.6215C56 2.6215 56 14.8514 56 14.8514C56 16.3039 54.66 17.4729 53 17.4729C51.34 17.4729 50 16.3039 50 14.8514C50 14.8514 50 2.6215 50 2.6215C50 1.169 51.34 0 53 0C53 0 53 0 53 0ZM43 0C44.66 0 46 1.169 46 2.6215C46 2.6215 46 14.8514 46 14.8514C46 16.3039 44.66 17.4729 43 17.4729C41.34 17.4729 40 16.3039 40 14.8514C40 14.8514 40 2.6215 40 2.6215C40 1.169 41.34 0 43 0C43 0 43 0 43 0ZM33 0C34.66 0 36 1.169 36 2.6215C36 2.6215 36 14.8514 36 14.8514C36 16.3039 34.66 17.4729 33 17.4729C31.34 17.4729 30 16.3039 30 14.8514C30 14.8514 30 2.6215 30 2.6215C30 1.169 31.34 0 33 0C33 0 33 0 33 0ZM23 0C24.66 0 26 1.169 26 2.6215C26 2.6215 26 14.8514 26 14.8514C26 16.3039 24.66 17.4729 23 17.4729C21.34 17.4729 20 16.3039 20 14.8514C20 14.8514 20 2.6215 20 2.6215C20 1.169 21.34 0 23 0C23 0 23 0 23 0ZM13 0C14.66 0 16 1.169 16 2.6215C16 2.6215 16 14.8514 16 14.8514C16 16.3039 14.66 17.4729 13 17.4729C11.34 17.4729 10 16.3039 10 14.8514C10 14.8514 10 2.6215 10 2.6215C10 1.169 11.34 0 13 0C13 0 13 0 13 0ZM3 0C4.66 0 6 1.169 6 2.6215C6 2.6215 6 14.8514 6 14.8514C6 16.3039 4.66 17.4729 3 17.4729C1.34 17.4729 0 16.3039 0 14.8514C0 14.8514 0 2.6215 0 2.6215C0 1.169 1.34 0 3 0C3 0 3 0 3 0Z" fill="url(#gradient_3)" />
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Grupo de máscaras" transform="translate(98 107)">
+      <path id="path582" d="M0 0L6 0L6 3L0 3L0 0Z" />
+      <g clip-path="url(#clip_path_5)">
+        <g id="g618" transform="translate(-89.504 -86.555)">
+          <g id="Grupo de máscaras">
+            <path id="path579" d="M8 1.90735e-06C8 1.90735e-06 104.176 1.90735e-06 104.176 1.90735e-06C108.594 1.90735e-06 112.176 3.575 112.176 7.989C112.176 7.989 112.176 81.567 112.176 81.567C112.176 85.981 108.594 89.555 104.176 89.555C104.176 89.555 8 89.555 8 89.555C3.582 89.555 0 85.981 0 81.567C0 81.567 0 7.989 0 7.989C0 3.575 3.582 0 8 0C8 0 8 1.90735e-06 8 1.90735e-06Z" />
+            <g clip-path="url(#clip_path_7)" />
+          </g>
+        </g>
+      </g>
+    </g>
+    <path id="path622" d="M0 26L0 17L4 13L4 0" fill="none" stroke-width="2" stroke="#F9F06B" transform="translate(41 72)" />
+    <path id="path622" d="M2 26L2 19L0 17L0 0" fill="none" stroke-width="2" stroke="#F9F06B" transform="translate(49 72)" />
+    <path id="path622" d="M8 26L8 21L0 13L0 0" fill="none" stroke-width="2" stroke="#F9F06B" transform="translate(53 72)" />
+    <path id="path624" d="M3 0C3 0 27 0 27 0C28.6569 0 30 1.34315 30 3C30 3 30 20 30 20C30 21.6569 28.6569 23 27 23C27 23 3 23 3 23C1.34315 23 0 21.6569 0 20C0 20 0 3 0 3C0 1.34315 1.34315 0 3 0C3 0 3 0 3 0Z" fill="#3D3846" transform="translate(32 49)" />
+    <path id="path626" d="M0 0L11 0L14 3L14 15" fill="none" stroke-width="2" stroke="#F9F06B" transform="translate(43 33)" />
+    <path id="path628" d="M0 8L0 0" fill="none" stroke-width="2" stroke="#F9F06B" transform="translate(37 40)" />
+    <path id="path628" d="M0 8L0 0" fill="none" stroke-width="2" stroke="#F9F06B" transform="translate(41 40)" />
+    <path id="path628" d="M13 9L13 2L11 0L0 0" fill="none" stroke-width="2" stroke="#F9F06B" transform="translate(32 39)" />
+    <path id="path628" d="M5 15L5 5L0 0" fill="none" stroke-width="2" stroke="#F9F06B" transform="translate(44 33)" />
+    <path id="path628" d="M4 15L4 4L0 0" fill="none" stroke-width="2" stroke="#F9F06B" transform="translate(49 33)" />
+    <path id="path630" d="M1 0C0.445 0 0 0.445 0 1C0 1 0 5.004 0 5.004L2 5.004C2 5.004 2 1 2 1C2 0.445 1.555 0 1 0C1 0 1 0 1 0Z" fill="url(#gradient_8)" transform="translate(56 42.996)" />
+    <path id="path630" d="M1 0C0.445 0 0 0.445 0 1C0 1 0 5.004 0 5.004L2 5.004C2 5.004 2 1 2 1C2 0.445 1.555 0 1 0C1 0 1 0 1 0Z" fill="url(#gradient_8)" transform="translate(52 42.996)" />
+    <path id="path630" d="M1 0C0.445 0 0 0.445 0 1C0 1 0 5.004 0 5.004L2 5.004C2 5.004 2 1 2 1C2 0.445 1.555 0 1 0C1 0 1 0 1 0Z" fill="url(#gradient_8)" transform="translate(48 42.996)" />
+    <path id="path630" d="M1 0C0.445 0 0 0.445 0 1C0 1 0 5.004 0 5.004L2 5.004C2 5.004 2 1 2 1C2 0.445 1.555 0 1 0C1 0 1 0 1 0Z" fill="url(#gradient_8)" transform="translate(44 42.996)" />
+    <path id="path630" d="M1 0C0.445 0 0 0.445 0 1C0 1 0 5.004 0 5.004L2 5.004C2 5.004 2 1 2 1C2 0.445 1.555 0 1 0C1 0 1 0 1 0Z" fill="url(#gradient_8)" transform="translate(40 42.996)" />
+    <path id="path630" d="M1 0C0.445 0 0 0.445 0 1C0 1 0 5.004 0 5.004L2 5.004C2 5.004 2 1 2 1C2 0.445 1.555 0 1 0C1 0 1 0 1 0Z" fill="url(#gradient_8)" transform="translate(36 42.996)" />
+    <path id="path632" d="M3 0C3 0 27 0 27 0C28.6569 0 30 1.34315 30 3C30 3 30 21 30 21C30 22.6569 28.6569 24 27 24C27 24 3 24 3 24C1.34315 24 0 22.6569 0 21C0 21 0 3 0 3C0 1.34315 1.34315 0 3 0C3 0 3 0 3 0Z" fill="#5E5C64" transform="translate(32 46)" />
+    <path id="path634" d="M0 0L0 7L14 21L14 25" fill="none" stroke-width="2" stroke="#F9F06B" transform="translate(57 72)" />
+    <path id="path636" d="M0 0L11 0L11 4L0 4L0 0Z" fill="#77767B" transform="translate(45 56)" />
+    <path id="path636" d="M0 0L8 0L8 4L0 4L0 0Z" fill="#77767B" transform="translate(36 56)" />
+    <path id="path636" d="M0 0L15 0L15 2L0 2L0 0Z" fill="#77767B" transform="translate(36 52)" />
+    <path id="path638" d="M4 2C4 3.10457 3.10457 4 2 4C0.895432 4 0 3.10457 0 2C0 0.895432 0.895432 0 2 0C3.10457 0 4 0.895432 4 2C4 2 4 2 4 2Z" fill="none" stroke-width="2" stroke="#F9F06B" transform="translate(93 63)" />
+    <path id="path638" d="M4 2C4 3.10457 3.10457 4 2 4C0.895432 4 0 3.10457 0 2C0 0.895432 0.895432 0 2 0C3.10457 0 4 0.895432 4 2C4 2 4 2 4 2Z" fill="none" stroke-width="2" stroke="#F9F06B" transform="translate(93 71)" />
+    <path id="path638" d="M4 2C4 3.10457 3.10457 4 2 4C0.895432 4 0 3.10457 0 2C0 0.895432 0.895432 0 2 0C3.10457 0 4 0.895432 4 2C4 2 4 2 4 2Z" fill="none" stroke-width="2" stroke="#F9F06B" transform="translate(81 71)" />
+    <path id="path638" d="M4 2C4 3.10457 3.10457 4 2 4C0.895432 4 0 3.10457 0 2C0 0.895432 0.895432 0 2 0C3.10457 0 4 0.895432 4 2C4 2 4 2 4 2Z" fill="none" stroke-width="2" stroke="#F9F06B" transform="translate(73 71)" />
+    <path id="path640" d="M4 2C4 3.10457 3.10457 4 2 4C0.89543 4 0 3.10457 0 2C0 0.895432 0.895432 0 2 0C3.10457 0 4 0.895432 4 2C4 2 4 2 4 2Z" fill="none" stroke-width="2" stroke="#F9F06B" transform="translate(28 37)" />
+    <path id="path640" d="M4 2C4 3.10457 3.10457 4 2 4C0.895432 4 0 3.10457 0 2C0 0.895432 0.895432 0 2 0C3.10457 0 4 0.895432 4 2C4 2 4 2 4 2Z" fill="none" stroke-width="2" stroke="#F9F06B" transform="translate(39 31)" />
+    <path id="path640" d="M0 0L0 2L2 4L10 4L12 2L12 0" fill="none" stroke-width="2" stroke="#F9F06B" transform="translate(83 75)" />
+    <path id="path640" d="M0 0L0 2L6 8L6 23" fill="none" stroke-width="2" stroke="#F9F06B" transform="translate(75 75)" />
+    <path id="path642" d="M0 0L8 0L8 6L0 6L0 0Z" fill="url(#gradient_9)" transform="translate(12 74)" />
+    <path id="path644" d="M0 0L8 0L8 2L0 2L0 0Z" fill="url(#gradient_10)" transform="translate(12 70)" />
+    <path id="path646" d="M0 0L8 0L8 2L0 2L0 0Z" fill="url(#gradient_10)" transform="translate(20 58)" />
+    <path id="path648" d="M0 0L8 0L8 6L0 6L0 0Z" fill="url(#gradient_9)" transform="translate(20 50)" />
+    <path id="path650" d="M0 0L8 0L8 2L0 2L0 0Z" fill="url(#gradient_10)" transform="translate(20 46)" />
+    <path id="path652" d="M2 0C3.10457 0 4 0.895432 4 2C4 3.10457 3.10457 4 2 4C0.894997 4 0 3.106 0 2C0 0.895 0.894997 0 2 0C2 0 2 0 2 0Z" fill="none" stroke-width="2" stroke="#F9F06B" transform="translate(85 36.996)" />
+    <path id="path652" d="M2 0C3.10457 0 4 0.895432 4 2C4 3.10457 3.10457 4 2 4C0.894997 4 0 3.106 0 2C0 0.895 0.894997 0 2 0C2 0 2 0 2 0Z" fill="none" stroke-width="2" stroke="#F9F06B" transform="translate(93 36.996)" />
+    <path id="path652" d="M2 0C3.10457 0 4 0.895432 4 2C4 3.10457 3.10457 4 2 4C0.894997 4 0 3.106 0 2C0 0.895 0.894997 0 2 0C2 0 2 0 2 0Z" fill="none" stroke-width="2" stroke="#F9F06B" transform="translate(93 48.996)" />
+    <path id="path654" d="M0 12L2 12L4 10L4 2L2 0L0 0" fill="none" stroke-width="2" stroke="#F9F06B" transform="translate(97 38.996)" />
+    <path id="path656" d="M2 0C2 0 12 0 12 0C13.105 0 14 0.895 14 2C14 2 14 9 14 9C14 10.105 13.105 11 12 11C12 11 2 11 2 11C0.894997 11 0 10.105 0 9C0 9 0 2 0 2C0 0.895 0.894997 0 2 0C2 0 2 0 2 0Z" fill="#3D3846" transform="translate(74 53)" />
+    <path id="path658" d="M0 0C0 0 0 3 0 3C0 3.555 0.445 4 1 4C1.555 4 2 3.555 2 3C2 3 2 0 2 0L0 0Z" fill="url(#gradient_11)" transform="translate(84 63)" />
+    <path id="path658" d="M0 0C0 0 0 3 0 3C0 3.555 0.445 4 1 4C1.555 4 2 3.555 2 3C2 3 2 0 2 0L0 0Z" fill="url(#gradient_11)" transform="translate(80 63)" />
+    <path id="path658" d="M0 0C0 0 0 3 0 3C0 3.555 0.445 4 1 4C1.555 4 2 3.555 2 3C2 3 2 0 2 0L0 0Z" fill="url(#gradient_11)" transform="translate(76 63)" />
+    <path id="path660" d="M0 4C0 4 0 1 0 1C0 0.445 0.445 0 1 0C1.555 0 2 0.445 2 1C2 1 2 4 2 4L0 4Z" fill="url(#gradient_12)" transform="translate(84 49)" />
+    <path id="path660" d="M0 4C0 4 0 1 0 1C0 0.445 0.445 0 1 0C1.555 0 2 0.445 2 1C2 1 2 4 2 4L0 4Z" fill="url(#gradient_12)" transform="translate(80 49)" />
+    <path id="path660" d="M0 4C0 4 0 1 0 1C0 0.445 0.445 0 1 0C1.555 0 2 0.445 2 1C2 1 2 4 2 4L0 4Z" fill="url(#gradient_12)" transform="translate(76 49)" />
+    <path id="path662" d="M2 0C2 0 12 0 12 0C13.105 0 14 0.895 14 2C14 2 14 10 14 10C14 11.105 13.105 12 12 12C12 12 2 12 2 12C0.894997 12 0 11.105 0 10C0 10 0 2 0 2C0 0.895 0.894997 0 2 0C2 0 2 0 2 0Z" fill="#5E5C64" transform="translate(74 50)" />
+    <path id="path664" d="M0 0L4 0L4 2L0 2L0 0Z" fill="#77767B" transform="translate(76 56)" />
+    <path id="path664" d="M0 0L8 0L8 2L0 2L0 0Z" fill="#77767B" transform="translate(76 52)" />
+    <path id="path666" d="M0 0L6 0L6 6L0 6L0 0Z" fill="#986A44" transform="translate(104 82)" />
+    <path id="path668" d="M0 0L6 0L6 4L0 4L0 0Z" fill="#B5835A" transform="translate(104 82)" />
+    <path id="path670" d="M0 0L2 0L2 4L0 4L0 0Z" fill="#F6F5F4" transform="translate(104 82)" />
+    <path id="path672" d="M0 2L2 2L2 0L0 0L0 2Z" fill="#C0BFBC" transform="translate(104 86)" />
+    <path id="path674" d="M0 0L2 0L2 4L0 4L0 0Z" fill="#F6F5F4" transform="translate(110 82)" />
+    <path id="path676" d="M0 2L2 2L2 0L0 0L0 2Z" fill="#C0BFBC" transform="translate(110 86)" />
+    <path id="path678" d="M0 0L6 0L6 6L0 6L0 0Z" fill="#986A44" transform="translate(104 76)" />
+    <path id="path680" d="M0 0L6 0L6 4L0 4L0 0Z" fill="#B5835A" transform="translate(104 76)" />
+    <path id="path682" d="M0 0L2 0L2 4L0 4L0 0Z" fill="#F6F5F4" transform="translate(104 76)" />
+    <path id="path684" d="M0 2L2 2L2 0L0 0L0 2Z" fill="#C0BFBC" transform="translate(104 80)" />
+    <path id="path686" d="M0 0L2 0L2 4L0 4L0 0Z" fill="#F6F5F4" transform="translate(110 76)" />
+    <path id="path688" d="M0 2L2 2L2 0L0 0L0 2Z" fill="#C0BFBC" transform="translate(110 80)" />
+    <path id="path690" d="M0 0L6 0L6 6L0 6L0 0Z" fill="#986A44" transform="translate(104 70)" />
+    <path id="path692" d="M0 0L6 0L6 4L0 4L0 0Z" fill="#B5835A" transform="translate(104 70)" />
+    <path id="path694" d="M0 0L2 0L2 4L0 4L0 0Z" fill="#F6F5F4" transform="translate(104 70)" />
+    <path id="path696" d="M0 2L2 2L2 0L0 0L0 2Z" fill="#C0BFBC" transform="translate(104 74)" />
+    <path id="path698" d="M0 0L2 0L2 4L0 4L0 0Z" fill="#F6F5F4" transform="translate(110 70)" />
+    <path id="path700" d="M0 2L2 2L2 0L0 0L0 2Z" fill="#C0BFBC" transform="translate(110 74)" />
+    <path id="path702" d="M0 8L0 0L4 0L4 8L0 8Z" fill="#986A44" transform="translate(68 24)" />
+    <path id="path704" d="M0 8L0 0L2 0L2 8L0 8Z" fill="#B5835A" transform="translate(68 24)" />
+    <path id="path706" d="M0 2L0 0L4 0L4 2L0 2Z" fill="#F6F5F4" transform="translate(68 24)" />
+    <path id="path706" d="M0 2L0 0L4 0L4 2L0 2Z" fill="#F6F5F4" transform="translate(68 30)" />
+    <path id="path708" d="M0 8L0 0L4 0L4 8L0 8Z" fill="#986A44" transform="translate(80 24)" />
+    <path id="path710" d="M0 8L0 0L2 0L2 8L0 8Z" fill="#B5835A" transform="translate(80 24)" />
+    <path id="path712" d="M0 2L0 0L4 0L4 2L0 2Z" fill="#F6F5F4" transform="translate(80 24)" />
+    <path id="path712" d="M0 2L0 0L4 0L4 2L0 2Z" fill="#F6F5F4" transform="translate(80 30)" />
+    <path id="path714" d="M0 8L0 0L4 0L4 8L0 8Z" fill="#986A44" transform="translate(74 24)" />
+    <path id="path716" d="M0 8L0 0L2 0L2 8L0 8Z" fill="#B5835A" transform="translate(74 24)" />
+    <path id="path718" d="M0 2L0 0L4 0L4 2L0 2Z" fill="#F6F5F4" transform="translate(74 24)" />
+    <path id="path718" d="M0 2L0 0L4 0L4 2L0 2Z" fill="#F6F5F4" transform="translate(74 30)" />
+    <path id="path720" d="M0 0C0 0 0 4 0 4C0 4.555 0.445 5 1 5C1.555 5 2 4.555 2 4C2 4 2 0 2 0L0 0Z" fill="url(#gradient_13)" transform="translate(56 71)" />
+    <path id="path720" d="M0 0C0 0 0 4 0 4C0 4.555 0.445 5 1 5C1.555 5 2 4.555 2 4C2 4 2 0 2 0L0 0Z" fill="url(#gradient_13)" transform="translate(52 71)" />
+    <path id="path720" d="M0 0C0 0 0 4 0 4C0 4.555 0.445 5 1 5C1.555 5 2 4.555 2 4C2 4 2 0 2 0L0 0Z" fill="url(#gradient_13)" transform="translate(48 71)" />
+    <path id="path720" d="M0 0C0 0 0 4 0 4C0 4.555 0.445 5 1 5C1.555 5 2 4.555 2 4C2 4 2 0 2 0L0 0Z" fill="url(#gradient_13)" transform="translate(44 71)" />
+    <path id="path720" d="M0 0C0 0 0 4 0 4C0 4.555 0.445 5 1 5C1.555 5 2 4.555 2 4C2 4 2 0 2 0L0 0Z" fill="url(#gradient_13)" transform="translate(40 71)" />
+    <path id="path720" d="M0 0C0 0 0 4 0 4C0 4.555 0.445 5 1 5C1.555 5 2 4.555 2 4C2 4 2 0 2 0L0 0Z" fill="url(#gradient_13)" transform="translate(36 71)" />
+</svg>
