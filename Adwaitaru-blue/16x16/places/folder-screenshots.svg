@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="16" height="16" viewBox="0 0 16 16" fill="#0073E5" xmlns="http://www.w3.org/2000/svg">
+<path d="M2 0L3 0L3 2L5 2L5 3L3 3L3 5L2 5L2 3L0 3L0 2L2 2L2 0L2 0Z" transform="translate(11 11)"/>
+<rect width="3" height="1" transform="translate(6 13)"/>
+<path d="M0 0L1 0L1 2L3 2L3 3L0 3L0 0Z" transform="translate(1 11)"/>
+<rect width="1" height="3" transform="translate(13 6)"/>
+<rect width="1" height="3" transform="translate(1 6)"/>
+<path d="M2 3L3 3L3 0L0 0L0 1L2 1L2 3L2 3Z" transform="translate(11 1)"/>
+<rect width="3" height="1" transform="translate(6 1)"/>
+<path d="M0 0L3 0L3 1L1 1L1 3L0 3L0 0Z" transform="translate(1 1)"/>
+</svg>

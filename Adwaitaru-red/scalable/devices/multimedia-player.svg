@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="gradient" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="72" y2="0">
+<stop offset="0" stop-color="white" stop-opacity="0.1"/>
+<stop offset="0.05" stop-color="white" stop-opacity="0.4"/>
+<stop offset="0.10" stop-color="white" stop-opacity="0"/>
+<stop offset="0.90" stop-color="black" stop-opacity="0"/>
+<stop offset="0.95" stop-color="black" stop-opacity="0.3"/>
+<stop offset="1" stop-color="black" stop-opacity="0.1"/>
+</linearGradient>
+</defs>
+<g transform="translate(28 8)">
+<rect width="72" height="112" rx="8" ry="8" fill="#DA3450"/>
+<rect width="72" height="112" rx="8" ry="8" fill="url(#gradient)"/>
+</g><g transform="translate(28 104)">
+<rect width="72" height="16" rx="8" ry="8" fill="#DA3450"/>
+<rect width="72" height="16" rx="8" ry="8" fill="#000000" opacity="0.3"/>
+</g>
+<rect width="68" height="12" rx="6" ry="6" fill="#CBCAC7" transform="translate(30 106)"/>
+<g id="connectors" fill="#241F31" transform="translate(45 110)">
+<g transform="translate(35 1)">
+<circle r="1.5" transform="translate(1.5 1.5)"/>
+<path d="M2.91406 0C2.70312 0.597656 2.13672 1 1.5 1C0.863281 1 0.296875 0.601562 0.0859375 0C0.03125 0.160156 0 0.332031 0 0.5C0 1.32812 0.671875 2 1.5 2C2.32812 2 3 1.32812 3 0.5C3 0.328125 2.97266 0.160156 2.91406 0C2.91406 0 2.91406 0 2.91406 0Z" fill="#9A9996" transform="translate(0 1)"/>
+</g><g transform="translate(31 1)">
+<circle r="1.5" transform="translate(1.5 1.5)"/>
+<path d="M2.91406 0C2.70312 0.597656 2.13672 1 1.5 1C0.863281 1 0.296875 0.601562 0.0859375 0C0.03125 0.160156 0 0.332031 0 0.5C0 1.32812 0.671875 2 1.5 2C2.32812 2 3 1.32812 3 0.5C3 0.328125 2.97266 0.160156 2.91406 0C2.91406 0 2.91406 0 2.91406 0Z" fill="#9A9996" transform="translate(0 1)"/>
+</g><g transform="translate(27 1)">
+<circle r="1.5" transform="translate(1.5 1.5)"/>
+<path d="M2.91406 0C2.70312 0.597656 2.13672 1 1.5 1C0.863281 1 0.296875 0.601562 0.0859375 0C0.03125 0.160156 0 0.332031 0 0.5C0 1.32812 0.671875 2 1.5 2C2.32812 2 3 1.32812 3 0.5C3 0.328125 2.97266 0.160156 2.91406 0C2.91406 0 2.91406 0 2.91406 0Z" fill="#9A9996" transform="translate(0 1)"/>
+</g><g transform="translate(14 0)">
+<rect width="10" height="5" rx="2.5" ry="2.5"/>
+<path d="M0.0507813 0C0.0195312 0.160156 0 0.328125 0 0.5C0 1.88672 1.11328 3 2.5 3C2.5 3 7.5 3 7.5 3C8.88672 3 10 1.88672 10 0.5C10 0.328125 9.98047 0.160156 9.94922 0C9.71875 1.14453 8.71484 2 7.5 2C7.5 2 2.5 2 2.5 2C1.28516 2 0.28125 1.14453 0.0507813 0C0.0507813 0 0.0507813 0 0.0507813 0Z" fill="#9A9996" transform="translate(0 2)"/>
+</g><g transform="translate(8 1)">
+<circle r="1.5" transform="translate(1.5 1.5)"/>
+<path d="M2.91406 0C2.70312 0.597656 2.13672 1 1.5 1C0.863281 1 0.296875 0.601562 0.0859375 0C0.03125 0.160156 0 0.332031 0 0.5C0 1.32812 0.671875 2 1.5 2C2.32812 2 3 1.32812 3 0.5C3 0.328125 2.97266 0.160156 2.91406 0C2.91406 0 2.91406 0 2.91406 0Z" fill="#9A9996" transform="translate(0 1)"/>
+</g><g transform="translate(4 1)">
+<circle r="1.5" transform="translate(1.5 1.5)"/>
+<path d="M2.91406 0C2.70312 0.597656 2.13672 1 1.5 1C0.863281 1 0.296875 0.601562 0.0859375 0C0.03125 0.160156 0 0.332031 0 0.5C0 1.32812 0.671875 2 1.5 2C2.32812 2 3 1.32812 3 0.5C3 0.328125 2.97266 0.160156 2.91406 0C2.91406 0 2.91406 0 2.91406 0Z" fill="#9A9996" transform="translate(0 1)"/>
+</g><g transform="translate(0 1)">
+<circle r="1.5" transform="translate(1.5 1.5)"/>
+<path d="M2.91406 0C2.70312 0.597656 2.13672 1 1.5 1C0.863281 1 0.296875 0.601562 0.0859375 0C0.03125 0.160156 0 0.332031 0 0.5C0 1.32812 0.671875 2 1.5 2C2.32812 2 3 1.32812 3 0.5C3 0.328125 2.97266 0.160156 2.91406 0C2.91406 0 2.91406 0 2.91406 0Z" fill="#9A9996" transform="translate(0 1)"/>
+</g></g>
+<g id="controls" transform="translate(42 56)">
+<g id="donut" transform="translate(22 22)">
+<circle r="22" fill="#F6F5F4"/>
+<circle r="9" fill="#DA3450"/>
+</g><g id="buttons" fill="#241F31" transform="translate(3 4)">
+<path id="jump-next" d="M3 4L6 2L6 4L7 4L7 0L6 0L6 2L3 0L3 2L0 0L0 4L3 2L3 4L3 4Z" transform="translate(31 16)"/>
+<path id="jump-prev" d="M1 2L4 4L4 2L7 4L7 0L4 2L4 0L1 2L1 2ZM1 4L1 0L0 0L0 4L1 4L1 4Z" transform="translate(0 16)"/>
+<rect id="vol-" width="5" height="1" transform="translate(17 33)"/>
+<path id="vol+" d="M2 0L3 0L3 2L5 2L5 3L3 3L3 5L2 5L2 3L0 3L0 2L2 2L2 0L2 0Z" transform="translate(17 0)"/>
+</g>
+<path id="play-pause" d="M0 4L3 2L3 4L4 4L4 0L3 0L3 2L0 0L0 4L0 4ZM5 4L6 4L6 0L5 0L5 4L5 4Z" fill="#F6F5F4" transform="translate(19 20)"/>
+</g><g id="screen" transform="translate(36 12)">
+<rect id="border" width="56" height="40" rx="4" ry="4" fill="#241F31"/>
+<rect id="display" width="48" height="32" fill="#3D3846" transform="translate(4 4)"/>
+</g></svg>

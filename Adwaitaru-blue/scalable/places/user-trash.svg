@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="gradient_1" gradientUnits="userSpaceOnUse" x1="-0" y1="41" x2="92" y2="41">
+<stop offset="0" stop-color="#CCCCCC"/>
+<stop offset="0.04" stop-color="#EEEEEE"/>
+<stop offset="0.09" stop-color="#CCCCCC"/>
+<stop offset="0.93" stop-color="#CCCCCC"/>
+<stop offset="1" stop-color="#AAAAAA"/>
+</linearGradient>
+<linearGradient id="gradient_2" gradientUnits="userSpaceOnUse" x1="-0" y1="20" x2="96" y2="20">
+<stop offset="0" stop-color="#AAAAAA"/>
+<stop offset="0.06" stop-color="#CCCCCC"/>
+<stop offset="0.12" stop-color="#AAAAAA"/>
+<stop offset="0.88" stop-color="#AAAAAA"/>
+<stop offset="0.94" stop-color="#CCCCCC"/>
+<stop offset="1" stop-color="#AAAAAA"/>
+</linearGradient>
+<linearGradient id="gradient_3" gradientUnits="userSpaceOnUse" x1="0" y1="12" x2="6" y2="12">
+<stop offset="0" stop-color="#F3F3F3" stop-opacity="0"/>
+<stop offset="1" stop-color="#FFFFFF" stop-opacity="0.5"/>
+</linearGradient>
+<linearGradient id="gradient_4" gradientUnits="userSpaceOnUse" x1="0" y1="12" x2="6" y2="12">
+<stop offset="0" stop-color="#000000" stop-opacity="0.5"/>
+<stop offset="1" stop-color="#3B3B3B" stop-opacity="0"/>
+</linearGradient>
+</defs>
+<rect id="bin" width="92" height="82" rx="8" ry="8" fill="#808080" transform="translate(18 34)"/>
+<rect id="bin" width="92" height="84" rx="8" ry="8" fill="url(#gradient_1)" transform="translate(18 30)"/>
+<rect id="extrude" width="96" height="40" rx="8" ry="8" fill="url(#gradient_2)" transform="translate(16 8)"/>
+<rect id="mouth" width="96" height="32" rx="8" ry="8" fill="#F6F5F4" transform="translate(16 8)"/>
+<rect id="hole" width="88" height="24" rx="4" ry="4" fill="#848484" transform="translate(20 12)"/>
+<path id="inner-shadow-white" d="M2 0C4.20944 0 6 1.79056 6 4L6 20C6 22.2094 4.20944 24 2 24L0 24L0 0L2 0Z" fill="url(#gradient_3)" transform="translate(102 12)"/>
+<path id="inner-shadow-black" d="M6 0L6 0L6 24L4 24C1.79056 24 0 22.2094 0 20L0 4C0 1.79056 1.79056 0 4 0L6 0Z" fill="url(#gradient_4)" transform="translate(20 12)"/>
+<path id="recycle" d="M24 0L19.6074 0L26.5332 12L27.8027 14.1953L24.338 16.1953L37 18.125L41.6582 6.19531L38.1934 8.19531L35.1934 3C34.123 1.14453 32.1426 0 30 0L24 0L24 0ZM17.318 0.0385742L22.843 9.60864L21.463 12L20.1934 14.1953L9.80273 8.19531L12.8027 3C13.7588 1.34253 15.4412 0.25238 17.318 0.0385742L17.318 0.0385742ZM13 13.4844L0.338 15.4102L3.80273 17.4102L0.802734 22.6055C-0.267578 24.4648 -0.267578 26.75 0.802734 28.6055L3.79883 33.8047L6 37.6055L12.9238 25.6055L14.1934 23.41L17.6582 25.41L13 13.4844L13 13.4844ZM44.1934 17.41L33.8027 23.41L35.0684 25.61L36.45 28L47.5 28C48.2515 26.2667 48.15 24.2667 47.1934 22.6094L44.1934 17.4102L44.1934 17.41ZM22 36L30 26L30 30L46.3887 30L44.1934 33.8047L41.1934 39C40.123 40.8555 38.1426 42 36 42L30 42L30 46L22 36L22 36ZM7.17456 39.568C8.2965 41.0862 10.0818 42 12 42L18 42L18 30L12.7 30L7.17456 39.568L7.17456 39.568Z" fill="#0073E5" transform="translate(40 58)"/>
+</svg>
