@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="graydient" gradientUnits="userSpaceOnUse" x1="0" y1="20" x2="24" y2="20">
+<stop offset="0" stop-color="#DEDDDA"/>
+<stop offset="0.045" stop-color="#EEEEEC"/>
+<stop offset="0.090" stop-color="#DEDDDA"/>
+<stop offset="0.910" stop-color="#DEDDDA"/>
+<stop offset="0.955" stop-color="#EEEEEC"/>
+<stop offset="1" stop-color="#C0BFBC"/>
+</linearGradient>
+</defs>
+<rect id="extrude" width="88" height="112" x="20" y="8" rx="8" ry="8" fill="#999999"/>
+<rect id="contour" width="88" height="108" x="20" y="8" rx="8" ry="8" fill="#F6F5F4"/>
+<rect id="drawers" width="80" height="100" x="24" y="12" rx="4" ry="4" fill="#B34CB3"/>
+<g id="gaps" transform="translate(24 44)" fill="#000000" opacity="0.4">
+<path d="M0 2L0 0C0 1.10517 0.390526 2.0485 1.17157 2.83C1.95262 3.61143 2.89543 4 4 4L76 4C77.1046 4 78.0474 3.61143 78.8284 2.83C79.6095 2.0485 80 1.10517 80 0L80 2C80 3.10517 79.6095 4.0485 78.8284 4.83C78.0474 5.61143 77.1046 6 76 6L4 6C2.89543 6 1.95262 5.61143 1.17157 4.83C0.390526 4.0485 0 3.10517 0 2L0 2Z" transform="translate(0 62)"/>
+<rect width="80" height="2" transform="translate(0 32)"/>
+<rect width="80" height="2"/>
+</g><g id="handle3" transform="translate(52 88)">
+<path d="M3 0C3 0 21 0 21 0C22.662 0 24 1 24 3C24 3 24 8 24 8L20.0312 8L20 4L4 4L4.03125 8L0 8C0 8 0 3 0 3C0 1.338 1.338 0 3 0C3 0 3 0 3 0Z" fill="url(#graydient)"/>
+<path d="M0 2L0 1.5C0 1.0858 0.14645 0.732233 0.44 0.44C0.732233 0.14645 1.0858 0 1.5 0L22.5 0C22.9142 0 23.2678 0.14645 23.5607 0.44C23.8536 0.732233 24 1.0858 24 1.5L24 2.5C24 2.9142 23.8536 3.26777 23.5607 3.56066C23.2678 3.85355 22.9142 4 22.5 4L1.5 4C1.0858 4 0.732233 3.85355 0.44 3.56066C0.14645 3.26777 0 2.9142 0 2.5L0 2Z" fill="#000000" opacity="0.1" transform="translate(0 6)"/>
+<path d="M3 0C1.338 0 0 1.338 0 3C0 3 0 4 0 4L4 4L4 2L20 2L20 4L24 4C24 4 24 3 24 3C24 1.338 22.662 0 21 0C21 0 3 0 3 0Z" fill="#AAAAAA" transform="translate(0 4)"/>
+<rect width="16" height="2" fill="#000000" opacity="0.1" transform="translate(4 6)"/>
+</g><g id="handle2" transform="translate(52 56)">
+<path d="M3 0C3 0 21 0 21 0C22.662 0 24 1 24 3C24 3 24 8 24 8L20.0312 8L20 4L4 4L4.03125 8L0 8C0 8 0 3 0 3C0 1.338 1.338 0 3 0C3 0 3 0 3 0Z" fill="url(#graydient)" fill-rule="evenodd"/>
+<path d="M0 2L0 1.5C0 1.0858 0.14645 0.732233 0.44 0.44C0.732233 0.14645 1.0858 0 1.5 0L22.5 0C22.9142 0 23.2678 0.14645 23.5607 0.44C23.8536 0.732233 24 1.0858 24 1.5L24 2.5C24 2.9142 23.8536 3.26777 23.5607 3.56066C23.2678 3.85355 22.9142 4 22.5 4L1.5 4C1.0858 4 0.732233 3.85355 0.44 3.56066C0.14645 3.26777 0 2.9142 0 2.5L0 2Z" fill="#000000" opacity="0.1" transform="translate(0 6)"/>
+<path d="M3 0C1.338 0 0 1.338 0 3C0 3 0 4 0 4L4 4L4 2L20 2L20 4L24 4C24 4 24 3 24 3C24 1.338 22.662 0 21 0C21 0 3 0 3 0Z" fill="#AAAAAA" transform="translate(0 4)"/>
+<rect width="16" height="2" fill="#000000" opacity="0.1" transform="translate(4 6)"/>
+</g><g id="handle1" transform="translate(52 24)">
+<path d="M3 0C3 0 21 0 21 0C22.662 0 24 1 24 3C24 3 24 8 24 8L20.0312 8L20 4L4 4L4.03125 8L0 8C0 8 0 3 0 3C0 1.338 1.338 0 3 0C3 0 3 0 3 0Z" fill="url(#graydient)" fill-rule="evenodd"/>
+<path d="M0 2L0 1.5C0 1.0858 0.14645 0.732233 0.44 0.44C0.732233 0.14645 1.0858 0 1.5 0L22.5 0C22.9142 0 23.2678 0.14645 23.5607 0.44C23.8536 0.732233 24 1.0858 24 1.5L24 2.5C24 2.9142 23.8536 3.26777 23.5607 3.56066C23.2678 3.85355 22.9142 4 22.5 4L1.5 4C1.0858 4 0.732233 3.85355 0.44 3.56066C0.14645 3.26777 0 2.9142 0 2.5L0 2Z" fill="#000000" opacity="0.1" transform="translate(0 6)"/>
+<path d="M3 0C1.338 0 0 1.338 0 3C0 3 0 4 0 4L4 4L4 2L20 2L20 4L24 4C24 4 24 3 24 3C24 1.338 22.662 0 21 0C21 0 3 0 3 0Z" fill="#AAAAAA" transform="translate(0 4)"/>
+<rect width="16" height="2" fill="#000000" opacity="0.1" transform="translate(4 6)"/>
+</g></svg>
