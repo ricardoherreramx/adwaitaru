@@ -316,10 +316,10 @@ Built largely upon the graphic work of GNOME's [Adwaita designers](https://gitla
 <summary><h3>Places</h3></summary>
 
 ![icon](./Adwaitaru/scalable/apps/file-manager.svg "File Manager")
-![icon](./Adwaitaru/scalable/places/folder.svg "Folder")
 ![icon](./Adwaitaru/scalable/places/user-home.svg "Home")
 ![icon](./Adwaitaru/scalable/places/folder-apps.svg "Apps")
 ![icon](./Adwaitaru/scalable/places/folder-recent.svg "Backup")
+![icon](./Adwaitaru/scalable/places/user-bookmarks.svg "Bookmarks")
 ![icon](./Adwaitaru/scalable/places/folder-books.svg "Books")
 ![icon](./Adwaitaru/scalable/places/folder-camera.svg "Camera")
 ![icon](./Adwaitaru/scalable/places/folder-cloud.svg "Cloud")
@@ -336,13 +336,14 @@ Built largely upon the graphic work of GNOME's [Adwaita designers](https://gitla
 ![icon](./Adwaitaru/scalable/places/folder-pictures.svg "Pictures")
 ![icon](./Adwaitaru/scalable/places/folder-private.svg "Private")
 ![icon](./Adwaitaru/scalable/places/folder-publicshare.svg "Public Share")
-![icon](./Adwaitaru/scalable/places/folder-remote.svg "Remote Folder")
 ![icon](./Adwaitaru/scalable/places/folder-screenshots.svg "Screenshots")
 ![icon](./Adwaitaru/scalable/places/folder-sheetmusic.svg "Sheet Music")
 ![icon](./Adwaitaru/scalable/places/folder-snap.svg "Snaps")
 ![icon](./Adwaitaru/scalable/places/folder-templates.svg "Templates")
 ![icon](./Adwaitaru/scalable/places/folder-videos.svg "Videos")
 ![icon](./Adwaitaru/scalable/places/folder-web.svg "Web")
+![icon](./Adwaitaru/scalable/places/folder-remote.svg "Remote Folder")
+![icon](./Adwaitaru/scalable/places/folder.svg "Folder")
 </details>
 <details>
 <summary><h3>Devices</h3></summary>
@@ -376,7 +377,7 @@ Built largely upon the graphic work of GNOME's [Adwaita designers](https://gitla
 ![icon](./Adwaitaru/scalable/devices/media-optical.svg "Compact Disc (CD/DVD/VCR)")
 ![icon](./Adwaitaru/scalable/devices/media-removable.svg "Removable Drive")
 ![icon](./Adwaitaru/scalable/devices/media-flash.svg "SD Card")
-![icon](./Adwaitaru/scalable/devices/drive-removable-media-usb.svg "USB Drive")
+![icon](./Adwaitaru/scalable/devices/drive-harddisk-usb.svg "USB Drive")
 ![icon](./Adwaitaru/scalable/devices/media-floppy.svg "Diskette")
 ![icon](./Adwaitaru/scalable/devices/media-tape.svg "Cassette")
 ![icon](./Adwaitaru/scalable/devices/multimedia-player.svg "Music Player")
