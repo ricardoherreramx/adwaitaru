@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="gradient" gradientUnits="userSpaceOnUse" x1="0" y1="11.428" x2="104" y2="11.428">
+<stop offset="0" stop-color="#BABDB6"/>
+<stop offset="0.04" stop-color="#F6F5F4"/>
+<stop offset="0.08" stop-color="#DEDDDA"/>
+<stop offset="0.92" stop-color="#DEDDDA"/>
+<stop offset="0.96" stop-color="#F6F5F4"/>
+<stop offset="1" stop-color="#BABDB6"/>
+</linearGradient>
+</defs>
+<path id="extrusion" d="M104 0C104 0 104 22 104 22C104 26.418 100.418 30 96 30C96 30 8 30 8 30C3.582 30 0 26.418 0 22C0 22 0 0 0 0L104 0Z" fill="url(#gradient)" transform="translate(12 78)"/>
+<line id="mouth" x1="0" y1="0" x2="78" y2="0" fill="none" stroke-width="6" stroke="#FFFFFF" stroke-linecap="round" transform="translate(25 99)"/>
+<line id="hole" x1="0" y1="0" x2="80" y2="0" fill="none" stroke-width="4" stroke="#3D3846" stroke-linecap="round" transform="translate(24 98)"/>
+<circle id="disc" r="40" fill="#F6F5F4" stroke-width="2" stroke="#C0BFBC" transform="translate(64 84)"/>
+<rect width="80" height="2" fill="#3D3846" transform="translate(24 96)"/>
+<rect width="84" height="6" fill="#DEDDDA" transform="translate(22 90)"/>
+<path id="metal" d="M104 0C104 0 104 4 104 4C104 8.418 100.418 12 96 12C96 12 8 12 8 12C3.582 12 0 8.418 0 4C0 4 0 0 0 0L104 0Z" fill="#F6F5F4" transform="translate(12 78)"/>
+<path id="color" d="M8 0C3.5664 0 0 3.5664 0 8C0 8 0 74 0 74L104 74C104 74 104 8 104 8C104 3.5664 100.434 0 96 0C96 0 8 0 8 0Z" fill="#657B69" transform="translate(12 4)"/>
+<path id="lighter" d="M8 0C3.5664 0 0 3.5664 0 8C0 8 0 74 0 74L104 74C104 74 104 8 104 8C104 3.5664 100.434 0 96 0C96 0 8 0 8 0Z" fill="#FFFFFF" transform="translate(12 4)" opacity="0.4"/>
+</svg>

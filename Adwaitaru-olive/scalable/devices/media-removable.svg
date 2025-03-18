@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="gradient_1" gradientUnits="userSpaceOnUse" x1="0" y1="6.843" x2="60.002" y2="6.843">
+<stop offset="0" stop-color="black" stop-opacity="0.5"/>
+<stop offset="0.05" stop-color="white" stop-opacity="0.5"/>
+<stop offset="0.15" stop-color="black" stop-opacity="0.4"/>
+<stop offset="0.85" stop-color="black" stop-opacity="0.4"/>
+<stop offset="0.95" stop-color="black" stop-opacity="0.8"/>
+<stop offset="1" stop-color="black" stop-opacity="0.5"/>
+</linearGradient>
+<linearGradient id="gradient_2" gradientUnits="userSpaceOnUse" x1="0.002" y1="15.472" x2="40" y2="15.472">
+<stop offset="0" stop-color="#C0BFBC"/>
+<stop offset="0.028" stop-color="#DEDDDC"/>
+<stop offset="0.075" stop-color="#BDBDB9"/>
+<stop offset="0.655" stop-color="#C4C3C0"/>
+<stop offset="0.939" stop-color="#B8B7B3"/>
+<stop offset="1" stop-color="#9F9D99"/>
+</linearGradient>
+<linearGradient id="gradient_3" gradientUnits="userSpaceOnUse" x1="0.002" y1="4" x2="38.002" y2="4">
+<stop offset="0" stop-color="#6A6966"/>
+<stop offset="1" stop-color="#A09F9D"/>
+</linearGradient>
+<linearGradient id="gradient_4" gradientUnits="userSpaceOnUse" x1="0" y1="4.5" x2="58" y2="4.5">
+<stop offset="0" stop-color="#404040"/>
+<stop offset="0.05" stop-color="#898790"/>
+<stop offset="0.15" stop-color="#404040"/>
+<stop offset="0.90" stop-color="#404040"/>
+<stop offset="0.95" stop-color="#4A484E"/>
+<stop offset="1" stop-color="#404040"/>
+</linearGradient>
+</defs>
+<g id="usb" transform="translate(24 0)">
+<path id="stick" d="M30 0C46.5708 0 60 13.4292 60 30L60 90C60 94.4189 56.4189 98 52 98L8 98C3.58112 98 0 94.4189 0 90L0 30C0 13.4292 13.4292 0 30 0Z" fill="#4B8501" transform="translate(34 8)"/>
+<path id="extrusion" d="M0 16L0 0C0 4.4189 3.5811 8 8 8L52 8C56.4189 8 60 4.4189 60 0L60 16C60 20.4189 56.4189 24 52 24L8 24C3.5811 24 0 20.4189 0 16L0 16Z" fill="url(#gradient_1)" fill-rule="evenodd" transform="translate(34 82)"/>
+<rect id="mouth" width="40" height="26" rx="5" ry="5" fill="url(#gradient_2)" transform="translate(44 94)"/>
+<rect id="metal" width="40" height="10" rx="5" ry="5" fill="#F6F5F4" transform="translate(44 110)"/>
+<rect id="hole" width="38" height="8" rx="4" ry="4" fill="url(#gradient_3)" transform="translate(45 111)"/>
+</g><g id="sdcard" transform="translate(11.961 2.063)">
+<path id="carve" d="M1.58594 0C1.58594 0 2.41406 0 2.41406 0C3.28906 0 4 0.710938 4 1.58594C4 1.58594 4 3.41406 4 3.41406C4 4.28906 3.28906 5 2.41406 5C2.41406 5 1.58594 5 1.58594 5C0.710938 5 0 4.28906 0 3.41406C0 3.41406 0 1.58594 0 1.58594C0 0.710938 0.710938 0 1.58594 0C1.58594 0 1.58594 0 1.58594 0Z" fill="#5E5C64" transform="translate(54.039 13.938)"/>
+<path id="card" d="M15 0C14.2656 0 13.5234 0.472656 13 1C13 1 1 15 1 15C0.5 15.4492 0 16.207 0 16.9883C0 16.9883 0 22.9375 0 22.9375C0 22.9375 1.72656 22.9375 1.72656 22.9375C1.87891 22.9375 2 23.0586 2 23.207C2 23.207 2 26.668 2 26.668C2 26.8164 1.87891 26.9375 1.72656 26.9375C1.72656 26.9375 0 26.9375 0 26.9375C0 26.9375 0 69.082 0 69.082C0 71.7734 2.16406 73.9375 4.85156 73.9375C4.85156 73.9375 53.1445 73.9375 53.1445 73.9375C55.832 73.9375 58 71.7734 58 69.082C58 69.082 58 18 58 18C58 18 57.9648 18 57.9648 18C56.875 18 56 17.1211 56 16.0312C56 16.0312 56 11.9648 56 11.9648C56 10.875 56.875 10 57.9648 10C57.9648 10 58 10 58 10C58 10 58 4.85156 58 4.85156C58 2.16406 55.832 0 53.1445 0C53.1445 0 15 0 15 0Z" fill="#808080" />
+<path id="whitetag" d="M2.59375 0C2.59375 0 40.8828 0 40.8828 0C42.3164 0 43.4766 1.16016 43.4766 2.58984C43.4766 2.58984 43.4766 39.4102 43.4766 39.4102C43.4766 40.8398 42.3164 42 40.8828 42C40.8828 42 2.59375 42 2.59375 42C1.16016 42 0 40.8398 0 39.4102C0 39.4102 0 2.58984 0 2.58984C0 1.16016 1.16016 0 2.59375 0C2.59375 0 2.59375 0 2.59375 0Z" fill="#F6F5F4" transform="translate(8.523 14.938)"/>
+<path id="redtag" d="M0 0C0 0 11.3672 0 11.3672 0C12.8047 0 13.9609 1.15234 13.9609 2.58985C13.9609 2.58985 13.9609 39.4102 13.9609 39.4102C13.9609 40.8438 12.8047 42 11.3672 42C11.3672 42 0 42 0 42L0 0Z" fill="#E50073" transform="translate(38.039 14.938)"/>
+<path id="extrude" d="M29.957 0C19.5117 0 9.22656 1.04297 0 3.03516C0 3.03516 0 5.14453 0 5.14453C0 7.83594 2.16406 10 4.85156 10C4.85156 10 53.1445 10 53.1445 10C55.832 10 58 7.83594 58 5.14453C58 5.14453 58 2.62109 58 2.62109C49.2734 0.894531 39.6992 0 30 0C30 0 29.957 0 29.957 0Z" fill="url(#gradient_4)" transform="translate(0 63.938)"/>
+<path id="border" d="M9.53674e-07 2.98661C9.53674e-07 2.98661 9.53674e-07 4.09598 9.53674e-07 4.09598C9.53674e-07 6.78739 2.16406 8.95145 4.85156 8.95145C4.85156 8.95145 53.1445 8.95145 53.1445 8.95145C55.832 8.95145 58 6.78739 58 4.09598C58 4.09598 58 2.57254 58 2.57254C38.5938 -0.841518 18.9531 -1.00949 0 2.98661C0 2.98661 9.53674e-07 2.98661 9.53674e-07 2.98661Z" fill="#606060" transform="translate(0 62.986)"/>
+</g></svg>
