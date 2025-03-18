@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="gradient" gradientUnits="userSpaceOnUse" x1="101.39" y1="85.662" x2="-9.567" y2="-0.607">
+<stop offset="0" stop-color="#FB7C38"/>
+<stop offset="1" stop-color="#9B33AE"/>
+</linearGradient>
+</defs>
+<g id="themed" transform="translate(20 8)">
+<rect id="card" width="88" height="112" rx="8" fill="#505050"/>
+<path id="paper" d="M88 28L88 104C88 108.4 84.4 112 80 112L8 112C3.6 112 0 108.4 0 104L0 8C0 3.6 3.6 0 8 0L60 0Z" fill="url(#gradient)"/>
+<path id="shadow-down" d="M0 2L0 0C0 4.419 3.581 8 8 8L80 8C84.419 8 88 4.419 88 0L88 2C88 6.419 84.419 10 80 10L8 10C3.581 10 0 6.419 0 2L0 2Z" fill="#000000" opacity="0.4" transform="translate(0 102)"/>
+<rect id="shadow-corner" width="28" height="2" fill="#000000" opacity="0.3" transform="translate(60 28)" />
+<path id="corner" d="M0 0L28 28L0 28Z" fill="#E6E6E6" transform="translate(60 0)"/>
+</g><g fill="#F6F5F4" transform="translate(36 48)">
+<rect width="56" height="2"/>
+<rect width="56" height="2" transform="translate(0 8)"/>
+<rect width="56" height="2" transform="translate(0 16)"/>
+<rect width="56" height="2" transform="translate(0 24)"/>
+<rect width="56" height="2" transform="translate(0 32)"/>
+<rect width="56" height="2" transform="translate(0 40)"/>
+<rect width="56" height="2" transform="translate(0 48)"/>
+<rect width="28" height="2" transform="translate(0 56)"/>
+</g></svg>

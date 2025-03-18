@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="gradient_1" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="60" y2="0">
+<stop offset="0" stop-color="#FF6918"/>
+<stop offset="0.05" stop-color="#FFA06D"/>
+<stop offset="0.15" stop-color="#C64600"/>
+<stop offset="0.85" stop-color="#C64600"/>
+<stop offset="0.95" stop-color="#8F3200"/>
+<stop offset="1" stop-color="#C64600"/>
+</linearGradient>
+<linearGradient id="gradient_2" gradientUnits="userSpaceOnUse" x1="44" y1="0" x2="84" y2="0">
+<stop offset="0" stop-color="#C0BFBC"/>
+<stop offset="0.03" stop-color="#DEDDDC"/>
+<stop offset="0.08" stop-color="#BDBDB9"/>
+<stop offset="0.65" stop-color="#C4C3C0"/>
+<stop offset="0.94" stop-color="#B8B7B3"/>
+<stop offset="1" stop-color="#9F9D99"/>
+</linearGradient>
+<linearGradient id="gradient_3" gradientUnits="userSpaceOnUse" x1="45" y1="0" x2="83" y2="0">
+<stop offset="0" stop-color="#6A6966"/>
+<stop offset="1" stop-color="#A09F9D"/>
+</linearGradient>
+</defs>
+<path id="stick" d="M30 0C46.5708 0 60 13.43 60 30L60 90C60 94.42 56.42 98 52 98L8 98C3.58 98 0 94.42 0 90L0 30C0 13.43 13.43 0 30 0Z" fill="#FF7800" transform="translate(34 8)"/>
+<path id="extrusion" d="M0 16L0 0C0 4.42 3.58 8 8 8L52 8C56.42 8 60 4.42 60 0L60 16C60 20.42 56.42 24 52 24L8 24C3.58 24 0 20.42 0 16L0 16Z" fill="url(#gradient_1)" transform="translate(34 82)"/>
+<rect id="mouth" width="40" height="26" rx="5" fill="url(#gradient_2)" x="44" y="94"/>
+<rect id="metal" width="40" height="10" rx="5" fill="#F6F5F4" x="44" y="110"/>
+<rect id="hole" width="38" height="8" rx="4" fill="url(#gradient_3)" x="45" y="111"/>
+</svg>

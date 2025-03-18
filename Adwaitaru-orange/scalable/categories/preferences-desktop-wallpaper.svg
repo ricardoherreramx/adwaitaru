@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradient_1" gradientUnits="userSpaceOnUse" x1="119.825" y1="71.895" x2="-11.306" y2="-0.51" gradientTransform="matrix(1, 0, 0, 1, 12, 18)">
+      <stop offset="0" stop-color="#FB7C38"/>
+      <stop offset="1" stop-color="#9B33AE"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <path id="back" d="M 106 18 C 111.524 18 116 22.476 116 28 L 116.001 102 C 116.001 107.524 111.524 112 106.001 112 L 22 112 C 16.477 112 12 107.524 12 102 L 12 28 C 12 22.476 16.476 18 22 18 L 106 18 Z" fill="#505050" fill-rule="evenodd"/>
+    <path id="gradient" d="M 87.999 18 L 88 46 L 116 46 L 115.999 102 C 115.999 107.524 111.523 112 106 112 L 22 112 C 16.476 112 12 107.524 12 102 L 12 28 C 12 22.476 16.476 18 22 18 L 87.999 18 Z" fill="url(#gradient_1)" fill-rule="evenodd"/>
+    <path id="border" d="M 32 18 L 32 112 L 22 112 C 16.477 112 12 107.524 12 102 L 12 28 C 12 22.476 16.476 18 22 18 L 32 18 Z" fill="#000000" fill-rule="evenodd" fill-opacity="0.298"/>
+    <path id="shadow" d="M 12 102 L 12 100.003 C 12.002 105.525 16.477 110 22 110 L 106 110 C 111.523 110 115.999 105.524 116 100 L 115.999 102 C 115.999 107.523 111.523 112 106 112 L 22 112 C 16.476 112 12 107.523 12 102 Z" fill="#000000" fill-rule="evenodd" fill-opacity="0.298"/>
+    <rect id="shadow-corner" width="28" height="2" fill="#000000" fill-rule="evenodd" fill-opacity="0.298" x="88" y="46"/>
+    <path id="corner" d="M 88 18 L 116 46 L 88 46 L 88 18 Z" fill="#E6E6E6" fill-rule="evenodd"/>
+  </g>
+</svg>
