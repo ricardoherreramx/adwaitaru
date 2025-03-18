@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+<rect width="16" height="14" fill="#DEDDDA"/>
+<g id="disc" fill="none" stroke="#808080">
+<circle r="6" cx="8" cy="8" stroke-width="4"/>
+<circle r="2.5" cx="8" cy="8" stroke-width="1"/>
+</g>
+<rect width="16" height="12" fill="#DEDDDA"/>
+<rect width="14" height="1" fill="#241F31" x="1" y="11"/>
+<rect width="16" height="9" fill="#787859"/>
+</svg>
