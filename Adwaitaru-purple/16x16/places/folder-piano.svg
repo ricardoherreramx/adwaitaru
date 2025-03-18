@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="16" height="16" viewBox="0 0 16 16" fill="#7764D8" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 2C4 0.89528 3.10472 0 2 0L1 0L1 8L0 8L0 14L2 14C3.10472 14 4 13.1047 4 12L4 2Z" transform="translate(11 1)" />
+<path d="M3 8L3 0L1 0L1 8L0 8L0 14L4 14L4 8L3 8Z" transform="translate(6 1)" />
+<path d="M4 14L4 8L3 8L3 0L2 0C0.89528 0 0 0.89528 0 2L0 12C0 13.1047 0.89528 14 2 14L4 14Z" transform="translate(1 1)" />
+</svg>
