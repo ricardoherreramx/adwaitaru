@@ -1,11 +1,10 @@
-<style>
-details img {width:64px;height:auto}
-</style>
 # Adwaitaru Icon Theme
 An expanded icon pack for the GNOME Desktop (mainly), based on the [Adwaita Icon Theme](https://gitlab.gnome.org/GNOME/adwaita-icon-theme) and inspired by Ubuntu's [Yaru](https://github.com/ubuntu/yaru) theme suite, customized to meet a mixture of both themes' design guidelines (hence the name _Adwaitaru_ = _Adwaita_ + _Yaru_).
 Built largely upon the graphic work of GNOME's [Adwaita designers](https://gitlab.gnome.org/GNOME/adwaita-icon-theme/-/blob/master/AUTHORS), Canonical's [Yaru design team](https://github.com/ubuntu/yaru/blob/master/icons/AUTHORS), [GNOME Circle](https://apps.gnome.org/#circle) apps' developers, and some assets taken from the [MoreWaita](https://github.com/somepaulo/MoreWaita) icon theme by [Paulo Fino](https://github.com/somepaulo).
+
 ![Adwaitaru Icons](./assets/logo.png)
-**Adwaitaru** tries to take the best of both worlds, having a clear preference for *Adwaita* with *Yaru*'s finesse and attention to detail. Though it could be said this is a mixture of *Adwaita*'s scalable icons with *Yaru*'s symbolic icons, the icon pack tries to deepen into what works best from both themes, fine-tune symbols to match styles, and improve visual accessibility in general through tuning small details and enhancing color contrast ratios. **Adwaitaru** widens the icon range for apps and file mime-types, attempts to satisfy both light and dark themes indistinctly, and provides custom color folder themes (according to *Ubuntu*'s accent colors).
+
+**Adwaitaru** shows a clear preference for *Adwaita*, but with *Yaru*'s finesse and attention to detail. Though it could be said this is a mixture of *Adwaita*'s scalable icons with *Yaru*'s symbolic icons, the icon pack tries to deepen into what works best from both themes, fine-tunes symbols to match styles, and improves visual accessibility in general through tuning small details and enhancing color contrast ratios. **Adwaitaru** widens the icon range for apps and file mime-types, attempts to satisfy both light and dark themes indistinctly, and provides custom color folder themes (according to *Ubuntu*'s accent colors).
 
 ## Icon Set
 
