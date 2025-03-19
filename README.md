@@ -423,3 +423,9 @@ Built largely upon the graphic work of GNOME's [Adwaita designers](https://gitla
 ![icon](./Adwaitaru/scalable/devices/printer-network.svg "Remote Printer")
 ![icon](./Adwaitaru/scalable/devices/scanner.svg "Scanner")
 </details>
+
+![Adwaitaru](./assets/adwaitaru_banner.png)
+![Adwaitaru](./assets/adwaitaru_places.png)
+![Adwaitaru](./assets/adwaitaru_colors.png)
+![Adwaitaru](./assets/adwaitaru_cursors.png)
+![Adwaitaru](./assets/adwaitaru_symbols.png)
