@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+<rect width="16" height="10" fill="#613583" y="5"/>
+<rect width="16" height="4" fill="#FFFFFF" y="1"/>
+<g fill="#000000">
+<path d="M0 0L1 2L0 4L3 4L4 2L3 0Z" transform="translate(-1 1)"/>
+<path d="M0 0L1 2L0 4L3 4L4 2L3 0Z" transform="translate(4 1)"/>
+<path d="M0 0L1 2L0 4L3 4L4 2L3 0Z" transform="translate(9 1)"/>
+<path d="M0 0L1 2L0 4L3 4L4 2L3 0Z" transform="translate(14 1)"/>
+</g></svg>

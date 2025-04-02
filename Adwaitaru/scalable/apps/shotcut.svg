@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<clipPath id="videocut">
+<rect width="112" height="40"/>
+</clipPath>
+</defs>
+<rect width="112" height="88" rx="8" x="8" y="28" fill="#121212"/>
+<g id="frames" fill="#115C77" clip-path="url(#videocut)" transform="translate(8 52)">
+<rect width="41" height="40" rx="4" x="-8"/>
+<rect width="77" height="40" rx="4" x="43"/>
+</g><g id="pokes" stroke="#E6E6E6" stroke-width="8" stroke-dasharray="8 10">
+<line x1="15" y1="104" x2="113" y2="104"/>
+<line x1="15" y1="40" x2="113" y2="40"/>
+</g></svg>

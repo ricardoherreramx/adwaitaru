@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<clipPath id="roundcorn">
+<rect width="112" height="88" rx="8"/>
+</clipPath>
+</defs>
+<rect width="112" height="88" rx="8" x="8" y="20" fill="#422863"/>
+<rect width="112" height="84" rx="8" x="8" y="20" fill="#613583"/>
+<path d="M0 0L0 22C0 22 2.22178 22 2.22178 22C2.60852 22 2.98737 21.9023 3.32676 21.7109C3.32676 21.7109 18.8792 12.9141 18.8792 12.9141C19.5738 12.5195 20 11.7891 20 11C20 10.2109 19.5738 9.48047 18.8792 9.08984C18.8792 9.08984 3.32676 0.289062 3.32676 0.289062C3.00316 0.105469 2.63615 0.0078125 2.26519 0C2.25335 0 2.23757 0 2.22178 0C2.22178 0 0 0 0 0Z" fill="#E6E6E6" transform="translate(55 60)"/>
+<g fill="#000000" clip-path="url(#roundcorn)" transform="translate(8 20)">
+<rect width="112" height="16" fill="#FFFFFF"/>
+<path d="M0 16L5 8L0 0L13 0L18 8L13 16Z" transform="translate(3 0)"/>
+<path d="M0 16L5 8L0 0L13 0L18 8L13 16Z" transform="translate(28 0)"/>
+<path d="M0 16L5 8L0 0L13 0L18 8L13 16Z" transform="translate(53 0)"/>
+<path d="M0 16L5 8L0 0L13 0L18 8L13 16Z" transform="translate(78 0)"/>
+<path d="M0 16L5 8L0 0L13 0L18 8L13 16Z" transform="translate(103 0)"/>
+<rect width="121" height="8" fill="#FFFFFF" opacity="0.36"/>
+<rect width="112" height="2" fill="#77767B" y="16"/>
+<path d="M0 0L5.5 0L16 10.5L16 16L0 16Z" fill="#C0BFBC"/>
+<g fill="#F6F5F4">
+<circle r="1.25" cx="3.25" cy="5.25"/>
+<circle r="1.25" cx="3.25" cy="13.25"/>
+<circle r="1.25" cx="13.25" cy="13.25"/>
+</g></g></svg>
