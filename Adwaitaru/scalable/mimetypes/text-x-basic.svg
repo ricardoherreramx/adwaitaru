@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M88 28L88 104C88 108.4 84.4 112 80 112L8 112C3.6 112 0 108.4 0 104L0 8C0 3.6 3.6 0 8 0L60 0Z" fill="#C62828" transform="translate(20 8)"/>
+<path d="M0 0L28 28L0 28Z" fill="#FFFFFF" opacity="0.4" transform="translate(80 8)"/>
+<g id="BASIC" fill="#F6F5F4" transform="translate(28 64)">
+<path id="B" d="M12 0L0 0L0 20L14 20L14 8L12 8L12 0L12 0ZM10 2L2 2L2 8L10 8L10 2L10 2ZM4 10L12 10L12 18L4 18L4 10L4 10Z" fill-rule="evenodd"/>
+<path id="A" d="M12 0L2 0L2 8L0 8L0 20L4 20L4 10L12 10L12 20L14 20L14 8L12 8L12 0L12 0ZM10 2L4 2L4 8L10 8L10 2L10 2Z" fill-rule="evenodd" transform="translate(17 0)"/>
+<path id="S" d="M14 0L0 0L0 10L10 10L10 18L2 18L2 13L0 13L0 20L14 20L14 8L2 8L2 2L12 2L12 6L14 6L14 0L14 0Z" transform="translate(34 0)"/>
+<path id="I" d="M0 0L2 0L2 8L4 8L4 20L0 20L0 0Z" transform="translate(51 0)"/>
+<path id="C" d="M0 0L14 0L14 6L12 6L12 2L2 2L2 8L4 8L4 18L12 18L12 13L14 13L14 20L0 20L0 0L0 0Z" transform="translate(58 0)"/>
+</g></svg>

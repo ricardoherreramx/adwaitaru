@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<clipPath id="circle">
+<path d="M0 60C0 93 27 120 60 120C93 120 120 93 120 60C120 52 114 46 106 46C98 46 92 52 92 60C92 78 78 92 60 92C42 92 28 78 28 60C28 42 42 28 60 28C68 28 74 22 74 14C74 6 68 0 60 0C27 0 0 27 0 60Z" transform="translate(4 4)"/>
+</clipPath>
+<radialGradient id="golden" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="1" gradientTransform="matrix(-60 60 -60 -60 77 43)">
+<stop offset="0.65" stop-color="#DCBE3C" stop-opacity="0"/>
+<stop offset="1" stop-color="#DCBE3C"/>
+</radialGradient>
+</defs>
+<line x1="64" y1="64" x2="64" y2="80" stroke="#8F69FF" stroke-width="8" stroke-linecap="round"/>
+<circle r="10" cx="64" cy="64" fill="#8F69FF"/>
+<g clip-path="url(#circle)">
+<rect width="128" height="128" fill="#B6A4FF"/>
+<circle r="60" cx="48" cy="82" fill="#6D4AFF"/>
+<circle r="60" cx="64" cy="64" fill="url(#golden)"/>
+</g></svg>

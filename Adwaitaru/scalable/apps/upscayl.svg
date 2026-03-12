@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<clipPath id="squircle">
+<rect width="104" height="104" rx="8"/>
+</clipPath>
+<linearGradient id="bluish" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="104">
+<stop offset="0" stop-color="#87BDFF"/>
+<stop offset="1" stop-color="#4791CE"/>
+</linearGradient>
+</defs>
+<g clip-path="url(#squircle)" transform="translate(12 12)">
+<rect width="48" height="104" fill="#87BDFF"/>
+<rect width="52" height="104" fill="url(#bluish)" transform="translate(52 0)"/>
+<path d="M0 0L0 17.3333L17.3333 17.3333L17.3333 34.6667L0 34.6667L0 52L17.3333 52L17.3333 69.3333L0 69.3333L0 86.6667L17.3333 86.6667L17.3333 104L34.6667 104L34.6667 86.6667L52 86.6667L52 69.3333L34.6667 69.3333L34.6667 52L52 52L52 34.6667L34.6667 34.6667L34.6667 17.3333L52 17.3333L52 0L34.6667 0L34.6667 17.3333L17.3333 17.3333L17.3333 0L0 0L0 0ZM17.3333 34.6667L34.6667 34.6667L34.6667 52L17.3333 52L17.3333 34.6667L17.3333 34.6667ZM17.3333 69.3333L34.6667 69.3333L34.6667 86.6667L17.3333 86.6667L17.3333 69.3333L17.3333 69.3333Z" fill="#4791CE" fill-rule="evenodd"/>
+<rect width="8" height="104" fill="#304059" transform="translate(48 0)"/>
+<circle r="14" cx="52" cy="52" fill="#304059"/>
+<g fill="#87BDFF">
+<path d="M6 0L6 8L0 4L6 0Z" transform="translate(42 48)"/>
+<path d="M0 0L6 4L0 8L0 0Z" transform="translate(56 48)"/>
+</g></g></svg>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<clipPath id="upper">
+<rect width="104" height="20" x="12" y="12"/>
+</clipPath>
+<clipPath id="lower">
+<rect width="104" height="84" x="12" y="32"/>
+</clipPath>
+<linearGradient id="blugray" x1="0" y1="0" x2="100%" y2="0">
+<stop offset="0" stop-color="#656664"/>
+<stop offset="0.32" stop-color="#247AAD"/>
+<stop offset="1" stop-color="#18A4E0"/>
+</linearGradient>
+<linearGradient id="orange" x1="0" y1="0" x2="100%" y2="0">
+<stop offset="0" stop-color="#E54300"/>
+<stop offset="1" stop-color="#E2C100"/>
+</linearGradient>
+<linearGradient id="blue" x1="0" y1="0" x2="100%" y2="0">
+<stop offset="0" stop-color="#2B74CC"/>
+<stop offset="1" stop-color="#18A4E0"/>
+</linearGradient>
+</defs>
+<g clip-path="url(#lower)">
+<rect width="104" height="104" rx="8" x="12" y="12" fill="#AAAAAA"/>
+<rect width="104" height="100" rx="8" x="12" y="12" fill="#F6F5F4"/>
+</g><g clip-path="url(#upper)">
+<rect width="104" height="28" rx="8" x="12" y="12" fill="url(#blugray)"/>
+<rect width="104" height="2" x="12" y="30" fill="#444444" opacity="0.4"/>
+</g><g id="buttons" fill="#F6F5F4">
+<circle r="4" cx="106" cy="22"/>
+<circle r="4" cx="92" cy="22"/>
+<circle r="4" cx="78" cy="22"/>
+</g><g id="arrows" stroke="#464646" stroke-width="2">
+<path id="angular" d="M0 0L26 26L0 52L0 40L14 26L0 12Z" fill="url(#orange)" transform="translate(71 47)"/>
+<path id="arrow" d="M16 0L42 26L16 52L16 34L0 34L0 18L16 18Z" fill="url(#blue)" transform="translate(35 47)"/>
+</g><g id="shines" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round">
+<line x1="79" y1="60" x2="91" y2="73"/>
+<line x1="59" y1="60" x2="71" y2="73"/>
+</g></svg>

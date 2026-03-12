@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="blue" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="108">
+<stop offset="0" stop-color="#0A64B4"/>
+<stop offset="1" stop-color="#233C64"/>
+</linearGradient>
+<filter id="blur" x="0" y="0">
+<feGaussianBlur in="SourceGraphic" stdDeviation="3"/>
+</filter>
+</defs>
+<g transform="translate(20 8)">
+<rect width="88" height="112" rx="8" fill="#142D5A"/>
+<rect width="88" height="108" rx="8" fill="url(#blue)"/>
+</g><g id="window" transform="translate(42 56)">
+<rect width="20" height="20" fill="#FFB900" x="24" y="24"/>
+<rect width="20" height="20" fill="#7DB900" x="24"/>
+<rect width="20" height="20" fill="#00A5F0" y="24"/>
+<rect width="20" height="20" fill="#F05022"/>
+</g><g id="holder" transform="translate(38 12)">
+<g fill="#1A1A1A" opacity="0.3">
+<circle r="4" transform="translate(48 4)"/>
+<circle r="4" transform="translate(4 4)"/>
+</g><g fill="none" stroke-linecap="round" transform="translate(4 4)">
+<path id="shadow" filter="url(#blur)" d="M44 0C44 14.36 34.15 26 22 26C9.85 26 0 14.36 0 0" stroke-width="4" stroke="#1A1A1A" opacity="0.2"/>
+<path d="M44 0C44 12.15 34.15 22 22 22C9.85 22 0 12.15 0 0" stroke-width="4" stroke="#0096D2"/>
+<path d="M44 0C44 12.15 34.15 22 22 22C9.85 22 0 12.15 0 0" stroke-width="2" stroke="#28D2FA"/>
+</g></g>
+</svg>

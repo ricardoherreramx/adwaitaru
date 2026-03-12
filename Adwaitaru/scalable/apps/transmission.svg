@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<clipPath id="arrows">
+<path d="M19 0L0 23L9 23L9 49L0 49L19 72L38 49L29 49L29 23L38 23Z"/>
+</clipPath>
+<linearGradient id="borders" x1="0" y1="0" x2="100%" y2="0">
+<stop offset="0" stop-color="#999999"/>
+<stop offset="4%" stop-color="#B3B3B3"/>
+<stop offset="10%" stop-color="#999999"/>
+<stop offset="90%" stop-color="#999999"/>
+<stop offset="96%" stop-color="#B3B3B3"/>
+<stop offset="100%" stop-color="#999999"/>
+</linearGradient>
+<linearGradient id="inner" x1="0" y1="0" x2="0" y2="100%">
+<stop offset="0" stop-color="#1A1A1A"/>
+<stop offset="50%" stop-color="#686868"/>
+<stop offset="100%" stop-color="#1A1A1A"/>
+</linearGradient>
+<linearGradient id="bar" x1="0" y1="0" x2="0" y2="100%">
+<stop offset="0" stop-color="#4A4A4A"/>
+<stop offset="60%" stop-color="#929292"/>
+<stop offset="100%" stop-color="#4A4A4A"/>
+</linearGradient>
+<linearGradient id="red" x1="0" y1="0" x2="0" y2="100%">
+<stop offset="0" stop-color="#FF2A2A"/>
+<stop offset="15%" stop-color="#FF8080"/>
+<stop offset="50%" stop-color="#FF2A2A"/>
+<stop offset="85%" stop-color="#8C0404"/>
+<stop offset="100%" stop-color="#9E0A0A"/>
+</linearGradient>
+<linearGradient id="steel" x1="0" y1="0" x2="0" y2="100%">
+<stop offset="0" stop-color="#777777"/>
+<stop offset="33%" stop-color="#F0F0F0"/>
+<stop offset="66%" stop-color="#B0B0B0"/>
+<stop offset="100%" stop-color="#6C6C6C"/>
+</linearGradient>
+</defs>
+<rect width="104" height="104" rx="8" x="12" y="12" fill="url(#borders)"/>
+<rect width="104" height="96" rx="8" x="12" y="12" fill="#E6E6E6"/>
+<g clip-path="url(#arrows)" transform="translate(45 28)">
+<rect width="38" height="72" fill="#0C0C0C"/>
+<path d="M19 0L0 23L11 23L11 48L0 48L19 71L38 48L27 48L27 23L38 23Z" fill="url(#inner)" transform="translate(0 3)"/>
+<g fill="#1A1A1A">
+<rect width="38" height="1"/>
+<rect width="38" height="1" y="6"/>
+<rect width="38" height="1" y="12"/>
+<rect width="38" height="1" y="18"/>
+<rect width="38" height="1" y="24"/>
+<rect width="38" height="1" y="30"/>
+<rect width="38" height="1" y="36"/>
+<rect width="38" height="1" y="42"/>
+<rect width="38" height="1" y="48"/>
+<rect width="38" height="1" y="54"/>
+<rect width="38" height="1" y="60"/>
+<rect width="38" height="1" y="66"/>
+</g></g>
+<rect width="16" height="26" fill="url(#bar)" transform="translate(56 38)"/>
+<rect width="80" height="28" rx="8" x="24" y="8" fill="url(#red)"/>
+<rect width="24" height="32" rx="2" x="52" y="6" fill="url(#steel)"/>
+</svg>

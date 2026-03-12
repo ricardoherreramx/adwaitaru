@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="pages" gradientUnits="userSpaceOnUse" x1="94" y1="0" x2="102" y2="0">
+<stop offset="0" stop-color="#E8E7E3"/>
+<stop offset="0.5" stop-color="#FFFFFF"/>
+<stop offset="1" stop-color="#C2BFBA"/>
+</linearGradient>
+<linearGradient id="cover" x1="0" y1="0" x2="0" y2="100%">
+<stop offset="0" stop-color="#4B4B4B"/>
+<stop offset="1" stop-color="#1B1B1B"/>
+</linearGradient>
+<linearGradient id="gray1" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="8" y2="0">
+<stop offset="0" stop-color="#F9F9F9"/>
+<stop offset="1" stop-color="#909090"/>
+</linearGradient>
+<linearGradient id="gray2" gradientUnits="userSpaceOnUse" x1="11" y1="4" x2="15" y2="10">
+<stop offset="0" stop-color="#F9F9F9"/>
+<stop offset="1" stop-color="#909090"/>
+</linearGradient>
+<linearGradient id="gray3" gradientUnits="userSpaceOnUse" x1="11" y1="24" x2="15" y2="18">
+<stop offset="0" stop-color="#F9F9F9"/>
+<stop offset="1" stop-color="#909090"/>
+</linearGradient>
+<filter id="shadow">
+<feDropShadow dx="0" dy="3" flood-color="#000000" flood-opacity="0.6" stdDeviation="0"/>
+</filter>
+</defs>
+<path d="M0 0L0 84L96 84C100.4 84 104 80.4 104 76L104 8C104 3.6 100.4 0 96 0Z" fill="#484848" transform="translate(12 32)"/>
+<path d="M0 0L0 70L94 70C98.3999 70 102 66.4 102 62L102 8C102 3.6 98.4 0 94 0Z" fill="url(#pages)" transform="translate(14 44)"/>
+<path d="M0 0L0 94L96 94C100.4 94 104 90.4 104 86L104 8C104 3.6 100.4 0 96 0Z" fill="#484848" transform="translate(12 14)"/>
+<path d="M0 0L0 94L96 94C100.4 94 104 90.4 104 86L104 8C104 3.6 100.4 0 96 0Z" fill="url(#cover)" transform="translate(12 12)"/>
+<line x1="15" y1="12" x2="15" y2="106" stroke="#FFFFFF" stroke-width="2" opacity="0.15"/>
+<g stroke="#808080" stroke-width="2" stroke-dasharray="8 4">
+<line x1="36" y1="33" x2="92" y2="33"/>
+<line x1="36" y1="51" x2="92" y2="51"/>
+<line x1="36" y1="69" x2="92" y2="69"/>
+<line x1="36" y1="85" x2="92" y2="85"/>
+</g><g stroke="#F9F9F9" stroke-width="8" stroke-linecap="round" transform="translate(36 54)">
+<line x1="0" y1="14" x2="18" y2="28" stroke="url(#gray3)"/>
+<line x1="18" y1="0" x2="0" y2="14" stroke="url(#gray2)"/>
+<line x1="0" y1="28" x2="0" y2="0" stroke="url(#gray1)"/>
+</g>
+<circle r="5" cx="36" cy="41" fill="#E6D6BE"/>
+<path d="M0 0L20 0L20 32L10 22L0 32Z" fill="#E6D6BE" transform="translate(72 12)" filter="url(#shadow)"/>
+</svg>

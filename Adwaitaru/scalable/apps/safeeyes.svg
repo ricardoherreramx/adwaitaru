@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<circle r="57" cx="64" cy="65" stroke="#DEDDDA" stroke-width="6"/>
+<circle r="54" cx="64" cy="63" fill="#37323F"/>
+<circle r="54" cx="64" cy="65" fill="#3D3846"/>
+<circle r="57" cx="64" cy="63" fill="none" stroke="#F6F5F4" stroke-width="6"/>
+<path d="M0 48L0 0C13.25 0 25.25 5.37 34 14Z" fill="#56BBFF" transform="translate(64 15)"/>
+<g id="handles" stroke-width="2" stroke-linecap="round">
+<line stroke="#F6F5F4" x1="64" y1="16" x2="64" y2="63"/>
+<line stroke="#ED333B" x1="97.23" y1="29.77" x2="64" y2="63"/>
+</g><g id="lines" stroke="#D5D3CF" stroke-width="4" stroke-linecap="round">
+<line x1="108.3" y1="55.2" x2="100.4" y2="56.6"/>
+<line x1="103" y1="85.5" x2="96" y2="81.5"/>
+<line x1="79.4" y1="105.3" x2="76.65" y2="97.77"/>
+<line x1="48.6" y1="105.3" x2="51.34" y2="97.77"/>
+<line x1="25" y1="85.5" x2="32" y2="81.5"/>
+<line x1="19.7" y1="55.2" x2="27.6" y2="56.6"/>
+<line x1="35" y1="28.5" x2="40.22" y2="34.66"/>
+</g><circle r="4" cx="64" cy="63" fill="#131C1A" stroke="#D5D3CF" stroke-width="4"/>
+</svg>

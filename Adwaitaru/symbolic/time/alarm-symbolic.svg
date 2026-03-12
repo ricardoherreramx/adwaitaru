@@ -1,8 +1,9 @@
-<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
- <g fill="gray">
-  <path d="M12.436 12.706c0 .003.01.006.01.01 0 .005.01.01.01.015zM3.557 12.708l-.02.026c0-.005.01-.01.01-.015 0-.003.01-.006.01-.01z" font-family="Ubuntu" font-size="15" font-weight="400" letter-spacing="0" text-anchor="middle" word-spacing="0"/>
-  <path d="M8 0C3.587 0 0 3.587 0 8s3.587 8 8 8c4.414 0 8-3.587 8-8s-3.586-8-8-8zm0 1a7 7 0 0 1 7 7 7 7 0 0 1-7 7 7 7 0 0 1-7-7 7 7 0 0 1 7-7z" font-family="sans-serif" font-weight="400" overflow="visible" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:none;font-variant-numeric:normal;font-variant-position:normal;isolation:auto;mix-blend-mode:normal;shape-padding:0;text-decoration-color:#000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-transform:none" white-space="normal"/>
-  <path d="M14.737 1.263c-1.684-1.684-2.526-1.684-4.21 0l-.15.15a5.954 5.954 0 0 1 2.676 1.534 5.956 5.956 0 0 1 1.536 2.674l.148-.147c1.684-1.685 1.684-2.527 0-4.21zM1.263 1.263c-1.684 1.684-1.684 2.526 0 4.21l.15.15a5.955 5.955 0 0 1 1.534-2.676 5.955 5.955 0 0 1 2.674-1.536l-.147-.148C3.79-.42 2.947-.42 1.264 1.263z" overflow="visible"/>
-  <path d="M7.5 3v5.207l3.146 3.147.707-.708L8.5 7.793V3z" fill-rule="evenodd" font-family="sans-serif" font-weight="400" overflow="visible" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;isolation:auto;mix-blend-mode:normal;shape-padding:0;text-decoration-color:#000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none" white-space="normal"/>
- </g>
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="16" height="16" viewBox="0 0 16 16" fill="gray" xmlns="http://www.w3.org/2000/svg">
+<path d="M2 3L3 2L1 0L0 1L2 3L2 3Z" transform="translate(12 13)"/>
+<path d="M1 3L0 2L2 0L3 1L1 3Z" transform="translate(1 13)"/>
+<path d="M8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0L8 0ZM3.05025 12.9497C1.68342 11.5829 1 9.933 1 8C1 6.067 1.68342 4.41709 3.05025 3.05025C4.41709 1.68342 6.067 1 8 1C9.933 1 11.5829 1.68342 12.9497 3.05025C14.3166 4.41709 15 6.067 15 8C15 9.933 14.3166 11.5829 12.9497 12.9497C11.5829 14.3166 9.933 15 8 15C6.067 15 4.41709 14.3166 3.05025 12.9497L3.05025 12.9497Z"/>
+<path d="M0.707107 0L4.35356 3.64645L6.73484 1.26517L7 1L7.70711 1.70711L4.35356 5.06067L0 0.707107L0.353554 0.353553L0.707107 0L0.707107 0Z" transform="translate(3.646 3.646)"/>
+<path d="M4.24264 0.87868C3.07107 -0.292894 1.17157 -0.292893 0 0.87868L4.24264 5.12132C5.41422 3.94975 5.41422 2.05025 4.24264 0.87868L4.24264 0.87868Z" transform="translate(10.88 -0)"/>
+<path d="M0.878681 0.87868C-0.292893 2.05025 -0.292894 3.94975 0.878679 5.12132L5.12132 0.878681C3.94975 -0.292893 2.05025 -0.292893 0.878681 0.87868L0.878681 0.87868Z"/>
 </svg>

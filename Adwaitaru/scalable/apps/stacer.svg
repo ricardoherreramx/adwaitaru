@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="bluewhite" x1="0" y1="0" x2="100%" y2="0">
+<stop offset="0" stop-color="#57BBFF"/>
+<stop offset="1" stop-color="#F6F5F4"/>
+</linearGradient>
+<linearGradient id="alphawhite" x1="0" y1="0" x2="0" y2="100%">
+<stop offset="0" stop-color="#D3D3D3" stop-opacity="0"/>
+<stop offset="1" stop-color="#D3D3D3"/>
+</linearGradient>
+</defs>
+<circle r="57" cx="64" cy="65" stroke="#DEDDDA" stroke-width="6"/>
+<circle r="54" cx="64" cy="63" fill="#37323F"/>
+<circle r="54" cx="64" cy="65" fill="#3D3846"/>
+<circle r="57" cx="64" cy="63" fill="none" stroke="#F6F5F4" stroke-width="6"/>
+<path id="range" d="M0 0L0 32L22.63 54.63C27.1 50.15 30.15 44.45 31.4 38.24C32.62 32 32 25.6 29.56 19.75C27.14 14 23 9 17.77 5.4C12.52 1.88 6.33 0 0 0Z" fill="url(#alphawhite)" transform="translate(64 31)"/>
+<g id="handles" stroke-width="2" stroke-linecap="round">
+<line x1="64" y1="63" x2="86" y2="85" stroke="#ED333B"/>
+<line x1="64" y1="32" x2="64" y2="63" stroke="#F6F5F4"/>
+</g>
+<circle r="4" cx="64" cy="63" fill="#131C1A" stroke="#D5D3CF" stroke-width="4"/>
+<path id="meter" d="M13.18 76.82C-4.4 59.25 -4.4 30.75 13.18 13.18C30.75 -4.4 59.25 -4.4 76.82 13.18C94.4 30.75 94.4 59.25 76.82 76.82" fill="none" stroke="url(#bluewhite)" stroke-width="6" transform="translate(19 18)"/>
+<g stroke="#F6F5F4" stroke-width="2">
+<line x1="64" y1="23" x2="64" y2="29"/>
+<line x1="92" y1="35" x2="88" y2="39"/>
+<line x1="104" y1="63" x2="98" y2="63"/>
+<line x1="92" y1="91" x2="88" y2="87"/>
+<line x1="36" y1="91" x2="40" y2="87"/>
+<line x1="24" y1="63" x2="30" y2="63"/>
+<line x1="36" y1="35" x2="40" y2="39"/>
+</g></svg>

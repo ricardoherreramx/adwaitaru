@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
 <defs>
-<linearGradient id="gradient_1" gradientUnits="userSpaceOnUse" x1="99.46" y1="103.5" x2="28.7" y2="-31.28">
-<stop offset="0.06" stop-color="#8EFFEE"/>
-<stop offset="0.45" stop-color="#C9C7FF"/>
-<stop offset="1" stop-color="#7341FF"/>
+<linearGradient id="light" gradientUnits="userSpaceOnUse" x1="-8" y1="-16" x2="65" y2="112">
+<stop offset="0" stop-color="#7341FF"/>
+<stop offset="0.55" stop-color="#C9C7FF"/>
+<stop offset="0.93" stop-color="#8EFFEE"/>
 </linearGradient>
-<radialGradient id="gradient_2" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="1" gradientTransform="matrix(-7.352 123.734 -88.707 -5.271 45.024 -34.87)">
+<radialGradient id="hicolor" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="1" gradientTransform="matrix(0 88.5 -76 0 38.5 -22)">
 <stop offset="0.4" stop-color="#6D4AFF"/>
 <stop offset="1" stop-color="#00F0C3"/>
 </radialGradient>
 </defs>
-<path d="M44.1831 103.488C48.3653 111.8 59.1016 112.246 63.8453 104.324C63.8453 104.324 108.108 30.4236 108.108 30.4236C112.8 22.5894 108.303 12.0847 99.8125 11.0216C99.8125 11.0216 12.822 0.0866 12.8221 0.0865898C3.54103 -1.07779 -3.05887 9.73066 1.45565 18.6786C1.45565 18.6786 44.1831 103.488 44.1831 103.488Z" fill="url(#gradient_1)" transform="translate(9 9)"/>
-<path d="M44.8816 76.3932L48.8003 69.926C48.8 69.926 78.6373 20.1614 78.6373 20.1614C81.25 15.82 78.7634 9.9858 74.0426 9.3783C74.0426 9.3783 0 0 0 0C0 0 38.35 76.1274 38.35 76.1274C39.75 78.8485 43.3 79 44.8816 76.3932C44.8816 76.3932 44.8816 76.3932 44.8816 76.3932Z" fill="url(#gradient_2)" transform="translate(10.799 28.362)"/>
+<path d="M66.4 94C65.86 95 65.2266 95.74 64.5 96.5C63.74 97.2266 63 97.86 62 98.4C59.145 100 56 100.45 53 99.6C49.7 98.74 47.275 97 45.615 94L1.615 18C1 17 0.7 16.13 0.4 15.113C0.137 14 0 13 0 12C0 8.7 1.17 5.86 3.515 3.515C5.86 1.17 8.7 0 12 0L100 0C101 0 102 0.137 103.113 0.4C104.132 0.7 105 1 106 1.615C109 3.275 110.74 5.7 111.6 9C112.45 12.1 112 15.145 110.4 18L66.4 94L66.4 94Z" fill="url(#light)" transform="translate(8 16)"/>
+<path d="M77 0L38.5 66.5L0 0L77 0L77 0Z" fill="url(#hicolor)" transform="translate(12 38)"/>
 </svg>

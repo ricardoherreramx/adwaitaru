@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<clipPath id="clip">
+<rect width="48" height="48" x="40" y="40"/>
+</clipPath>
+<linearGradient id="blue" x1="0" y1="0" x2="0" y2="100%">
+<stop offset="0" stop-color="#1544D8"/>
+<stop offset="1" stop-color="#15C0ED"/>
+</linearGradient>
+<filter color-interpolation-filters="sRGB" x="-38" y="-38" width="40" height="40" id="blur">
+<feFlood flood-opacity="0" result="BackgroundImageFix_1"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix_1" result="Shape_2"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0" in="SourceAlpha" result="HardAlpha_3"/>
+<feOffset dx="0" dy="2"/>
+<feGaussianBlur stdDeviation="4"/>
+<feComposite operator="arithmetic" k2="-1" k3="1" in2="HardAlpha_3"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0"/>
+<feBlend mode="normal" in2="Shape_2" result="InnerShadow_4"/>
+</filter>
+</defs>
+<path d="M84 88L8 88C3.58112 88 0 84.4189 0 80L0 8C0 3.58112 3.58112 0 8 0L104 0C108.419 0 112 3.58112 112 8L112 60.0038L84 88L84 88Z" fill="#505050" transform="translate(8 20)"/>
+<path d="M0 0L28 0L0 28L0 0Z" fill="#808080" transform="translate(92 80)"/>
+<circle r="16" cx="64" cy="64" fill="url(#blue)" filter="url(#blur)"/>
+<g stroke="#F6F5F4" stroke-width="8" stroke-linecap="round" clip-path="url(#clip)">
+<circle r="20" cx="64" cy="64" fill="none"/>
+<line x1="64" y1="64" x2="88" y2="88"/>
+</g></svg>

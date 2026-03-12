@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="light" gradientUnits="userSpaceOnUse" x1="-1.5" y1="-50" x2="137.4" y2="110.3">
+<stop offset="0" stop-color="#7341FF"/>
+<stop offset="0.36" stop-color="#B487FF"/>
+<stop offset="1" stop-color="#FFC8FF"/>
+</linearGradient>
+<linearGradient id="hicolor" gradientUnits="userSpaceOnUse" x1="0" y1="84" x2="88" y2="0">
+<stop offset="0" stop-color="#FF50C3"/>
+<stop offset="0.9" stop-color="#6D4AFF"/>
+</linearGradient>
+</defs>
+<path d="M0 0L88 0L88 0L88 84L8 84C3.6 84 0 80.4 0 76Z" fill="url(#hicolor)" transform="translate(8 32)"/>
+<path d="M43.845 5.7C46 7.2 48.365 8 51 8C51 8 104 8 104 8C108.4 8 112 11.6 112 16C112 16 112 88 112 88C112 92.4 108.4 96 104 96C104 96 88 96 88 96C88 96 88 34 88 34C88 31.35 87 28.8 85 27C83.2 25 80.65 24 78 24C78 24 36 24 36 24C33.4 24 31 23.16 28.8 21.6C28.8 21.6 19.2 14.4 19.2 14.4C17.1224 12.84 14.6 12 12 12C12 12 0 12 0 12C0 5.37 5.37 0 12 0C12 0 32 0 32 0C34.63 0 37 0.8 39.1565 2.3C39.1565 2.3 43.845 5.7 43.845 5.7C43.845 5.7 43.845 5.7 43.845 5.7Z" fill="url(#light)" transform="translate(8 20)"/>
+</svg>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="white" gradientUnits="userSpaceOnUse" x1="0" y1="16" x2="0" y2="116">
+<stop offset="0" stop-color="#000000" stop-opacity="0"/>
+<stop offset="1" stop-color="#FFFFFF"/>
+</linearGradient>
+</defs>
+<rect width="104" height="104" rx="8" x="12" y="12" fill="#000000"/>
+<rect width="104" height="100" rx="8" x="12" y="12" fill="#6D6D6D"/>
+<g fill="#000000">
+<rect width="72" height="22" x="28" y="12"/>
+<rect width="72" height="52" x="28" y="36"/>
+<rect width="72" height="22" x="28" y="90"/>
+</g><g stroke="#000000" stroke-width="8" stroke-dasharray="6 8">
+<line x1="108" y1="17" x2="108" y2="107"/>
+<line x1="20" y1="17" x2="20" y2="107"/>
+</g>
+<rect width="104" height="100" rx="8" x="12" y="12" fill="url(#white)" opacity="0.5"/>
+<path d="M32 0L0 81C0 81 37 81 37 81C34 78 27 73 27 68C27 60 39 60 39 53.5C39 47 32 44 32 39C32 33 45.5 30 45.5 24.5C45.5 19 40 18 40 12C40 7 52 4 57 0C57 0 32 0 32 0Z" fill="#E2E2E2" transform="translate(36 21)"/>
+</svg>

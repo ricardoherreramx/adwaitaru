@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="bluish" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="51" y2="0">
+<stop offset="0" stop-color="#3465A4"/>
+<stop offset="1" stop-color="#204A87"/>
+</linearGradient>
+<linearGradient id="yellow" gradientUnits="userSpaceOnUse" x1="25" y1="0" x2="51" y2="0">
+<stop offset="0" stop-color="#FF7200"/>
+<stop offset="1" stop-color="#FFB700"/>
+</linearGradient>
+</defs>
+<rect width="112" height="88" rx="8" x="8" y="20" fill="#464646"/>
+<path d="M0 0L0 40L47 40C49.21 40 51 38.21 51 36L51 4C51 1.79 49.21 0 47 0Z" fill="url(#bluish)" transform="translate(8 44)"/>
+<path d="M4 0C1.79 0 0 1.79 0 4L0 36C0 38.21 1.79 40 4 40L51 40L51 40L51 0Z" fill="url(#yellow)" transform="translate(69 44)"/>
+<g id="pokes" stroke="#E6E6E6" stroke-width="8" stroke-dasharray="8 10">
+<line x1="15" y1="96" x2="113" y2="96"/>
+<line x1="15" y1="32" x2="113" y2="32"/>
+</g></svg>
