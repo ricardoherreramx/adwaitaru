@@ -19,10 +19,7 @@
 <filter id="shadow">
 <feDropShadow dx="0" dy="0" stdDeviation="4" flood-color="#000000" flood-opacity="0.4"/>
 </filter>
-<filter color-interpolation-filters="sRGB" x="-34" y="-34" width="36" height="36" id="blur">
-<feFlood flood-opacity="0" result="BackgroundImageFix_1"/>
-<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0" in="SourceAlpha"/>
-<feDropShadow dx="0" dy="0" stdDeviation="14" flood-color="#FFFFFF"/>
+<filter id="blur">
 <feGaussianBlur stdDeviation="2.5"/>
 </filter>
 </defs>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="gradient_1" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#000000" stop-opacity="0.25"/>
+<stop offset="1" stop-color="#000000" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="gradient_2" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#A0A0A0" stop-opacity="0.75"/>
+<stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="gradient_3" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#D2D6CE"/>
+<stop offset="1" stop-color="#B9BDB5"/>
+</linearGradient>
+</defs>
+<path d="M0 0L96 0L96 6C96 38 48 54 48 54C48 54 0 38 0 6Z" fill="#91938E" transform="translate(16 68)"/>
+<path d="M0 0L48 0L48 6C48 38 0 54 0 54Z" fill="url(#gradient_1)" transform="translate(64 68)"/>
+<path d="M0 0L48 0L48 54C48 54 0 38 0 6Z" fill="url(#gradient_2)" transform="translate(16 68)"/>
+<path d="M36 0C29.4 0 24 3.6 24 8C24 3.6 18.6 0 12 0C5.4 0 0 3.6 0 8L0 60C0 92 48 108 48 108C48 108 96 92 96 60L96 8C96 3.6 90.6 0 84 0C77.4 0 72 3.6 72 8C72 3.6 66.6 0 60 0C53.4 0 48 3.6 48 8C48 3.6 42.6 0 36 0Z" fill="url(#gradient_3)" transform="translate(16 8)"/>
+<g fill="none" stroke="#FF0000" stroke-width="6" stroke-linecap="round">
+<circle r="28" cx="64" cy="64"/>
+<line x1="64" y1="21" x2="64" y2="51"/>
+<line x1="64" y1="77" x2="64" y2="107"/>
+<line x1="21" y1="64" x2="51" y2="64"/>
+<line x1="77" y1="64" x2="107" y2="64"/>
+</g></svg>

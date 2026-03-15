@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<clipPath id="shield">
+<path d="M108 68L108 16C108 14 106 12 104 12L24 12C20 12 20 14 20 16L20 68C20 97 64 112 64 112C64 112 108 97 108 68Z"/>
+</clipPath>
+<linearGradient id="grey1" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#000000" stop-opacity="0.25"/>
+<stop offset="1" stop-color="#000000" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="grey2" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#A0A0A0" stop-opacity="0.75"/>
+<stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="blue1" x1="0" y1="1" x2="1" y2="0">
+<stop offset="0" stop-color="#6565AB"/>
+<stop offset="1" stop-color="#000064"/>
+</linearGradient>
+<linearGradient id="blue2" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#000064"/>
+<stop offset="1" stop-color="#B1B1C8"/>
+</linearGradient>
+</defs>
+<path d="M0 0L96 0L96 6C96 38 48 54 48 54C48 54 0 38 0 6Z" fill="#BEBEBE" transform="translate(16 68)"/>
+<path d="M0 0L48 0L48 6C48 38 0 54 0 54Z" fill="url(#grey1)" transform="translate(64 68)"/>
+<path d="M0 0L48 0L48 54C48 54 0 38 0 6Z" fill="url(#grey2)" transform="translate(16 68)"/>
+<path d="M0 8C0 3.6 3.6 0 8 0L88 0C92.4 0 96 3.6 96 8L96 60C96 92 48 108 48 108C48 108 0 92 0 60C0 60 0 8 0 8Z" fill="#F6F5F4" transform="translate(16 8)"/>
+<g clip-path="url(#shield)">
+<path d="M108 112L108 36L32 112Z" fill="url(#blue1)"/>
+<path d="M20 12L84 12L20 76Z" fill="url(#blue2)"/>
+</g></svg>

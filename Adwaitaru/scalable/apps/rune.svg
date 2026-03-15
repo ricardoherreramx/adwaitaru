@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="sunset" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="120">
+<stop offset="0" stop-color="#FFCD50"/>
+<stop offset="1" stop-color="#FF487A"/>
+</linearGradient>
+</defs>
+<g stroke="url(#sunset)">
+<circle r="54.5" cx="64" cy="64" fill="#343434" stroke-width="11"/>
+<g stroke-width="12">
+<path d="M64 15L64 113"/>
+<path d="M21.5 88.5L106.5 39.5"/>
+<path d="M21.5 39.5L106.5 88.5"/>
+</g></g>
+<path d="M67.5 0L90 39L67.5 78L22.5 78L0 39L22.5 0L67.5 0Z" fill="#343434" transform="translate(19 25)"/>
+<circle r="12" cx="64" cy="64" fill="none" stroke="#E1E1E1" stroke-width="12"/>
+</svg>
