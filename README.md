@@ -275,7 +275,7 @@ Built largely upon the graphic work of GNOME's [Adwaita designers](https://gitla
 ![icon](./Adwaitaru/scalable/mimetypes/application-x-glade.svg "Glade Interface Design")
 ![icon](./Adwaitaru/scalable/mimetypes/application-x-godot-project.svg "Godot Project/Resource/Scene")
 ![icon](./Adwaitaru/scalable/mimetypes/application-x-karbon.svg "Karbon Design")
-![icon](./Adwaitaru/scalable/mimetypes/application-x-kdenlive.svg "KDENlive Video")
+![icon](./Adwaitaru/scalable/mimetypes/application-x-kdenlive.svg "KDEnlive Video")
 ![icon](./Adwaitaru/scalable/mimetypes/application-x-labplot.svg "LabPlot File")
 ![icon](./Adwaitaru/scalable/mimetypes/video-quicktime.svg "QuickTime Video")
 ![icon](./Adwaitaru/scalable/mimetypes/application-software.svg "Software App")
