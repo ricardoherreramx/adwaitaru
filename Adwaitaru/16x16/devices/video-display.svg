@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
 <defs>
-<linearGradient id="screen" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="12" y2="8">
+<linearGradient id="screen" x1="0" y1="0" x2="1" y2="1">
 <stop offset="0" stop-color="#50D4B7"/>
 <stop offset="1" stop-color="#4A8BCD"/>
 </linearGradient>

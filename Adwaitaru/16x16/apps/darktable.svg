@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+<circle r="8" cx="8" cy="8" fill="#241F31"/>
+<path d="M1.7 0C0.6 1.4 0 3.13 0 4.9C0 5.6 0 6.26 0.26 6.9C0.26 6.9 5.7 6.9 5.7 6.9C5.7 6.9 1.7 0 1.7 0Z" fill="#A347BA" transform="translate(0 3)"/>
+<path d="M5.6 0C3.5 0 1.5 0.82 0 2.3C0 2.3 2.72 7 2.72 7C2.72 7 6.7 0 6.7 0C6.34 0 6 0 5.6 0C5.6 0 5.6 0 5.6 0Z" fill="#E01B24" transform="translate(2.4 0)"/>
+<path d="M2.7 0L0 4.7C0 4.7 8 4.7 8 4.7C7 2.4 5.1 0.66 2.7 0C2.7 0 2.7 0 2.7 0Z" fill="#FF7800" transform="translate(7.42 0.3)"/>
+<path d="M0 0C0 0 4 6.9 4 6.9C5 5.5 5.7 3.8 5.7 2C5.7 1.32 5.6 0.65 5.43 0C5.43 0 0 0 0 0Z" fill="#F6D32D" transform="translate(10.3 6)"/>
+<path d="M4 0C4 0 0 6.9 0 6.9C0.37 7 0.73 7 1.1 7C3.2 7 5.2 6.18 6.7 4.7C6.7 4.7 4 0 4 0Z" fill="#33D17A" transform="translate(6.9 9)"/>
+<path d="M0 0C0.93 2.3 2.88 4 5.27 4.7C5.27 4.7 8 0 8 0C8 0 0 0 0 0Z" fill="#3584E4" transform="translate(0.6 11)"/>
+<circle r="1.5" cx="8" cy="8" fill="#F6F5F4"/>
+</svg>

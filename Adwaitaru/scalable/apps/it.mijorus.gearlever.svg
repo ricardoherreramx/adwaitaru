@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<filter id="shadow">
+<feDropShadow dx="0" dy="2" flood-color="#77767B" stdDeviation="0"/>
+</filter>
+<linearGradient id="gray" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0.5" stop-color="#77767B"/>
+<stop offset="1" stop-color="#999894"/>
+</linearGradient>
+<linearGradient id="white" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#D6D4D0"/>
+<stop offset="1" stop-color="#F6F5F4"/>
+</linearGradient>
+<linearGradient id="arrow" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="56">
+<stop offset="0" stop-color="#ABAAA6"/>
+<stop offset="1" stop-color="#77767B"/>
+</linearGradient>
+</defs>
+<g fill="#F6F5F4" filter="url(#shadow)"><g>
+<rect width="24" height="24" rx="8" x="4" y="52"/>
+<rect width="24" height="24" rx="8" x="52" y="4"/>
+<rect width="24" height="24" rx="8" x="100" y="52"/>
+<rect width="24" height="24" rx="8" x="52" y="100"/>
+</g><g transform="rotate(45 64 64)">
+<rect width="24" height="24" rx="8" x="4" y="52"/>
+<rect width="24" height="24" rx="8" x="52" y="4"/>
+<rect width="24" height="24" rx="8" x="100" y="52"/>
+<rect width="24" height="24" rx="8" x="52" y="100"/>
+</g></g><g fill="none">
+<circle r="38" cx="64" cy="66" stroke-width="20" stroke="#77767B"/>
+<circle r="36" cx="64" cy="64" stroke-width="24" stroke="url(#gray)"/>
+<circle r="38" cx="64" cy="64" stroke-width="20" stroke="#F6F5F4"/>
+<circle r="32" cx="64" cy="64" stroke-width="8" stroke="url(#white)"/>
+</g><g stroke-width="8" stroke-linejoin="round">
+<path d="M16 0L40 0L40 28L56 28L56 30L28 58L0 30L0 28L16 28Z" fill="none" stroke="#77767B" transform="translate(36 6)"/>
+<path d="M16 0L40 0L40 28L56 28L28 56L0 28L16 28Z" fill="url(#arrow)" stroke="url(#arrow)" transform="translate(36 8)"/>
+</g></svg>

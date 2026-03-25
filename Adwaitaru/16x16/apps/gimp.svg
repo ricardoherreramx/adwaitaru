@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<radialGradient id="wilbur">
+<stop offset="0.2" stop-color="#BA9C7D"/>
+<stop offset="1" stop-color="#755435"/>
+</radialGradient>
+<radialGradient id="nose" gradientUnits="userSpaceOnUse" cx="1.5" cy="4.5" r="1.5">
+<stop offset="0" stop-color="#767676"/>
+<stop offset="1" stop-color="#000000"/>
+</radialGradient>
+</defs>
+<path d="M0 6L0 3L6 3L11 0L11 3L16 0L16 6C16 10.5 12.5 14 8 14C3.5 14 0 10.5 0 6Z" fill="url(#wilbur)" transform="translate(0 2)"/>
+<circle r="2" cx="2" cy="5" fill="url(#nose)"/>
+<g fill="#000000">
+<rect width="1" height="3" x="10" y="7"/>
+<rect width="1" height="3" x="7" y="7"/>
+</g></svg>
