@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<clipPath id="squircle">
+<rect width="88" height="88" rx="8" transform="translate(20 20) rotate(45 44 44)"/>
+</clipPath>
+<linearGradient id="sky" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#2C67DE"/>
+<stop offset="1" stop-color="#AFE9FA"/>
+</linearGradient>
+<linearGradient id="dark3" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#141F1F"/>
+<stop offset="33%" stop-color="#000000"/>
+</linearGradient>
+<linearGradient id="dark4" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0.8" stop-color="#141F1F"/>
+<stop offset="1" stop-color="#000000"/>
+</linearGradient>
+<linearGradient id="volume6" x1="0" y1="0" x2="1" y2="0">
+<stop offset="20%" stop-color="#000000" stop-opacity="0.7"/>
+<stop offset="45%" stop-color="#000000" stop-opacity="0"/>
+<stop offset="65%" stop-color="#FFFFFF" stop-opacity="0"/>
+<stop offset="90%" stop-color="#FFFFFF" stop-opacity="0.8"/>
+</linearGradient>
+<linearGradient id="shadow7" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#000000" stop-opacity="32%"/>
+<stop offset="1" stop-color="#000000" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="window" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#0F1515"/>
+<stop offset="1" stop-color="#222F2F"/>
+</linearGradient>
+<linearGradient id="shadow12" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#000000" stop-opacity="0"/>
+<stop offset="1" stop-color="#000000"/>
+</linearGradient>
+<linearGradient id="dark13" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#000000"/>
+<stop offset="0.6" stop-color="#141F1F"/>
+<stop offset="0.8" stop-color="#141F1F"/>
+<stop offset="1" stop-color="#000000"/>
+</linearGradient>
+<linearGradient id="silver14" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#566068"/>
+<stop offset="57%" stop-color="#FFFFFF"/>
+<stop offset="87%" stop-color="#FFFFFF"/>
+<stop offset="100%" stop-color="#566068"/>
+</linearGradient>
+<linearGradient id="silver16" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#8E9491"/>
+<stop offset="30%" stop-color="#DEE4E4"/>
+<stop offset="77%" stop-color="#6A6B6B"/>
+<stop offset="88%" stop-color="#6A6B6B"/>
+<stop offset="100%" stop-color="#FFFFFF"/>
+</linearGradient>
+<linearGradient id="silver17" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0.4" stop-color="#75816B"/>
+<stop offset="1" stop-color="#4D4D4D"/>
+</linearGradient>
+<linearGradient id="volume18" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#FFFFFF" stop-opacity="0.8"/>
+<stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0"/>
+<stop offset="0.6" stop-color="#000000" stop-opacity="0"/>
+<stop offset="1" stop-color="#000000" stop-opacity="0.3"/>
+</linearGradient>
+<linearGradient id="flag" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#FF9C33"/>
+<stop offset="0.8" stop-color="#FFFF6B"/>
+</linearGradient>
+<linearGradient id="stick" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#242020"/>
+<stop offset="0.6" stop-color="#594941"/>
+<stop offset="1" stop-color="#C8C0BC"/>
+</linearGradient>
+<linearGradient id="shadow21" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#000000"/>
+<stop offset="0.8" stop-color="#000000" stop-opacity="0"/>
+</linearGradient>
+<radialGradient id="sphere" cx="25%" cy="25%" r="1.5">
+<stop offset="0" stop-color="#C8C0BC"/>
+<stop offset="0.45" stop-color="#5A4A42"/>
+<stop offset="1" stop-color="#231F20"/>
+</radialGradient>
+<filter id="offset">
+<feDropShadow dx="0" dy="2" flood-color="#121C1C" stdDeviation="0"/>
+</filter>
+</defs>
+<g clip-path="url(#squircle)">
+<rect width="88" height="88" fill="url(#sky)" transform="translate(20 20) rotate(45 44 44)"/>
+<path d="M0 12C0 5.5 14 0 31 0L31 24C14 24 0 18.5 0 12Z" fill="url(#dark3)" transform="translate(33 71)"/>
+<path d="M0 0C16 0 29 4.5 29 10C29 15.5 16 20 0 20Z" fill="url(#dark4)" transform="translate(63 62)"/>
+<path d="M16 12L16 38L0 108L64 108L48 38L48 12C48 5.5 41 0 32 0C23 0 16 5.5 16 12Z" fill="#FFE600" transform="translate(32 20)"/>
+<g fill="#FF0000">
+<path d="M16 12L16 38L0 108L6 108L18 40L18 12C18 5.5 24 0 32 0C23 0 16 5.5 16 12Z" transform="translate(32 20)"/>
+<path d="M9 12L9 40L0 107.7L13 108L13 40L13 12C13 5.36 14 0 15 0C12 0 9 5.36 9 12Z" transform="translate(49 20)"/>
+<path d="M9 40L17 108L28 108L13 40L13 12C13 5.5 7 0 0 0C5 0 9 5.5 9 12Z" transform="translate(64 20)"/>
+</g>
+<path d="M16 12L16 38L0 108L64 108L48 38L48 12C48 5.5 41 0 32 0C23 0 16 5.5 16 12Z" fill="url(#volume6)" transform="translate(32 20)"/>
+<rect width="32" height="6" x="48" y="35" fill="url(#shadow7)"/>
+<path d="M1.5 0C0.7 0 0 1 0 2.5L0 12L3 12L3 2.5C3 1 2.3 0 1.5 0Z" fill="url(#window)" transform="translate(49 37)"/>
+<path d="M2 0C1 0 0 1 0 2.5L0 12L4 12L4 2.5C4 1 3 0 2 0Z" fill="url(#window)" transform="translate(56 37)"/>
+<path d="M4.5 0C2 0 0 2.2 0 5L0 21L9 21L9 5C9 2.2 7 0 4.5 0Z" fill="url(#window)" transform="translate(65 36)"/>
+<path d="M2 0C1 0 0 1 0 2.5L0 12L2 12Z" fill="url(#window)" transform="translate(78 37)"/>
+<rect width="25" height="12" x="51" y="54" fill="url(#shadow12)"/>
+<path d="M0 0C16 0 29 4.5 29 10L20 9C20 6 11 2 0 2Z" fill="url(#dark13)" transform="translate(63 62)"/>
+<path d="M0 0L0 13C0 21 62 27 62 35L62 21C62 13 0 8 0 0Z" fill="url(#silver14)" filter="url(#offset)" transform="translate(33 83)"/>
+<path d="M0 0C16 0 29 4.5 29 10L29 20C29 14.5 16 10 0 10Z" fill="url(#silver16)" transform="translate(63 52)"/>
+<rect width="2" height="13" x="62" y="51" fill="url(#silver17)"/>
+<rect width="38" height="4" rx="2" x="45" y="31" fill="#FFE600"/>
+<g fill="#FF0000">
+<path d="M2 0L5 0C4 0 3.5 1 3.5 2C3.5 3 4 4 5 4L2 4C1 4 0 3 0 2C0 1 1 0 2 0Z" transform="translate(45 31)"/>
+<path d="M5 0C4.5 0 4 1 4 2C4 3 4.5 4 5 4L1 4C0.5 4 0 3 0 2C0 1 0.5 0 1 0Z" transform="translate(57 31)"/>
+<path d="M0 4C0.5 4 1 3 1 2C1 1 0.5 0 0 0L4 0C4.5 0 5 1 5 2C5 3 4.5 4 4 4Z" transform="translate(73 31)"/>
+</g>
+<rect width="38" height="4" rx="2" x="45" y="31" fill="url(#volume18)"/>
+<rect width="100" height="100" rx="12" transform="translate(14 5) rotate(45 50 50)" fill="none" stroke="#000000" stroke-width="8" opacity="0.3"/>
+</g>
+<path d="M0 0L25 5L0 10Z" fill="url(#flag)" transform="translate(65 4)"/>
+<rect width="2" height="18" x="63" y="2" fill="url(#stick)"/>
+<rect width="2" height="5" x="63" y="2" fill="url(#shadow21)"/>
+<circle r="2" cx="64" cy="2" fill="url(#sphere)"/>
+</svg>

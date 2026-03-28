@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="grey1" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#000000" stop-opacity="0.25"/>
+<stop offset="1" stop-color="#000000" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="grey2" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#A0A0A0" stop-opacity="0.75"/>
+<stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="blue1" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#2980B9"/>
+<stop offset="1" stop-color="#3598DB"/>
+</linearGradient>
+<linearGradient id="blue2" gradientUnits="userSpaceOnUse" x1="22" y1="0" x2="22" y2="91">
+<stop offset="0" stop-color="#2B3D4F" stop-opacity="0.8"/>
+<stop offset="1" stop-color="#2B3D4F" stop-opacity="0.4"/>
+</linearGradient>
+</defs>
+<path d="M0 0L96 0L96 6C96 38 48 54 48 54C48 54 0 38 0 6Z" fill="#BEBEBE" transform="translate(16 68)"/>
+<path d="M0 0L48 0L48 6C48 38 0 54 0 54Z" fill="url(#grey1)" transform="translate(64 68)"/>
+<path d="M0 0L48 0L48 54C48 54 0 38 0 6Z" fill="url(#grey2)" transform="translate(16 68)"/>
+<path d="M0 8C0 3.6 3.6 0 8 0L88 0C92.4 0 96 3.6 96 8L96 60C96 92 48 108 48 108C48 108 0 92 0 60C0 60 0 8 0 8Z" fill="#F6F5F4" transform="translate(16 8)"/>
+<path d="M0 8C0 8 0 8 0 8C0 3.6 5 0 11 0C17 0 22 3.6 22 8C22 3.6 27 0 33 0C39 0 44 3.6 44 8C44 3.6 49 0 55 0C61 0 66 3.6 66 8C66 3.6 71 0 77 0C83 0 88 3.6 88 8L88 56C88 85 44 99.77 44 99.77C44 99.77 0 85 0 56Z" fill="url(#blue1)" transform="translate(20 12)"/>
+<g fill="none" stroke="url(#blue2)" stroke-width="2" stroke-linecap="round">
+<path d="M0 0L0 48C0 77 22 91 22 91C22 91 44 77 44 48L44 0" transform="translate(42 20)"/>
+<line x1="64" y1="20" x2="64" y2="111"/>
+</g></svg>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="corners">
+<stop offset="0" stop-color="#555E63"/>
+<stop offset="1" stop-color="#343B40"/>
+</linearGradient>
+<linearGradient id="green">
+<stop offset="0" stop-color="#000000" stop-opacity="0"/>
+<stop offset="5%" stop-color="#FFFFFF" stop-opacity="0.4"/>
+<stop offset="10%" stop-color="#FFFFFF" stop-opacity="0"/>
+<stop offset="90%" stop-color="#FFFFFF" stop-opacity="0"/>
+<stop offset="95%" stop-color="#FFFFFF" stop-opacity="0.4"/>
+<stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+</linearGradient>
+</defs>
+<rect width="104" height="104" rx="8" x="12" y="12" fill="#AA7F41"/>
+<rect width="104" height="104" rx="8" x="12" y="12" fill="url(#green)"/>
+<rect width="104" height="96" rx="8" x="12" y="12" fill="#E2B36B"/>
+<rect width="96" height="88" rx="4" x="16" y="16" fill="url(#corners)"/>
+<g fill="none" stroke="#D6D6D6" stroke-width="2">
+<line x1="60" y1="81" x2="68" y2="81"/>
+<line x1="42" y1="75" x2="86" y2="75"/>
+<circle r="7" cx="72" cy="62"/>
+<line x1="79" y1="54" x2="79" y2="70"/>
+<path d="M0 16L4 16L10 23L22 0L43 0L43 5" transform="translate(42 47)"/>
+</g></svg>

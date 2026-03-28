@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="pages" gradientUnits="userSpaceOnUse" x1="78" y1="0" x2="86" y2="0">
+<stop offset="0" stop-color="#DEDDDA"/>
+<stop offset="0.5" stop-color="#FFFFFF"/>
+<stop offset="1" stop-color="#C0BFBC"/>
+</linearGradient>
+<linearGradient id="wood" x1="0" y1="0" x2="100%" y2="0">
+<stop offset="0" stop-color="#FFFFFF"/>
+<stop offset="1" stop-color="#D1BC8E"/>
+</linearGradient>
+<linearGradient id="eraser" x1="0" y1="0" x2="100%" y2="0">
+<stop offset="0" stop-color="#FC9B92"/>
+<stop offset="1" stop-color="#CB2B31"/>
+</linearGradient>
+<linearGradient id="steel" x1="0" y1="0" x2="100%" y2="0">
+<stop offset="0" stop-color="#F5F4F2"/>
+<stop offset="22%" stop-color="#D6D5D2"/>
+<stop offset="74%" stop-color="#9A9996"/>
+<stop offset="100%" stop-color="#BFBEBB"/>
+</linearGradient>
+</defs>
+<path d="M0 0L0 92C0 92 80 92 80 92C84.43 92 88 88.43 88 84C88 84 88 8 88 8C88 3.57 84.43 0 80 0C80 0 0 0 0 0Z" fill="#AC1D2E" transform="translate(20 28)"/>
+<path d="M0 0L0 70C0 70 78 70 78 70C82.43 70 86 66.43 86 62C86 62 86 8 86 8C86 3.57 82.43 0 78 0C78 0 0 0 0 0Z" fill="url(#pages)" transform="translate(22 48)"/>
+<path d="M0 0L0 84C0 84 80 84 80 84C84.43 84 88 80.43 88 76C88 76 88 8 88 8C88 3.57 84.43 0 80 0C80 0 0 0 0 0Z" fill="#AC1D2E" transform="translate(20 28)"/>
+<path d="M0 0L0 102C0 102 80 102 80 102C84.43 102 88 98.43 88 94C88 94 88 8 88 8C88 3.57 84.43 0 80 0C80 0 0 0 0 0Z" fill="#ED333B" transform="translate(20 8)"/>
+<rect id="shineline" width="2" height="102" x="22" y="8" fill="#FFFFFF" opacity="0.2"/>
+<g transform="translate(70 2) rotate(45, 10, 55.5)">
+<path d="M0 0L10 14L20 0Z" fill="url(#wood)" transform="translate(0 97)"/>
+<path d="M0 0L5 7L10 0Z" fill="#3D3846" transform="translate(5 104)"/>
+<rect width="20" height="32" rx="10" fill="url(#eraser)"/>
+<rect width="6" height="75" x="14" y="22" fill="#E5A50A"/>
+<rect width="8" height="75" x="6" y="22" fill="#E8C520"/>
+<rect width="6" height="75" y="22" fill="#EDE45A"/>
+<rect width="20" height="8" y="14" fill="url(#steel)"/>
+</g></svg>

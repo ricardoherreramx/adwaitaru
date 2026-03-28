@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<path id="cover" d="M0 0L80 0C84.4 0 88 3.6 88 8L88 84C88 88.4 84.4 92 80 92L0 92Z" fill="#F04646" transform="translate(20 8)"/>
+<path id="darker" d="M0 18L0 8L80 8C84.4 8 88 4.4 88 0L88 10C88 14.4 84.4 18 80 18Z" fill="#7D1516" transform="translate(20 82)"/>
+<path id="darker" d="M0 18L0 8L80 8C84.4 8 88 4.4 88 0L88 10C88 14.4 84.4 18 80 18Z" fill="#135D98" transform="translate(20 92)"/>
+<path id="darker" d="M0 18L0 8L80 8C84.4 8 88 4.4 88 0L88 10C88 14.4 84.4 18 80 18Z" fill="#4B8500" transform="translate(20 102)"/>
+<path id="paper" d="M0 14L0 8L78 8C82.4 8 86 4.4 86 0L86 6C86 10.4 82.4 14 78 14Z" fill="#E8E7E4" transform="translate(22 94)"/>
+<path id="paper" d="M0 14L0 8L78 8C82.4 8 86 4.4 86 0L86 6C86 10.4 82.4 14 78 14Z" fill="#E8E7E4" transform="translate(22 84)"/>
+<path id="paper" d="M0 14L0 8L78 8C82.4 8 86 4.4 86 0L86 6C86 10.4 82.4 14 78 14Z" fill="#E8E7E4" transform="translate(22 104)"/>
+<rect id="shine" width="2" height="82" fill="#FFFFFF" opacity="0.2" transform="translate(22 8)"/>
+</svg>

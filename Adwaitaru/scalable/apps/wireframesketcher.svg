@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<clipPath id="squircle">
+<rect width="104" height="104" rx="8" x="12" y="12"/>
+</clipPath>
+<linearGradient id="wood" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#FDEAC1"/>
+<stop offset="1" stop-color="#FAC85A"/>
+</linearGradient>
+<linearGradient id="tip" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#8E8E8E"/>
+<stop offset="1" stop-color="#050505"/>
+</linearGradient>
+<linearGradient id="eraser" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#FC9B92"/>
+<stop offset="1" stop-color="#CB2B31"/>
+</linearGradient>
+<linearGradient id="blue2" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#6EA6FB"/>
+<stop offset="1" stop-color="#C6E5FE"/>
+</linearGradient>
+<linearGradient id="blue3" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#4D6FD8"/>
+<stop offset="1" stop-color="#9FC9FC"/>
+</linearGradient>
+<linearGradient id="silver" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#F5F4F2"/>
+<stop offset="0.25" stop-color="#D6D5D2"/>
+<stop offset="0.75" stop-color="#9A9996"/>
+<stop offset="1" stop-color="#BFBEBB"/>
+</linearGradient>
+<radialGradient id="shine">
+<stop offset="0" stop-color="#FFFFFF" stop-opacity="50%"/>
+<stop offset="0.4" stop-color="#FFFFFF" stop-opacity="25%"/>
+<stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+</radialGradient>
+</defs>
+<g clip-path="url(#squircle)">
+<rect width="128" height="128" fill="#004690"/>
+<circle r="56" cx="78" cy="84" fill="#9B76C0"/>
+<circle r="56" cx="88" cy="86" fill="#444462"/>
+<circle r="24" cx="40" cy="44" fill="url(#shine)"/>
+<g fill="#859BC7">
+<rect width="104" height="2" x="12" y="84"/>
+<rect width="104" height="2" x="12" y="90"/>
+<rect width="104" height="2" x="12" y="96"/>
+<rect width="104" height="2" x="12" y="102"/>
+</g></g><g id="pencil" transform="translate(64 0) rotate(45 16 48)">
+<path d="M0 0L8 10L24 10L32 0Z" fill="url(#wood)" transform="translate(0 76)"/>
+<path d="M0 0L8 10L16 0Z" fill="url(#tip)" transform="translate(8 86)"/>
+<rect width="32" height="32" rx="8" fill="url(#eraser)"/>
+<rect width="16" height="56" fill="url(#blue2)" x="8" y="20"/>
+<rect width="8" height="56" fill="url(#blue3)" y="20"/>
+<rect width="8" height="56" fill="url(#blue3)" x="24" y="20"/>
+<rect width="32" height="8" fill="url(#silver)" y="12"/>
+</g></svg>

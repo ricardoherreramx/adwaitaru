@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<clipPath id="rhombus">
+<rect width="88" height="88" rx="8" x="20" y="20" transform="rotate(45 64 64)"/>
+</clipPath>
+<linearGradient id="blue" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#33ADDD"/>
+<stop offset="1" stop-color="#158FBF"/>
+</linearGradient>
+</defs>
+<g clip-path="url(#rhombus)">
+<rect width="128" height="128" fill="url(#blue)"/>
+<g stroke="#F2F2F2" stroke-width="14">
+<path d="M37 91L128 0"/>
+<path d="M64 64L128 128"/>
+<path d="M37 0L37 128"/>
+<rect width="88" height="88" rx="8" x="20" y="20" fill="none" transform="rotate(45 64 64)"/>
+</g></g></svg>

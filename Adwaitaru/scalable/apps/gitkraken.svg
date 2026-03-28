@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="green" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#40C6AA"/>
+<stop offset="1" stop-color="#125840"/>
+</linearGradient>
+</defs>
+<circle r="60" cx="64" cy="64" fill="url(#green)"/>
+<path d="M21 0C14 0 0 19 0 26L0 31C3 31 7 36 7 40L7 42.6C5.2 43.5 4 45.4 4 47.5C4 50.5 6.5 53 9.5 53L10 53L10 55C10 55 15 57 21 57C27 57 32 55 32 55L32 53L32.5 53C35.5 53 38 50.5 38 47.5C38 45.4 36.8 43.5 35 42.6L35 40C35 36 39 31 42 31L42 26C42 19 28 0 21 0ZM6 47.5C6 45.6 7.6 44 9.5 44C11.4 44 13 45.6 13 47.5C13 49.4 11.4 51 9.5 51C7.6 51 6 49.4 6 47.5ZM36 47.5C36 45.6 34.4 44 32.5 44C30.6 44 29 45.6 29 47.5C29 49.4 30.6 51 32.5 51C34.4 51 36 49.4 36 47.5Z" fill="#161616" fill-rule="evenodd" transform="translate(43 30)"/>
+<g fill="none" stroke="#161616" stroke-width="4" stroke-linecap="round">
+<path d="M0 35L0 60C23 58 41 39.5 41 16C41 11 40 5 38 0" transform="translate(68 49)"/>
+<path d="M41 35L41 60C18 58 0 39.5 0 16C0 11 1 5 3 0" transform="translate(19 49)"/>
+<path d="M26 52L26 68C11 63 0 49 0 32C0 18 7.5 6 19 0" transform="translate(27 32)"/>
+<path d="M0 52L0 68C15 63 26 49 26 32C26 18 18.5 6 7 0" transform="translate(75 32)"/>
+</g></svg>
+

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<clipPath id="squircle">
+<rect width="104" height="104" rx="8" x="12" y="12"/>
+</clipPath>
+<linearGradient id="gray">
+<stop offset="0" stop-color="#484848"/>
+<stop offset="0.7" stop-color="#303030"/>
+</linearGradient>
+<linearGradient id="blue">
+<stop offset="0.3" stop-color="#007DB4"/>
+<stop offset="1" stop-color="#00A2B9"/>
+</linearGradient>
+<filter id="shadow">
+<feDropShadow dx="0" dy="3" flood-color="#000000" flood-opacity="0.6" stdDeviation="3"/>
+</filter>
+</defs>
+<g clip-path="url(#squircle)">
+<path d="M0 0L52 0L52 16L28 40L52 40L52 64L76 64L52 88L52 104L0 104Z" fill="url(#gray)" transform="translate(12 12)"/>
+<path d="M76 0L24 0L24 16L0 40L24 40L24 64L48 64L24 88L24 104L76 104Z" fill="url(#blue)" transform="translate(40 12)"/>
+<g fill="none" stroke="#FFFFFF" stroke-width="8" transform="translate(40 12)">
+<path d="M24 0L24 16L0 40L24 40L24 64L48 64L24 88L24 104" filter="url(#shadow)"/>
+<path d="M24 0L24 16L0 40L24 40L24 64L48 64L24 88L24 104"/>
+</g></g></svg>

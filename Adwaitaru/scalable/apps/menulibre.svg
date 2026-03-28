@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="gray" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#A7A7A7"/>
+<stop offset="1" stop-color="#9E9E9E"/>
+</linearGradient>
+<linearGradient id="blue" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#50BEEB"/>
+<stop offset="1" stop-color="#388CE6"/>
+</linearGradient>
+<linearGradient id="wood" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#FFFFFF"/>
+<stop offset="1" stop-color="#D1BC8E"/>
+</linearGradient>
+<linearGradient id="eraser" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#FC9B92"/>
+<stop offset="1" stop-color="#CB2B31"/>
+</linearGradient>
+<linearGradient id="silver" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#F5F4F2"/>
+<stop offset="25%" stop-color="#D6D5D2"/>
+<stop offset="75%" stop-color="#9A9996"/>
+<stop offset="100%" stop-color="#BFBEBB"/>
+</linearGradient>
+</defs>
+<g fill="#EEEEEE">
+<rect width="104" height="104" rx="8" x="12" y="12"/>
+<path d="M0 0L20 0L10 12Z" transform="translate(30 116)"/>
+</g><g fill="none" stroke="#848484" stroke-width="4" stroke-linecap="round">
+<line x1="54" y1="34" x2="94" y2="34"/>
+<line x1="54" y1="54" x2="94" y2="54"/>
+<line x1="54" y1="74" x2="94" y2="74" stroke="#1276C8"/>
+<line x1="54" y1="94" x2="94" y2="94"/>
+</g><g fill="url(#gray)" stroke="#848484" stroke-width="2" stroke-linejoin="round">
+<rect width="6" height="6" x="31" y="31"/>
+<rect width="6" height="6" x="31" y="51"/>
+<rect width="10" height="10" x="29" y="69" fill="url(#blue)" stroke="#1276C8"/>
+<rect width="6" height="6" x="31" y="91"/>
+</g><g id="pencil" transform="translate(78 -8) rotate(45 10 48)">
+<path d="M0 0L10 14L20 0Z" fill="url(#wood)" transform="translate(0 82)"/>
+<path d="M0 0L5 7L10 0Z" fill="#3D3846" transform="matrix(1 0 0 1 5 89)"/>
+<rect width="20" height="32" rx="10" fill="url(#eraser)"/>
+<rect width="6" height="60" fill="#262626" transform="translate(14 22)"/>
+<rect width="8" height="60" fill="#404040" transform="translate(6 22)"/>
+<rect width="6" height="60" fill="#646464" transform="translate(0 22)"/>
+<rect width="20" height="8" fill="url(#silver)" transform="translate(0 14)"/>
+</g></svg>
