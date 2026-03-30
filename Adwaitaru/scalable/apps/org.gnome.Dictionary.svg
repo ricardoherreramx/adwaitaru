@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="pages" gradientUnits="userSpaceOnUse" x1="76" y1="0" x2="86" y2="0">
+<stop offset="0" stop-color="#F5F2F3"/>
+<stop offset="0.5" stop-color="#F6F5F4"/>
+<stop offset="1" stop-color="#C0BFBC"/>
+</linearGradient>
+<linearGradient id="red" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#C01C28"/>
+<stop offset="1" stop-color="#ED333B"/>
+</linearGradient>
+<linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#FFFFFF" stop-opacity="0.25"/>
+<stop offset="0.15" stop-color="#FFFFFF" stop-opacity="0"/>
+</linearGradient>
+<clipPath id="cover">
+<path d="M0 8C0 8 0 92 0 92C0 87.6 3.6 84 8 84L80 84C84.4 84 88 80.4 88 76L88 8C88 3.6 84.4 0 80 0L8 0C3.6 0 0 3.6 0 8Z" transform="translate(20 8)"/>
+</clipPath>
+</defs>
+<rect width="88" height="112" rx="8" x="20" y="8" fill="#26A269"/>
+<path d="M78 32C82.4 32 86 28.4 86 24L86 0C86 4.4 82.4 8 78 8L6 8C2.7 8 0 10.7 0 14L0 26C0 29.3 2.7 32 6 32Z" fill="url(#pages)" transform="translate(22 86)"/>
+<g stroke="#DEDDDA" stroke-width="2" stroke-linecap="round">
+<line x1="50" y1="99" x2="75" y2="99"/>
+<line x1="37" y1="103" x2="91" y2="103"/>
+<line x1="37" y1="107" x2="93" y2="107"/>
+<line x1="42" y1="111" x2="90" y2="111"/>
+</g>
+<path d="M0 0L12 0L12 13L6 8L0 13Z" fill="url(#red)" transform="translate(44 102)"/>
+<path d="M0 8C0 8 0 92 0 92C0 87.6 3.6 84 8 84L80 84C84.4 84 88 80.4 88 76L88 8C88 3.6 84.4 0 80 0L8 0C3.6 0 0 3.6 0 8Z" fill="#2EC27E" transform="translate(20 8)"/>
+<path d="M6 0C2.7 0 0 2.7 0 6L0 58C0 54.7 2.7 52 6 52L88 52L88 0Z" fill="#57E389" transform="translate(20 24)"/>
+<g fill="#1F8455">
+<path d="M10 15.84C10.32 17.44 11.4 18.16 13.16 18.16C15.36 18.16 16.92 17.32 18.4 16C18.3 15.5 18.12 15.16 17.7 14.8C17.16 15.2 16.76 15.36 16 15.36C15.12 15.36 14.9 14.64 15 12.7C15 12.7 15 7 15 7C15 1.16 11.4 0 8.12 0C5.2 0 0.7 1.7 0.7 4.3C0.7 5.5 1.16 6.36 2.76 6.36C4.16 6.36 5.24 5.5 5.24 4.5C5.24 4 5 3.3 5 2.6C5.12 2.16 5.4 1.7 6.76 1.7C8.4 1.7 9.84 2.4 9.84 7.5C9.84 7.5 7.16 8.32 7.16 8.32C3 9.64 0 10.8 0 14C0 16.7 1.5 18.16 5 18.16C6.16 18.16 8.5 17 9.8 15.84C9.8 15.84 10 15.84 10 15.84ZM9.84 9C9.84 9 9.84 14.3 9.84 14.3C8.84 15.12 7.84 15.76 7.12 15.76C5.4 15.76 4.8 14.6 4.8 13.36C4.8 12 5 10.7 7.76 9.7C7.76 9.7 9.84 9 9.84 9Z" transform="translate(69.8 45.56)"/>
+<path d="M8.7 17L17.4 17L19.68 23C20.3 24.6 18.6 24.6 16.7 24.6L16.7 26L29 26L29 24.6C27.4 24.6 26 24.6 25.3 22.5L17 0L12.5 1.5L3.8 22C2.8 24.6 1.7 24.6 0 24.6L0 26L9 26L9 24.6C7.5 24.6 5.7 24.6 6.3 22.8ZM9.4 15L13.3 5L16.75 15Z" transform="translate(39 37)"/>
+</g>
+<rect width="88" height="112" rx="8" x="20" y="8" fill="url(#shine)" clip-path="url(#cover)"/>
+</svg>

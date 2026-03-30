@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="pages">
+<stop offset="0.04" stop-color="#F2CA84"/>
+<stop offset="0.08" stop-color="#FFDEB4"/>
+<stop offset="0.12" stop-color="#F2CA84"/>
+<stop offset="0.88" stop-color="#F2CA84"/>
+<stop offset="0.92" stop-color="#FFDEB4"/>
+<stop offset="0.96" stop-color="#F2CA84"/>
+</linearGradient>
+<linearGradient id="page1">
+<stop offset="0" stop-color="#EBCD91"/>
+<stop offset="0.1" stop-color="#FFF0C8"/>
+<stop offset="0.2" stop-color="#FFF5B7"/>
+</linearGradient>
+<linearGradient id="page2">
+<stop offset="0.8" stop-color="#FFF5B7"/>
+<stop offset="0.9" stop-color="#FFF0C8"/>
+<stop offset="1" stop-color="#EBCD91"/>
+</linearGradient>
+</defs>
+<rect width="112" height="78" rx="8" x="8" y="40" fill="#7A2E20"/>
+<rect width="112" height="76" rx="8" x="8" y="40" fill="url(#pages)"/>
+<g fill="#000000" opacity="0.3">
+<path d="M7.5 7C3.4 7 0 4 0 0L0 3.65C1.4 6.3 4 8 7.5 8L8 8L46 7Z" transform="translate(8 100)"/>
+<path d="M7.5 7C3.4 7 0 4 0 0L0 3.65C1.4 6.3 4 8 7.5 8L8 8L46 7Z" transform="translate(8 103)"/>
+<path d="M7.5 7C3.4 7 0 4 0 0L0 3.65C1.4 6.3 4 8 7.5 8L8 8L46 7Z" transform="translate(8 106)"/>
+</g>
+<path d="M0 0L16 0L16 20L8 13L0 20Z" fill="#BE6428" transform="translate(84 108)"/>
+<path d="M48 0C52.4 0 56 3.6 56 8L56 68C56 72.4 52.4 76 48 76L12 76C5.4 76 0 81.4 0 88L0 12C0 5.4 5.4 0 12 0Z" fill="url(#page1)" transform="translate(64 28)"/>
+<path d="M8 0C3.6 0 0 3.6 0 8L0 68C0 72.4 3.6 76 8 76L44 76C50.6 76 56 81.4 56 88L56 12C56 5.4 50.6 0 44 0Z" fill="url(#page2)" transform="translate(8 28)"/>
+<g stroke="#D79B46" stroke-width="2" stroke-linecap="round">
+<line x1="0" x2="32" transform="translate(20 43)"/>
+<line x1="0" x2="32" transform="translate(20 51)"/>
+<line x1="0" x2="32" transform="translate(20 59)"/>
+<line x1="0" x2="32" transform="translate(20 67)"/>
+<line x1="0" x2="32" transform="translate(20 75)"/>
+<line x1="0" x2="32" transform="translate(20 83)"/>
+<line x1="0" x2="32" transform="translate(20 91)"/>
+<line x1="0" x2="32" transform="translate(76 43)"/>
+<line x1="0" x2="32" transform="translate(76 51)"/>
+<line x1="0" x2="32" transform="translate(76 59)"/>
+<line x1="0" x2="32" transform="translate(76 67)"/>
+<line x1="0" x2="32" transform="translate(76 75)"/>
+<line x1="0" x2="32" transform="translate(76 83)"/>
+<line x1="0" x2="32" transform="translate(76 91)"/>
+</g></svg>

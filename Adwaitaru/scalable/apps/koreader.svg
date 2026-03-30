@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<clipPath id="cover">
+<path d="M0 0L0 102C0 102 80 102 80 102C84.4 102 88 98.4 88 94C88 94 88 8 88 8C88 3.6 84.4 0 80 0C80 0 0 0 0 0Z" transform="translate(20 8)"/>
+</clipPath>
+<linearGradient id="pages" gradientUnits="userSpaceOnUse" x1="78" y1="35" x2="86" y2="35">
+<stop offset="0" stop-color="#DEDDDA"/>
+<stop offset="0.5" stop-color="#FFFFFF"/>
+<stop offset="1" stop-color="#C0BFBC"/>
+</linearGradient>
+</defs>
+<path d="M0 0L0 92C0 92 80 92 80 92C84.4 92 88 88.4 88 84C88 84 88 8 88 8C88 3.6 84.4 0 80 0C80 0 0 0 0 0Z" fill="#00786F" transform="translate(20 28)"/>
+<path d="M0 0L0 70C0 70 78 70 78 70C82.4 70 86 66.4 86 62C86 62 86 8 86 8C86 3.6 82.4 0 78 0C78 0 0 0 0 0Z" fill="url(#pages)" transform="translate(22 48)"/>
+<path d="M0 0L0 84C0 84 80 84 80 84C84.4 84 88 80.4 88 76C88 76 88 8 88 8C88 3.6 84.4 0 80 0C80 0 0 0 0 0Z" fill="#00786F" transform="translate(20 28)"/>
+<path d="M0 0L0 102C0 102 80 102 80 102C84.4 102 88 98.4 88 94C88 94 88 8 88 8C88 3.6 84.4 0 80 0C80 0 0 0 0 0Z" fill="#00A89B" transform="translate(20 8)"/>
+<g fill="#FFFFFF" clip-path="url(#cover)">
+<path d="M0 0L2 0L2 102L0 102Z" opacity="0.25" transform="translate(22 8)"/>
+<path d="M17.8 31L49 62L31 62L0 31L31 0L49 0L18 31Z" transform="translate(47 8)"/>
+<path d="M0 0L14 0L14 62L7 55L0 62Z" transform="translate(33 8)"/>
+<circle r="27" cx="64" cy="101" fill="none" stroke="#FFFFFF" stroke-width="12"/>
+</g></svg>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<clipPath id="table">
+<rect width="104" height="96" rx="8" x="12" y="12"/>
+</clipPath>
+<linearGradient id="wood">
+<stop offset="0" stop-color="#63452C"/>
+<stop offset="5%" stop-color="#865E3C"/>
+<stop offset="10%" stop-color="#63452C"/>
+<stop offset="90%" stop-color="#63452C"/>
+<stop offset="95%" stop-color="#865E3C"/>
+<stop offset="1" stop-color="#63452C"/>
+</linearGradient>
+<linearGradient id="keybrd" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#5E5C64"/>
+<stop offset="5%" stop-color="#DEDDDA"/>
+<stop offset="10%" stop-color="#77767B"/>
+<stop offset="90%" stop-color="#5E5C64"/>
+<stop offset="95%" stop-color="#9A9996"/>
+<stop offset="1" stop-color="#5E5C64"/>
+</linearGradient>
+<linearGradient id="pencil" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#3D3846"/>
+<stop offset="0.4" stop-color="#5E5C64"/>
+<stop offset="1" stop-color="#342F3B"/>
+</linearGradient>
+<linearGradient id="mouse1">
+<stop offset="0" stop-color="#C0BFBC"/>
+<stop offset="0.5" stop-color="#DEDDDA"/>
+<stop offset="1" stop-color="#9A9996"/>
+</linearGradient>
+<radialGradient id="mouse2" cx="50%" cy="0" r="1">
+<stop offset="0" stop-color="#F5F2F3"/>
+<stop offset="1" stop-color="#C0BFBC"/>
+</radialGradient>
+<filter id="button">
+<feDropShadow dx="0" dy="1" flood-color="#241F31" stdDeviation="0"/>
+</filter>
+</defs>
+<rect width="104" height="104" rx="8" x="12" y="12" fill="url(#wood)"/>
+<rect width="104" height="96" rx="8" x="12" y="12" fill="#865E3C"/>
+<g clip-path="url(#table)">
+<rect width="72" height="56" rx="6" x="0" y="26" fill="url(#keybrd)"/>
+<rect width="72" height="54" rx="6" x="0" y="26" fill="#9A9996"/>
+<g fill="#3D3846" filter="url(#button)">
+<rect width="8" height="7" rx="2" x="8" y="34"/>
+<rect width="8" height="7" rx="2" x="18" y="34"/>
+<rect width="8" height="7" rx="2" x="28" y="34"/>
+<rect width="8" height="7" rx="2" x="38" y="34"/>
+<rect width="8" height="7" rx="2" x="48" y="34"/>
+<rect width="8" height="7" rx="2" x="58" y="34"/>
+<rect width="8" height="7" rx="2" x="14" y="44"/>
+<rect width="8" height="7" rx="2" x="24" y="44"/>
+<rect width="8" height="7" rx="2" x="34" y="44"/>
+<rect width="8" height="7" rx="2" x="44" y="44"/>
+<rect width="8" height="7" rx="2" x="54" y="44"/>
+<rect width="8" height="7" rx="2" x="8" y="54"/>
+<rect width="8" height="7" rx="2" x="18" y="54"/>
+<rect width="8" height="7" rx="2" x="28" y="54"/>
+<rect width="8" height="7" rx="2" x="38" y="54"/>
+<rect width="8" height="7" rx="2" x="48" y="54"/>
+<rect width="8" height="7" rx="2" x="58" y="54"/>
+<rect width="24" height="7" rx="2" x="8" y="64"/>
+<rect width="8" height="7" rx="2" x="34" y="64"/>
+<rect width="8" height="7" rx="2" x="44" y="64"/>
+<rect width="8" height="7" rx="2" x="54" y="64"/>
+</g></g>
+<rect width="20" height="32" rx="10" fill="url(#mouse1)" x="84" y="40"/>
+<rect width="20" height="30" rx="10" fill="url(#mouse2)" x="84" y="40"/>
+<rect width="4" height="10" rx="2" fill="#36343D" x="92" y="44"/>
+<circle r="1" cx="94" cy="46" fill="#C0BFBC" opacity="0.2"/>
+<rect width="72" height="8" rx="4" x="32" y="92" fill="url(#pencil)"/>
+<path d="M0 4L8 0L12 0L12 8L8 8Z" fill="#241F31" transform="translate(24 92)"/>
+</svg>

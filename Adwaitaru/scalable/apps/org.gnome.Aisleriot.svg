@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="cards">
+<stop offset="0" stop-color="#9A9996"/>
+<stop offset="6%" stop-color="#C0BFBC"/>
+<stop offset="20%" stop-color="#9A9996"/>
+<stop offset="80%" stop-color="#9A9996"/>
+<stop offset="94%" stop-color="#C0BFBC"/>
+<stop offset="1" stop-color="#9A9996"/>
+</linearGradient>
+<linearGradient id="space">
+<stop offset="0" stop-color="#C0BFBC" stop-opacity="0"/>
+<stop offset="0.9" stop-color="#C0BFBC"/>
+<stop offset="1" stop-color="#C0BFBC" stop-opacity="0"/>
+</linearGradient>
+</defs>
+<rect width="88" height="112" rx="8" x="20" y="8" fill="url(#cards)"/>
+<rect width="43" height="2" x="61" y="111" fill="url(#space)"/>
+<rect width="43" height="2" x="61" y="115" fill="url(#space)"/>
+<rect width="88" height="100" rx="8" fill="#DEDDDA" transform="translate(20 10) rotate(-15 44 50)"/>
+<rect width="88" height="103" rx="8" x="20" y="8" fill="url(#cards)"/>
+<rect width="88" height="100" rx="8" x="20" y="8" fill="#F6F5F4"/>
+<g fill="#A51D2D">
+<path d="M0 30L0 10C0 4.5 4.5 0 10 0C15.5 0 20 4.5 20 10C25.5 10 30 14.5 30 20C30 25.5 25.5 30 20 30Z" transform="translate(64 44) rotate(-45 0 30)"/>
+<path d="M5 11.7L11 11.7L13 16L16 16L9.4 0L6.6 0L0 16L3 16ZM6 9L8 3.3L10 9L10 9Z" transform="translate(28 16)"/>
+<path d="M5 4.3L11 4.3L13 0L16 0L9.4 16L6.6 16L0 0L3 0ZM8 12.7L10 7L6 7Z" transform="translate(84 84)"/>
+</g></svg>
