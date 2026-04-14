@@ -34,7 +34,7 @@
 <circle r="3" cx="36"/>
 <circle r="3" cx="48"/>
 <circle r="3" cx="60"/>
-</g><g transform="translate(70 2) rotate(45, 10, 55.5)">
+</g><g transform="translate(28 -15) rotate(45, 10, 111)">
 <path d="M0 0L10 14L20 0Z" fill="url(#wood)" transform="translate(0 97)"/>
 <path d="M0 0L5 7L10 0Z" fill="#3D3846" transform="translate(5 104)"/>
 <rect width="20" height="32" rx="10" fill="url(#eraser)"/>

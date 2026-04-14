@@ -4,11 +4,11 @@
 <clipPath id="squircle">
 <rect width="104" height="104" rx="8"/>
 </clipPath>
-<linearGradient id="sky" gradientUnits="userSpaceOnUse" x1="104" y1="0" x2="0" y2="104">
+<linearGradient id="sky" x1="1" y1="0" x2="0" y2="1">
 <stop offset="0" stop-color="#62A0EA"/>
 <stop offset="1" stop-color="#1C71D8"/>
 </linearGradient>
-<linearGradient id="green" gradientUnits="userSpaceOnUse" x1="0" y1="72" x2="0" y2="144">
+<linearGradient id="green" x1="0" y1="0.5" x2="0" y2="1">
 <stop offset="0" stop-color="#05C96B"/>
 <stop offset="1" stop-color="#028747"/>
 </linearGradient>

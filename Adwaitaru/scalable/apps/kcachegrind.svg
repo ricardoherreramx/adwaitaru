@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="blue" x1="0" y1="0" x2="0" y2="1">
+<stop offset="25%" stop-color="#3DAEEA"/>
+<stop offset="75%" stop-color="#2880B8"/>
+</linearGradient>
+<filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+<feDropShadow dx="0" dy="2" flood-color="#77767B" stdDeviation="0"/>
+</filter>
+<clipPath id="circle">
+<circle r="36" cx="64" cy="64"/>
+</clipPath>
+</defs>
+<g fill="#F6F5F4" stroke="#F6F5F4" stroke-width="8" stroke-linejoin="round" filter="url(#shadow)"><g>
+<path d="M2 0L8 0L10 16L0 16Z" transform="translate(59 8)"/>
+<path d="M0 0L10 0L8 16L2 16Z" transform="translate(59 104)"/>
+<path d="M0 8L0 2L16 0L16 10Z" transform="translate(8 59)"/>
+<path d="M0 0L16 2L16 8L0 10Z" transform="translate(104 59)"/>
+</g><g transform="rotate(30 64 64)">
+<path d="M2 0L8 0L10 16L0 16Z" transform="translate(59 8)"/>
+<path d="M0 0L10 0L8 16L2 16Z" transform="translate(59 104)"/>
+<path d="M0 8L0 2L16 0L16 10Z" transform="translate(8 59)"/>
+<path d="M0 0L16 2L16 8L0 10Z" transform="translate(104 59)"/>
+</g><g transform="rotate(60 64 64)">
+<path d="M2 0L8 0L10 16L0 16Z" transform="translate(59 8)"/>
+<path d="M0 0L10 0L8 16L2 16Z" transform="translate(59 104)"/>
+<path d="M0 8L0 2L16 0L16 10Z" transform="translate(8 59)"/>
+<path d="M0 0L16 2L16 8L0 10Z" transform="translate(104 59)"/>
+</g></g>
+<circle r="38" cx="64" cy="64" fill="none" stroke="#F6F5F4" stroke-width="20" filter="url(#shadow)"/>
+<g clip-path="url(#circle)">
+<rect width="128" height="128" fill="#3D3846"/>
+<g fill="#717578" transform="translate(28 37)">
+<rect width="22" height="3"/>
+<rect width="6" height="3" transform="translate(25 0)"/>
+<rect width="9" height="3" transform="translate(0 6)"/>
+<rect width="21" height="3" transform="translate(12 6)"/>
+<rect width="17" height="3" transform="translate(0 11)"/>
+<rect width="13" height="3" transform="translate(7 16)"/>
+<rect width="4" height="3" transform="translate(0 16)"/>
+<rect width="14" height="3" transform="translate(0 27)"/>
+<rect width="6" height="3" transform="translate(17 27)"/>
+<rect width="9" height="3" transform="translate(0 32)"/>
+<rect width="27" height="3" transform="translate(12 32)"/>
+<rect width="6" height="3" transform="translate(0 38)"/>
+<rect width="13" height="3" transform="translate(9 38)"/>
+<rect width="6" height="3" transform="translate(25 38)"/>
+<rect width="20" height="3" transform="translate(0 48)"/>
+<rect width="5" height="3" transform="translate(23 48)"/>
+<rect width="14" height="3" transform="translate(0 54)"/>
+<rect width="14" height="3" transform="translate(17 54)"/>
+<rect width="3" height="11" transform="translate(36 40)"/>
+<rect width="3" height="11" transform="translate(49 54)"/>
+<path d="M0 0L8 0L8 11L0 11ZM3 3L5 3L5 8L3 8Z" fill-rule="evenodd" transform="translate(44 40)"/>
+<path d="M0 0L8 0L8 11L0 11ZM3 3L5 3L5 8L3 8Z" fill-rule="evenodd" transform="translate(36 54)"/>
+</g>
+<path d="M64 0L128 0L128 128L64 64Z" fill="url(#blue)"/>
+<line x1="64" y1="64" x2="128" y2="128" stroke="#ED333B" stroke-width="2"/>
+<line x1="64" y1="0" x2="64" y2="64" stroke="#F6F5F4" stroke-width="2"/>
+<circle r="4" cx="64" cy="64" fill="#131C1A" stroke="#D5D3CF" stroke-width="4"/>
+</g></svg>

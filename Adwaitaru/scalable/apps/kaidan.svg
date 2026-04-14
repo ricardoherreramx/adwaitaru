@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="green" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#30C257"/>
+<stop offset="50%" stop-color="#2BB565"/>
+<stop offset="1" stop-color="#32A482"/>
+</linearGradient>
+<linearGradient id="shadow" x1="0" y1="0" x2="0" y2="1">
+<stop offset="44%" stop-color="#000000" stop-opacity="22%"/>
+<stop offset="1" stop-color="#D3D3D3" stop-opacity="0"/>
+</linearGradient>
+</defs>
+<path d="M60 0C26.863 0 0 26.863 0 60C0 68.416 1.736 76.425 4.864 83.7C6.384 87.855 7.9 92 8.416 95.464C9 99 8.4735 101.8 7.8 103.6C7.134 105.4 6.27 106.2 5.6 108.1C4.933 110 4.46 112.9 6 115.12C7.56 117.35 11.13 118.86 17.73 120C24.333 121.185 33.973 122 42.3774 122C50.8 122 58 121.18 63 120.44C67.464 119.8 70.26 119.2 72.87 118.6C73.1635 118.55 73.46 118.5 73.75 118.416C73.75 118.416 73.943 118.372 73.943 118.372C73.943 118.372 73.94 118.37 73.94 118.37C100.353 112.1 120 88.34 120 60C120 26.863 93.137 0 60 0C60 0 60 0 60 0Z" fill="url(#green)" transform="translate(4 4)"/>
+<g fill="url(#shadow)">
+<path d="M0 8L8 0L60 0L84 24L16 24Z" transform="translate(35 35)"/>
+<path d="M0 8L8 0L76 0L100 24L16 24Z" transform="translate(27 59)"/>
+<path d="M0 8L8 0L40 0L64 24L16 24Z" transform="translate(55 83)"/>
+<path d="M0 8L8 0L32 24L16 24Z" transform="translate(35 83)"/>
+</g><g fill="#C1EDE5">
+<rect width="64" height="12" rx="6" x="32" y="32"/>
+<rect width="80" height="12" rx="6" x="24" y="56"/>
+<rect width="12" height="12" rx="6" x="32" y="80"/>
+<rect width="44" height="12" rx="6" x="52" y="80"/>
+</g></svg>

@@ -26,7 +26,7 @@
 <path d="M0 0L0 84C0 84 80 84 80 84C84.43 84 88 80.43 88 76C88 76 88 8 88 8C88 3.57 84.43 0 80 0C80 0 0 0 0 0Z" fill="#AC1D2E" transform="translate(20 28)"/>
 <path d="M0 0L0 102C0 102 80 102 80 102C84.43 102 88 98.43 88 94C88 94 88 8 88 8C88 3.57 84.43 0 80 0C80 0 0 0 0 0Z" fill="#ED333B" transform="translate(20 8)"/>
 <rect id="shineline" width="2" height="102" x="22" y="8" fill="#FFFFFF" opacity="0.2"/>
-<g transform="translate(70 2) rotate(45, 10, 55.5)">
+<g transform="translate(28 -15) rotate(45, 10, 111)">
 <path d="M0 0L10 14L20 0Z" fill="url(#wood)" transform="translate(0 97)"/>
 <path d="M0 0L5 7L10 0Z" fill="#3D3846" transform="translate(5 104)"/>
 <rect width="20" height="32" rx="10" fill="url(#eraser)"/>

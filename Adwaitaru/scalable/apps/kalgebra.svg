@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="page" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#F4F1E8"/>
+<stop offset="1" stop-color="#E3DFD6"/>
+</linearGradient>
+<linearGradient id="dark" x1="0" y1="0" x2="1" y2="1">
+<stop offset="50%" stop-color="#9E9A93"/>
+<stop offset="60%" stop-color="#B8B2A5"/>
+</linearGradient>
+<linearGradient id="fold" x1="0" y1="0" x2="1" y2="1">
+<stop offset="40%" stop-color="#F3F2EF"/>
+<stop offset="50%" stop-color="#DEDDDA"/>
+</linearGradient>
+<filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+<feDropShadow dx="0" dy="0" flood-color="#000000" flood-opacity="50%" stdDeviation="6"/>
+</filter>
+<clipPath id="sheet">
+<path d="M88 8L88 84L60 112L8 112C3.6 112 0 108.4 0 104L0 8C0 3.6 3.6 0 8 0L80 0C84.4 0 88 3.6 88 8Z" transform="translate(20 8)"/>
+</clipPath>
+</defs>
+<path d="M88 8L88 84L60 112L8 112C3.6 112 0 108.4 0 104L0 8C0 3.6 3.6 0 8 0L80 0C84.4 0 88 3.6 88 8Z" fill="url(#page)" transform="translate(20 8)"/>
+<path d="M20 28L0 28L28 0L28 20C28 24.4 24.4 28 20 28Z" fill="url(#dark)" transform="translate(80 92)"/>
+<g opacity="0.4">
+<rect width="4" height="112" x="32" y="8" fill="#FF0000"/>
+<rect width="88" height="4" x="20" y="20" fill="#005DFF"/>
+</g>
+<path d="M0 0L0 6L12 28L0 50L0 56L40 56L40 44L36 44L36 50L6 50L18 28L6 6L32 6L32 8L36 8L36 0Z" fill="#ADA489" transform="translate(44 36)"/>
+<g clip-path="url(#sheet)">
+<path d="M8 0L28 0L0 28L0 8C0 3.6 3.6 0 8 0Z" fill="url(#fold)" filter="url(#shadow)" transform="translate(80 92)"/>
+</g></svg>

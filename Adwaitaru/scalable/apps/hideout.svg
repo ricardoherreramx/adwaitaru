@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="gray" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#5D5C64"/>
+<stop offset="1" stop-color="#262233"/>
+</linearGradient>
+<linearGradient id="blue" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#3584E3"/>
+<stop offset="1" stop-color="#1A5FB3"/>
+</linearGradient>
+</defs>
+<path d="M88 28L88 104C88 108.4 84.4189 112 80 112L8 112C3.6 112 0 108.4 0 104L0 8C0 3.6 3.6 0 8 0L60 0L60 28Z" fill="url(#gray)" transform="translate(20 8)"/>
+<path d="M0 0L28 28L0 28Z" fill="#737278" transform="translate(80 8)"/>
+<g fill="#737278" transform="translate(36 40)">
+<rect width="56" height="2"/>
+<rect width="56" height="2" y="8"/>
+<rect width="56" height="2" y="16"/>
+<rect width="56" height="2" y="24"/>
+</g>
+<path d="M0 32L0 18C0 8 8 0 18 0C28 0 36 8 36 18L36 32" fill="none" stroke="#E3E2DE" stroke-width="8" transform="translate(46 44)"/>
+<rect width="56" height="40" rx="8" x="36" y="68" fill="url(#blue)"/>
+<path d="M0 6C0 2.7 2.7 0 6 0C9.3 0 12 2.7 12 6C12 8.2 10.8 10.16 9 11.2L9 17L3 17L3 11.2C1.2 10.16 0 8.2 0 6Z" fill="#FFFFFF" stroke="#1A5FB4" stroke-width="2" stroke-linejoin="round" transform="translate(58 78)"/>
+</svg>

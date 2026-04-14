@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="magenta" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#FF00FF"/>
+<stop offset="75%" stop-color="#FF00FF" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="blue" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#00FFFF"/>
+<stop offset="75%" stop-color="#00FFFF" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="yellow" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#FFFF00"/>
+<stop offset="75%" stop-color="#FFFF00" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="swash" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#5596EA" stop-opacity="0"/>
+<stop offset="1" stop-color="#5496EB"/>
+</linearGradient>
+</defs>
+<circle r="60" cx="64" cy="64" fill="#FFFFFF"/>
+<circle r="60" cx="64" cy="64" fill="url(#yellow)" transform="rotate(120 64 64)"/>
+<circle r="60" cx="64" cy="64" fill="url(#blue)" transform="rotate(240 64 64)"/>
+<circle r="60" cx="64" cy="64" fill="url(#magenta)"/>
+<g transform="translate(4.5 14)">
+<path d="M60.8 8C29.54 36 4 9.26 0 0C2.34 16 13.17 30.46 29.54 36C42 40.17 61.6 40 70.45 24.15C70.45 24.15 60.8 8 60.8 8Z" fill="url(#swash)" transform="translate(17.84 53.2)"/>
+<path d="M65.8 53.93C57.8 61.4 42.37 49.546 35.865 42.1C29.17 34.44 4.2 8.6 2.36 6.93C0.537 5.256 -0.92 3.1875 0.7 1.13C2.38 -0.875 4.7 0.12 6.72 1.56C8.735 3 39.17 22.12 48 27C56.673 31.9 71.455 44.55 65.8 53.93C65.8 53.93 65.8 53.93 65.8 53.93Z" fill="#4D4D4D"/>
+<path d="M19.9 17.46C17.35 18.63 17.63 19.47 15.36 19.1C13.8 18.86 0.24 8.6 0.24 8.6C-0.44 6.94 0.38 4.67 1.93 2.9C3.36 1 5.4 -0.28 7.166 0C7.166 0 20 11.2 20.58 12.67C21.4 14.8 20.52 14.72 19.9 17.46C19.9 17.46 19.9 17.46 19.9 17.46Z" fill="#BFBFBF" transform="translate(58.6 46.47)"/>
+<path d="M5.925 28.36C16 22.65 19 12.7 15 5.43C11.87 -0.225 6.8 -1.3 3.276 1.44C-0.2 4.15 -0.5 7.4 0.524 10.6C2.644 17.14 11.17 21.6 5.925 28.36C5.925 28.36 5.925 28.36 5.925 28.36Z" fill="#282828" transform="translate(73.3 58.3)"/>
+</g></svg>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="mouse1">
+<stop offset="0" stop-color="#C0BFBC"/>
+<stop offset="0.5" stop-color="#DEDDDA"/>
+<stop offset="1" stop-color="#9A9996"/>
+</linearGradient>
+<radialGradient id="mouse2" cx="50%" cy="0" r="1">
+<stop offset="0" stop-color="#F6F5F4"/>
+<stop offset="1" stop-color="#C0BFBC"/>
+</radialGradient>
+</defs>
+<rect width="76" height="118" rx="38" x="26" y="4" fill="url(#mouse1)"/>
+<rect width="76" height="112" rx="38" x="26" y="4" fill="url(#mouse2)"/>
+<rect width="2" height="16" x="62" y="4" fill="#DEDDDA"/>
+<rect width="2" height="16" x="64" y="4" fill="#C3C2BF"/>
+<rect width="16" height="40" rx="8" x="56" y="16" fill="#36343D"/>
+<circle r="4" cx="64" cy="24" fill="#C0BFBC" opacity="25%"/>
+</svg>

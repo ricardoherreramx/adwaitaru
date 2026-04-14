@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="green">
+<stop offset="0" stop-color="#55D984"/>
+<stop offset="1" stop-color="#348274"/>
+</linearGradient>
+<linearGradient id="bleen">
+<stop offset="0" stop-color="#377D50"/>
+<stop offset="1" stop-color="#375A7D"/>
+</linearGradient>
+<linearGradient id="ellipse">
+<stop offset="0" stop-color="#7EEDA5"/>
+<stop offset="1" stop-color="#E3FAF6"/>
+</linearGradient>
+<filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+<feDropShadow dx="0" dy="2" flood-color="#77767B" stdDeviation="0"/>
+</filter>
+</defs>
+<g fill="#F6F5F4" stroke="#F6F5F4" stroke-width="8" stroke-linejoin="round" filter="url(#shadow)"><g>
+<path d="M2 0L8 0L10 16L0 16Z" transform="translate(59 8)"/>
+<path d="M0 0L10 0L8 16L2 16Z" transform="translate(59 104)"/>
+<path d="M0 8L0 2L16 0L16 10Z" transform="translate(8 59)"/>
+<path d="M0 0L16 2L16 8L0 10Z" transform="translate(104 59)"/>
+</g><g transform="rotate(30 64 64)">
+<path d="M2 0L8 0L10 16L0 16Z" transform="translate(59 8)"/>
+<path d="M0 0L10 0L8 16L2 16Z" transform="translate(59 104)"/>
+<path d="M0 8L0 2L16 0L16 10Z" transform="translate(8 59)"/>
+<path d="M0 0L16 2L16 8L0 10Z" transform="translate(104 59)"/>
+</g><g transform="rotate(60 64 64)">
+<path d="M2 0L8 0L10 16L0 16Z" transform="translate(59 8)"/>
+<path d="M0 0L10 0L8 16L2 16Z" transform="translate(59 104)"/>
+<path d="M0 8L0 2L16 0L16 10Z" transform="translate(8 59)"/>
+<path d="M0 0L16 2L16 8L0 10Z" transform="translate(104 59)"/>
+</g></g>
+<circle r="38" cx="64" cy="64" fill="none" stroke="#F6F5F4" stroke-width="20" filter="url(#shadow)"/>
+<g transform="rotate(45 64 64)">
+<circle r="35" cx="64" cy="64" fill="url(#green)" stroke="url(#bleen)" stroke-width="2"/>
+<ellipse cx="64" cy="78" rx="24" ry="16" fill="url(#ellipse)"/>
+<path d="M18 15L0 15L9 0LZ" fill="#334545" transform="translate(55 71)"/>
+</g></svg>

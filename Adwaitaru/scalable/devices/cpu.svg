@@ -1,15 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
-<rect width="104" height="104" rx="8" fill="#2EC27E" transform="translate(12 12)"/>
-<rect width="48" height="48" rx="6" fill="#000000" opacity="0.3" transform="translate(40 40)"/>
-<g fill="none" stroke="#F9F06B" stroke-width="6" stroke-linecap="round">
-<path d="M0 0L54 0" transform="translate(37 75)"/>
-<path d="M0 0L54 0" transform="translate(37 63)"/>
-<path d="M0 0L54 0" transform="translate(37 51)"/>
-<path d="M0 0L0 54" transform="translate(75 37)"/>
-<path d="M0 0L0 54" transform="translate(63 37)"/>
-<path d="M0 0L0 54" transform="translate(51 37)"/>
-</g><g transform="translate(44 44)">
-<rect width="40" height="40" rx="3" fill="#3D3846"/>
-<rect width="40" height="38" rx="3" fill="#5E5C64"/>
+<defs>
+<linearGradient id="gold" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="128">
+<stop offset="20%" stop-color="#F9F06B"/>
+<stop offset="50%" stop-color="#FCF7AC"/>
+<stop offset="80%" stop-color="#F9F06B"/>
+</linearGradient>
+</defs>
+<rect width="104" height="104" rx="8" x="12" y="12" fill="#2EC27E"/>
+<rect width="40" height="40" rx="4" x="44" y="44" fill="#3D3846"/>
+<rect width="40" height="38" rx="4" x="44" y="44" fill="#5E5C64"/>
+<g fill="url(#gold)">
+<circle r="4" cx="22" cy="22"/>
+<circle r="4" cx="34" cy="22"/>
+<circle r="4" cx="46" cy="22"/>
+<circle r="4" cx="58" cy="22"/>
+<circle r="4" cx="70" cy="22"/>
+<circle r="4" cx="82" cy="22"/>
+<circle r="4" cx="22" cy="34"/>
+<circle r="4" cx="34" cy="34"/>
+<circle r="4" cx="46" cy="34"/>
+<circle r="4" cx="58" cy="34"/>
+<circle r="4" cx="70" cy="34"/>
+<circle r="4" cx="82" cy="34"/>
+<circle r="4" cx="94" cy="34"/>
+<circle r="4" cx="106" cy="34"/>
+<circle r="4" cx="22" cy="46"/>
+<circle r="4" cx="34" cy="46"/>
+<circle r="4" cx="94" cy="46"/>
+<circle r="4" cx="106" cy="46"/>
+<circle r="4" cx="22" cy="58"/>
+<circle r="4" cx="34" cy="58"/>
+<circle r="4" cx="94" cy="58"/>
+<circle r="4" cx="106" cy="58"/>
+<circle r="4" cx="22" cy="70"/>
+<circle r="4" cx="34" cy="70"/>
+<circle r="4" cx="94" cy="70"/>
+<circle r="4" cx="106" cy="70"/>
+<circle r="4" cx="22" cy="82"/>
+<circle r="4" cx="34" cy="82"/>
+<circle r="4" cx="94" cy="82"/>
+<circle r="4" cx="106" cy="82"/>
+<circle r="4" cx="22" cy="94"/>
+<circle r="4" cx="34" cy="94"/>
+<circle r="4" cx="46" cy="94"/>
+<circle r="4" cx="58" cy="94"/>
+<circle r="4" cx="70" cy="94"/>
+<circle r="4" cx="82" cy="94"/>
+<circle r="4" cx="94" cy="94"/>
+<circle r="4" cx="106" cy="94"/>
+<circle r="4" cx="22" cy="106"/>
+<circle r="4" cx="34" cy="106"/>
+<circle r="4" cx="46" cy="106"/>
+<circle r="4" cx="58" cy="106"/>
+<circle r="4" cx="70" cy="106"/>
+<circle r="4" cx="82" cy="106"/>
+<circle r="4" cx="106" cy="106"/>
 </g></svg>

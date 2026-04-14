@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<clipPath id="tablet">
+<rect width="112" height="86" rx="8"/>
+</clipPath>
+</defs>
+<g clip-path="url(#tablet)" transform="translate(8 28)">
+<rect width="16" height="88" fill="#E01B24"/>
+<rect width="16" height="88" fill="#FF7800" x="16"/>
+<rect width="16" height="88" fill="#F6D32D" x="32"/>
+<rect width="16" height="88" fill="#33D17A" x="48"/>
+<rect width="16" height="88" fill="#16DEDE" x="64"/>
+<rect width="16" height="88" fill="#3584E4" x="80"/>
+<rect width="16" height="88" fill="#A347BA" x="96"/>
+<path d="M0 0C0 4.4 3.6 8 8 8L104 8C108.4 8 112 4.4 112 0L112 16L0 16Z" fill="#000000" opacity="40%" transform="translate(0 72)"/>
+<g fill="#241F31" transform="translate(12 -2)">
+<rect width="8" height="48" rx="2"/>
+<rect width="8" height="48" rx="2" x="16"/>
+<rect width="8" height="48" rx="2" x="48"/>
+<rect width="8" height="48" rx="2" x="64"/>
+<rect width="8" height="48" rx="2" x="80"/>
+</g></g></svg>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<clipPath id="circle">
+<circle r="60" cx="64" cy="64"/>
+</clipPath>
+<linearGradient id="green" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#407A26"/>
+<stop offset="1" stop-color="#6AB536"/>
+</linearGradient>
+</defs>
+<circle r="60" cx="64" cy="64" fill="url(#green)"/>
+<g clip-path="url(#circle)" fill="#FFFFFF" fill-rule="evenodd">
+<path d="M0 0L0 60L14 74L28 60L28 48L34 42L28 36L38 26L28 16L28 0ZM10 12L6 12L6 56L10 56Z" transform="translate(50 44)"/>
+<path d="M32 0C14.3 0 0 14.3 0 32C0 49.7 14.3 64 32 64C49.7 64 64 49.7 64 32C64 14.3 49.7 0 32 0ZM32 8C25.4 8 20 13.4 20 20C20 26.6 25.4 32 32 32C38.6 32 44 26.6 44 20C44 13.4 38.6 8 32 8Z" fill="#FFFFFF" transform="translate(32 -12)"/>
+</g></svg>

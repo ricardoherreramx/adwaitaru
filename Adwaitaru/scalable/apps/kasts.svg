@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<clipPath id="squircle">
+<rect width="104" height="104" rx="8" x="12" y="12"/>
+</clipPath>
+<linearGradient id="purple" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#3DAEE9"/>
+<stop offset="1" stop-color="#7244AD"/>
+</linearGradient>
+<linearGradient id="aerial" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#CDEAF9"/>
+<stop offset="72%" stop-color="#AF9BD3"/>
+<stop offset="94%" stop-color="#7244AD"/>
+</linearGradient>
+<filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+<feDropShadow dx="0" dy="0" flood-color="#000000" flood-opacity="65%" stdDeviation="15"/>
+</filter>
+</defs>
+<g clip-path="url(#squircle)">
+<rect width="104" height="104" rx="8" x="12" y="12" fill="url(#purple)"/>
+<g fill="#72C4EF">
+<circle r="60" cx="64" cy="22" filter="url(#shadow)" opacity="15%"/>
+<circle r="50" cx="64" cy="22" filter="url(#shadow)" opacity="35%"/>
+<circle r="40" cx="64" cy="22" filter="url(#shadow)" opacity="60%"/>
+<circle r="30" cx="64" cy="22" filter="url(#shadow)" opacity="80%"/>
+<circle r="20" cx="64" cy="22" filter="url(#shadow)"/></g>
+<circle r="10" cx="64" cy="22" filter="url(#shadow)" fill="#D1ECFA"/>
+<path d="M0 85L28 0L56 85L13.5 44L36.25 25" fill="none" stroke="url(#aerial)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" transform="translate(36 31)"/>
+</g></svg>

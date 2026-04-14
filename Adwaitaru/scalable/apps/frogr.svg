@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<radialGradient id="green" cx="50%" cy="0" r="1">
+<stop offset="0" stop-color="#93B023"/>
+<stop offset="1" stop-color="#589632"/>
+</radialGradient>
+<filter id="shadow">
+<feDropShadow dx="0" dy="4" flood-color="#3B6900" stdDeviation="0"/>
+</filter>
+</defs>
+<g filter="url(#shadow)"><g fill="none" stroke="#589632" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+<path d="M26 28L12 28L12 0L12 12L0 12" transform="translate(14 22)"/>
+<path d="M0 28L14 28L14 0L14 12L26 12" transform="translate(88 22)"/>
+<path d="M0 0L14 0L14 28L14 16L26 16" transform="translate(88 78)"/>
+<path d="M26 0L12 0L12 28L12 16L0 16" transform="translate(14 78)"/>
+</g><rect width="48" height="88" rx="24" x="40" y="20" fill="url(#green)"/>
+</g><g fill="#F6F5F4">
+<circle r="10" cx="50" cy="30"/>
+<circle r="10" cx="78" cy="30"/>
+</g><g fill="#424048">
+<circle r="6" cx="50" cy="30"/>
+<circle r="6" cx="78" cy="30"/>
+</g></svg>

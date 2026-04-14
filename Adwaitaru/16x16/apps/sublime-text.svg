@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<clipPath id="S">
+<path d="M0 4L12 0L12 4L6 6L12 8L12 12L0 16L0 12L6 10L0 8Z"/>
+</clipPath>
+<filter id="shadow">
+<feDropShadow dx="0" dy="1" flood-color="#000000" flood-opacity="0.5" stdDeviation="2"/>
+</filter>
+</defs>
+<g fill="#FF9620" clip-path="url(#S)" transform="translate(2 0)">
+<path d="M0 4L12 0L12 4L0 8Z" transform="translate(0 8)"/>
+<path d="M0 4L12 0L12 4L6 6L12 8L12 12L0 8Z" filter="url(#shadow)"/>
+</g></svg>
