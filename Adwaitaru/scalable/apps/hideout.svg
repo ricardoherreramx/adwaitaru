@@ -10,8 +10,8 @@
 <stop offset="1" stop-color="#1A5FB3"/>
 </linearGradient>
 </defs>
-<path d="M88 28L88 104C88 108.4 84.4189 112 80 112L8 112C3.6 112 0 108.4 0 104L0 8C0 3.6 3.6 0 8 0L60 0L60 28Z" fill="url(#gray)" transform="translate(20 8)"/>
-<path d="M0 0L28 28L0 28Z" fill="#737278" transform="translate(80 8)"/>
+<path d="M88 28L88 104C88 108.4 84.4 112 80 112L8 112C3.6 112 0 108.4 0 104L0 8C0 3.6 3.6 0 8 0L60 0Z" fill="url(#gray)" transform="translate(20 8)"/>
+<path d="M0 0L28 28L8 28C3.6 28 0 24.4 0 20" fill="#737278" transform="translate(80 8)"/>
 <g fill="#737278" transform="translate(36 40)">
 <rect width="56" height="2"/>
 <rect width="56" height="2" y="8"/>

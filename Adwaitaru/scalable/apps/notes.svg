@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+<stop offset="15%" stop-color="#0096FA"/>
+<stop offset="1" stop-color="#004EFE"/>
+</linearGradient>
+<linearGradient id="shade" gradientUnits="userSpaceOnUse" x1="60" y1="0" x2="75" y2="15">
+<stop offset="0" stop-color="#0440CC" stop-opacity="90%"/>
+<stop offset="1" stop-color="#0050FF" stop-opacity="60%"/>
+</linearGradient>
+<linearGradient id="light" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#FFFFFF"/>
+<stop offset="45%" stop-color="#F1F1F1"/>
+<stop offset="80%" stop-color="#A0C8FA"/>
+<stop offset="85%" stop-color="#FFFFFF"/>
+</linearGradient>
+<filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+<feDropShadow dx="4" dy="4" flood-color="#0332BC" stdDeviation="8"/>
+</filter>
+<clipPath id="squircle">
+<rect width="104" height="104" rx="8"/>
+</clipPath>
+</defs>
+<g clip-path="url(#squircle)" transform="translate(12 12)">
+<rect width="104" height="104" fill="url(#blue)"/>
+<g transform="translate(21.5 16.5)">
+<path d="M59 0L87 28L87 99.5L20 99.5L0 79.5L0 77.5C0 30.5 51 0 59 0Z" fill="url(#shade)" transform="translate(7.5 0)"/>
+<path d="M66.5 0C61.5 5 51.5 20.5 49.5 24C47.5 25.5 39 30 37 30C40.5 30 44.5 29.5 48 28.5C44 34.5 40.5 36.5 32 37.5C36.5 38.5 44.5 37.5 47 35.5C40.5 46.5 31.5 55 22 56C27.5 56 34.5 53.5 37.5 50.5C35.5 53.5 26.5 62 19.5 62C21 62 23.5 63 24.5 64C19.5 63.51 13.5 64 10.5 65.5C18.5 40.5 33.5 20.5 61.5 2C36.5 14.5 14.5 37.5 8.5 66.5L10.5 65.5C10.5 65.5 8 74.5 7.5 79.5C7.5 74.5 7.5 69.5 8 67.5C8 64.5 4 50 0 46C1 46 4.5 49.5 7 54C1.5 37.5 11 23.5 20 14.5C20 14.5 15 22 15 35C15 22 27.5 10 29.5 10C29.5 10 27 15.5 27 22.5C27 20.5 31.5 11.5 33.5 8.5C45.5 1.5 53.5 0 66.5 0Z" fill="url(#light)" filter="url(#shadow)"/>
+</g></g>
+</svg>

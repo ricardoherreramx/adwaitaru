@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="gradient_1" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#6BB9FA"/>
+<stop offset="0.5" stop-color="#3C82E6"/>
+<stop offset="1" stop-color="#225ECC"/>
+</linearGradient>
+<linearGradient id="gradient_2">
+<stop offset="0" stop-color="#000000" stop-opacity="0"/>
+<stop offset="1" stop-color="#000000" stop-opacity="22%"/>
+</linearGradient>
+<linearGradient id="gradient_3">
+<stop offset="0" stop-color="#000000" stop-opacity="16%"/>
+<stop offset="1" stop-color="#000000" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="gradient_4">
+<stop offset="0" stop-color="#000000" stop-opacity="0"/>
+<stop offset="1" stop-color="#000000" stop-opacity="16%"/>
+</linearGradient>
+<linearGradient id="gradient_5" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#3580E8"/>
+<stop offset="1" stop-color="#1B4DB5"/>
+</linearGradient>
+</defs>
+<rect width="88" height="104" rx="8" fill="url(#gradient_1)" transform="translate(17 13) rotate(345 44 52)"/>
+<path d="M13.17 0C13.17 0 5.9 1.94 5.93 1.94C1.65 3.1 -0.9 7.45 0.275 11.73C0.275 11.73 13.17 59.84 13.17 59.84Z" fill="url(#gradient_2)" transform="translate(7 22.33)"/>
+<rect width="88" height="104" rx="8" fill="#C0BFBC" transform="translate(20 8) rotate(15 44 52)"/>
+<path d="M0 0L0 79.84C0 79.84 17.9 13.1 17.9 13.1C19 8.8 16.5 4.426 12.23 3.28C12.23 3.28 0 0 0 0Z" fill="url(#gradient_3)" transform="translate(100 15.8)"/>
+<path d="M18.164 79.84L18.164 0C18.164 0 0.277 66.76 0.277 66.76C-0.9 71 1.65 75.4 5.9 76.56C5.9 76.56 18.164 79.836 18.164 79.836Z" fill="url(#gradient_4)" transform="translate(9.83 24.34)"/>
+<rect width="88" height="112" rx="8" x="20" y="8" fill="#F6F5F4"/>
+<g fill="#2E65C4" opacity="30%" transform="translate(34 66)">
+<rect width="60" height="4" rx="2"/>
+<rect width="44" height="4" rx="2" y="10"/>
+<rect width="52" height="4" rx="2" y="20"/>
+<rect width="36" height="4" rx="2" y="30"/>
+</g><g transform="translate(34 26)" fill="url(#gradient_5)">
+<rect width="4" height="28" rx="2" x="6"/>
+<rect width="4" height="28" rx="2" x="18"/>
+<rect width="28" height="4" rx="2" y="6"/>
+<rect width="28" height="4" rx="2" y="18"/>
+</g></svg>

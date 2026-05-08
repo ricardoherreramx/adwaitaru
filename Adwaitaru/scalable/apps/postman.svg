@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<g transform="rotate(45 64 64)">
+<circle r="60" cx="64" cy="64" fill="#FF6B38"/>
+<g fill="#FFFFFF" transform="translate(54 11)">
+<path d="M0 0L11 0L0 8Z" transform="translate(8 97)"/>
+<path d="M0 0L5 0L0 6Z" transform="translate(8 59)"/>
+<path d="M0 0L7 0L0 9Z" transform="translate(0 59)"/>
+<path d="M0 37L0 7.5L6 0L12 0C12 10 7.8 24.3 5.3 32C8.3 33.8 11 37 11 37Z" transform="translate(8 59)"/>
+<path d="M2 0C5 4 6 12 6 29L6 34L0 34Z" transform="translate(14 24)"/>
+<path d="M3.5 0C5.5 0 7 1.5 7 3.5C7 8 5 37 5 37L0 37L0 3.5C0 1.5 1.5 0 3.5 0Z" transform="translate(8 21)"/>
+<path d="M7 3.5C7 2 7.6 1 8.5 0C2.5 1 0 9 0 26L0 37L7 37Z" transform="translate(0 21)"/>
+<path d="M0 10C0 4.8 4 0.55 9 0L9 13L19.55 13C18.27 17 14.5 20 10 20C4.5 20 0 15.5 0 10ZM20 10C20 10.7 19.93 11.35 19.8 12L10 12L10 0C15.5 0 20 4.5 20 10ZM13 5L14.5 3.5L17 6L16.5 8.5Z" fill-rule="evenodd"/>
+</g></g>
+</svg>

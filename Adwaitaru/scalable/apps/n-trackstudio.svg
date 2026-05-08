@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="corners">
+<stop offset="0" stop-color="#241F31"/>
+<stop offset="6%" stop-color="#F6F5F4"/>
+<stop offset="12%" stop-color="#3D3846"/>
+<stop offset="88%" stop-color="#3D3846"/>
+<stop offset="94%" stop-color="#F6F5F4"/>
+<stop offset="1" stop-color="#241F31"/>
+</linearGradient>
+<linearGradient id="bisel" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#000000" stop-opacity="25%"/>
+<stop offset="1" stop-color="#000000" stop-opacity="3%"/>
+</linearGradient>
+<radialGradient id="screw" cx="50%" cy="25%" r="1">
+<stop offset="0" stop-color="#949390"/>
+<stop offset="1" stop-color="#424048"/>
+</radialGradient>
+</defs>
+<rect width="112" height="88" rx="8" x="8" y="28" fill="#DEDDDA"/>
+<rect width="112" height="88" rx="8" x="8" y="28" fill="url(#corners)" opacity="50%"/>
+<rect width="112" height="84" rx="8" x="8" y="28" fill="#DEDDDA"/>
+<g transform="translate(16 36)">
+<circle r="4" fill="url(#bisel)"/>
+<circle r="2" fill="url(#screw)"/>
+</g><g transform="translate(16 104)">
+<circle r="4" fill="url(#bisel)"/>
+<circle r="2" fill="url(#screw)"/>
+</g><g transform="translate(112 36)">
+<circle r="4" fill="url(#bisel)"/>
+<circle r="2" fill="url(#screw)"/>
+</g><g transform="translate(112 104)">
+<circle r="4" fill="url(#bisel)"/>
+<circle r="2" fill="url(#screw)"/>
+</g><g stroke-linejoin="round" transform="translate(36 100)">
+<path d="M0 10L56 10L52 0L4 0Z" fill="#5E5C64" stroke="#5E5C64" stroke-width="12"/>
+<path d="M0 10L56 10L52 0L4 0Z" fill="#F6F5F4" stroke="#F6F5F4" stroke-width="8"/>
+</g><g fill="#262A2D">
+<circle r="2" cx="42" cy="102"/>
+<circle r="2" cx="50" cy="106"/>
+<circle r="2" cx="78" cy="106"/>
+<circle r="2" cx="86" cy="102"/>
+</g>
+<rect width="68" height="6" x="30" y="110" fill="#5E5C64"/>
+<rect width="104" height="14" x="12" y="54" fill="#646464"/>
+<g transform="translate(36 68)">
+<circle r="16" fill="#F2F2F2"/>
+<circle r="13" fill="none" stroke="#505050" stroke-width="2" stroke-dasharray="3 2"/>
+<circle r="8" fill="#444444"/>
+<g fill="#F2F2F2">
+<rect width="2" height="16" x="-1" y="-8"/>
+<rect width="2" height="16" x="-1" y="-8" transform="rotate(60)"/>
+<rect width="2" height="16" x="-1" y="-8" transform="rotate(120)"/>
+</g><circle r="6" fill="#444444"/>
+</g><g transform="translate(92 68)">
+<circle r="16" fill="#F2F2F2"/>
+<circle r="13" fill="none" stroke="#505050" stroke-width="2" stroke-dasharray="3 2"/>
+<circle r="8" fill="#444444"/>
+<g fill="#F2F2F2">
+<rect width="2" height="16" x="-1" y="-8"/>
+<rect width="2" height="16" x="-1" y="-8" transform="rotate(60)"/>
+<rect width="2" height="16" x="-1" y="-8" transform="rotate(120)"/>
+</g><circle r="6" fill="#444444"/></g>
+<text transform="translate(33 49.5)" style="font-style:normal; font-variant:normal; font-weight:bold; font-stretch:normal; font-size:8px; line-height:1;font-family:'FreeSans'; fill:#424048">NT90</text>
+<path d="M0 0L45 0L45 1L1 1L1 6L0 6Z" fill="#424048" transform="translate(55 44)"/>
+</svg>

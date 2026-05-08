@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="orange" x1="1" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#DE8C48"/>
+<stop offset="1" stop-color="#E11605"/>
+</linearGradient>
+<linearGradient id="inner1">
+<stop offset="0" stop-color="#FFFFFF"/>
+<stop offset="0.5" stop-color="#EBBEC8"/>
+</linearGradient>
+<linearGradient id="inner2">
+<stop offset="0.5" stop-color="#EBBEC8"/>
+<stop offset="1" stop-color="#FFFFFF"/>
+</linearGradient>
+<filter id="shadow">
+<feDropShadow dx="-4" dy="4" flood-color="#CD3228" stdDeviation="2"/>
+</filter>
+</defs>
+<rect width="104" height="104" rx="8" x="12" y="12" fill="url(#orange)"/>
+<g filter="url(#shadow)" transform="rotate(320 64 64)">
+<path d="M10 57.75C20 50.75 26 39.75 26 26.75C26 16.75 22 6.75 15 0C15.65 2.75 16 5.75 16 8.75C16 21.75 10 32.75 0 39.75C2 46.75 5 52.75 10 57.75Z" fill="url(#inner1)" transform="translate(34 37.25)"/>
+<path d="M0 31C0 18 6 7 16 0C21 5 24 11 26 18C16 25 10 36 10 49C10 52 10.35 55 11 57.75C4 51 0 41 0 31Z" fill="url(#inner2)" transform="translate(68 33)"/>
+<path d="M0 18C10 25 16 36 16 49C16 52 15.65 55 15 57.75C22 51 26 41 26 31C26 18 20 7 10 0C5 5 2 11 0 18Z" fill="#FFFFFF" transform="translate(34 33)"/>
+<path d="M10 8.75C10 21.75 16 32.75 26 39.75C24 46.75 21 52.75 16 57.75C6 50.75 0 39.75 0 26.75C0 16.75 4 6.75 11 0C10.35 2.75 10 5.75 10 8.75Z" fill="#FFFFFF" transform="translate(68 37.25)"/>
+</g></svg>

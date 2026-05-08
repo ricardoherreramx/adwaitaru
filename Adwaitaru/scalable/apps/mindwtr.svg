@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="gradient" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#3296FA"/>
+<stop offset="1" stop-color="#5050DC"/>
+</linearGradient>
+<clipPath id="clip">
+<path d="M0 0L97 0L59 38L70 49L104 15L104 104L0 104Z" transform="translate(12 12)"/>
+</clipPath>
+<clipPath id="path">
+<path d="M0 0L72 0L72 44L44 44L44 84L84 84L84 56L128 56L128 128L0 128Z"/>
+</clipPath>
+</defs>
+<rect width="104" height="104" rx="8" x="12" y="12" fill="url(#gradient)"/>
+<g fill="none" stroke="#FFFFFF" stroke-linecap="round">
+<g opacity="44%"><g clip-path="url(#clip)">
+<circle r="31" cx="64" cy="64" stroke-width="7"/>
+<circle r="20" cx="64" cy="64" stroke-width="3"/>
+</g><g clip-path="url(#path)" stroke-width="6">
+<line x1="24" y1="64" x2="104" y2="64"/>
+<line x1="64" y1="24" x2="64" y2="104"/>
+</g></g>
+<path d="M0 23L8 31L39 0" stroke-width="7" transform="translate(55 37.5)"/>
+</g></svg>

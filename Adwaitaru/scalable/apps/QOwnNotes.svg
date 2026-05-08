@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#1F4778"/>
+<stop offset="1" stop-color="#1D1D5C"/>
+</linearGradient>
+<linearGradient id="shadow" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#000000"/>
+<stop offset="1" stop-color="#000000" stop-opacity="20%"/>
+</linearGradient>
+<linearGradient id="corner" x1="14" y1="0" x2="14" y2="28">
+<stop offset="0" stop-color="#6F7DA0"/>
+<stop offset="1" stop-color="#3E5173"/>
+</linearGradient>
+<linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#38598A"/>
+<stop offset="1" stop-color="#454987"/>
+</linearGradient>
+</defs>
+<rect width="106" height="106" x="11" y="11" fill="url(#background)" stroke="#3F467B" stroke-width="2"/>
+<rect width="104" height="2" x="12" y="30" fill="#0B084F" opacity="20%"/>
+<rect width="104" height="18" x="12" y="12" fill="url(#title)"/>
+<path d="M0 0L28 28L0 28Z" fill="url(#shadow)" transform="translate(40 88)" opacity="20%"/>
+<path d="M0 0L28 0L28 28Z" fill="url(#corner)" transform="translate(12 88)"/>
+<path d="M12 18C12 18 9 18 9 18C4 18 0 22 0 27C0 32 4 36 9 36L41 36C47 36 52 31 52 25C52 19 47 14 41 14L40 14C40 6 34 0 26 0C18 0 12 6 12 14Z" fill="none" stroke="#9AE3FF" stroke-width="4" opacity="42%" transform="translate(38 50)"/>
+</svg>

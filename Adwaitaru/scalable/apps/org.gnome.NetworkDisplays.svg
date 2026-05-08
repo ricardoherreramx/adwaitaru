@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="corners" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#77767B"/>
+<stop offset="4%" stop-color="#BFBEBB"/>
+<stop offset="8%" stop-color="#9A9996"/>
+<stop offset="92%" stop-color="#9A9996"/>
+<stop offset="96%" stop-color="#C0BFBC"/>
+<stop offset="1" stop-color="#77767B"/>
+</linearGradient>
+<linearGradient id="base1" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#F5F4F2"/>
+<stop offset="1" stop-color="#DEDDDA"/>
+</linearGradient>
+<linearGradient id="base2" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#77767B"/>
+<stop offset="1" stop-color="#C0BFBC"/>
+</linearGradient>
+<radialGradient id="purple-blue" cx="0.2" cy="0.2" r="1">
+<stop offset="0" stop-color="#DD8ADE"/>
+<stop offset="1" stop-color="#1C71D8"/>
+</radialGradient>
+<radialGradient id="purple-trans" cx="1" cy="1" r="0.8">
+<stop offset="0" stop-color="#A347BA"/>
+<stop offset="1" stop-color="#C061CB" stop-opacity="12.5%"/>
+</radialGradient>
+</defs>
+<path d="M68 0C70 0 72 2 72 4L0 4C0 2 2 0 4 0Z" fill="url(#base1)" transform="translate(28 116)"/>
+<rect width="60" height="28" x="34" y="88" fill="url(#base2)"/>
+<rect width="112" height="88" rx="8" x="8" y="12" fill="url(#corners)"/>
+<rect width="112" height="84" rx="8" x="8" y="12" fill="#DEDDDA"/>
+<rect width="104" height="76" rx="4" x="12" y="16" fill="#241F31"/>
+<rect width="96" height="68" x="16" y="20" fill="url(#purple-blue)"/>
+<rect width="96" height="68" x="16" y="20" fill="url(#purple-trans)" opacity="75%"/>
+<g fill="#FFFFFF" transform="translate(58 36) rotate(-45 6 33)">
+<circle r="6" transform="translate(6 33)"/>
+<path d="M0 0C8.25 0 15 6.75 15 15L12 15C12 8.4 6.6 3 0 3Z" transform="translate(6 18)"/>
+<path d="M0 0C13.5 0 24 10.5 24 24L21 24C21 12 12 3 0 3Z" transform="translate(6 9)"/>
+<path d="M0 0C18 0 33 15 33 33L30 33C30 16.5 16.5 3 0 3L0 3Z" transform="translate(6 0)"/>
+</g></svg>

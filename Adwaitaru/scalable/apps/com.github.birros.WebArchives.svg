@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<clipPath id="globe">
+<circle r="32" cx="64" cy="64"/>
+</clipPath>
+</defs>
+<path d="M8 0L76 0L104 28L104 96C104 100.4 100.4 104 96 104L8 104C3.6 104 0 100.4 0 96L0 8C0 3.6 3.6 0 8 0Z" fill="#3466A5" transform="translate(12 12)"/>
+<path d="M0 0L0 20C0 24.4 3.6 28 8 28L28 28Z" fill="#FFFFFF" transform="translate(88 12)"/>
+<g clip-path="url(#globe)" fill="none" stroke="#FFFFFF" stroke-width="4">
+<circle r="30" cx="64" cy="64"/>
+<circle r="30" cx="64" cy="106"/>
+<circle r="30" cx="64" cy="22"/>
+<ellipse rx="15" ry="30" cx="64" cy="64"/>
+<line x1="34" y1="64" x2="94" y2="64"/>
+<line x1="64" y1="34" x2="64" y2="94"/>
+</g></svg>

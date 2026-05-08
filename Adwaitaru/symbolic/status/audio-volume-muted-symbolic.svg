@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg width="16" height="16" viewBox="0 0 16 16" fill="#808080" xmlns="http://www.w3.org/2000/svg">
-<path d="M0 15L15 0L16 1L13.4244 3.57558C14.4093 4.78165 15 6.32211 15 8C15 11.17 12.8915 13.8496 10 14.71L10 13.6586C12.3304 12.835 14 10.6124 14 8C14 6.59795 13.5191 5.30821 12.7133 4.28674L11.2841 5.71594C11.7354 6.36366 12 7.15111 12 8C12 9.48 11.1956 10.7733 10 11.4649L10 10.2361C10.6137 9.68678 11 8.8885 11 8C11 7.42783 10.8398 6.89308 10.5619 6.43813L8 9L8 15L5 12L1 16L0 15ZM2 11L8 5L8 1L4 5L1 5L1 11L2 11ZM11.218 1.78196C10.8317 1.58157 10.4243 1.41614 10 1.28987L10 2.3414C10.1598 2.39788 10.3165 2.46094 10.4698 2.53025L11.218 1.78196Z" opacity="0.5"/>
-</svg>
+<svg width="16" height="16" viewBox="0 0 16 16" fill="gray" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<clipPath id="waves">
+<rect width="6" height="16" x="10"/>
+</clipPath>
+<clipPath id="triangles">
+<path d="M0 0L0 13L13 0ZM0 16L16 0L16 16Z"/>
+</clipPath>
+</defs>
+<g opacity="50%">
+<g clip-path="url(#triangles)">
+<path d="M7 0L3 4L0 4L0 10L3 10L7 14Z" transform="translate(1 1)"/>
+<g clip-path="url(#waves)">
+<path d="M0 0C2.2 0 4 1.8 4 4C4 6.2 2.2 8 0 8L0 7C1.65 7 3 5.65 3 4C3 2.35 1.65 1 0 1Z" transform="translate(8 4)"/>
+<path d="M0 0C3.85 0 7 3.15 7 7L7 7C7 10.85 3.85 14 0 14L0 13C3.3 13 6 10.3 6 7C6 3.7 3.3 1 0 1Z" transform="translate(8 1)"/>
+</g></g>
+<path d="M0 15L15 0L16 1L1 16Z"/>
+</g></svg>
