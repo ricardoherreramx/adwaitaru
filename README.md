@@ -542,7 +542,7 @@ Built largely upon the graphic work of GNOME's [Adwaita designers](https://gitla
 ![icon](./Adwaitaru/scalable/devices/cpu.svg "Driver / Firmware")
 ![icon](./Adwaitaru/scalable/categories/applications-education.svg "Education")
 ![icon](./Adwaitaru/scalable/apps/org.gnome.font-viewer.svg "Fonts")
-![icon](./Adwaitaru/scalable/devices/input-keyboard.svg "Keyboard")
+![icon](./Adwaitaru/scalable/devices/keyboard.svg "Keyboard")
 ![icon](./Adwaitaru/scalable/categories/preferences-desktop-keyboard-shortcuts.svg "Keyboard Shortcuts")
 ![icon](./Adwaitaru/scalable/categories/preferences-desktop-locale.svg "Languages")
 ![icon](./Adwaitaru/scalable/apps/se.sjoerd.Graphs.svg "Mathematics")
