@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<rect width="104" height="104" rx="8" x="12" y="12" fill="#121614"/>
+<g transform="rotate(45 64 64)">
+<path d="M20 0C9 0 0 9 0 20C0 21 1 22 2 22C3 22 3.5 21.5 3.7 21C4.3 19 10 16 20 16L20 22L32 22L32 18C32 16.3 33.3 15 35 15C36.7 15 38 16.3 38 18L38 19C38 20 39 21 40 21L44 21C46 21 48 19 48 17L48 4C48 2 46 0 44 0L40 0C39 0 38 1 38 2C38 3.7 36.7 5 35 5C33.3 5 32 3.7 32 2C32 1 31 0 30 0ZM20 26L32 26L32 60C32 63 29 66 26 66C23 66 20 63 20 60Z" fill="#FF4B05" transform="translate(36 38)"/>
+</g></svg>

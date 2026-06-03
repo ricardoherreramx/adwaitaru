@@ -9,20 +9,11 @@
 <stop offset="95%" stop-color="#F6D32D"/>
 <stop offset="1" stop-color="#E5A50A"/>
 </linearGradient>
-<linearGradient id="corner" x1="0" y1="0" x2="1" y2="1">
-<stop offset="50%" stop-color="#F5C211"/>
-<stop offset="75%" stop-color="#F9F06B"/>
-</linearGradient>
-<clipPath id="squircle">
-<rect width="104" height="92" rx="8" x="12" y="12"/>
-</clipPath>
 </defs>
 <rect width="104" height="104" rx="8" x="12" y="12" fill="url(#corners)"/>
-<g clip-path="url(#squircle)">
 <rect width="104" height="92" rx="8" x="12" y="12" fill="#F9F06B"/>
-<path d="M28 28L0 28L28 0Z" fill="url(#corner)" transform="translate(88 76)"/>
-<path d="M31 0L0 31L0 7C0 3 3 0 7 0Z" fill="#F6F5F4" stroke="#E5A50A" stroke-width="2" transform="translate(87 75)"/>
-</g><g fill="#000000" opacity="30%">
+<path d="M28 0L0 28L0 8C0 3.6 3.6 0 8 0Z" fill="#F0B40F" transform="translate(88 76)"/>
+<g fill="#000000" opacity="30%">
 <path d="M42 0C42 4 38.6 7.35 34.5 7.35L0 7.35L34 8.35L34.5 8.35C37.75 8.35 40.6 6.5 42 3.85Z" transform="translate(74 100.65)"/>
 <path d="M42 0C42 4 38.6 7.35 34.5 7.35L0 7.35L34 8.35L34.5 8.35C37.75 8.35 40.6 6.5 42 3.85Z" transform="translate(74 104.65)"/>
 </g><g fill="#F5C211">

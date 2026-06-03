@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<clipPath id="corners">
+<rect width="112" height="88" rx="8" x="8" y="28"/>
+</clipPath>
+<filter id="shadow">
+<feDropShadow dx="0" dy="4" flood-color="#5628A6" stdDeviation="0"/>
+</filter>
+</defs>
+<g clip-path="url(#corners)">
+<rect width="112" height="88" rx="8" x="8" y="28" fill="#5628A6"/>
+<rect width="112" height="84" rx="8" x="8" y="28" fill="#7A3AEC"/>
+<path d="M0 0L56 44L112 0Z" fill="#9D55E0" filter="url(#shadow)" transform="translate(8 28)"/>
+</g></svg>

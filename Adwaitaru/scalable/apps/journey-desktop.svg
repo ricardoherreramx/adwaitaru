@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="gradient1" x1="0" y1="0" x2="0" y2="1">
+<stop offset="75%" stop-color="#FFFFFF"/>
+<stop offset="1" stop-color="#76D4E2"/>
+</linearGradient>
+<linearGradient id="gradient2" x1="0" y1="0" x2="0" y2="50%">
+<stop offset="0" stop-color="#FFFFFF"/>
+<stop offset="1" stop-color="#BEE1E6"/>
+</linearGradient>
+<filter id="shadow">
+<feDropShadow dx="0" dy="2" flood-color="#000000" flood-opacity="30%"/>
+</filter>
+</defs>
+<rect width="104" height="104" rx="8" x="12" y="12" fill="#35C4E5"/>
+<g filter="url(#shadow)">
+<rect width="64" height="24" rx="6" x="32" y="24" fill="url(#gradient2)"/>
+<rect width="72" height="24" rx="7" x="28" y="36" fill="url(#gradient2)"/>
+<rect width="80" height="52" rx="8" x="24" y="48" fill="url(#gradient1)"/>
+</g><g fill="none" stroke="#35C4E5" stroke-width="4">
+<path d="M0 14L14 14L14 0" transform="translate(72 72)"/>
+<path d="M0 14L0 0L14 0" transform="translate(42 58)"/>
+</g></svg>

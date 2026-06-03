@@ -8,13 +8,12 @@
 <g clip-path="url(#rhombus)">
 <rect width="128" height="128" fill="#68BB00"/>
 <rect width="48" height="48" fill="#D5FF80" transform="translate(40 60)"/>
-<path d="M24 0C10.74 0 0 10.74 0 24L48 24C48 10.74 37.26 0 24 0ZM10 14C10 11.8 11.8 10 14 10C16.2 10 18 11.8 18 14C18 16.2 16.2 18 14 18C11.8 18 10 16.2 10 14ZM34 10C31.8 10 30 11.8 30 14C30 16.2 31.8 18 34 18C36.2 18 38 16.2 38 14C38 11.8 36.2 10 34 10Z" fill="#D5FF80" fill-rule="evenodd" transform="translate(40 32)"/>
+<path d="M24 0C10.7 0 0 10.7 0 24L48 24C48 10.7 37.3 0 24 0ZM11 14C11 12.3 12.3 11 14 11C15.7 11 17 12.3 17 14C17 15.7 15.7 17 14 17C12.3 17 11 15.7 11 14ZM34 11C32.3 11 31 12.3 31 14C31 15.7 32.3 17 34 17C35.7 17 37 15.7 37 14C37 12.3 35.7 11 34 11Z" fill="#D5FF80" fill-rule="evenodd" transform="translate(40 32)"/>
 <g stroke="#D5FF80" stroke-width="12" stroke-linecap="round">
 <line x1="0" y1="0" x2="0" y2="36" transform="translate(76 86)"/>
 <line x1="0" y1="0" x2="0" y2="36" transform="translate(52 86)"/>
 <line x1="0" y1="0" x2="0" y2="36" transform="translate(98 66)"/>
 <line x1="0" y1="0" x2="0" y2="36" transform="translate(30 66)"/>
 <path d="M0 0L8 8L28 8L36 0" fill="none" stroke-width="4" transform="translate(46 32)"/>
-</g>
-<rect width="100" height="100" rx="12" transform="translate(14 5) rotate(45 50 50)" fill="none" stroke="#3C640A" stroke-width="8" opacity="0.5"/>
+</g><rect width="100" height="100" rx="12" transform="translate(14 5) rotate(45 50 50)" fill="none" stroke="#3C640A" stroke-width="8" opacity="50%"/>
 </g></svg>

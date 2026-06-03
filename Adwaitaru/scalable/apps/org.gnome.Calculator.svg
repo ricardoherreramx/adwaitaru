@@ -1,31 +1,42 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg height="128px" viewBox="0 0 128 128" width="128px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <linearGradient id="a" gradientTransform="matrix(0.192351 0 0 0.25 22.005213 57.000031)" gradientUnits="userSpaceOnUse" x1="10.276156" x2="426.276215" y1="259.999878" y2="259.999878">
-        <stop offset="0" stop-color="#9a9996"/>
-        <stop offset="0.0502156" stop-color="#c0bfbc"/>
-        <stop offset="0.100204" stop-color="#9a9996"/>
-        <stop offset="0.900023" stop-color="#9a9996"/>
-        <stop offset="0.950011" stop-color="#c0bfbc"/>
-        <stop offset="1" stop-color="#9a9996"/>
-    </linearGradient>
-    <path d="m 32 36 h 64 c 4.417969 0 8 3.582031 8 8 v 68 c 0 4.417969 -3.582031 8 -8 8 h -64 c -4.417969 0 -8 -3.582031 -8 -8 v -68 c 0 -4.417969 3.582031 -8 8 -8 z m 0 0" fill="url(#a)"/>
-    <path d="m 32 8 h 64 c 4.417969 0 8 3.582031 8 8 v 90 c 0 4.417969 -3.582031 8 -8 8 h -64 c -4.417969 0 -8 -3.582031 -8 -8 v -90 c 0 -4.417969 3.582031 -8 8 -8 z m 0 0" fill="#deddda"/>
-    <path d="m 38 18 h 52.039062 c 2.210938 0 4 1.789062 4 4 v 6 c 0 2.210938 -1.789062 4 -4 4 h -52.039062 c -2.210938 0 -4 -1.789062 -4 -4 v -6 c 0 -2.210938 1.789062 -4 4 -4 z m 0 0" fill="#77767b"/>
-    <path d="m 38 36 h 52.039062 c 2.210938 0 4 -1.789062 4 -4 v -8 c 0 -2.210938 -1.789062 -4 -4 -4 h -52.039062 c -2.210938 0 -4 1.789062 -4 4 v 8 c 0 2.210938 1.789062 4 4 4 z m 0 0" fill="#6fb182"/>
-    <path d="m 34 51 v 2 c 0 3.878906 3.121094 7 7 7 s 7 -3.121094 7 -7 v -2 z m 0 0" fill="#5e5c64"/>
-    <path d="m 41 44 c 3.867188 0 7 3.132812 7 7 s -3.132812 7 -7 7 s -7 -3.132812 -7 -7 s 3.132812 -7 7 -7 z m 0 0" fill="#9a9996"/>
-    <path d="m 57.011719 51 v 2 c 0 3.878906 3.121093 7 7 7 c 3.875 0 7 -3.121094 7 -7 v -2 z m 0 0" fill="#5e5c64"/>
-    <path d="m 64 44 c 3.867188 0 7 3.132812 7 7 s -3.132812 7 -7 7 s -7 -3.132812 -7 -7 s 3.132812 -7 7 -7 z m 0 0" fill="#9a9996"/>
-    <path d="m 80 51 v 2 c 0 3.878906 3.121094 7 7 7 s 7 -3.121094 7 -7 v -2 z m 0 0" fill="#5e5c64"/>
-    <path d="m 87 44 c 3.867188 0 7 3.132812 7 7 s -3.132812 7 -7 7 s -7 -3.132812 -7 -7 s 3.132812 -7 7 -7 z m 0 0" fill="#9a9996"/>
-    <path d="m 34 73 v 2 c 0 3.878906 3.121094 7 7 7 s 7 -3.121094 7 -7 v -2 z m 0 0" fill="#3d3846"/>
-    <path d="m 57.011719 73 v 2 c 0 3.878906 3.121093 7 7 7 c 3.875 0 7 -3.121094 7 -7 v -2 z m 0 0" fill="#3d3846"/>
-    <path d="m 41 66 c 3.867188 0 7 3.132812 7 7 s -3.132812 7 -7 7 s -7 -3.132812 -7 -7 s 3.132812 -7 7 -7 z m 0 0" fill="#5e5c64"/>
-    <path d="m 64 66 c 3.867188 0 7 3.132812 7 7 s -3.132812 7 -7 7 s -7 -3.132812 -7 -7 s 3.132812 -7 7 -7 z m 0 0" fill="#5e5c64"/>
-    <path d="m 34 95 v 2 c 0 3.878906 3.121094 7 7 7 s 7 -3.121094 7 -7 v -2 z m 0 0" fill="#3d3846"/>
-    <path d="m 41 88 c 3.867188 0 7 3.132812 7 7 s -3.132812 7 -7 7 s -7 -3.132812 -7 -7 s 3.132812 -7 7 -7 z m 0 0" fill="#5e5c64"/>
-    <path d="m 57.011719 95 v 2 c 0 3.878906 3.121093 7 7 7 c 3.875 0 7 -3.121094 7 -7 v -2 z m 0 0" fill="#3d3846"/>
-    <path d="m 64 88 c 3.867188 0 7 3.132812 7 7 s -3.132812 7 -7 7 s -7 -3.132812 -7 -7 s 3.132812 -7 7 -7 z m 0 0" fill="#5e5c64"/>
-    <path d="m 87 86 c 3.867188 0 7 3.132812 7 7 v 4 c 0 3.867188 -3.132812 7 -7 7 s -7 -3.132812 -7 -7 v -4 c 0 -3.867188 3.132812 -7 7 -7 z m 0 0" fill="#c64600"/>
-    <path d="m 87 66 c 3.867188 0 7 3.132812 7 7 v 22 c 0 3.867188 -3.132812 7 -7 7 s -7 -3.132812 -7 -7 v -22 c 0 -3.867188 3.132812 -7 7 -7 z m 0 0" fill="#ff7800"/>
-</svg>
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="corners">
+<stop offset="0" stop-color="#9A9996"/>
+<stop offset="5%" stop-color="#C0BFBC"/>
+<stop offset="10%" stop-color="#9A9996"/>
+<stop offset="90%" stop-color="#9A9996"/>
+<stop offset="95%" stop-color="#C0BFBC"/>
+<stop offset="1" stop-color="#9A9996"/>
+</linearGradient>
+<linearGradient id="shine" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#000000"/>
+<stop offset="1" stop-color="#FFFFFF"/>
+</linearGradient>
+<filter id="button_gray">
+<feDropShadow dx="0" dy="2" flood-color="#5E5C64" stdDeviation="0"/>
+</filter>
+<filter id="button_dark">
+<feDropShadow dx="0" dy="2" flood-color="#3D3846" stdDeviation="0"/>
+</filter>
+<filter id="button_main">
+<feDropShadow dx="0" dy="2" flood-color="#C64600" stdDeviation="0"/>
+</filter>
+</defs>
+<rect width="88" height="112" rx="8" x="20" y="8" fill="url(#corners)"/>
+<rect width="88" height="104" rx="8" x="20" y="8" fill="#DEDDDA"/>
+<rect width="64" height="10" rx="4" x="32" y="30" fill="#F6F5F4"/>
+<rect width="64" height="10" rx="4" x="32" y="20" fill="#427455"/>
+<rect width="64" height="16" rx="4" x="32" y="22" fill="#6FB182"/>
+<rect width="64" height="16" rx="4" x="32" y="22" fill="url(#shine)" opacity="20%"/>
+<rect width="16" height="32" fill="#FF7800" filter="url(#button_main)" rx="4" x="80" y="68"/>
+<g fill="#9A9996" filter="url(#button_gray)">
+<rect width="16" height="12" rx="4" x="32" y="48"/>
+<rect width="16" height="12" rx="4" x="56" y="48"/>
+<rect width="16" height="12" rx="4" x="80" y="48"/>
+</g><g fill="#5E5C64" filter="url(#button_dark)">
+<rect width="16" height="12" rx="4" x="32" y="68"/>
+<rect width="16" height="12" rx="4" x="56" y="68"/>
+<rect width="16" height="12" rx="4" x="32" y="88"/>
+<rect width="16" height="12" rx="4" x="56" y="88"/>
+</g></svg>

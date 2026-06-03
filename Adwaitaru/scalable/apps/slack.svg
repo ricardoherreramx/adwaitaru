@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<rect width="104" height="104" rx="8" x="12" y="12" fill="#511752"/>
+<g fill="#36C8F0">
+<rect width="32" height="14" rx="7" x="30" y="48"/>
+<path d="M0 7C0 3 3 0 7 0C11 0 14 3 14 7L14 14L7 14C3 14 0 11 0 7Z" transform="translate(48 30)"/>
+</g><g fill="#2EB67D">
+<rect width="14" height="32" rx="7" x="66" y="30"/>
+<path d="M0 7C0 3 3 0 7 0C11 0 14 3 14 7C14 11 11 14 7 14L0 14L0 7Z" transform="translate(84 48)"/>
+</g><g fill="#ECB22E">
+<rect width="32" height="14" rx="7" x="66" y="66"/>
+<path d="M0 7L0 0L7 0C11 0 14 3 14 7C14 11 11 14 7 14C3 14 0 11 0 7Z" transform="translate(66 84)"/>
+</g><g fill="#E01E5A">
+<rect width="14" height="32" rx="7" x="48" y="66"/>
+<path d="M0 7C0 3 3 0 7 0L14 0L14 7C14 11 11 14 7 14C3 14 0 11 0 7Z" transform="translate(30 66)"/>
+</g></svg>

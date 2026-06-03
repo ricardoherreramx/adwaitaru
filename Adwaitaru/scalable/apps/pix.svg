@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="corners">
+<stop offset="0" stop-color="#BABAB6"/>
+<stop offset="5%" stop-color="#F6F5F4"/>
+<stop offset="10%" stop-color="#BEBEB8"/>
+<stop offset="90%" stop-color="#BEBEB8"/>
+<stop offset="95%" stop-color="#EEEEEC"/>
+<stop offset="1" stop-color="#BABAB6"/>
+</linearGradient>
+<linearGradient id="frame" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#FFFFFF" stop-opacity="36%"/>
+<stop offset="1" stop-color="#FFFFFF" stop-opacity="0%"/>
+</linearGradient>
+</defs>
+<rect width="104" height="104" rx="8" x="12" y="12" fill="url(#corners)"/>
+<rect width="104" height="96" rx="8" x="12" y="12" fill="#F6F5F4"/>
+<g transform="translate(20 20)">
+<rect width="88" height="20" fill="#EE9B8B"/>
+<rect width="88" height="20" fill="#AC7386" y="20"/>
+<rect width="88" height="20" fill="#483869" y="40"/>
+<rect width="88" height="20" fill="#EE9B8B" y="60"/>
+<rect width="22" height="20" fill="#E99B8F"/>
+<rect width="22" height="20" fill="#F49F8C" x="22"/>
+<rect width="22" height="20" fill="#EE9B8B" x="44"/>
+<rect width="22" height="20" fill="#E99B8F" x="66"/>
+<rect width="22" height="20" fill="#AC7386" y="20"/>
+<rect width="22" height="20" fill="#A96E80" x="22" y="20"/>
+<rect width="22" height="20" fill="#BA7E86" x="44" y="20"/>
+<rect width="22" height="20" fill="#9F798E" x="66" y="20"/>
+<rect width="22" height="20" fill="#332852" y="40"/>
+<rect width="22" height="20" fill="#483869" x="22" y="40"/>
+<rect width="22" height="20" fill="#604676" x="44" y="40"/>
+<rect width="22" height="20" fill="#654A7F" x="66" y="40"/>
+<rect width="22" height="20" fill="#080717" y="60"/>
+<rect width="22" height="20" fill="#0E0C22" x="22" y="60"/>
+<rect width="22" height="20" fill="#1C1A41" x="44" y="60"/>
+<rect width="22" height="20" fill="#211E49" x="66" y="60"/>
+<rect width="84" height="76" x="2" y="2" fill="none" stroke="url(#frame)" stroke-width="4"/>
+</g></svg>

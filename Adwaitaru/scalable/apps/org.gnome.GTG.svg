@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="corners">
+<stop offset="0" stop-color="#195FB5"/>
+<stop offset="5%" stop-color="#3483E3"/>
+<stop offset="10%" stop-color="#195FB5"/>
+<stop offset="90%" stop-color="#1A5FB4"/>
+<stop offset="95%" stop-color="#3483E3"/>
+<stop offset="1" stop-color="#1A5FB4"/>
+</linearGradient>
+</defs>
+<rect width="88" height="104" rx="8" x="20" y="16" fill="url(#corners)"/>
+<rect width="88" height="100" rx="8" x="20" y="16" fill="#62A0E9"/>
+<rect width="72" height="84" x="28" y="24" fill="#C0BFBC"/>
+<rect width="72" height="80" x="28" y="24" fill="#F6F5F4"/>
+<path d="M4 0C2 0 0 2 0 4L0 18L48 18L48 4C48 2 46 0 44 0L30 0L24 6L18 0Z" fill="#C0BFBC" transform="translate(40 12)"/>
+<circle r="6" cx="64" cy="12" fill="none" stroke="#C0BFBC" stroke-width="4"/>
+<rect width="48" height="4" x="40" y="28" fill="#9A9996"/>
+<g stroke-width="4"><g stroke="#9A9996">
+<line x1="64" y1="46" x2="84" y2="46"/>
+<line x1="64" y1="66" x2="88" y2="66"/>
+<line x1="64" y1="86" x2="80" y2="86"/>
+</g><g fill="none" stroke="#2EC27E" stroke-linecap="round" stroke-linejoin="round">
+<path d="M0 4L5 9L14 0" transform="translate(40 81)"/>
+<path d="M0 4L5 9L14 0" transform="translate(40 61)"/>
+<path d="M0 4L5 9L14 0" transform="translate(40 41)"/>
+</g></g></svg>

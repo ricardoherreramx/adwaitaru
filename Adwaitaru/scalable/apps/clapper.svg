@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<clipPath id="softcorners">
+<rect width="112" height="88" rx="8" x="8" y="28"/>
+</clipPath>
+<filter id="shadow">
+<feDropShadow dx="0" dy="1" flood-color="#77767B" stdDeviation="0"/>
+</filter>
+</defs>
+<g clip-path="url(#softcorners)">
+<rect width="112" height="88" x="8" y="28" fill="#4747D1"/>
+<g fill="#F1F1F1" transform="translate(23 28)">
+<path d="M0 0L13 0L18 8L13 16L0 16L5 8Z"/>
+<path d="M25 0L38 0L43 8L38 16L25 16L30 8Z"/>
+<path d="M50 0L63 0L68 8L63 16L50 16L55 8Z"/>
+<path d="M75 0L88 0L93 8L88 16L75 16L80 8Z"/>
+</g><rect width="112" height="8" x="8" y="28" fill="#FFFFFF" opacity="30%"/>
+<path d="M0 0L5.5 0L16 10.5L16 16L0 16Z" fill="#A9A9A9" transform="translate(8 28)"/>
+<rect width="112" height="6" x="8" y="44" fill="#3838A6"/>
+<path d="M0 0L30 17.5L0 35Z" fill="#F1F1F1" transform="translate(52 64)"/>
+<g fill="#F6F5F4" filter="url(#shadow)">
+<circle r="1" cx="11" cy="41"/>
+<circle r="1" cx="21" cy="41"/>
+<circle r="1" cx="11" cy="33"/>
+</g></g></svg>

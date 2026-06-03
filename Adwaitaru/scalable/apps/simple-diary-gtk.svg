@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="paper" x1="0.8" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#F5F2F3"/>
+<stop offset="0.5" stop-color="#F6F5F4"/>
+<stop offset="1" stop-color="#C0BFBC"/>
+</linearGradient>
+<linearGradient id="shine">
+<stop offset="0" stop-color="#FFFFFF" stop-opacity="25%"/>
+<stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+</linearGradient>
+<clipPath id="pic">
+<rect width="64" height="64"/>
+</clipPath>
+</defs>
+<rect width="88" height="112" rx="8" x="20" y="8" fill="#8C4614"/>
+<path d="M78 20C82.4 20 86 16.4 86 12L86 0C86 4.4 82.4 8 78 8L6 8C2.7 8 0 10.7 0 14C0 17.3 2.7 20 6 20Z" fill="url(#paper)" transform="translate(22 98)"/>
+<g stroke="#DEDDDA" stroke-width="2" stroke-linecap="round">
+<path d="M32 110L96 110"/>
+<path d="M32 114L96 114"/>
+</g><path d="M0 8L0 104C0 99.6 3.6 96 8 96L80 96C84.4 96 88 92.4 88 88L88 8C88 3.6 84.4 0 80 0L8 0C3.6 0 0 3.6 0 8Z" fill="#D35500" transform="translate(20 8)"/>
+<path d="M0 8L0 104C0 99.6 3.6 96 8 96L8 0C3.6 0 0 3.6 0 8Z" fill="url(#shine)" transform="translate(20 8)"/>
+<rect width="68" height="68" fill="#8C4614" transform="translate(30 18)"/>
+<g clip-path="url(#pic)" transform="translate(32 20)">
+<rect width="64" height="64" fill="#00C2EC"/>
+<rect width="48" height="48" rx="5" fill="#184696" transform="translate(40 32) rotate(45)"/>
+<rect width="64" height="64" rx="6" fill="#008000" transform="translate(14 26) rotate(45)"/>
+<circle r="8" fill="#FFCC00" cx="48" cy="16"/>
+</g></svg>

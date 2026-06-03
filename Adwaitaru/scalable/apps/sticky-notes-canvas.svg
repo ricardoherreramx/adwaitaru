@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="needle">
+<stop offset="0" stop-color="#9A9996"/>
+<stop offset="50%" stop-color="#F6F5F4"/>
+<stop offset="1" stop-color="#9A9996"/>
+</linearGradient>
+<linearGradient id="red">
+<stop offset="0" stop-color="#C01C28"/>
+<stop offset="50%" stop-color="#F66151"/>
+<stop offset="1" stop-color="#E01B24"/>
+</linearGradient>
+</defs>
+<rect width="104" height="104" rx="8" fill="#3584E4" transform="translate(12 12) rotate(15 52 52)"/>
+<path d="M8 0L96 0C100.4 0 104 3.6 104 8L104 76L76 104L8 104C3.6 104 0 100.4 0 96L0 8C0 3.6 3.6 0 8 0Z" fill="#A4CAEE" transform="translate(12 12)"/>
+<g fill="#62A0EA">
+<path d="M28 0L0 28L0 8C0 3.6 3.6 0 8 0Z" transform="translate(88 88)"/>
+<rect width="72" height="8" rx="4" x="28" y="48"/>
+<rect width="48" height="8" rx="4" x="28" y="64"/>
+</g><g transform="translate(52 0)">
+<rect width="4" height="18" rx="2" x="10" y="18" fill="url(#needle)"/>
+<circle r="12" cx="12" cy="20" fill="#C01C28"/>
+<circle r="12" cx="12" cy="18" fill="#E01B24"/>
+<rect width="16" height="20" rx="8" x="4" y="6" fill="url(#red)"/>
+<circle r="9" cx="12" cy="11" fill="#C01C28"/>
+<circle r="9" cx="12" cy="9" fill="#E01B24"/>
+<g fill="#ED333B">
+<path d="M24 0C24 7 18 12 12 12C6 12 0 7 0 0C0 5 6 10 12 10C18 10 24 5 24 0Z" transform="translate(0 18)"/>
+<path d="M18 0C18 5 14 9 9 9C4 9 0 5 0 0C0 4 4 7 9 7C14 7 18 4 18 0Z" transform="translate(3 9)"/>
+</g></g></svg>

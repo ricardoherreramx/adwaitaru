@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="corners">
+<stop offset="0" stop-color="#5E5C64"/>
+<stop offset="5%" stop-color="#9A9996"/>
+<stop offset="10%" stop-color="#77767B"/>
+<stop offset="90%" stop-color="#77767B"/>
+<stop offset="95%" stop-color="#9A9996"/>
+<stop offset="1" stop-color="#5E5C64"/>
+</linearGradient>
+<linearGradient id="screen" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#748F48"/>
+<stop offset="1" stop-color="#1F2816"/>
+</linearGradient>
+<linearGradient id="shine" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#FFFFFF"/>
+<stop offset="1" stop-color="#FCFCFC" stop-opacity="0"/>
+</linearGradient>
+</defs>
+<rect width="104" height="104" rx="8" x="12" y="12" fill="url(#corners)"/>
+<rect width="104" height="96" rx="8" x="12" y="12" fill="#C0BFBC"/>
+<rect width="96" height="88" rx="4" x="16" y="16" fill="url(#screen)"/>
+<rect width="92" height="84" rx="2" x="18" y="18" fill="none" stroke="#000000" stroke-width="4" opacity="71%"/>
+<line x1="64" y1="24" x2="64" y2="100" stroke="#181F10" stroke-width="88" stroke-dasharray="4 4" opacity="26%"/>
+<path d="M0 0C0 0 0 50 0 50C42 50 42 16 88 16L88 0Z" fill="url(#shine)" opacity="53%" transform="translate(20 20)"/>
+<g transform="translate(28 61)">
+<g stroke="#6ED66E" stroke-width="4" opacity="30%">
+<rect width="16" height="4" x="18" y="23"/>
+<path d="M0 0L14 7L14 12L0 19L0 14L9 9.5L0 5Z"/>
+</g><g fill="#FFFFFF">
+<rect width="16" height="4" x="18" y="23"/>
+<path d="M0 0L14 7L14 12L0 19L0 14L9 9.5L0 5Z"/>
+</g></g>
+</svg>

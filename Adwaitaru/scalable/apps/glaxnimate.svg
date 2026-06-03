@@ -5,13 +5,16 @@
 <stop offset="0" stop-color="#5AAAE6"/>
 <stop offset="1" stop-color="#4B91F5"/>
 </linearGradient>
-<linearGradient id="shadow" gradientUnits="userSpaceOnUse" x1="14" y1="20" x2="72" y2="78">
-<stop offset="0" stop-color="#000000" stop-opacity="50%"/>
+<linearGradient id="shadow" x1="0" y1="0" x2="1" y2="0.7">
+<stop offset="20%" stop-color="#000000" stop-opacity="50%"/>
 <stop offset="1" stop-color="#000000" stop-opacity="0"/>
 </linearGradient>
+<clipPath id="circle">
+<circle r="60" cx="64" cy="64"/>
+</clipPath>
 </defs>
 <circle r="60" cx="64" cy="64" fill="url(#blue)"/>
-<path d="M0 77L14 20L45 0L72 27L72 98L21 98Z" fill="url(#shadow)" transform="translate(56 30)"/>
+<path d="M56 107L70 50L101 30L128 57L128 128L77 128Z" clip-path="url(#circle)" fill="url(#shadow)"/>
 <g transform="translate(28.5 31)">
 <path d="M0 0C21.5 0 28.5 20.5 28.5 20.5C28.5 20.5 31.5 21.5 35.5 21.5C39.5 21.5 42.5 20.5 42.5 20.5C42.5 20.5 49.5 0 71 0C71 0 47.5 15 60.5 42C60.5 42 46.5 52 46.5 71C46.5 71 42 75.5 35.5 78C29 75.5 24.5 71 24.5 71C24.5 52 10.5 42 10.5 42C23.5 15 0 0 0 0Z" fill="#C4D9F5" stroke="#C4D9F5" stroke-width="4" stroke-linejoin="round"/>
 <g fill="#EC1414">

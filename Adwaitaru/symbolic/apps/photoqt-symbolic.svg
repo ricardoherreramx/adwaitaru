@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="16" height="16" viewBox="0 0 16 16" fill="gray" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" d="M4 0C4 0 16 0 16 0L16 12C16 14.2 14.2 16 12 16L0 16L0 4C0 1.8 1.8 0 4 0ZM4 1C2.3 1 1 2.3 1 4L1 15L12 15C13.7 15 15 13.7 15 12L15 1Z"/>
+<path fill-rule="evenodd" d="M0 4C0 1.8 1.8 0 4 0C6.2 0 8 1.8 8 4C8 6.2 6.2 8 4 8C1.8 8 0 6.2 0 4ZM1 4C1 2.3 2.3 1 4 1C5.7 1 7 2.3 7 4C7 5.7 5.7 7 4 7C2.3 7 1 5.7 1 4Z"/>
+<path fill-rule="evenodd" d="M0 4C0 1.8 1.8 0 4 0C6.2 0 8 1.8 8 4C8 6.2 6.2 8 4 8C1.8 8 0 6.2 0 4ZM1 4C1 2.3 2.3 1 4 1C5.7 1 7 2.3 7 4C7 5.7 5.7 7 4 7C2.3 7 1 5.7 1 4Z" transform="translate(8 8)"/>
+</svg>

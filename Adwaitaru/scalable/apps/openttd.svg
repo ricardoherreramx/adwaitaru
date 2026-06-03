@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="orange" x1="0" y1="0" x2="0" y2="1">
+<stop offset="33%" stop-color="#F2B26D"/>
+<stop offset="66%" stop-color="#FE7600"/>
+</linearGradient>
+<filter id="shadow">
+<feDropShadow dx="2" dy="2" flood-color="#000000" flood-opacity="60%"/>
+</filter>
+<clipPath id="rhombus">
+<rect width="88" height="88" rx="8" x="20" y="20" transform="rotate(45 64 64)"/>
+</clipPath>
+</defs>
+<g clip-path="url(#rhombus)">
+<rect width="128" height="128" fill="#FFFFFF"/>
+<path d="M0 0L128 0L128 128L0 128ZM69 24L60 24L60 33C52 33 40 39 40 49C40 60 49 66 60 69L60 82C54 80 50 76 47 68L40 69L43 92L48 92L51 88L60 93L60 104L69 104L69 93C78 93 88 86 88 75C88 67 81 60 69 57L69 45C73 48 76 53 77 56L85 54L80 34L76 34L74 37L69 35ZM53 48C53 52 60 54 60 54L60 44C60 44 53 44 53 48ZM68 72C68 72 75 74 75 78C75 83 68 83 68 83Z" fill="url(#orange)" fill-rule="evenodd" stroke="#000000" stroke-width="1" filter="url(#shadow)"/>
+</g></svg>

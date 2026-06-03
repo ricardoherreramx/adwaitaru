@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="corners">
+<stop offset="0" stop-color="#E5A50A"/>
+<stop offset="5%" stop-color="#F6D32D"/>
+<stop offset="10%" stop-color="#E5A50A"/>
+<stop offset="90%" stop-color="#F5C211"/>
+<stop offset="95%" stop-color="#F6D32D"/>
+<stop offset="1" stop-color="#E5A50A"/>
+</linearGradient>
+<linearGradient id="wood">
+<stop offset="0" stop-color="#FFFFFF"/>
+<stop offset="1" stop-color="#D1BC8E"/>
+</linearGradient>
+<linearGradient id="eraser">
+<stop offset="0" stop-color="#FC9B92"/>
+<stop offset="1" stop-color="#CB2B31"/>
+</linearGradient>
+<linearGradient id="steel">
+<stop offset="0" stop-color="#F5F4F2"/>
+<stop offset="22%" stop-color="#D6D5D2"/>
+<stop offset="74%" stop-color="#9A9996"/>
+<stop offset="100%" stop-color="#BFBEBB"/>
+</linearGradient>
+</defs>
+<rect width="88" height="40" rx="8" x="20" y="80" fill="#865E3C"/>
+<rect width="88" height="38" rx="8" x="20" y="80" fill="url(#corners)"/>
+<rect width="88" height="104" rx="8" x="20" y="8" fill="#F9F06B"/>
+<g stroke="#F0C83C" stroke-width="2">
+<line x1="20" y1="97" x2="108" y2="97"/>
+<line x1="20" y1="85" x2="108" y2="85"/>
+<line x1="20" y1="73" x2="108" y2="73"/>
+<line x1="20" y1="61" x2="108" y2="61"/>
+<line x1="20" y1="49" x2="108" y2="49"/>
+<line x1="20" y1="37" x2="108" y2="37"/>
+<line x1="20" y1="25" x2="108" y2="25"/>
+</g><g stroke-width="4">
+<line stroke="#E6A40A" x1="34" y1="8" x2="34" y2="112"/>
+<line stroke="#000000" x1="34" y1="112" x2="34" y2="118" opacity="32%"/></g>
+<path d="M28 0L0 28L0 8C0 3.6 3.60 0 8 0Z" fill="#F0B40F" transform="translate(80 86)"/>
+<g transform="translate(28 -15) rotate(45, 10, 111)">
+<path d="M0 0L10 14L20 0Z" fill="url(#wood)" transform="translate(0 97)"/>
+<path d="M0 0L5 7L10 0Z" fill="#3D3846" transform="translate(5 104)"/>
+<rect width="20" height="32" rx="10" fill="url(#eraser)"/>
+<rect width="6" height="75" x="14" y="22" fill="#242030"/>
+<rect width="8" height="75" x="6" y="22" fill="#3D3846"/>
+<rect width="6" height="75" y="22" fill="#5E5D65"/>
+<rect width="20" height="8" y="14" fill="url(#steel)"/>
+</g></svg>

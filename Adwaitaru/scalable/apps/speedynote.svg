@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="corner1" x1="0" y1="1" x2="1" y2="0">
+<stop offset="50%" stop-color="#C0BFBC"/>
+<stop offset="75%" stop-color="#DEDDDA"/>
+</linearGradient>
+<linearGradient id="corner2" x1="0" y1="1" x2="1" y2="0">
+<stop offset="25%" stop-color="#DEDDDA"/>
+<stop offset="50%" stop-color="#FFFFFF"/>
+</linearGradient>
+<linearGradient id="pen">
+<stop offset="0" stop-color="#342F3B"/>
+<stop offset="65%" stop-color="#5E5C64"/>
+<stop offset="1" stop-color="#3D3846"/>
+</linearGradient>
+<filter id="shadow">
+<feDropShadow dx="0" dy="2" flood-color="#000000" flood-opacity="25%" stdDeviation="0"/>
+</filter>
+</defs>
+<path d="M8 0L60 0L88 28L88 104C88 108.4 84.4 112 80 112L8 112C3.6 112 0 108.4 0 104L0 8C0 3.6 3.6 0 8 0Z" fill="#F6F5F4" transform="translate(20 8)"/>
+<path d="M0 0C0 0 28 28 28 28L28 8C28 3.6 24.4 0 20 0Z" fill="url(#corner1)" transform="translate(80 8)"/>
+<path d="M28 28L0 0L0 20C0 24.4 3.6 28 8 28Z" fill="url(#corner2)" filter="url(#shadow)" transform="translate(80 8)"/>
+<g fill="#C0BFBC" transform="translate(32 36)"><g fill="#ED333B">
+<rect width="38" height="6" rx="3"/>
+<rect width="18" height="4" rx="2" y="12" opacity="60%"/></g>
+<rect width="64" height="4" rx="2" y="30"/>
+<rect width="48" height="4" rx="2" y="40"/>
+<rect width="64" height="4" rx="2" y="50"/>
+<rect width="56" height="4" rx="2" y="60"/>
+<rect width="48" height="4" rx="2" y="70"/>
+</g>
+<path d="M0 50C0 50 25 42 25 32C25 22 9 20 9 11C9 0 38 0 38 0" fill="none" stroke="#00BED2" stroke-width="6" stroke-linecap="round" transform="translate(50 52)"/>
+<g transform="translate(46 58), rotate(315 4 44)">
+<path d="M0 0L8 0L4 8Z" fill="#241F31" transform="translate(0 36)"/>
+<path d="M0 36L0 4C0 2 2 0 4 0C6 0 8 2 8 4L8 36Z" fill="url(#pen)"/>
+</g></svg>

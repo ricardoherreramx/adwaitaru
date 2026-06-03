@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<clipPath id="squircle">
+<rect width="104" height="104" rx="8" x="12" y="12"/>
+</clipPath>
+<linearGradient id="red" x1="0" y1="0" x2="0" y2="1">
+<stop offset="48%" stop-color="#C80000"/>
+<stop offset="1" stop-color="#E00000"/>
+</linearGradient>
+<linearGradient id="shine" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#E96464"/>
+<stop offset="1" stop-color="#D90606"/>
+</linearGradient>
+</defs>
+<g clip-path="url(#squircle)">
+<rect width="104" height="104" fill="url(#red)" x="12" y="12"/>
+<rect width="104" height="48" fill="url(#shine)" x="12" y="12"/>
+<g fill="#FFFFFF">
+<path d="M0 0L0 50L10 50L10 10L20 10L20 50L30 50L30 10L40 10L40 50L50 50L50 0Z" transform="translate(48 38)"/>
+<path d="M0 0L10 0L10 35L0 35ZM0 40L10 40L10 50L0 50Z" transform="translate(28 38)"/>
+</g><g fill="#D3D3D3" transform="translate(28 60)">
+<rect width="10" height="13"/>
+<rect width="10" height="10" y="18"/>
+<rect width="10" height="28" x="20"/>
+<rect width="10" height="28" x="40"/>
+<rect width="10" height="28" x="60"/>
+</g></g>
+</svg>

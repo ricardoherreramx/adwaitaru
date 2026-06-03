@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<clipPath id="softcorners">
+<rect width="112" height="88" rx="8" x="8" y="28"/>
+</clipPath>
+<filter id="shadow">
+<feDropShadow dx="0" dy="1" flood-color="#77767B" stdDeviation="0"/>
+</filter>
+</defs>
+<g clip-path="url(#softcorners)">
+<rect width="112" height="80" rx="8" x="8" y="36" fill="#422863"/>
+<rect width="112" height="76" rx="8" x="8" y="36" fill="#613583"/>
+<rect width="112" height="16" x="8" y="28" fill="#FFFFFF"/>
+<rect width="112" height="8" x="8" y="28" fill="#F6F5F4"/>
+<g fill="#000000" transform="translate(11 28)">
+<path d="M0 0L13 0L18 8L13 16L0 16L5 8Z"/>
+<path d="M25 0L38 0L43 8L38 16L25 16L30 8Z"/>
+<path d="M50 0L63 0L68 8L63 16L50 16L55 8Z"/>
+<path d="M75 0L88 0L93 8L88 16L75 16L80 8Z"/>
+<path d="M100 0L109 0L109 16L100 16L105 8Z"/>
+</g><g fill="#242030" transform="translate(11 28)">
+<path d="M0 0L13 0L18 8L5 8Z"/>
+<path d="M25 0L38 0L43 8L30 8Z"/>
+<path d="M50 0L63 0L68 8L55 8Z"/>
+<path d="M75 0L88 0L93 8L80 8Z"/>
+<path d="M100 0L109 0L109 8L105 8Z"/>
+</g><line x1="8" y1="45" x2="120" y2="45" stroke="#77767B" stroke-width="2"/>
+<path d="M0 0L5.5 0L16 10.5L16 16L0 16Z" fill="#C0BFBC" transform="translate(8 28)"/>
+<g fill="#F6F5F4" filter="url(#shadow)">
+<circle r="1" cx="11" cy="41"/>
+<circle r="1" cx="21" cy="41"/>
+<circle r="1" cx="11" cy="33"/>
+</g><g stroke="#F6F5F4" stroke-width="2">
+<line x1="47" y1="60" x2="47" y2="73"/>
+<line x1="81" y1="60" x2="81" y2="73"/>
+<line x1="24" y1="73" x2="104" y2="73"/>
+<line x1="24" y1="91" x2="104" y2="91"/>
+</g></g>
+</svg>

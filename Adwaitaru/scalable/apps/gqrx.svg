@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="corners">
+<stop offset="0" stop-color="#5E5C64"/>
+<stop offset="5%" stop-color="#9A9996"/>
+<stop offset="10%" stop-color="#77767B"/>
+<stop offset="90%" stop-color="#77767B"/>
+<stop offset="95%" stop-color="#9A9996"/>
+<stop offset="1" stop-color="#5E5C64"/>
+</linearGradient>
+<radialGradient id="brown" cx="0.5" cy="1" r="1">
+<stop offset="0" stop-color="#4B3820"/>
+<stop offset="1" stop-color="#19140B"/>
+</radialGradient>
+<linearGradient id="signal">
+<stop offset="0" stop-color="#F3CB20" stop-opacity="0"/>
+<stop offset="22%" stop-color="#F3CB20"/>
+<stop offset="56%" stop-color="#F3CB20"/>
+<stop offset="1" stop-color="#F3CB20" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="light" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#FFDF5E"/>
+<stop offset="1" stop-color="#D3D3D3" stop-opacity="50%"/>
+</linearGradient>
+<filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+<feGaussianBlur stdDeviation="5"/>
+</filter>
+<clipPath id="display">
+<rect width="96" height="88" rx="4" x="16" y="16"/>
+</clipPath>
+</defs>
+<rect width="104" height="104" rx="8" x="12" y="12" fill="url(#corners)"/>
+<rect width="104" height="96" rx="8" x="12" y="12" fill="#C0BFBC"/>
+<g clip-path="url(#display)">
+<rect width="96" height="88" rx="4" x="16" y="16" fill="url(#brown)"/>
+<g stroke="#F3C770" stroke-width="2" opacity="8%" transform="translate(16 16)">
+<line x1="0" y1="17" x2="96" y2="17"/>
+<line x1="0" y1="31" x2="96" y2="31"/>
+<line x1="0" y1="45" x2="96" y2="45"/>
+<line x1="0" y1="59" x2="96" y2="59"/>
+<line x1="0" y1="73" x2="96" y2="73"/>
+<line x1="17" y1="0" x2="17" y2="88"/>
+<line x1="33" y1="0" x2="33" y2="88"/>
+<line x1="49" y1="0" x2="49" y2="88"/>
+<line x1="65" y1="0" x2="65" y2="88"/>
+<line x1="81" y1="0" x2="81" y2="88"/>
+</g><g stroke="#F3CB20" stroke-width="2" stroke-linecap="round" transform="translate(89 29)">
+<g opacity="50%">
+<line x1="0" y1="0" x2="10" y2="0"/>
+<line x1="0" y1="4" x2="10" y2="4"/>
+<line x1="0" y1="8" x2="10" y2="8"/></g>
+<line x1="0" y1="12" x2="10" y2="12"/>
+<line x1="0" y1="16" x2="10" y2="16"/>
+</g>
+<path d="M0 23L14 23L24 0L30 39L38 23L46 23L51 12L54 32L58 23L88 23" fill="none" stroke="url(#signal)" stroke-width="4" transform="translate(20 43)"/>
+<rect width="80" height="72" fill="url(#light)" opacity="10%" filter="url(#blur)" transform="translate(24 24)"/>
+<rect width="92" height="84" rx="2" x="18" y="18" fill="none" stroke="#000000" stroke-width="4" opacity="50%" filter="url(#blur)"/>
+</g></svg>

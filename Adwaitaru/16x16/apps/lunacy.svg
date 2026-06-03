@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-<rect width="16" height="16" fill="#058BD1"/>
+<rect width="16" height="16" rx="2" fill="#058BD1"/>
 <g fill="#FFFFFF">
 <path d="M0 0L5 0L5 10L0 10ZM10 10L5 10L10 5Z" transform="translate(3 3)"/>
 <path d="M4 2L2 0L0 2L2 4Z" transform="translate(9 3)"/>

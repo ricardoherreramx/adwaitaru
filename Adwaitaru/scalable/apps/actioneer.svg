@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<radialGradient id="gradient">
+<stop offset="30%" stop-color="#274362"/>
+<stop offset="1" stop-color="#141A20"/>
+</radialGradient>
+</defs>
+<rect width="104" height="104" rx="8" x="12" y="12" fill="url(#gradient)"/>
+<g fill="#E1EBF5">
+<path d="M0 28L2 0L19 0L21 28Z" transform="translate(54 88)"/>
+<path d="M32 28L51 28L58 18L69 18L73.5 25L80 25L80 3L73.5 3L69 10L58 10L51 0L28 0C18 0 0 19 0 33C0 27 11 10 24 10Z" stroke="#E1EBF5" stroke-width="8" stroke-linejoin="round" transform="translate(23 49)"/>
+</g><path d="M0 0L15 9L0 18Z" fill="#283442" transform="translate(60 55)"/>
+</svg>

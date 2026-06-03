@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="corners">
+<stop offset="0" stop-color="#BABAB6"/>
+<stop offset="4%" stop-color="#EEEEEC"/>
+<stop offset="8%" stop-color="#BEBEB8"/>
+<stop offset="92%" stop-color="#BEBEB8"/>
+<stop offset="96%" stop-color="#F6F5F4"/>
+<stop offset="100%" stop-color="#BABAB6"/>
+</linearGradient>
+</defs>
+<rect width="88" height="40" rx="8" x="20" y="80" fill="#5E2691"/>
+<rect width="88" height="38" rx="8" x="20" y="80" fill="url(#corners)"/>
+<rect width="88" height="104" rx="8" x="20" y="8" fill="#F6F5F4"/>
+<g stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+<line x1="0" y1="0" x2="52" y2="0" stroke="#5FCEE4" transform="translate(38 78)"/>
+<g fill="none" stroke="#000000">
+<path d="M0 20L11 20C14 20 16 18 16 15C16 12 14 10 11 10L5 10C2 10 0 8 0 5C0 2 2 0 5 0L16 0" transform="translate(46 46)"/>
+<path d="M0 0L0 16L0 10C0 5 5 0 10 0" transform="translate(72 50)"/>
+</g><g stroke="#C0BFBC"><g stroke-dasharray="12 8">
+<line x1="38" y1="34" x2="90" y2="34"/>
+<line x1="38" y1="94" x2="62" y2="94"/>
+</g><g stroke-dasharray="8 8">
+<line x1="44" y1="22" x2="84" y2="22"/>
+<line x1="70" y1="94" x2="90" y2="94"/>
+</g></g></g>
+</svg>

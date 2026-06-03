@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="corners">
+<stop offset="0" stop-color="#3D3846"/>
+<stop offset="5%" stop-color="#5E5C64"/>
+<stop offset="10%" stop-color="#3D3846"/>
+<stop offset="90%" stop-color="#3D3846"/>
+<stop offset="95%" stop-color="#5E5C64"/>
+<stop offset="1" stop-color="#3D3846"/>
+</linearGradient>
+</defs>
+<rect width="88" height="112" rx="8" x="20" y="8" fill="url(#corners)"/>
+<rect width="88" height="104" rx="8" x="20" y="8" fill="#77767B"/>
+<rect width="64" height="16" rx="4" x="32" y="18" fill="#5E5C64"/>
+<rect width="64" height="32" rx="4" x="32" y="20" fill="#F6F5F4"/>
+<g fill="#424048">
+<rect width="16" height="12" rx="2" x="32" y="60"/>
+<rect width="16" height="12" rx="2" x="56" y="60"/>
+<rect width="16" height="12" rx="2" x="80" y="60"/>
+<rect width="16" height="12" rx="2" x="32" y="76"/>
+<rect width="16" height="12" rx="2" x="56" y="76"/>
+<rect width="16" height="12" rx="2" x="80" y="76"/>
+<rect width="16" height="12" rx="2" x="32" y="92"/>
+<rect width="16" height="12" rx="2" x="56" y="92"/>
+<rect width="16" height="12" rx="2" x="80" y="92"/>
+</g><g fill="#DEDDDA">
+<rect width="16" height="8" rx="2" x="32" y="60"/>
+<rect width="16" height="8" rx="2" x="56" y="60"/>
+<rect width="16" height="8" rx="2" x="80" y="60"/>
+<rect width="16" height="8" rx="2" x="32" y="76"/>
+<rect width="16" height="8" rx="2" x="56" y="76"/>
+<rect width="16" height="8" rx="2" x="80" y="76"/>
+<rect width="16" height="8" rx="2" x="32" y="92"/>
+<rect width="16" height="8" rx="2" x="56" y="92"/>
+<rect width="16" height="8" rx="2" x="80" y="92"/>
+</g><g stroke="#77767B" stroke-width="2">
+<line x1="34" y1="36" x2="94" y2="36"/>
+<line x1="64" y1="22" x2="64" y2="50"/>
+</g><g fill="none" stroke-width="4" stroke-linecap="round">
+<line x1="38" y1="46" x2="90" y2="26" stroke="#33D17A"/>
+<path d="M0 20C0 10 26 0 52 0" stroke="#C061CB" transform="translate(38 26)"/>
+<path d="M0 20C0 0 12 0 26 10C40 20 52 20 52 0" stroke="#1C71D8" transform="translate(38 26)"/>
+</g></svg>

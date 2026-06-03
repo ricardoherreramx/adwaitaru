@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<clipPath id="pacman">
+<path d="M0 0L128 0L64 64L128 128L0 128Z"/>
+</clipPath>
+<linearGradient id="dark" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#18181B"/>
+<stop offset="1" stop-color="#27272A"/>
+</linearGradient>
+<linearGradient id="sunset" gradientUnits="userSpaceOnUse" x1="4" y1="4" x2="120" y2="120">
+<stop offset="20%" stop-color="#FACC15"/>
+<stop offset="80%" stop-color="#FB7185"/>
+</linearGradient>
+</defs>
+<circle r="60" cx="64" cy="64" fill="url(#dark)"/>
+<g fill="none" stroke="url(#sunset)" stroke-width="16">
+<circle r="52" cx="64" cy="64" clip-path="url(#pacman)"/>
+<path d="M98 103L100 101L100 64L64 64"/>
+</g>
+<circle r="8" cx="94" cy="34" fill="#FAFAFA"/>
+</svg>

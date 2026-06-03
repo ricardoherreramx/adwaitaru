@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<path d="M8 0L0 8L0 24L8 24L8 8L32 8L32 24L40 24L40 8L32 0Z" fill="#B9BBBD" transform="translate(44 8)"/>
+<rect width="24" height="8" x="52" y="8" fill="#868686"/>
+<rect width="112" height="48" rx="8" x="8" y="68" fill="#F25A22"/>
+<rect width="112" height="80" x="8" y="28" fill="#F25A22"/>
+<rect width="112" height="40" x="8" y="68" fill="#F4703C"/>
+<g transform="translate(34 44)">
+<path d="M48.6 31.5L36 0L24 0L11.4 31.5L23.4 31.5L30 15L36.6 31.5ZM55.4 48.5L43.4 48.5L48 60L60 60ZM16.6 48.5L4.6 48.5L0 60L12 60Z" fill="#FFFFFF"/>
+<g stroke-linecap="round" transform="translate(5 40)">
+<line x1="0" y1="0" x2="50" y2="0" stroke="#FFFFFF" stroke-width="12"/>
+<line x1="0" y1="0" x2="50" y2="0" stroke="#F3662B" stroke-width="4"/>
+</g></g></svg>

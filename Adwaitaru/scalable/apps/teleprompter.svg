@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="corners">
+<stop offset="0" stop-color="#77767B"/>
+<stop offset="5%" stop-color="#C0BFBC"/>
+<stop offset="10%" stop-color="#9A9996"/>
+<stop offset="90%" stop-color="#9A9996"/>
+<stop offset="95%" stop-color="#C0BFBC"/>
+<stop offset="1" stop-color="#77767B"/>
+</linearGradient>
+<linearGradient id="fadings" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#241F31"/>
+<stop offset="25%" stop-color="#241F31" stop-opacity="50%"/>
+<stop offset="50%" stop-color="#241F31" stop-opacity="0"/>
+<stop offset="75%" stop-color="#241F31" stop-opacity="50%"/>
+<stop offset="1" stop-color="#241F31"/>
+</linearGradient>
+</defs>
+<rect width="104" height="104" rx="8" x="12" y="12" fill="url(#corners)"/>
+<rect width="104" height="96" rx="8" x="12" y="12" fill="#DEDDDA"/>
+<rect width="96" height="88" rx="4" x="16" y="16" fill="#241F31"/>
+<g stroke-width="4" stroke-linecap="round">
+<g stroke="#ED333B">
+<line x1="94" y1="94" x2="102" y2="94"/>
+<line x1="26" y1="70" x2="46" y2="70"/>
+<line x1="50" y1="46" x2="70" y2="46"/>
+<line x1="26" y1="30" x2="42" y2="30"/>
+</g><g stroke="#4CA3D8">
+<line x1="50" y1="94" x2="86" y2="94"/>
+<line x1="26" y1="94" x2="42" y2="94"/>
+<line x1="86" y1="86" x2="102" y2="86"/>
+<line x1="26" y1="86" x2="78" y2="86"/>
+<line x1="74" y1="78" x2="102" y2="78"/>
+<line x1="26" y1="78" x2="66" y2="78"/>
+<line x1="54" y1="70" x2="70" y2="70"/>
+<line x1="78" y1="70" x2="102" y2="70"/>
+<line x1="26" y1="62" x2="54" y2="62"/>
+<line x1="62" y1="62" x2="102" y2="62"/>
+<line x1="26" y1="54" x2="46" y2="54"/>
+<line x1="54" y1="54" x2="102" y2="54"/>
+<line x1="26" y1="46" x2="42" y2="46"/>
+<line x1="78" y1="46" x2="102" y2="46"/>
+<line x1="26" y1="38" x2="54" y2="38"/>
+<line x1="62" y1="38" x2="102" y2="38"/>
+<line x1="50" y1="30" x2="70" y2="30"/>
+<line x1="78" y1="30" x2="102" y2="30"/>
+</g></g>
+<rect width="88" height="84" x="20" y="20" fill="url(#fadings)"/>
+</svg>

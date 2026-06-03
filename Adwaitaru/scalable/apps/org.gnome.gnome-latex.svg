@@ -24,9 +24,9 @@
 <stop offset="100%" stop-color="#BFBEBB"/>
 </linearGradient>
 </defs>
-<rect width="88" height="30" rx="8" x="20" y="92" fill="#26A269"/>
-<rect width="88" height="40" rx="8" x="20" y="80" fill="url(#corners)"/>
-<rect width="88" height="106" rx="8" x="20" y="8" fill="#F6F5F4"/>
+<rect width="88" height="40" rx="8" x="20" y="80" fill="#26A269"/>
+<rect width="88" height="38" rx="8" x="20" y="80" fill="url(#corners)"/>
+<rect width="88" height="104" rx="8" x="20" y="8" fill="#F6F5F4"/>
 <path d="M0 0L19 0L19 6.7L18 6.7L17 2L5 2L12.5 12.5L12.5 13.5L4 24.5L18.5 24.5L19.5 20L21 20L21 28L0 28L0 26.5L9 14.5L0 1.5Z" fill="#424048" transform="translate(32 30)"/>
 <g fill="#B4B4B4" transform="translate(34 22)">
 <circle r="3"/>

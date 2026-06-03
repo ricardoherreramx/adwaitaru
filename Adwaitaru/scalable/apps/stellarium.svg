@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<clipPath id="squircle">
+<rect width="104" height="104" rx="8"/>
+</clipPath>
+<clipPath id="moon">
+<rect width="46" height="46" rx="23"/>
+</clipPath>
+<linearGradient id="nightsky" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#101450"/>
+<stop offset="1" stop-color="#3C1E64"/>
+</linearGradient>
+<linearGradient id="bw" x1="0" y1="0" x2="1" y2="1">
+<stop offset="48%" stop-color="#FFFFFF" stop-opacity="16%"/>
+<stop offset="52%" stop-color="#000000" stop-opacity="36%"/>
+</linearGradient>
+<radialGradient id="sunset">
+<stop offset="50%" stop-color="#AAA090"/>
+<stop offset="70%" stop-color="#AA776B"/>
+<stop offset="85%" stop-color="#884261"/>
+<stop offset="1" stop-color="#401C60" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="ladder" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="1" gradientTransform="matrix(0 -29 104 0 104 29)">
+<stop offset="60%" stop-color="#625862"/>
+<stop offset="90%" stop-color="#43344A"/>
+</radialGradient>
+<radialGradient id="shine" cx="0.5" cy="0" r="1">
+<stop offset="20%" stop-color="#FFFFFF" stop-opacity="15%"/>
+<stop offset="80%" stop-color="#FFFFFF" stop-opacity="0"/>
+</radialGradient>
+<filter color-interpolation-filters="sRGB" x="-50%" y="-50%" width="200%" height="200%" id="blur">
+<feFlood flood-opacity="0" result="BackgroundImageFix_1"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix_1" result="Shape_2"/>
+<feGaussianBlur stdDeviation="10"/>
+</filter>
+</defs>
+<g clip-path="url(#squircle)" transform="translate(12 12)">
+<rect width="104" height="104" fill="url(#nightsky)"/>
+<path d="M0 0L12 0C40 0 62 45 92 45C102 45 113 39 116 34.5L128 34.5L128 66L0 66Z" fill="#6C6E9C" filter="url(#blur)" transform="translate(-12 38)"/>
+<circle r="60" cx="104" cy="104" fill="url(#sunset)"/>
+<path d="M104 29L0 29C0 17 68 0 104 0Z" fill="url(#ladder)" transform="translate(0 75)"/>
+<path d="M0 0C28 0 50 30 80 30C90 30 101 26 104 23L104 44L0 44Z" fill="#000000" transform="translate(0 60)"/>
+<path d="M0 0L12 0C40 0 62 30 92 30C102 30 113 26 116 23L128 23L128 44L0 44Z" fill="#363636" filter="url(#blur)" transform="translate(-12 76)"/>
+<g fill="#E4E4E4">
+<circle r="3" cx="11" cy="22"/>
+<circle r="2" cx="30" cy="19"/>
+<circle r="1.5" cx="21.5" cy="12.5"/>
+<circle r="1.5" cx="27.5" cy="37.5"/>
+<circle r="1.5" cx="23.5" cy="40.5"/>
+<circle r="1.5" cx="45.5" cy="49.5"/>
+<circle r="1.5" cx="26.5" cy="58.5"/>
+<circle r="1" cx="31" cy="34"/>
+<circle r="1" cx="36" cy="38"/>
+</g><g clip-path="url(#moon)" transform="translate(47 5), rotate(45 23 23)">
+<rect width="23" height="46" fill="#E4E4E4" transform="translate(23 0)"/>
+<rect width="23" height="46" fill="#321E64"/>
+<ellipse rx="11.5" ry="23" cx="23" cy="23" fill="#321E64"/>
+</g><circle r="52" cx="52" cy="0" fill="url(#shine)"/>
+<rect width="102" height="102" rx="7" x="1" y="1" fill="none" stroke="url(#bw)" stroke-width="2"/>
+</g></svg>
