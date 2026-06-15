@@ -1,1 +1,12 @@
-application-vnd.comicbook+zip.svg
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 8L0 20L80 20C84.4 20 88 16.4 88 12L88 0C88 4.4 84.4 8 80 8Z" fill="#505050" transform="translate(20 100)"/>
+<path d="M0 8L0 16L78 16C82.4 16 86 12.4 86 8L86 0C86 4.4 82.4 8 78 8Z" fill="#E8E7E4" transform="translate(22 102)"/>
+<path d="M0 0L8 0L8 2L2 2L2 10L8 10L8 12L0 12Z" fill="#191622" transform="translate(20 108)"/>
+<path d="M0 0L0 100C0 100 80 100 80 100C84.4 100 88 96.4 88 92C88 92 88 80 88 80L60 52L88 24C88 24 88 8 88 8C88 3.6 84.4 0 80 0C80 0 0 0 0 0Z" fill="#808080" transform="translate(20 8)"/>
+<rect width="8" height="100" x="20" y="8" fill="#424048"/>
+<rect width="2" height="100" x="22" y="8" fill="#FFFFFF" opacity="20%"/>
+<path d="M4 6L4 10L0 10L0 16L4 16L4 56L12 56L12 16L16 16L16 10L12 10L12 8C12 6.9 12.9 6 14 6L16 6L16 0L10 0C6 0 4 2 4 6Z" fill="#F6F5F4" transform="translate(36 28)"/>
+<path d="M0 0C0 0 8 0 8 0L8 13C8 13 10.7 10 14 10C17.3 10 20 12.7 20 16L20 50C20 53.3 17.3 56 14 56C10.7 56 8 53 8 53L8 56C8 56 0 56 0 56ZM10 16C11.1 16 12 16.9 12 18L12 48C12 49.1 11.1 50 10 50C8.9 50 8 49.1 8 48L8 18C8 16.9 8.9 16 10 16Z" fill="#F6F5F4" fill-rule="evenodd" transform="translate(56 28)"/>
+<path d="M40 20L20 0L0 20L20 40ZM27 23L25 23L25 25L18 25C18 22 27 22 27 15C27 12 24 10 20 10C17 10 14 12 14 12L14 16L16 16Q16 13 19 13C21 13 22 14 22 16C22 20 14 21 14 28L27 28Z" fill="#FE9800" fill-rule="evenodd" transform="translate(88 40)"/>
+</svg>

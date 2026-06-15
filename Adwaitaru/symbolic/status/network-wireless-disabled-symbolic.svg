@@ -2,15 +2,15 @@
 <svg width="16" height="16" viewBox="0 0 16 16" fill="gray" xmlns="http://www.w3.org/2000/svg">
 <defs>
 <clipPath id="triangles">
-<path d="M0 0L0 13L13 0ZM0 16L16 0L16 16Z"/>
+<path d="M0 0L13 0L0 13ZM0 16L16 0L16 16Z"/>
 </clipPath>
 </defs>
 <g clip-path="url(#triangles)">
 <circle r="2" cx="8" cy="13"/>
-<g transform="rotate(315 8 13)">
-<path d="M0 0C6 0 11 5 11 11L10 11C10 5.5 5.5 1 0 1Z" transform="translate(8 2)"/>
-<path d="M0 0C4.5 0 8 3.5 8 8L7 8C7 4 4 1 0 1Z" transform="translate(8 5)"/>
-<path d="M0 0C2.75 0 5 2.25 5 5L4 5C4 2.8 2.2 1 0 1Z" transform="translate(8 8)"/>
+<g transform="translate(8 13) rotate(225)">
+<path d="M0 11C6 11 11 6 11 0L10 0C10 5.5 5.5 10 0 10Z"/>
+<path d="M0 8C4.5 8 8 4.5 8 0L7 0C7 4 4 7 0 7Z"/>
+<path d="M0 5C2.8 5 5 2.8 5 0L4 0C4 2.2 2.2 4 0 4Z"/>
 </g></g>
 <path d="M0 15L15 0L16 1L1 16Z"/>
 </svg>

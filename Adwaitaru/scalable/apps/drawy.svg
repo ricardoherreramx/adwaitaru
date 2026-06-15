@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="blue" x1="0" y1="0" x2="0" y2="1">
+<stop offset="10%" stop-color="#21C9FB"/>
+<stop offset="75%" stop-color="#197CF1"/>
+</linearGradient>
+<linearGradient id="shadow" gradientUnits="userSpaceOnUse" x1="0" y1="63" x2="27" y2="90">
+<stop offset="0" stop-color="#292C2F"/>
+<stop offset="1" stop-color="#000000" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="light" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="70">
+<stop offset="0%" stop-color="#F4FCFF"/>
+<stop offset="60%" stop-color="#BEDEFA"/>
+<stop offset="1" stop-color="#7CBAF8"/>
+</linearGradient>
+</defs>
+<rect width="104" height="104" rx="8" x="12" y="12" fill="#0C4DA0"/>
+<rect width="104" height="100" rx="8" x="12" y="12" fill="url(#blue)"/>
+<path d="M15 46L8 46L0 54L0 63C0 63 27 90 27 90L77 90C81.4 90 85 86.4 85 82C85 82 85 29 85 29L56 0C56 0 25 31 25 31L25 46L37 58L27 58L15 46C15 46 15 46 15 46Z" fill="url(#shadow)" opacity="20%" transform="translate(31 26)"/>
+<g fill="none" stroke="url(#light)" transform="translate(32 30)">
+<path d="M56 21L38 39L27 39L27 28L45 10ZM66 11L56 21L45 10L55 0Z" stroke-width="6"/>
+<path d="M14 46C14 46 6 46 6 46C2.7 46 0 48.7 0 52C0 55.3 2.7 58 6 58C6 58 58 58 58 58C61.3 58 64 60.7 64 64C64 67.3 61.3 70 58 70C58 70 50 70 50 70" stroke-width="8"/>
+</g></svg>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="yellow">
+<stop offset="0" stop-color="#AB7007"/>
+<stop offset="4%" stop-color="#F5B918"/>
+<stop offset="8%" stop-color="#BD7B08"/>
+</linearGradient>
+<linearGradient id="brown">
+<stop offset="92%" stop-color="#3D2B1B"/>
+<stop offset="96%" stop-color="#765335"/>
+<stop offset="1" stop-color="#3D2B1B"/>
+</linearGradient>
+<linearGradient id="silver" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#77767B"/>
+<stop offset="8%" stop-color="#9A9996"/>
+<stop offset="35%" stop-color="#C0BFBC"/>
+<stop offset="1" stop-color="#77767B"/>
+</linearGradient>
+<linearGradient id="tube">
+<stop offset="0" stop-color="#9A9996"/>
+<stop offset="35%" stop-color="#DEDDDA"/>
+<stop offset="60%" stop-color="#C0BFBC"/>
+<stop offset="1" stop-color="#9A9996"/>
+</linearGradient>
+<radialGradient id="dot">
+<stop offset="0" stop-color="#F6F5F4"/>
+<stop offset="60%" stop-color="#C0BFBC"/>
+<stop offset="1" stop-color="#5E5C64"/>
+</radialGradient>
+<clipPath id="left">
+<rect width="80" height="128"/>
+</clipPath>
+<clipPath id="right">
+<rect width="48" height="128" x="80"/>
+</clipPath>
+<clipPath id="speaker">
+<rect width="44" height="44" rx="22"/>
+</clipPath>
+</defs>
+<g transform="translate(30 17) rotate(345 0 3)">
+<rect width="63" height="4" fill="url(#silver)" y="1"/>
+<rect width="32" height="6" fill="url(#silver)"/>
+<rect width="1" height="4" fill="#000000" opacity="20%" x="32" y="1"/>
+<rect width="6" height="6" fill="url(#dot)" rx="3" x="60"/>
+</g><g transform="translate(24 16)">
+<rect width="8" height="8" rx="4" x="2" fill="#3D3846"/>
+<rect width="4" height="10" rx="2" x="4" y="2" fill="url(#tube)"/>
+<rect width="12" height="6" rx="2" y="8" fill="#63452C"/>
+</g><g clip-path="url(#right)">
+<rect width="112" height="88" rx="8" x="8" y="28" fill="url(#brown)"/>
+<rect width="112" height="80" rx="8" x="8" y="28" fill="#63452C"/>
+<g fill="#BD7B08">
+<rect width="6" height="6" rx="2" x="92" y="72"/>
+<rect width="6" height="6" rx="2" x="102" y="72"/>
+<rect width="6" height="6" rx="2" x="92" y="82"/>
+<rect width="6" height="6" rx="2" x="102" y="82"/>
+<rect width="16" height="18" rx="8" x="92" y="48"/>
+</g><g fill="#E5A50A">
+<rect width="6" height="4" rx="2" x="92" y="72"/>
+<rect width="6" height="4" rx="2" x="102" y="72"/>
+<rect width="6" height="4" rx="2" x="92" y="82"/>
+<rect width="6" height="4" rx="2" x="102" y="82"/>
+<rect width="16" height="16" rx="8" x="92" y="48"/>
+</g><rect width="2" height="2" rx="1" x="96" y="50" fill="#63452C"/>
+</g><g clip-path="url(#left)">
+<rect width="112" height="88" rx="8" x="8" y="28" fill="url(#yellow)"/>
+<rect width="112" height="80" rx="8" x="8" y="28" fill="#E5A50A"/>
+<g fill="#63452C" clip-path="url(#speaker)" transform="translate(22 46)">
+<rect width="44" height="4"/>
+<rect width="44" height="4" y="8"/>
+<rect width="44" height="4" y="16"/>
+<rect width="44" height="4" y="24"/>
+<rect width="44" height="4" y="32"/>
+<rect width="44" height="4" y="40"/>
+</g></g>
+</svg>

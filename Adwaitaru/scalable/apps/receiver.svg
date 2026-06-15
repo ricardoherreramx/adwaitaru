@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="corners">
+<stop offset="0" stop-color="#000000" stop-opacity="50%"/>
+<stop offset="4%" stop-color="#FFFFFF" stop-opacity="15%"/>
+<stop offset="8%" stop-color="#000000" stop-opacity="30%"/>
+<stop offset="92%" stop-color="#000000" stop-opacity="30%"/>
+<stop offset="96%" stop-color="#FFFFFF" stop-opacity="15%"/>
+<stop offset="1" stop-color="#000000" stop-opacity="50%"/>
+</linearGradient>
+<linearGradient id="purple" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#F56B45"/>
+<stop offset="1" stop-color="#7B2FF7"/>
+</linearGradient>
+<linearGradient id="silver" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#77767B"/>
+<stop offset="8%" stop-color="#9A9996"/>
+<stop offset="35%" stop-color="#C0BFBC"/>
+<stop offset="1" stop-color="#77767B"/>
+</linearGradient>
+<linearGradient id="tube">
+<stop offset="0" stop-color="#9A9996"/>
+<stop offset="35%" stop-color="#DEDDDA"/>
+<stop offset="60%" stop-color="#C0BFBC"/>
+<stop offset="1" stop-color="#9A9996"/>
+</linearGradient>
+<radialGradient id="dot">
+<stop offset="0" stop-color="#F6F5F4"/>
+<stop offset="60%" stop-color="#C0BFBC"/>
+<stop offset="1" stop-color="#5E5C64"/>
+</radialGradient>
+</defs>
+<g transform="translate(30 17) rotate(345 0 3)">
+<rect width="63" height="4" fill="url(#silver)" y="1"/>
+<rect width="32" height="6" fill="url(#silver)"/>
+<rect width="1" height="4" fill="#000000" opacity="20%" x="32" y="1"/>
+<rect width="6" height="6" fill="url(#dot)" rx="3" x="60"/>
+</g><g transform="translate(24 16)">
+<rect width="8" height="8" rx="4" x="2" fill="#3D3846"/>
+<rect width="4" height="10" rx="2" x="4" y="2" fill="url(#tube)"/>
+<rect width="12" height="6" rx="2" y="8" fill="#63452C"/></g>
+<rect width="112" height="88" rx="8" x="8" y="28" fill="url(#purple)"/>
+<path d="M0 0C0 4.4 3.6 8 8 8L104 8C108.4 8 112 4.4 112 0L112 8C112 12.4 108.4 16 104 16L8 16C3.6 16 0 12.4 0 8Z" fill="url(#corners)" transform="translate(8 100)"/>
+<g fill="none" stroke="#FFFFFF">
+<circle r="25" stroke-width="6" cx="48" cy="68"/>
+<circle r="13" stroke-width="6" cx="48" cy="68"/>
+<circle r="2" stroke-width="4" cx="48" cy="68"/>
+</g><g fill="#FFFFFF" fill-opacity="40%" stroke="#FFFFFF" stroke-width="3">
+<circle r="8" cx="96" cy="56"/>
+<circle r="6" cx="96" cy="84"/>
+</g></svg>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<radialGradient id="gradient1">
+<stop offset="0" stop-color="#000000"/>
+<stop offset="66%" stop-color="#666666"/>
+<stop offset="92%" stop-color="#727272" stop-opacity="50%"/>
+<stop offset="1" stop-color="#7F7F7F" stop-opacity="0"/>
+</radialGradient>
+<linearGradient id="gradient2" gradientUnits="userSpaceOnUse" x1="45" y1="106" x2="86" y2="45">
+<stop offset="0" stop-color="#666666"/>
+<stop offset="1" stop-color="#666666" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="gradient3" gradientUnits="userSpaceOnUse" x1="45" y1="106" x2="86" y2="45">
+<stop offset="0" stop-color="#333333"/>
+<stop offset="1" stop-color="#666666"/>
+</linearGradient>
+<radialGradient id="gradient4">
+<stop offset="0" stop-color="#000000" stop-opacity="0"/>
+<stop offset="1" stop-color="#000000" stop-opacity="60%"/>
+</radialGradient>
+<radialGradient id="gradient5">
+<stop offset="0" stop-color="#EEEEEE"/>
+<stop offset="80%" stop-color="#909090" stop-opacity="50%"/>
+<stop offset="1" stop-color="#000000"/>
+</radialGradient>
+<linearGradient id="gradient6" x1="0" y1="1" x2="1" y2="0">
+<stop offset="0" stop-color="#009AFF" stop-opacity="0"/>
+<stop offset="25%" stop-color="#48CCFF" stop-opacity="42%"/>
+<stop offset="50%" stop-color="#FFFFFF"/>
+<stop offset="75%" stop-color="#48CCFF" stop-opacity="42%"/>
+<stop offset="1" stop-color="#009AFF" stop-opacity="0"/>
+</linearGradient>
+<radialGradient id="gradient7" r="50%" cx="15%" cy="15%">
+<stop offset="0" stop-color="#FFFFFF"/>
+<stop offset="1" stop-color="#0073FF" stop-opacity="15%"/>
+</radialGradient>
+<radialGradient id="gradient8">
+<stop offset="75%" stop-color="#000000" stop-opacity="0"/>
+<stop offset="1" stop-color="#000000" stop-opacity="60%"/>
+</radialGradient>
+<filter id="shadow">
+<feDropShadow dx="-0.5" dy="0.5" flood-color="#000000" stdDeviation="0"/>
+</filter>
+<filter id="blur">
+<feGaussianBlur stdDeviation="1"/>
+</filter>
+</defs>
+<circle r="54" cx="64" cy="64" fill="#000000"/>
+<circle r="54" cx="64" cy="64" fill="url(#gradient1)"/>
+<circle r="57" cx="64" cy="64" fill="url(#gradient2)" stroke="url(#gradient3)" stroke-width="6"/>
+<circle r="54" cx="64" cy="64" fill="none" stroke="#000000" stroke-width="1" filter="url(#blur)"/>
+<circle r="40" cx="64" cy="64" fill="url(#gradient4)"/>
+<g stroke="#000000" stroke-width="2">
+<circle r="28" cx="64" cy="64" fill="url(#gradient5)"/>
+<line x1="41" y1="49" x2="56" y2="64"/>
+<line x1="59" y1="36" x2="59" y2="58"/>
+<line x1="79" y1="41" x2="64" y2="56"/>
+<line x1="70" y1="59" x2="92" y2="59"/>
+<line x1="72" y1="64" x2="87" y2="79"/>
+<line x1="69" y1="70" x2="69" y2="92"/>
+<line x1="64" y1="72" x2="49" y2="87"/>
+<line x1="36" y1="69" x2="58" y2="69"/></g>
+<circle r="9" cx="64" cy="64" fill="#000000"/>
+<circle r="40" cx="64" cy="64" fill="url(#gradient6)" opacity="60%"/>
+<g fill="#EEEEEE">
+<circle r="12" cx="50" cy="50" opacity="82%"/>
+<circle r="6" cx="82" cy="82" opacity="54%"/>
+<circle r="4" cx="73" cy="73" opacity="60%"/></g>
+<circle r="40" cx="64" cy="64" fill="url(#gradient7)"/>
+<circle r="40" cx="64" cy="64" fill="url(#gradient8)"/>
+<circle r="40" cx="64" cy="64" fill="none" stroke="#000000" stroke-width="1" filter="url(#blur)"/>
+<circle id="emblem" r="45" cx="64" cy="64" opacity="0" transform="rotate(150 64 64)"/>
+<text filter="url(#shadow)">
+<textPath href="#emblem" style="font-family:Liberation Sans; font-size:7.2px; fill:#EEEEEE">1:1,8     f=50mm    <tspan>digiKam</tspan>      powered by   Open Source           www.digikam.org</textPath>
+</text>
+</svg>

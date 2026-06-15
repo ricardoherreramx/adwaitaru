@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="corners">
+<stop offset="0" stop-color="#AB7007"/>
+<stop offset="4%" stop-color="#F5B918"/>
+<stop offset="8%" stop-color="#BD7B08"/>
+<stop offset="92%" stop-color="#BD7B08"/>
+<stop offset="96%" stop-color="#F5B918"/>
+<stop offset="1" stop-color="#AB7007"/>
+</linearGradient>
+<linearGradient id="yellow" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#FFE354"/>
+<stop offset="1" stop-color="#EE9700"/>
+</linearGradient>
+<linearGradient id="silver" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#77767B"/>
+<stop offset="8%" stop-color="#9A9996"/>
+<stop offset="35%" stop-color="#C0BFBC"/>
+<stop offset="1" stop-color="#77767B"/>
+</linearGradient>
+<linearGradient id="tube">
+<stop offset="0" stop-color="#9A9996"/>
+<stop offset="35%" stop-color="#DEDDDA"/>
+<stop offset="60%" stop-color="#C0BFBC"/>
+<stop offset="1" stop-color="#9A9996"/>
+</linearGradient>
+<linearGradient id="line" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#000000" stop-opacity="77%"/>
+<stop offset="1" stop-color="#000000" stop-opacity="31%"/>
+</linearGradient>
+<radialGradient id="dot">
+<stop offset="0" stop-color="#F6F5F4"/>
+<stop offset="60%" stop-color="#C0BFBC"/>
+<stop offset="1" stop-color="#5E5C64"/>
+</radialGradient>
+<radialGradient id="speaker" cx="50%" cy="75%">
+<stop offset="0" stop-color="#B4B4B4"/>
+<stop offset="1" stop-color="#777777"/>
+</radialGradient>
+<radialGradient id="center" cx="50%" cy="0">
+<stop offset="0" stop-color="#B5B5B5"/>
+<stop offset="1" stop-color="#777777"/>
+</radialGradient>
+<linearGradient id="circumference" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#000000" stop-opacity="20%"/>
+<stop offset="1" stop-color="#000000" stop-opacity="80%"/>
+</linearGradient>
+<radialGradient id="tuner" cx="50%" cy="0">
+<stop offset="0" stop-color="#A3A3A3"/>
+<stop offset="1" stop-color="#7A7A7A"/>
+</radialGradient>
+</defs>
+<g transform="translate(30 17) rotate(345 0 3)">
+<rect width="63" height="4" fill="url(#silver)" y="1"/>
+<rect width="32" height="6" fill="url(#silver)"/>
+<rect width="1" height="4" fill="#000000" opacity="20%" x="32" y="1"/>
+<rect width="6" height="6" fill="url(#dot)" rx="3" x="60"/>
+</g><g transform="translate(24 16)">
+<rect width="8" height="8" rx="4" x="2" fill="#3D3846"/>
+<rect width="4" height="10" rx="2" x="4" y="2" fill="url(#tube)"/>
+<rect width="12" height="6" rx="2" y="8" fill="#77767B"/></g>
+<rect width="112" height="88" rx="8" x="8" y="28" fill="url(#corners)"/>
+<rect width="112" height="80" rx="8" x="8" y="28" fill="url(#yellow)"/>
+<g transform="translate(106 56)">
+<rect width="14" height="8" fill="#26A269"/>
+<rect width="14" height="8" fill="#F8E45C" y="8"/>
+<rect width="14" height="8" fill="#E01B24" y="16"/></g>
+<circle r="30" cx="84" cy="68" fill="#5E5E5E"/>
+<circle r="26" cx="84" cy="68" fill="#000000"/>
+<circle r="24" cx="84" cy="68" fill="#2A2A3B"/>
+<circle r="22" cx="84" cy="68" fill="url(#speaker)"/>
+<circle r="10" cx="84" cy="68" fill="#000000"/>
+<circle r="8" cx="84" cy="68" fill="url(#center)"/>
+<circle r="11" cx="32" cy="84" fill="#B3B3B3" stroke="url(#circumference)" stroke-width="2"/>
+<circle r="6" cx="32" cy="84" fill="url(#tuner)" stroke="#636363" stroke-width="1" stroke-dasharray="1 1"/>
+<circle r="1" cx="29" cy="81" fill="#5E5E5E"/>
+<rect width="30" height="9" rx="1" x="17" y="49" fill="#7EB836" stroke="url(#line)" stroke-width="1"/>
+<text font-family="Liberation Sans" fill="#4A6D20">
+<tspan x="18" y="53.5" font-size="4">Goodvibes</tspan>
+<tspan x="33" y="56.5" font-size="2.5" font-style="italic">105.6 MHZ</tspan>
+</text>
+</svg>

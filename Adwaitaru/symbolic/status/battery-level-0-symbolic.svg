@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg width="16" height="16" viewBox="0 0 16 16" fill="gray" xmlns="http://www.w3.org/2000/svg">
-<path id="battery" class="error" fill="#F22C42" d="M8 2C9.10472 2 10 2.89528 10 4L10 14C10 15.1047 9.10472 16 8 16L2 16C0.89528 16 0 15.1047 0 14L0 4C0 2.89528 0.89528 2 2 2L8 2ZM8 3C8.55236 3 9 3.44764 9 4L9 14C9 14.5524 8.55236 15 8 15L2 15C1.44764 15 1 14.5524 1 14L1 4C1 3.44764 1.44764 3 2 3L8 3ZM3 0L7 0L7 1L3 1L3 0Z" fill-rule="evenodd" transform="translate(3 0)"/>
-</svg>
+<g class="error" fill="#F22C42">
+<rect width="4" height="1" x="6"/>
+<path d="M2 0C0.9 0 0 0.9 0 2L0 12C0 13.1 0.9 14 2 14L8 14C9.1 14 10 13.1 10 12L10 2C10 0.9 9.1 0 8 0ZM2 1C1.45 1 1 1.45 1 2L1 12C1 12.55 1.45 13 2 13L8 13C8.55 13 9 12.55 9 12L9 2C9 1.45 8.55 1 8 1Z" fill-rule="evenodd" transform="translate(3 2)"/>
+</g></svg>

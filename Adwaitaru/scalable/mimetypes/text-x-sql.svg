@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
-<path d="M88 22C88 9.85 68.3 0 44 0C19.7 0 0 9.85 0 22L0 88C0 100.15 19.7 110 44 110C68.3 110 88 100.15 88 88L88 22Z" fill="#1B52AC" transform="translate(20 9)"/>
-<path d="M88 22C88 9.85 68.3 0 44 0C19.7 0 0 9.85 0 22L0 66C0 78.15 19.7 88 44 88C68.3 88 88 78.15 88 66L88 22L88 22Z" fill="#2972EB" transform="translate(20 9)"/>
-<path d="M0 22L0 44C0 56.15 19.7 66 44 66C68.3 66 88 56.15 88 44L88 22C88 9.85 68.3 0 44 0C19.7 0 0 9.85 0 22L0 22Z" fill="#448AFF" transform="translate(20 9)"/>
-<path d="M0 22C0 9.85 19.7 0 44 0C68.3 0 88 9.85 88 22C88 34.15 68.3 44 44 44C19.7 44 0 34.15 0 22L0 22Z" fill="#68A0FE" transform="translate(20 9)"/>
-</svg>
+<defs>
+<linearGradient id="shine">
+<stop offset="0" stop-color="#F6F5F4" stop-opacity="0"/>
+<stop offset="24%" stop-color="#F6F5F4" stop-opacity="20%"/>
+<stop offset="32%" stop-color="#F6F5F4" stop-opacity="20%"/>
+<stop offset="1" stop-color="#000000" stop-opacity="0"/>
+</linearGradient>
+<filter id="shadow">
+<feDropShadow dx="0" dy="2" flood-color="#000000" flood-opacity="16%" stdDeviation="0"/>
+</filter>
+</defs>
+<g transform="translate(20 4)">
+<rect width="88" height="120" rx="44" ry="24" fill="#1A5FB4"/>
+<rect width="88" height="96" rx="44" ry="24" fill="#1C71D8" filter="url(#shadow)"/>
+<rect width="88" height="72" rx="44" ry="24" fill="#3584E4" filter="url(#shadow)"/>
+<rect width="88" height="120" rx="44" ry="24" fill="url(#shine)"/>
+<rect width="88" height="48" rx="44" ry="24" fill="#62A0EA" filter="url(#shadow)"/>
+</g></svg>
