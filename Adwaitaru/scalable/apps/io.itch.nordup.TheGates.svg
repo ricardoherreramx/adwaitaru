@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
-<defs>
 <linearGradient id="purple" x1="0" y1="0" x2="1" y2="1">
 <stop offset="0" stop-color="#9E9EFA"/>
 <stop offset="1" stop-color="#3400AE"/>
 </linearGradient>
-</defs>
 <rect width="104" height="104" rx="8" x="12" y="12" fill="url(#purple)"/>
 <g fill="none" stroke="#FFFFFF">
 <path d="M0 14L0 5C0 2 2 0 5 0C8 0 10 2 10 5L10 14" stroke-width="2" transform="translate(59 55)"/>

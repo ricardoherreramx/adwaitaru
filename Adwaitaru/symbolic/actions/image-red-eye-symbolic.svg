@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="16" height="16" viewBox="0 0 16 16" fill="gray" xmlns="http://www.w3.org/2000/svg">
+<defs><clipPath id="triangles">
+<path d="M0 14L0 0L14 0ZM16 0L16 16L0 16Z"/>
+</clipPath></defs>
+<g clip-path="url(#triangles)">
+<path d="M8 0C4.25 0 1 2.5 0 6C1 9.5 4.25 12 8 12C11.75 12 15 9.5 16 6C15 2.5 11.75 0 8 0ZM8 1C11.2 1 14 3 14.9 6C14 9 11.2 11 8 11C4.8 11 2 9 1.1 6C2 3 4.8 1 8 1Z" transform="translate(0 2)"/>
+<g class="error" fill="#F22C42">
+<path d="M0 4C0 1.8 1.8 0 4 0C6.2 0 8 1.8 8 4C8 6.2 6.2 8 4 8C1.8 8 0 6.2 0 4ZM4 1C2.35 1 1 2.35 1 4C1 5.65 2.35 7 4 7C5.65 7 7 5.65 7 4C7 2.35 5.65 1 4 1Z" transform="translate(4 4)"/>
+<circle r="2" cx="8" cy="8"/>
+</g></g>
+<rect width="1" height="24" x="7.5" y="-4" transform="rotate(45 8 8)"/>
+</svg>

@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
-<defs>
 <linearGradient id="gradient" x1="0" y1="0" x2="0" y2="1">
 <stop offset="0" stop-color="#FF6633"/>
 <stop offset="1" stop-color="#FF0E83"/>
 </linearGradient>
-</defs>
 <circle r="60" cx="64" cy="64" fill="url(#gradient)"/>
 <g fill="#FFFFFF" transform="translate(32 34)">
 <path d="M32 18L12 3C8 0 7 0 6 0C2.7 0 0 2.7 0 6L0 54C0 57.3 2.7 60 6 60C7 60 8 60 12 57L32 42L52 57C56 60 57 60 58 60C61.3 60 64 57.3 64 54L64 6C64 2.7 61.3 0 58 0C57 0 56 0 52 3Z" opacity="70%"/>

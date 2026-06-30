@@ -7,5 +7,5 @@
 <path d="M0 0C0 0 4 6.9 4 6.9C5 5.5 5.7 3.8 5.7 2C5.7 1.32 5.6 0.65 5.43 0C5.43 0 0 0 0 0Z" fill="#F6D32D" transform="translate(10.3 6)"/>
 <path d="M4 0C4 0 0 6.9 0 6.9C0.37 7 0.73 7 1.1 7C3.2 7 5.2 6.18 6.7 4.7C6.7 4.7 4 0 4 0Z" fill="#33D17A" transform="translate(6.9 9)"/>
 <path d="M0 0C0.93 2.3 2.88 4 5.27 4.7C5.27 4.7 8 0 8 0C8 0 0 0 0 0Z" fill="#3584E4" transform="translate(0.6 11)"/>
-<circle r="1.5" cx="8" cy="8" fill="#F6F5F4"/>
+<circle r="2" cx="8" cy="8" fill="#F6F5F4"/>
 </svg>

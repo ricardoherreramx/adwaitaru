@@ -4,19 +4,19 @@
 <linearGradient id="corners" x1="0" y1="0" x2="1" y2="0">
 <stop offset="0" stop-color="#A8A7A5"/>
 <stop offset="5%" stop-color="#E3E0DC"/>
-<stop offset="10%" stop-color="#999894"/>
+<stop offset="10%" stop-color="#9A9996"/>
 <stop offset="90%" stop-color="#9A9996"/>
 <stop offset="95%" stop-color="#E3E0DC"/>
-<stop offset="1" stop-color="#A8A7A4"/>
+<stop offset="1" stop-color="#A8A7A5"/>
 </linearGradient>
 <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
-<stop offset="50%" stop-color="#08C4BE" stop-opacity="55%"/>
-<stop offset="65%" stop-color="#6BFAF5" stop-opacity="0"/>
+<stop offset="50%" stop-color="#08C5BF" stop-opacity="55%"/>
+<stop offset="65%" stop-color="#6BF9F4" stop-opacity="0"/>
 </linearGradient>
 <linearGradient id="shine" x1="0" y1="0" x2="0" y2="1">
-<stop offset="0" stop-color="#6BFAF5" stop-opacity="0"/>
-<stop offset="50%" stop-color="#6BFAF5"/>
-<stop offset="1" stop-color="#6BFAF5" stop-opacity="0"/>
+<stop offset="0" stop-color="#6BF9F4" stop-opacity="0"/>
+<stop offset="50%" stop-color="#6BF9F4"/>
+<stop offset="1" stop-color="#6BF9F4" stop-opacity="0"/>
 </linearGradient>
 </defs>
 <rect width="88" height="112" rx="8" x="20" y="8" fill="url(#corners)"/>

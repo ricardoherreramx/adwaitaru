@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
-<defs>
 <linearGradient id="graydient" x1="0" y1="0" x2="0" y2="1">
 <stop offset="0" stop-color="#878787"/>
 <stop offset="1" stop-color="#656763"/>
 </linearGradient>
-</defs>
 <rect width="104" height="104" rx="8" x="12" y="12" fill="url(#graydient)"/>
 <g fill="#FFB33B">
 <path d="M0 0L6 0L6 23C6 24.65 7.35 26 9 26L18 26L18 0L24 0L24 32L9 32C4 32 0 28 0 23Z" transform="translate(60 48)"/>

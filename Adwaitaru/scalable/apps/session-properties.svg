@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="blue" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#3584E4"/>
+<stop offset="1" stop-color="#62A0EA"/>
+</linearGradient>
+<clipPath id="window">
+<rect width="52" height="44" rx="4"/>
+</clipPath>
+</defs>
+<rect width="104" height="104" rx="8" x="12" y="12" fill="url(#blue)"/>
+<g clip-path="url(#window)" transform="translate(48 52)" opacity="50%">
+<rect width="52" height="44" fill="#F6F5F4"/>
+<rect width="52" height="8" fill="#C0BFBC"/>
+<g fill="#9A9996">
+<circle r="2" cx="46" cy="4" fill="#77767B"/>
+<circle r="2" cx="40" cy="4"/>
+<circle r="2" cx="34" cy="4"/>
+</g></g>
+<g clip-path="url(#window)" transform="translate(28 32)">
+<rect width="52" height="44" fill="#F6F5F4"/>
+<rect width="52" height="8" fill="#C0BFBC"/>
+<g fill="#F6F5F4">
+<circle r="2" cx="46" cy="4" fill="#ED333B"/>
+<circle r="2" cx="40" cy="4"/>
+<circle r="2" cx="34" cy="4"/>
+</g></g>
+</svg>

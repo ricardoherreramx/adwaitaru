@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="pages">
+<stop offset="90%" stop-color="#DEDDDA"/>
+<stop offset="95%" stop-color="#F6F5F4"/>
+<stop offset="1" stop-color="#C0BFBC"/>
+</linearGradient>
+</defs>
+<path d="M0 0L0 18L80 18C85 18 88 14.4 88 10L88 0Z" fill="#A51D2D" transform="translate(20 102)"/>
+<path d="M0 0L0 18L80 18C85 18 88 14.4 88 10L88 0Z" fill="#26A269" transform="translate(20 92)"/>
+<g transform="translate(20 8)">
+<path d="M0 0L0 92L80 92C84.4 92 88 88.4 88 84L88 8C88 3.6 84.4 0 80 0Z" fill="#2EC27E"/>
+<path d="M0 0L0 102L80 102C84.4 102 88 98.4 88 94L88 8C88 3.6 84.4 0 80 0Z" fill="#000000" opacity="36%"/>
+</g><g fill="url(#pages)">
+<path d="M0 8L0 14L78 14C82.4 14 86 10.4 86 6L86 0C86 4.4 82.4 8 78 8Z" transform="translate(22 104)"/>
+<path d="M0 8L0 14L78 14C82.4 14 86 10.4 86 6L86 0C86 4.4 82.4 8 78 8Z" transform="translate(22 94)"/>
+</g><rect width="2" height="92" x="22" y="8" fill="#FFFFFF" opacity="20%"/>
+<line x1="0" y1="0" x2="88" y2="0" stroke="#FFFFFF" stroke-width="2" opacity="24%" transform="translate(20 29)"/>
+<text font-family="Liberation Serif" fill="#FFFFFF">
+<tspan x="32" y="20" font-size="7.5">Dictionary / Thesaurus</tspan>
+<tspan x="30" y="70" font-size="44">Star</tspan>
+<tspan x="36" y="88" font-size="5">Lorem Ipsum Dolor Sit Amet</tspan>
+<tspan x="58" y="94" font-size="5">Etiam</tspan>
+</text>
+</svg>

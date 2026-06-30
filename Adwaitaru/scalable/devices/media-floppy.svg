@@ -1,11 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M92 0L104 12L104 96C104 100.418 100.418 104 96 104L8 104C3.582 104 0 100.418 0 96L0 8C0 3.582 3.582 0 8 0L92 0Z" fill="#5E5C64" transform="translate(12 12)"/>
-<path d="M0 4L0 0C0 4.418 3.582 8 8 8L96 8C100.418 8 104 4.42 104 0L104 4C104 8.418 100.418 12 96 12L8 12C3.582 12 0 8.418 0 4L0 4Z" fill="#000000" opacity="0.3" transform="translate(12 104)"/>
-<path d="M56 0L56 28C56 30.21 54.21 32 52 32L4 32C1.79 32 0 30.21 0 28L0 0L56 0L56 0ZM32 4L48 4L48 28L32 28L32 4L32 4Z" fill="#C0BFBC" fill-rule="evenodd" transform="translate(36 12)"/>
-<g id="tag" fill="#F6F5F4">
-<rect width="80" height="36" rx="4" ry="4" transform="translate(24 52)"/>
-<path d="M4 26.75C1.785 26.75 0 24.965 0 22.75C0 22.75 0 6.75 0 6.75C24 -13.25 56 18.75 80 6.75C80 6.75 80 22.75 80 22.75C80 24.965 78.215 26.75 76 26.75C76 26.75 4 26.75 4 26.75Z" fill="#F76222" transform="translate(24 77.25)"/>
-<rect width="12" height="4" transform="translate(28 96)"/>
-<rect width="6" height="4" transform="translate(44 96)"/>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="corners">
+<stop offset="0" stop-color="#1A5FB4"/>
+<stop offset="3%" stop-color="#99C1F1"/>
+<stop offset="12%" stop-color="#1A5FB4"/>
+<stop offset="86%" stop-color="#1A5FB4"/>
+<stop offset="94%" stop-color="#1C71D8"/>
+<stop offset="1" stop-color="#1A5FB4"/>
+</linearGradient>
+<clipPath id="label">
+<rect width="80" height="52" rx="4" x="24" y="52"/>
+</clipPath>
+</defs>
+<path d="M0 0L104 0L104 4C104 8.4 100.4 12 96 12L8 12C3.6 12 0 8.4 0 4Z" fill="url(#corners)" transform="translate(12 104)"/>
+<path d="M92 0L104 12L104 92C104 96.4 100.4 100 96 100L8 100C3.6 100 0 96.4 0 92L0 8C0 3.6 3.6 0 8 0Z" fill="#3584E4" transform="translate(12 12)"/>
+<path d="M0 0L68 0L68 28C68 30.2 66.2 32 64 32L4 32C1.8 32 0 30.2 0 28Z" fill="#1C71D8" transform="translate(24 12)"/>
+<path d="M0 0L56 0L56 28C56 30.2 54.2 32 52 32L4 32C1.8 32 0 30.2 0 28Z" fill="#C0BFBC" transform="translate(36 12)"/>
+<rect width="16" height="24" fill="#1C71D8" x="68" y="16"/>
+<g clip-path="url(#label)">
+<rect width="80" height="52" fill="#F6F5F4" x="24" y="52"/>
+<rect width="80" height="20" fill="#FF7800" x="24" y="84"/>
+<rect width="12" height="4" fill="#F6F5F4" x="28" y="96"/>
+<rect width="6" height="4" fill="#F6F5F4" x="44" y="96"/>
 </g></svg>

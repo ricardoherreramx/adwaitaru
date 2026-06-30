@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 0L0 18L80 18C85 18 88 14.4 88 10L88 0Z" fill="#265F0C" transform="translate(20 102)"/>
+<rect width="8" height="10" x="20" y="110" fill="#191622"/>
+<linearGradient id="pages">
+<stop offset="90%" stop-color="#DEDDDA"/>
+<stop offset="95%" stop-color="#F6F5F4"/>
+<stop offset="1" stop-color="#C0BFBC"/>
+</linearGradient>
+<path d="M0 8L0 14L78 14C82.4 14 86 10.4 86 6L86 0C86 4.4 82.4 8 78 8Z" fill="url(#pages)" transform="translate(22 104)"/>
+<linearGradient id="green" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#488800"/>
+<stop offset="1" stop-color="#609A00"/>
+</linearGradient>
+<path d="M0 0L0 102L80 102C85 102 88 98.4 88 94L88 8C88 3.6 85 0 80 0Z" fill="url(#green)" transform="translate(20 8)"/>
+<rect width="8" height="102" fill="#424048" x="20" y="8"/>
+<rect width="2" height="102" fill="#FFFFFF" x="22" y="8" opacity="20%"/>
+<path d="M28 0C40 0 52 12 52 26C52 40 40 52 28 52L0 52C0 52 0 48 0 48L8 48L8 4L0 4C0 4 0 0 0 0ZM43 26C43 14 34 4 22 4L16 4L16 48L22 48C34 48 43 38 43 26Z" fill="#FFFFFF" transform="translate(40 32)"/>
+</svg>

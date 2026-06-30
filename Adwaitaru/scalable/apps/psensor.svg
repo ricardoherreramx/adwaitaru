@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<linearGradient id="corners">
+<stop offset="0" stop-color="#77767B"/>
+<stop offset="5%" stop-color="#DEDDDA"/>
+<stop offset="10%" stop-color="#9A9996"/>
+<stop offset="90%" stop-color="#9A9996"/>
+<stop offset="95%" stop-color="#DEDDDA"/>
+<stop offset="1" stop-color="#77767B"/>
+</linearGradient>
+<rect width="88" height="112" rx="8" x="20" y="8" fill="url(#corners)"/>
+<rect width="88" height="106" rx="8" x="20" y="8" fill="#DEDDDA"/>
+<g fill="none" stroke="#241F31">
+<path d="M0 0L7 0M0 4L7 4M0 14L7 14M0 18L7 18M0 28L7 28M0 32L7 32" stroke-width="1" transform="translate(73 34.5)"/>
+<path d="M0 0L11 0M0 14L11 14M0 28L11 28M0 42L11 42" stroke-width="2" transform="translate(73 29)"/>
+</g><g fill="#241F31">
+<rect width="20" height="68" rx="10" x="54" y="18"/>
+<circle r="16" cx="64" cy="86"/>
+</g><g fill="#DEDDDA">
+<rect width="16" height="66" rx="8" x="56" y="20"/>
+<circle r="14" cx="64" cy="86"/>
+</g><g fill="#1A5FB4">
+<rect width="8" height="60" rx="4" x="60" y="24"/>
+<circle r="10" cx="64" cy="86"/></g>
+<filter id="blur">
+<feGaussianBlur stdDeviation="2"/>
+</filter>
+<path d="M1 0L1 51C3.5 51 7 54 7 58C7 62 4 65 0 65" fill="none" stroke="#99C1F1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" filter="url(#blur)" transform="translate(64 28)"/>
+<radialGradient id="ballshine" r="33%" cx="33%" cy="50%">
+<stop offset="0" stop-color="#FFFFFF" stop-opacity="50%"/>
+<stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+</radialGradient>
+<circle r="10" cx="64" cy="86" fill="url(#ballshine)"/>
+</svg>

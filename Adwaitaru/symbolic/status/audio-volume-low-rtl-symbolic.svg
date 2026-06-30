@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg width="16" height="16" viewBox="0 0 16 16" fill="gray" xmlns="http://www.w3.org/2000/svg">
-<defs>
-<clipPath id="waves">
+<defs><clipPath id="waves">
 <rect width="6" height="16" x="10"/>
-</clipPath>
-</defs>
+</clipPath></defs>
 <g transform="rotate(180 8 8)">
-<path d="M7 0L3 4L0 4L0 10L3 10L7 14Z" transform="translate(1 1)"/>
-<g clip-path="url(#waves)" opacity="50%">
-<path d="M0 0C2.2 0 4 1.8 4 4C4 6.2 2.2 8 0 8L0 7C1.65 7 3 5.65 3 4C3 2.35 1.65 1 0 1Z" transform="translate(8 4)"/>
-<path d="M0 0C3.85 0 7 3.15 7 7L7 7C7 10.85 3.85 14 0 14L0 13C3.3 13 6 10.3 6 7C6 3.7 3.3 1 0 1Z" transform="translate(8 1)"/>
-</g></g></svg>
+<path d="M8 1L4 5L1 5L1 11L4 11L8 15Z"/>
+<path clip-path="url(#waves)" d="M15 8C15 11.85 11.85 15 8 15L8 14C11.3 14 14 11.3 14 8C14 4.7 11.3 2 8 2L8 1C11.85 1 15 4.2 15 8ZM12 8C12 10.2 10.2 12 8 12L8 11C9.65 11 11 9.65 11 8C11 6.35 9.65 5 8 5L8 4C10.2 4 12 5.8 12 8Z" opacity="50%"/>
+</g></svg>

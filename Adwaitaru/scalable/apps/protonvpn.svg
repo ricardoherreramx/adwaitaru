@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
 <defs>
-<linearGradient id="light" gradientUnits="userSpaceOnUse" x1="-8" y1="-16" x2="65" y2="112">
+<linearGradient id="dim" gradientUnits="userSpaceOnUse" x1="-8" y1="-16" x2="65" y2="112">
 <stop offset="0" stop-color="#7341FF"/>
-<stop offset="0.55" stop-color="#C9C7FF"/>
-<stop offset="0.93" stop-color="#8EFFEE"/>
+<stop offset="55%" stop-color="#C9C7FF"/>
+<stop offset="93%" stop-color="#8EFFEE"/>
 </linearGradient>
-<radialGradient id="hicolor" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="1" gradientTransform="matrix(0 88.5 -76 0 38.5 -22)">
-<stop offset="0.4" stop-color="#6D4AFF"/>
+<radialGradient id="hicolor" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="1" gradientTransform="matrix(0 88 -76 0 38 -22)">
+<stop offset="40%" stop-color="#6D4AFF"/>
 <stop offset="1" stop-color="#00F0C3"/>
 </radialGradient>
 </defs>
-<path d="M66.4 94C65.86 95 65.2266 95.74 64.5 96.5C63.74 97.2266 63 97.86 62 98.4C59.145 100 56 100.45 53 99.6C49.7 98.74 47.275 97 45.615 94L1.615 18C1 17 0.7 16.13 0.4 15.113C0.137 14 0 13 0 12C0 8.7 1.17 5.86 3.515 3.515C5.86 1.17 8.7 0 12 0L100 0C101 0 102 0.137 103.113 0.4C104.132 0.7 105 1 106 1.615C109 3.275 110.74 5.7 111.6 9C112.45 12.1 112 15.145 110.4 18L66.4 94L66.4 94Z" fill="url(#light)" transform="translate(8 16)"/>
+<path d="M66.4 94C65.86 95 65.2266 95.74 64.5 96.5C63.74 97.2266 63 97.86 62 98.4C59.145 100 56 100.45 53 99.6C49.7 98.74 47.275 97 45.615 94L1.615 18C1 17 0.7 16.13 0.4 15.113C0.137 14 0 13 0 12C0 8.7 1.17 5.86 3.515 3.515C5.86 1.17 8.7 0 12 0L100 0C101 0 102 0.137 103.113 0.4C104.132 0.7 105 1 106 1.615C109 3.275 110.74 5.7 111.6 9C112.45 12.1 112 15.145 110.4 18L66.4 94L66.4 94Z" fill="url(#dim)" transform="translate(8 16)"/>
 <path d="M77 0L38.5 66.5L0 0L77 0L77 0Z" fill="url(#hicolor)" transform="translate(12 38)"/>
 </svg>

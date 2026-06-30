@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
 <defs>
-<clipPath id="squircle">
-<rect width="104" height="104" rx="8"/>
+<clipPath id="pic">
+<rect width="104" height="104" rx="8" x="12" y="12"/>
 </clipPath>
-<linearGradient id="sky" x1="1" y1="0" x2="0" y2="1">
-<stop offset="0" stop-color="#62A0EA"/>
-<stop offset="1" stop-color="#1C71D8"/>
+<linearGradient id="sky" x1="0" y1="1" x2="1" y2="0">
+<stop offset="0" stop-color="#1C71D8"/>
+<stop offset="1" stop-color="#62A0EA"/>
 </linearGradient>
-<linearGradient id="green" x1="0" y1="0.5" x2="0" y2="1">
-<stop offset="0" stop-color="#05C96B"/>
-<stop offset="1" stop-color="#028747"/>
+<linearGradient id="green" x1="0" y1="0" x2="0" y2="0.5">
+<stop offset="0" stop-color="#33D17A"/>
+<stop offset="1" stop-color="#26A269"/>
 </linearGradient>
 </defs>
-<g clip-path="url(#squircle)" transform="translate(12 12)">
-<rect width="104" height="104" rx="8" fill="url(#sky)"/>
-<rect fill="#184696" width="72" height="72" rx="9" x="64" y="52" transform="rotate(45 64 52)"/>
-<rect fill="url(#green)" width="96" height="72" rx="10" x="24" y="42" transform="rotate(45 24 42)"/>
-<circle r="12" fill="#FFD76A" transform="translate(76 28)"/>
+<g clip-path="url(#pic)">
+<rect width="104" height="104" rx="8" x="12" y="12" fill="url(#sky)"/>
+<rect width="72" height="72" rx="9" fill="#1A5FB4" transform="translate(76 64) rotate(45)"/>
+<rect width="96" height="96" rx="10" fill="url(#green)" transform="translate(36 54) rotate(45)"/>
+<circle r="12" cx="88" cy="40" fill="#F8E45C"/>
 </g></svg>

@@ -1,24 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
 <rect width="104" height="104" rx="8" x="12" y="12" fill="#FFB13B"/>
-<g fill="#000000">
-<g transform="rotate(45 64 64)">
-<rect width="84" height="24" rx="12" x="22" y="52"/>
-<rect width="24" height="84" rx="12" x="52" y="22"/></g>
-<rect width="84" height="24" rx="12" x="22" y="52"/>
-<rect width="24" height="84" rx="12" x="52" y="22"/>
-</g><g fill="#FFFFFF">
-<g transform="rotate(45 64 64)">
-<rect width="60" height="8" x="34" y="60"/>
-<rect width="8" height="60" x="60" y="34"/>
-<circle r="6" cx="34" cy="64"/>
-<circle r="6" cx="64" cy="34"/>
-<circle r="6" cx="94" cy="64"/>
-<circle r="6" cx="64" cy="94"/></g>
-<rect width="60" height="8" x="34" y="60"/>
-<rect width="8" height="60" x="60" y="34"/>
+<path d="M64 34L64 94M43 85L85 43M34 64L94 64M43 43L85 85" stroke="#000000" stroke-width="24" stroke-linecap="round"/>
+<path d="M64 34L64 94M43 85L85 43M34 64L94 64M43 43L85 85" stroke="#FFFFFF" stroke-width="8"/>
+<g fill="#FFFFFF">
 <circle r="6" cx="34" cy="64"/>
 <circle r="6" cx="64" cy="34"/>
 <circle r="6" cx="94" cy="64"/>
 <circle r="6" cx="64" cy="94"/>
+<circle r="6" cx="43" cy="85"/>
+<circle r="6" cx="85" cy="85"/>
+<circle r="6" cx="85" cy="43"/>
+<circle r="6" cx="43" cy="43"/>
 </g></svg>

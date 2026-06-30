@@ -4,24 +4,24 @@
 <clipPath id="rhombus">
 <rect width="88" height="88" rx="8" x="20" y="20" transform="rotate(45 64 64)"/>
 </clipPath>
-<linearGradient id="light" x1="0" y1="0" x2="100%" y2="100%">
+<linearGradient id="dim" x1="0" y1="0" x2="1" y2="1">
 <stop offset="0" stop-color="#9479FD"/>
 <stop offset="1" stop-color="#FEE2CB"/>
 </linearGradient>
-<linearGradient id="hicolor" x1="0" y1="100%" x2="0" y2="0">
+<linearGradient id="hicolor" x1="0" y1="1" x2="0" y2="0">
 <stop offset="0" stop-color="#FFD580"/>
-<stop offset="0.1" stop-color="#F6C592"/>
-<stop offset="0.2" stop-color="#EBB6A2"/>
-<stop offset="0.3" stop-color="#DFA5AF"/>
-<stop offset="0.4" stop-color="#D397BE"/>
-<stop offset="0.5" stop-color="#C486CB"/>
-<stop offset="0.6" stop-color="#B578D9"/>
-<stop offset="0.8" stop-color="#A166E5"/>
-<stop offset="0.9" stop-color="#8B57F2"/>
+<stop offset="10%" stop-color="#F6C592"/>
+<stop offset="20%" stop-color="#EBB6A2"/>
+<stop offset="30%" stop-color="#DFA5AF"/>
+<stop offset="40%" stop-color="#D397BE"/>
+<stop offset="50%" stop-color="#C486CB"/>
+<stop offset="60%" stop-color="#B578D9"/>
+<stop offset="80%" stop-color="#A166E5"/>
+<stop offset="90%" stop-color="#8B57F2"/>
 <stop offset="1" stop-color="#704CFF"/>
 </linearGradient>
 </defs>
 <g clip-path="url(#rhombus)">
-<rect width="88" height="88" rx="8" x="20" y="20" transform="rotate(45 64 64)" fill="url(#light)"/>
+<rect width="88" height="88" x="20" y="20" transform="rotate(45 64 64)" fill="url(#dim)"/>
 <rect width="88" height="88" rx="8" transform="translate(-8 20) rotate(45 44 44)" fill="url(#hicolor)"/>
 </g></svg>

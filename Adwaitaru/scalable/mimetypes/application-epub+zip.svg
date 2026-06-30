@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path id="hardcover-back" d="M0 0L0 92C0 92 80 92 80 92C84.432 92 88 88.432 88 84C88 84 88 8 88 8C88 3.568 84.432 0 80 0C80 0 0 0 0 0Z" fill="#2D6F01" transform="translate(20 28)"/>
-<rect id="keybind" width="8" height="12" fill="#191622"  transform="translate(20 108)"/>
-<path id="sheets" d="M0 0L0 70C0 70 78 70 78 70C82.432 70 86 66.432 86 62C86 62 86 8 86 8C86 3.568 82.432 0 78 0C78 0 0 0 0 0Z" fill="#E8E7E4" transform="translate(22 48)"/>
-<path id="hardcover-front" d="M0 0L0 76C0 76 80 76 80 76C84.432 76 88 72.432 88 68C88 68 88 8 88 8C88 3.568 84.432 0 80 0C80 0 0 0 0 0Z" fill="#2D6F01" transform="translate(20 34)"/>
-<path id="cover" d="M0 0L0 100C0 100 80 100 80 100C84.432 100 88 96.432 88 92C88 92 88 8 88 8C88 3.568 84.432 0 80 0C80 0 0 0 0 0Z" fill="#68BB00" transform="translate(20 8)"/>
-<rect id="keybind-up" width="8" height="2" fill="#191622" transform="translate(20 108)"/>
-<rect id="binding" width="8" height="100" fill="#424048" transform="translate(20 8)"/>
-<rect id="shine" width="2" height="100" fill="#FFFFFF" opacity="0.2" transform="translate(22 8)"/>
-<path id="e" d="M30 0L48 18L30 36L24 30L36 18L30 12L12 30L30 48L54 24L60 30L30 60L0 30L30 0L30 0Z" fill="#2D6F01" transform="translate(38 28)"/>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 0L0 18L80 18C85 18 88 14.4 88 10L88 0Z" fill="#557919" transform="translate(20 102)"/>
+<rect width="8" height="10" x="20" y="110" fill="#191622"/>
+<linearGradient id="pages">
+<stop offset="90%" stop-color="#DEDDDA"/>
+<stop offset="95%" stop-color="#F6F5F4"/>
+<stop offset="1" stop-color="#C0BFBC"/>
+</linearGradient>
+<path d="M0 8L0 14L78 14C82.4 14 86 10.4 86 6L86 0C86 4.4 82.4 8 78 8Z" fill="url(#pages)" transform="translate(22 104)"/>
+<path d="M0 0L0 102L80 102C85 102 88 98.4 88 94L88 8C88 3.6 85 0 80 0Z" fill="#85B916" transform="translate(20 8)"/>
+<rect width="8" height="102" fill="#424048" x="20" y="8"/>
+<rect width="2" height="102" fill="#FFFFFF" x="22" y="8" opacity="22%"/>
+<path d="M21 27L36 12L24 0L0 24L24 48L51 21" fill="none" stroke="#FFFFFF" stroke-width="8.5" transform="translate(44 36)"/>
 </svg>

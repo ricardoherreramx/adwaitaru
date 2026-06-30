@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
-<defs>
 <linearGradient id="blue" x1="0" y1="0" x2="0" y2="1">
 <stop offset="0" stop-color="#72B4F5"/>
 <stop offset="1" stop-color="#356EBF"/>
 </linearGradient>
-</defs>
 <circle r="60" cx="64" cy="64" fill="url(#blue)"/>
 <path d="M0 0L0 62L6 62L8 56C10 59 14 62 20 62C32 62 40 54 40 40L40 40C40 26 32 18 20 18C14 18 10 21 8 24L8 0ZM8 40C8 30 12 24 20 24C28 24 32 30 32 40C32 50 28 56 20 56C12 56 8 50 8 40Z" fill="#FFFFFF" fill-rule="evenodd" transform="translate(68 24)"/>
 <path d="M20 38C28 38 32 32 32 22C32 12 28 6 20 6C12 6 8 12 8 22C8 32 12 38 20 38ZM20 44C8 44 0 36 0 22C0 8 8 0 20 0C26 0 30 3 32 6L34 0L40 0L40 62L32 62L32 38C30 41 26 44 20 44Z" fill="#C8E8FF" fill-rule="evenodd" transform="translate(20 42)"/>
