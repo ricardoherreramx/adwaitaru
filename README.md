@@ -371,7 +371,7 @@ Built largely upon the graphic work of GNOME's [Adwaita designers](https://gitla
 ![icon](./Adwaitaru/scalable/apps/dev.Cogitri.Health.svg "Health")
 ![icon](./Adwaitaru/scalable/apps/com.luigi311.fitness-tracker.svg "Fitness Tracker")
 ![icon](./Adwaitaru/scalable/apps/lunacy.svg "Lunacy")
-![icon](./Adwaitaru/scalable/categories/applications-education.svg "PaperWork")
+![icon](./Adwaitaru/scalable/apps/org.gnome.Software.Learn.svg "PaperWork")
 ![icon](./Adwaitaru/scalable/apps/re.sonny.Junction.svg "Junction")
 ![icon](./Adwaitaru/scalable/apps/org.gnome.Decibels.svg "GNOME Decibels")
 ![icon](./Adwaitaru/scalable/apps/org.gnome.Totem.svg "GNOME Totem")
