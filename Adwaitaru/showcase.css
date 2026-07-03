@@ -103,6 +103,42 @@ display: block;
 object-fit: cover;
 }
 
+nav#dock {
+display: flex;
+flex-flow: row nowrap;
+background-color: #383838;
+border-radius: 28px;
+position: fixed;
+padding: 12px;
+bottom: 12px;
+gap: 4px;
+height: 100px;
+justify-self: center;
+}
+
+nav#dock a {
+width: 76px;
+height: 76px;
+padding: 6px;
+border-radius: 16px;
+}
+
+nav#dock a:hover {background-color: #4B4B4B}
+nav#dock a:focus {
+background-color: #585858;
+outline: none;
+}
+
+nav#dock img {
+width: 64px;
+height: 64px;
+}
+
+a#Apps svg {
+width: 64px;
+height: 64px;
+}
+
 main.apps {
 display: flex;
 flex-flow: row wrap;

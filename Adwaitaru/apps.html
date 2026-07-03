@@ -16,12 +16,14 @@
       type="image/x-icon">
     <link href="showcase.css" rel="stylesheet" type="text/css">
     <style type="text/css">
+      a#Apps {background-color: #4B4B4B;pointer-events: none;}
+      #panel {background-color: #222222}
       main.apps {
       display: flex;
       flex-flow: column wrap;
       justify-content: center;
       overflow: scroll;
-      padding: 160px 0;
+      padding: 140px 0;
       margin: 0 auto;
       height: 100vh;
       width: 1160px;
@@ -76,14 +78,8 @@
       border: none;
       background: none;
       }
-      #searchbar:placeholder-shown + #erase {
-      opacity: 0;
-      pointer-events: none;
-      }
-      #searchbar:not(:placeholder-shown) + #erase {
-      opacity: 1;
-      pointer-events: auto;
-      }
+      #searchbar:placeholder-shown + #erase {display: none}
+      #searchbar:not(:placeholder-shown) + #erase {display: block}
     </style>
   </head>
   <body>
@@ -118,6 +114,36 @@
         <img style="width:16px;height:16px" src="symbolic/actions/system-shutdown-symbolic.svg">
       </div>
     </header>
+    <nav id="dock">
+      <a id="Welcome" href="index.html">
+        <img src="scalable/apps/org.gnome.Tour.svg">
+      </a>
+      <a id="Files" href="mimetypes.html">
+        <img src="scalable/apps/org.gnome.Nautilus.svg">
+      </a>
+      <a id="Tweaks" href="tweaks.html">
+        <img src="scalable/apps/gnome-tweak-tool.svg">
+      </a>
+      <a id="HowTo" href="help.html">
+        <img src="scalable/apps/org.gnome.yelp.svg">
+      </a>
+      <a id="Download (.zip)">
+        <img src="scalable/mimetypes/package-x-generic.svg">
+      </a>
+      <a id="Apps" href="apps.html">
+        <svg width="64" height="64" fill="white">
+          <circle r="4" cx="16" cy="16"/>
+          <circle r="4" cx="32" cy="16"/>
+          <circle r="4" cx="48" cy="16"/>
+          <circle r="4" cx="16" cy="32"/>
+          <circle r="4" cx="32" cy="32"/>
+          <circle r="4" cx="48" cy="32"/>
+          <circle r="4" cx="16" cy="48"/>
+          <circle r="4" cx="32" cy="48"/>
+          <circle r="4" cx="48" cy="48"/>
+        </svg>
+      </a>
+    </nav>
     <form id="searchform" onsubmit="event.preventDefault();">
       <input type="text" id="searchbar" placeholder="Search for your app">
       <button type="reset" id="erase" aria-label="Clear search">
