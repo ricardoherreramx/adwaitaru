@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 0L0 18L80 18C85 18 88 14.4 88 10L88 0Z" fill="#4C158A" transform="translate(20 102)"/>
+<rect width="8" height="10" fill="#191622" transform="translate(20 110)"/>
+<linearGradient id="pages">
+<stop offset="90%" stop-color="#DEDDDA"/>
+<stop offset="95%" stop-color="#F6F5F4"/>
+<stop offset="1" stop-color="#C0BFBC"/>
+</linearGradient>
+<path d="M0 8L0 14L78 14C82.4 14 86 10.4 86 6L86 0C86 4.4 82.4 8 78 8Z" fill="url(#pages)" transform="translate(22 104)"/>
+<linearGradient id="purple" x1="0" y1="-25%" x2="0" y2="125%">
+<stop offset="0" stop-color="#E29FFC"/>
+<stop offset="33%" stop-color="#AD65D6"/>
+<stop offset="66%" stop-color="#7A36B1"/>
+<stop offset="1" stop-color="#4C158A"/>
+</linearGradient>
+<path d="M0 0L0 102L80 102C85 102 88 98.4 88 94L88 8C88 3.6 85 0 80 0Z" fill="url(#purple)" transform="translate(20 8)"/>
+<rect width="8" height="102" fill="#424048" x="20" y="8"/>
+<rect width="2" height="102" fill="#FFFFFF" x="22" y="8" opacity="20%"/>
+<g fill="none" stroke-width="2">
+<rect width="54" height="18" x="39" y="35" stroke="#FFFFFF" opacity="7%"/>
+<rect width="50" height="14" x="41" y="37" stroke="#000000" opacity="10%"/>
+<rect width="48" height="12" x="42" y="38" fill="#F6F5F4"/>
+<rect width="46" height="10" x="43" y="39" stroke="#000000" opacity="15%"/>
+</g></svg>

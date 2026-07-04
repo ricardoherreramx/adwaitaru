@@ -9,7 +9,6 @@ month: 'short',    // "Jul"
 day: 'numeric',    // "3"
 hour: '2-digit',   // "07"
 minute: '2-digit', // "39"
-second: '2-digit', // "40"
 hour12: true       // true = AM/PM, false = 24-hour military time
 };
 // Convert the date object into a clean, localized string

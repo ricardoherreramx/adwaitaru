@@ -2,18 +2,17 @@
 <html>
   <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <title>Adwaitaru • Showcase</title>
+    <title>Adwaitaru • Apps</title>
     <meta name="author" content="Ricardo Herrera">
     <meta name="description" content="Adwaitaru: the finest Adwaita-styled icons for the Gnome Desktop">
-    <meta name="keywords" content="Adwaitaru, Adwaita, Libadwaita, Yaru, Gnome, Linux, Ubuntu, Canonical, Icons, Icon Set, Icon Pack, Flatpak, FlatHub">
+    <meta name="keywords" content="Adwaitaru, Adwaita, Libadwaita, Yaru, Suru, Gnome, Fedora, Linux, Ubuntu, Canonical, Icon, Icons, Icon Set, Icon Pack, Snap, Flatpak, FlatHub">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index,follow">
     <meta property="og:title" content="Adwaitaru Icon Pack">
     <meta property="og:description" content="Adwaita icons for the Gnome Desktop">
     <meta property="og:site_name" content="Adwaitaru • Showcase">
     <meta property="og:image">
-    <link rel="shortcut icon" href="symbolic/categories/emoji-nature-symbolic.svg"
-      type="image/x-icon">
+    <link rel="shortcut icon" href="Adwaitaru/symbolic/categories/emoji-nature-symbolic.svg" type="image/x-icon">
     <link href="showcase.css" rel="stylesheet" type="text/css">
     <style type="text/css">
       a#Apps {background-color: #4B4B4B;pointer-events: none;}
@@ -21,6 +20,7 @@
       main.apps {
       display: flex;
       flex-flow: column wrap;
+      align-content: flex-start;
       justify-content: center;
       overflow: scroll;
       padding: 140px 0;
@@ -28,6 +28,8 @@
       height: 100vh;
       width: 1160px;
       gap: 0 36px;
+      user-select: none;
+      scroll-snap-type: x mandatory;
       }
       main.apps figure {
       width: 112px;
@@ -35,11 +37,12 @@
       padding: 12px 6px;
       }
       main.apps > a {
+      scroll-snap-align: start;
       width: fit-content;
       height: 148px;
       }
       main.apps > a:focus {outline: none}
-      main.apps > a:focus figure {border: 2px solid gray}
+      main.apps > a:focus figure {outline: 2px solid gray}
       main.apps > a.hidden {display: none !important}
       #searchform {
       position: fixed;
@@ -56,7 +59,7 @@
       width: 372px;
       height: 42px;
       background-color: #353535;
-      background-image: url(symbolic/actions/search-symbolic.svg);
+      background-image: url(Adwaitaru/symbolic/actions/search-symbolic.svg);
       background-position: 14px center;
       background-size: 16px 16px;
       background-repeat: no-repeat;
@@ -80,6 +83,14 @@
       }
       #searchbar:placeholder-shown + #erase {display: none}
       #searchbar:not(:placeholder-shown) + #erase {display: block}
+      svg.arrow {
+      fill: none;
+      stroke: #f2f2f2;
+      stroke-width: 2px;
+      position: fixed;
+      align-self: center;
+      inset: 0;
+      }
     </style>
   </head>
   <body>
@@ -111,24 +122,24 @@
           <path d="M8 1L4 5L1 5L1 11L4 11L8 15Z"/>
           <path clip-path="url(#waves)" d="M15 8C15 11.85 11.85 15 8 15L8 14C11.3 14 14 11.3 14 8C14 4.7 11.3 2 8 2L8 1C11.85 1 15 4.2 15 8ZM12 8C12 10.2 10.2 12 8 12L8 11C9.65 11 11 9.65 11 8C11 6.35 9.65 5 8 5L8 4C10.2 4 12 5.8 12 8Z"/>
         </svg>
-        <img style="width:16px;height:16px" src="symbolic/actions/system-shutdown-symbolic.svg">
+        <img style="width:16px;height:16px" src="Adwaitaru/symbolic/actions/system-shutdown-symbolic.svg">
       </div>
     </header>
     <nav id="dock">
       <a id="Welcome" href="index.html">
-        <img src="scalable/apps/org.gnome.Tour.svg">
+        <img src="Adwaitaru/scalable/apps/org.gnome.Tour.svg">
       </a>
       <a id="Files" href="mimetypes.html">
-        <img src="scalable/apps/org.gnome.Nautilus.svg">
+        <img src="Adwaitaru/scalable/apps/org.gnome.Nautilus.svg">
       </a>
       <a id="Tweaks" href="tweaks.html">
-        <img src="scalable/apps/gnome-tweak-tool.svg">
+        <img src="Adwaitaru/scalable/apps/gnome-tweak-tool.svg">
       </a>
       <a id="HowTo" href="help.html">
-        <img src="scalable/apps/org.gnome.yelp.svg">
+        <img src="Adwaitaru/scalable/apps/org.gnome.yelp.svg">
       </a>
       <a id="Download (.zip)">
-        <img src="scalable/mimetypes/package-x-generic.svg">
+        <img src="Adwaitaru/scalable/mimetypes/package-x-generic.svg">
       </a>
       <a id="Apps" href="apps.html">
         <svg width="64" height="64" fill="white">
@@ -144,6 +155,12 @@
         </svg>
       </a>
     </nav>
+    <svg width="10" height="20" class="arrow" style="left:75px">
+      <path d="M10 0L0 10L10 20"/>
+    </svg>
+    <svg width="10" height="20" class="arrow" style="left:initial;right:75px">
+      <path d="M0 0L10 10L0 20"/>
+    </svg>
     <form id="searchform" onsubmit="event.preventDefault();">
       <input type="text" id="searchbar" placeholder="Search for your app">
       <button type="reset" id="erase" aria-label="Clear search">
@@ -155,2293 +172,2359 @@
     <main class="apps grid scalable icons">
 			<a target="_blank" class="app" href="https://stremio.com/">
 				<figure>
-					<img src="scalable/apps/stremio.svg" alt="Stremio icon"/>
+					<img src="Adwaitaru/scalable/apps/stremio.svg" alt="Stremio icon"/>
 					<figcaption>Stremio</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://dolphin-emu.org/">
 				<figure>
-					<img src="scalable/apps/dolphin-emu.svg" alt="Dolphin Emulator icon"/>
+					<img src="Adwaitaru/scalable/apps/dolphin-emu.svg" alt="Dolphin Emulator icon"/>
 					<figcaption>Dolphin Emulator</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://kodi.tv/">
 				<figure>
-					<img src="scalable/apps/kodi.svg" alt="Kodi TV icon"/>
+					<img src="Adwaitaru/scalable/apps/kodi.svg" alt="Kodi TV icon"/>
 					<figcaption>Kodi TV</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="http://www.flashforge.com/flashprint/">
 				<figure>
-					<img src="scalable/apps/flashforge.svg" alt="FlashPrint icon"/>
+					<img src="Adwaitaru/scalable/apps/flashforge.svg" alt="FlashPrint icon"/>
 					<figcaption>FlashPrint</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://openrct2.io/">
 				<figure>
-					<img src="scalable/apps/openrct2.svg" alt="RollerCoaster Tycoon 2 (OpenRCT2) icon"/>
+					<img src="Adwaitaru/scalable/apps/openrct2.svg" alt="RollerCoaster Tycoon 2 (OpenRCT2) icon"/>
 					<figcaption>OpenRCT2</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://www.openttd.org/">
 				<figure>
-					<img src="scalable/apps/openttd.svg" alt="Transport Tycoon Deluxe (OpenTTD) icon"/>
+					<img src="Adwaitaru/scalable/apps/openttd.svg" alt="Transport Tycoon Deluxe (OpenTTD) icon"/>
 					<figcaption>OpenTTD</figcaption>
+				</figure>
+			</a>
+			<a target="_blank" class="app" href="https://flathub.org/apps/org.gnome.Todo">
+				<figure>
+					<img src="Adwaitaru/scalable/apps/org.gnome.todo.svg" alt="Gnome Endeavour icon"/>
+					<figcaption>To Do</figcaption>
+				</figure>
+			</a>
+			<a target="_blank" class="app" href="https://flathub.org/apps/io.github.sss_says_snek.diurnals">
+				<figure>
+					<img src="Adwaitaru/scalable/apps/diurnals.svg" alt="Diurnals icon"/>
+					<figcaption>Diurnals</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://flathub.org/apps/org.gnome.GTG">
 				<figure>
-					<img src="scalable/apps/org.gnome.GTG.svg" alt="Getting Things Gnome icon"/>
+					<img src="Adwaitaru/scalable/apps/org.gnome.GTG.svg" alt="Getting Things Gnome icon"/>
 					<figcaption>Getting Things Gnome</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://flathub.org/apps/org.gnome.Todo">
 				<figure>
-					<img src="scalable/apps/org.gnome.Todo.svg" alt="Gnome Endeavour icon"/>
+					<img src="Adwaitaru/scalable/apps/org.gnome.Todo.svg" alt="Gnome Endeavour icon"/>
 					<figcaption>Endeavour</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://apps.gnome.org/Calculator/">
 				<figure>
-					<img src="scalable/apps/org.gnome.Calculator.svg" alt="Gnome Calculator icon"/>
+					<img src="Adwaitaru/scalable/apps/org.gnome.Calculator.svg" alt="Gnome Calculator icon"/>
 					<figcaption>Calculator</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://www.jirka.org/genius.html">
 				<figure>
-					<img src="scalable/apps/org.gnome.Genius.svg" alt="Gnome Genius icon"/>
+					<img src="Adwaitaru/scalable/apps/org.gnome.Genius.svg" alt="Gnome Genius icon"/>
 					<figcaption>Genius</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://wiki.gnome.org/Apps(2f)Dictionary.html">
 				<figure>
-					<img src="scalable/apps/org.gnome.Dictionary.svg" alt="Gnome Dictionary icon"/>
+					<img src="Adwaitaru/scalable/apps/org.gnome.Dictionary.svg" alt="Gnome Dictionary icon"/>
 					<figcaption>Dictionary</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://flathub.org/apps/com.bjareholt.johan.SimpleDiary">
 				<figure>
-					<img src="scalable/apps/simple-diary-gtk.svg" alt="Simple Diary icon"/>
+					<img src="Adwaitaru/scalable/apps/simple-diary-gtk.svg" alt="Simple Diary icon"/>
 					<figcaption>Simple Diary</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://koreader.rocks/">
 				<figure>
-					<img src="scalable/apps/koreader.svg" alt="KO Reader icon"/>
+					<img src="Adwaitaru/scalable/apps/koreader.svg" alt="KO Reader icon"/>
 					<figcaption>KO Reader</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://notepadqq.com/">
 				<figure>
-					<img src="scalable/apps/notepadqq.svg" alt="NotepadQQ icon"/>
+					<img src="Adwaitaru/scalable/apps/notepadqq.svg" alt="NotepadQQ icon"/>
 					<figcaption>NotepadQQ</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://apps.gnome.org/Contacts/">
 				<figure>
-					<img src="scalable/apps/org.gnome.Contacts.svg" alt="Gnome Contacts icon"/>
+					<img src="Adwaitaru/scalable/apps/org.gnome.Contacts.svg" alt="Gnome Contacts icon"/>
 					<figcaption>Contacts</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://community.linuxmint.com/software/view/stardict-gnome">
 				<figure>
-					<img src="scalable/apps/stardict.svg" alt="StarDict icon"/>
+					<img src="Adwaitaru/scalable/apps/stardict.svg" alt="StarDict icon"/>
 					<figcaption>StarDict</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://qstardict.ylsoftware.com/">
 				<figure>
-					<img src="scalable/apps/qstardict.svg" alt="QStarDict icon"/>
+					<img src="Adwaitaru/scalable/apps/qstardict.svg" alt="QStarDict icon"/>
 					<figcaption>QStarDict</figcaption>
+				</figure>
+			</a>
+			<a target="_blank" class="app" href="https://babluboy.github.io/bookworm">
+				<figure>
+					<img src="Adwaitaru/scalable/apps/bookworm.svg" alt="Bookworm icon"/>
+					<figcaption>Bookworm</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://appcenter.elementary.io/com.github.philip_scott.notes-up">
 				<figure>
-					<img src="scalable/apps/com.github.philip_scott.notes-up.svg" alt="Notes Up icon"/>
+					<img src="Adwaitaru/scalable/apps/com.github.philip_scott.notes-up.svg" alt="Notes Up icon"/>
 					<figcaption>Notes-Up</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://kile.sourceforge.io/">
 				<figure>
-					<img src="scalable/apps/kile.svg" alt="KDE Kile icon"/>
+					<img src="Adwaitaru/scalable/apps/kile.svg" alt="KDE Kile icon"/>
 					<figcaption>Kile</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://apps.gnome.org/Iotas/">
 				<figure>
-					<img src="scalable/apps/org.gnome.World.Iotas.svg" alt="Iotas icon"/>
+					<img src="Adwaitaru/scalable/apps/org.gnome.World.Iotas.svg" alt="Iotas icon"/>
 					<figcaption>Iotas</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://apps.kde.org/arianna/">
 				<figure>
-					<img src="scalable/apps/arianna.svg" alt="KDE Arianna icon"/>
+					<img src="Adwaitaru/scalable/apps/arianna.svg" alt="KDE Arianna icon"/>
 					<figcaption>Arianna</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://www.yacreader.com/">
 				<figure>
-					<img src="scalable/apps/YACReaderLibrary.svg" alt="YACReader Library icon"/>
+					<img src="Adwaitaru/scalable/apps/YACReaderLibrary.svg" alt="YACReader Library icon"/>
 					<figcaption>YACReader Library</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://flathub.org/apps/io.github.ilius.pyglossary">
 				<figure>
-					<img src="scalable/apps/io.github.ilius.pyglossary.svg" alt="PyGlossary icon"/>
+					<img src="Adwaitaru/scalable/apps/io.github.ilius.pyglossary.svg" alt="PyGlossary icon"/>
 					<figcaption>PyGlossary</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://userbase.kde.org/KBibTeX">
 				<figure>
-					<img src="scalable/apps/kbibtex.svg" alt="KDE BibTeX"/>
+					<img src="Adwaitaru/scalable/apps/kbibtex.svg" alt="KDE BibTeX"/>
 					<figcaption>KBibTeX</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://tellico-project.org/">
 				<figure>
-					<img src="scalable/apps/tellico.svg" alt="KDE Tellico icon"/>
+					<img src="Adwaitaru/scalable/apps/tellico.svg" alt="KDE Tellico icon"/>
 					<figcaption>Tellico</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://wiki.gnome.org/Apps/Devhelp">
 				<figure>
-					<img src="scalable/apps/org.gnome.Devhelp.svg" alt="Gnome Developer Help icon"/>
+					<img src="Adwaitaru/scalable/apps/org.gnome.Devhelp.svg" alt="Gnome Developer Help icon"/>
 					<figcaption>DevHelp</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://rednotebook.app/">
 				<figure>
-					<img src="scalable/apps/rednotebook.svg" alt="RedNotebook icon"/>
+					<img src="Adwaitaru/scalable/apps/rednotebook.svg" alt="RedNotebook icon"/>
 					<figcaption>RedNotebook</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://flathub.org/apps/com.synology.synology-note-station">
 				<figure>
-					<img src="scalable/apps/com.synology.synology-note-station.svg" alt="Synology Notes icon"/>
+					<img src="Adwaitaru/scalable/apps/com.synology.synology-note-station.svg" alt="Synology Notes icon"/>
 					<figcaption>Synology Notes</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://flathub.org/apps/io.github.lainsce.Notejot">
 				<figure>
-					<img src="scalable/apps/io.github.lainsce.Notejot.svg" alt="NoteJot icon"/>
+					<img src="Adwaitaru/scalable/apps/io.github.lainsce.Notejot.svg" alt="NoteJot icon"/>
 					<figcaption>NoteJot</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://flathub.org/apps/org.xfce.mousepad">
 				<figure>
-					<img src="scalable/apps/mousepad.svg" alt="MousePad icon"/>
+					<img src="Adwaitaru/scalable/apps/mousepad.svg" alt="MousePad icon"/>
 					<figcaption>MousePad</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://gedit-text-editor.org/">
 				<figure>
-					<img src="scalable/apps/org.gnome.TextEditor.svg" alt="Gedit icon"/>
+					<img src="Adwaitaru/scalable/apps/org.gnome.TextEditor.svg" alt="Gedit icon"/>
 					<figcaption>GEdit</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://apps.gnome.org/TextEditor/">
 				<figure>
-					<img src="scalable/apps/org.gnome.TextEditor.svg" alt="Gnome Text Editor icon"/>
+					<img src="Adwaitaru/scalable/apps/org.gnome.TextEditor.svg" alt="Gnome Text Editor icon"/>
 					<figcaption>Text Editor</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://gitlab.gnome.org/World/gedit/enter-tex">
 				<figure>
-					<img src="scalable/apps/org.gnome.gnome-latex.svg" alt="Gnome LaTeX icon"/>
+					<img src="Adwaitaru/scalable/apps/org.gnome.gnome-latex.svg" alt="Gnome LaTeX icon"/>
 					<figcaption>Gnome LaTeX</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://gitlab.gnome.org/World/gedit/enter-tex">
 				<figure>
-					<img src="scalable/apps/org.gnome.gnome-latex.svg" alt="Enter TeX icon"/>
+					<img src="Adwaitaru/scalable/apps/org.gnome.gnome-latex.svg" alt="Enter TeX icon"/>
 					<figcaption>Enter TeX</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://gitlab.gnome.org/World/gedit/enter-tex">
 				<figure>
-					<img src="scalable/apps/org.gnome.gnome-latex.svg" alt="LaTeXila icon"/>
+					<img src="Adwaitaru/scalable/apps/org.gnome.gnome-latex.svg" alt="LaTeXila icon"/>
 					<figcaption>LaTeXila</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://flathub.org/apps/com.github.Darazaki.Spedread">
 				<figure>
-					<img src="scalable/apps/spedread.svg" alt="Spedread icon"/>
+					<img src="Adwaitaru/scalable/apps/spedread.svg" alt="Spedread icon"/>
 					<figcaption>Spedread</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://apps.kde.org/kalgebra">
 				<figure>
-					<img src="scalable/apps/kalgebra.svg" alt="KDE Kalgebra icon"/>
+					<img src="Adwaitaru/scalable/apps/kalgebra.svg" alt="KDE Kalgebra icon"/>
 					<figcaption>Kalgebra</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://www.speedynote.org/">
 				<figure>
-					<img src="scalable/apps/speedynote.svg" alt="SpeedyNote icon"/>
+					<img src="Adwaitaru/scalable/apps/speedynote.svg" alt="SpeedyNote icon"/>
 					<figcaption>SpeedyNote</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://www.cvfosammmm.org/setzer/">
 				<figure>
-					<img src="scalable/apps/setzer.svg" alt="Setzer icon"/>
+					<img src="Adwaitaru/scalable/apps/setzer.svg" alt="Setzer icon"/>
 					<figcaption>Setzer</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://okular.kde.org/">
 				<figure>
-					<img src="scalable/apps/okular.svg" alt="KDE Okular icon"/>
+					<img src="Adwaitaru/scalable/apps/okular.svg" alt="KDE Okular icon"/>
 					<figcaption>Okular</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://apps.gnome.org/Evince/">
 				<figure>
-					<img src="scalable/apps/org.gnome.Evince.svg" alt="Gnome Evince icon"/>
+					<img src="Adwaitaru/scalable/apps/org.gnome.Evince.svg" alt="Gnome Evince icon"/>
 					<figcaption>Document Reader</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://apps.gnome.org/Papers/">
 				<figure>
-					<img src="scalable/apps/org.gnome.Papers.svg" alt="Gnome Papers icon"/>
+					<img src="Adwaitaru/scalable/apps/org.gnome.Papers.svg" alt="Gnome Papers icon"/>
 					<figcaption>Document Viewer</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://spaceinbox.me/swifty-notes">
 				<figure>
-					<img src="scalable/apps/swifty-notes.svg" alt="Swifty Notes icon"/>
+					<img src="Adwaitaru/scalable/apps/swifty-notes.svg" alt="Swifty Notes icon"/>
 					<figcaption>Swifty Notes</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://useplanify.com/">
 				<figure>
-					<img src="scalable/apps/io.github.alainm23.planify.svg" alt="Planify icon"/>
+					<img src="Adwaitaru/scalable/apps/io.github.alainm23.planify.svg" alt="Planify icon"/>
 					<figcaption>Planify</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://useplanner.com/">
 				<figure>
-					<img src="scalable/apps/com.github.alainm23.planner.svg" alt="Planner icon"/>
+					<img src="Adwaitaru/scalable/apps/com.github.alainm23.planner.svg" alt="Planner icon"/>
 					<figcaption>Planner</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://flathub.org/apps/org.gnome.Aisleriot">
 				<figure>
-					<img src="scalable/apps/org.gnome.Aisleriot.svg" alt="Aisleriot Solitaire icon"/>
+					<img src="Adwaitaru/scalable/apps/org.gnome.Aisleriot.svg" alt="Aisleriot Solitaire icon"/>
 					<figcaption>Aisleriot Solitaire</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="http://www.rhythmbox.org/">
 				<figure>
-					<img src="scalable/apps/org.gnome.Rhythmbox.svg" alt="Gnome RhythmBox icon"/>
+					<img src="Adwaitaru/scalable/apps/org.gnome.Rhythmbox.svg" alt="Gnome RhythmBox icon"/>
 					<figcaption>RhythmBox</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://flathub.org/apps/io.github.subsoundorg.Subsound">
 				<figure>
-					<img src="scalable/apps/io.github.subsoundorg.Subsound.svg" alt="SubSound icon"/>
+					<img src="Adwaitaru/scalable/apps/io.github.subsoundorg.Subsound.svg" alt="SubSound icon"/>
 					<figcaption>SubSound</figcaption>
+				</figure>
+			</a>
+			<a target="_blank" class="app" href="http://brouits.free.fr/qspeakers/">
+				<figure>
+					<img src="Adwaitaru/scalable/devices/audio-speakers.svg" alt="QSpeakers icon"/>
+					<figcaption>QSpeakers</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://flathub.org/apps/net.trowell.typesetter">
 				<figure>
-					<img src="scalable/apps/net.trowell.typesetter.svg" alt="TypeSetter icon"/>
+					<img src="Adwaitaru/scalable/apps/net.trowell.typesetter.svg" alt="TypeSetter icon"/>
 					<figcaption>TypeSetter</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://tug.org/texworks/">
 				<figure>
-					<img src="scalable/apps/texworks.svg" alt="TeXworks icon"/>
+					<img src="Adwaitaru/scalable/apps/texworks.svg" alt="TeXworks icon"/>
 					<figcaption>TeXworks</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://github.com/chinf/psensor/">
 				<figure>
-					<img src="scalable/apps/psensor.svg" alt="pSensor icon"/>
+					<img src="Adwaitaru/scalable/apps/psensor.svg" alt="pSensor icon"/>
 					<figcaption>pSensor</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://apps.gnome.org/DejaDup/">
 				<figure>
-					<img src="scalable/apps/org.gnome.DejaDup.svg" alt="Gnome Deja-Dup icon"/>
+					<img src="Adwaitaru/scalable/apps/org.gnome.DejaDup.svg" alt="Gnome Deja-Dup icon"/>
 					<figcaption>BackUps</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://apps.gnome.org/SimpleScan/">
 				<figure>
-					<img src="scalable/apps/org.gnome.SimpleScan.svg" alt="Gnome SimpleScan icon"/>
+					<img src="Adwaitaru/scalable/apps/org.gnome.SimpleScan.svg" alt="Gnome SimpleScan icon"/>
 					<figcaption>Document Scanner</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="apps.gnome.org/Nautilus/">
 				<figure>
-					<img src="scalable/apps/org.gnome.Nautilus.svg" alt="Gnome Nautilus icon"/>
+					<img src="Adwaitaru/scalable/apps/org.gnome.Nautilus.svg" alt="Gnome Nautilus icon"/>
 					<figcaption>Files</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://snapcraft.io/">
 				<figure>
-					<img src="scalable/apps/app-center.svg" alt="Ubuntu App Center icon"/>
+					<img src="Adwaitaru/scalable/apps/app-center.svg" alt="Ubuntu App Center icon"/>
 					<figcaption>App Center</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://apps.gnome.org/DiskUtility/">
 				<figure>
-					<img src="scalable/apps/org.gnome.DiskUtility.svg" alt="Gnome Disk Utility icon"/>
+					<img src="Adwaitaru/scalable/apps/org.gnome.DiskUtility.svg" alt="Gnome Disk Utility icon"/>
 					<figcaption>Disk Utility</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://gparted.org/">
 				<figure>
-					<img src="scalable/apps/gparted.svg" alt="Gnome Partition Editor (GPartEd) icon"/>
+					<img src="Adwaitaru/scalable/apps/gparted.svg" alt="Gnome Partition Editor (GPartEd) icon"/>
 					<figcaption>GParted</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://gsmartcontrol.shaduri.dev/">
 				<figure>
-					<img src="scalable/apps/gsmartcontrol.svg" alt="GSmartControl icon"/>
+					<img src="Adwaitaru/scalable/apps/gsmartcontrol.svg" alt="GSmartControl icon"/>
 					<figcaption>GSmartControl</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://www.bleachbit.org/">
 				<figure>
-					<img src="scalable/apps/bleachbit.svg" alt="BleachBit icon"/>
+					<img src="Adwaitaru/scalable/apps/bleachbit.svg" alt="BleachBit icon"/>
 					<figcaption>BleachBit</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://wiki.ubuntu.com/Ubiquity">
 				<figure>
-					<img src="scalable/apps/ubiquity.svg" alt="Ubiquity icon"/>
+					<img src="Adwaitaru/scalable/apps/ubiquity.svg" alt="Ubiquity icon"/>
 					<figcaption>Ubiquity</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://www.nongnu.org/synaptic/">
 				<figure>
-					<img src="scalable/apps/synaptic.svg" alt="Synaptic Package Manager icon"/>
+					<img src="Adwaitaru/scalable/apps/synaptic.svg" alt="Synaptic Package Manager icon"/>
 					<figcaption>Synaptic Package Manager</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://www.libreoffice.org/">
 				<figure>
-					<img src="scalable/apps/libreoffice-main.svg" alt="LibreOffice Start Center icon"/>
+					<img src="Adwaitaru/scalable/apps/libreoffice-main.svg" alt="LibreOffice Start Center icon"/>
 					<figcaption>LibreOffice Start Center</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://www.libreoffice.org/">
 				<figure>
-					<img src="scalable/apps/libreoffice-base.svg" alt="LibreOffice Base icon"/>
+					<img src="Adwaitaru/scalable/apps/libreoffice-base.svg" alt="LibreOffice Base icon"/>
 					<figcaption>LibreOffice Base</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://www.libreoffice.org/">
 				<figure>
-					<img src="scalable/apps/libreoffice-calc.svg" alt="LibreOffice Calc icon"/>
+					<img src="Adwaitaru/scalable/apps/libreoffice-calc.svg" alt="LibreOffice Calc icon"/>
 					<figcaption>LibreOffice Calc</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://www.libreoffice.org/">
 				<figure>
-					<img src="scalable/apps/libreoffice-draw.svg" alt="LibreOffice Draw icon"/>
+					<img src="Adwaitaru/scalable/apps/libreoffice-draw.svg" alt="LibreOffice Draw icon"/>
 					<figcaption>LibreOffice Draw</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://www.libreoffice.org/">
 				<figure>
-					<img src="scalable/apps/libreoffice-impress.svg" alt="LibreOffice Impress icon"/>
+					<img src="Adwaitaru/scalable/apps/libreoffice-impress.svg" alt="LibreOffice Impress icon"/>
 					<figcaption>LibreOffice Impress</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://www.libreoffice.org/">
 				<figure>
-					<img src="scalable/apps/libreoffice-math.svg" alt="LibreOffice Math icon"/>
+					<img src="Adwaitaru/scalable/apps/libreoffice-math.svg" alt="LibreOffice Math icon"/>
 					<figcaption>LibreOffice Math</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://www.libreoffice.org/">
 				<figure>
-					<img src="scalable/apps/libreoffice-writer.svg" alt="LibreOffice Writer icon"/>
+					<img src="Adwaitaru/scalable/apps/libreoffice-writer.svg" alt="LibreOffice Writer icon"/>
 					<figcaption>LibreOffice Writer</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://flathub.org/apps/it.andreafontana.hideout">
 				<figure>
-					<img src="scalable/apps/hideout.svg" alt="Hideout icon"/>
+					<img src="Adwaitaru/scalable/apps/hideout.svg" alt="Hideout icon"/>
 					<figcaption>Hideout</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://apps.gnome.org/Komikku/">
 				<figure>
-					<img src="scalable/apps/info.febvre.Komikku.svg" alt="Komikku icon"/>
+					<img src="Adwaitaru/scalable/apps/info.febvre.Komikku.svg" alt="Komikku icon"/>
 					<figcaption>Komikku</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://rnote.flxzt.net/">
 				<figure>
-					<img src="scalable/apps/rnote.svg" alt="Rnote icon"/>
+					<img src="Adwaitaru/scalable/apps/rnote.svg" alt="Rnote icon"/>
 					<figcaption>Rnote</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://snapcraft.io/install/desktop-security-center/ubuntu">
 				<figure>
-					<img src="scalable/apps/desktop-security-center.svg" alt="Ubuntu Security Center icon"/>
+					<img src="Adwaitaru/scalable/apps/desktop-security-center.svg" alt="Ubuntu Security Center icon"/>
 					<figcaption>Security Center</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://www.bitwarden.com/">
 				<figure>
-					<img src="scalable/apps/bitwarden.svg" alt="BitWarden icon"/>
+					<img src="Adwaitaru/scalable/apps/bitwarden.svg" alt="BitWarden icon"/>
 					<figcaption>BitWarden</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://github.com/costales/gufw">
 				<figure>
-					<img src="scalable/apps/gufw.svg" alt="Uncomplicated Firewall (gUFW) icon"/>
+					<img src="Adwaitaru/scalable/apps/gufw.svg" alt="Uncomplicated Firewall (gUFW) icon"/>
 					<figcaption>Uncomplicated Firewall</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://flathub.org/apps/io.github.linx_systems.ClamUI">
 				<figure>
-					<img src="scalable/apps/clamui.svg" alt="ClamUI icon"/>
+					<img src="Adwaitaru/scalable/apps/clamui.svg" alt="ClamUI icon"/>
 					<figcaption>ClamUI</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://clamtk.com/">
 				<figure>
-					<img src="scalable/apps/clamtk.svg" alt="ClamTK icon"/>
+					<img src="Adwaitaru/scalable/apps/clamtk.svg" alt="ClamTK icon"/>
 					<figcaption>ClamTK</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://gnomeboxes.org/">
 				<figure>
-					<img src="scalable/apps/org.gnome.Boxes.svg" alt="Gnome Boxes icon"/>
+					<img src="Adwaitaru/scalable/apps/org.gnome.Boxes.svg" alt="Gnome Boxes icon"/>
 					<figcaption>Boxes</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://snapcraft.io/install/gnome-font-viewer/ubuntu">
 				<figure>
-					<img src="scalable/apps/font-manager.svg" alt="Font Viewer icon"/>
+					<img src="Adwaitaru/scalable/apps/font-manager.svg" alt="Font Viewer icon"/>
 					<figcaption>Font Viewer</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://manpages.ubuntu.com/manpages/trusty/man1/font-manager.1.html">
 				<figure>
-					<img src="scalable/apps/font-manager.svg" alt="Font Manager icon"/>
+					<img src="Adwaitaru/scalable/apps/font-manager.svg" alt="Font Manager icon"/>
 					<figcaption>Font Manager</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://typora.io/">
 				<figure>
-					<img src="scalable/apps/typora.svg" alt="Typora icon"/>
+					<img src="Adwaitaru/scalable/apps/typora.svg" alt="Typora icon"/>
 					<figcaption>Typora</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://flathub.org/apps/io.github.mfat.jottr">
 				<figure>
-					<img src="scalable/apps/jottr.svg" alt="Jottr icon"/>
+					<img src="Adwaitaru/scalable/apps/jottr.svg" alt="Jottr icon"/>
 					<figcaption>Jottr</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://apps.gnome.org/Characters/">
 				<figure>
-					<img src="scalable/apps/org.gnome.Characters.svg" alt="Gnome Characters icon"/>
+					<img src="Adwaitaru/scalable/apps/org.gnome.Characters.svg" alt="Gnome Characters icon"/>
 					<figcaption>Characters</figcaption>
+				</figure>
+			</a>
+			<a target="_blank" class="app" href="https://flathub.org/apps/com.github.aharotias2.parapara">
+				<figure>
+					<img src="Adwaitaru/scalable/apps/parapara.svg" alt="ParaPara icon"/>
+					<figcaption>ParaPara</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://flathub.org/apps/org.gnome.eog">
 				<figure>
-					<img src="scalable/apps/org.gnome.eog.svg" alt="Eye of Gnome icon"/>
+					<img src="Adwaitaru/scalable/apps/org.gnome.eog.svg" alt="Eye of Gnome icon"/>
 					<figcaption>Photo Viewer</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://apps.gnome.org/Loupe/">
 				<figure>
-					<img src="scalable/apps/org.gnome.Loupe.svg" alt="Gnome Loupe icon"/>
+					<img src="Adwaitaru/scalable/apps/org.gnome.Loupe.svg" alt="Gnome Loupe icon"/>
 					<figcaption>Image Viewer</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://flathub.org/apps/io.github.Cookiiieee.WSelector">
 				<figure>
-					<img src="scalable/apps/io.github.Cookiiieee.WSelector.svg" alt="WSelector icon"/>
+					<img src="Adwaitaru/scalable/apps/io.github.Cookiiieee.WSelector.svg" alt="WSelector icon"/>
 					<figcaption>WSelector</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://flathub.org/apps/io.github.mihnea_radulescu.imagefanreloaded">
 				<figure>
-					<img src="scalable/apps/io.github.mihnea_radulescu.imagefanreloaded.svg" alt="ImageFan Reloaded icon"/>
+					<img src="Adwaitaru/scalable/apps/io.github.mihnea_radulescu.imagefanreloaded.svg" alt="ImageFan Reloaded icon"/>
 					<figcaption>ImageFan Reloaded</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://shotwell-project.org/">
 				<figure>
-					<img src="scalable/apps/org.gnome.Shotwell.svg" alt="ShotWell icon"/>
+					<img src="Adwaitaru/scalable/apps/org.gnome.Shotwell.svg" alt="ShotWell icon"/>
 					<figcaption>ShotWell</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://flathub.org/apps/io.gitlab.luiggircardoso.Draft">
 				<figure>
-					<img src="scalable/apps/io.gitlab.luiggircardoso.Draft.svg" alt="Draft icon"/>
+					<img src="Adwaitaru/scalable/apps/io.gitlab.luiggircardoso.Draft.svg" alt="Draft icon"/>
 					<figcaption>Draft</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://flathub.org/apps/com.vixalien.sticky">
 				<figure>
-					<img src="scalable/apps/com.vixalien.sticky.svg" alt="Sticky Notes icon"/>
+					<img src="Adwaitaru/scalable/apps/com.vixalien.sticky.svg" alt="Sticky Notes icon"/>
 					<figcaption>Sticky Notes</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://faridjaff.github.io/StickyNotesCanvas/">
 				<figure>
-					<img src="scalable/apps/sticky-notes-canvas.svg" alt="Sticky Notes Canvas icon"/>
+					<img src="Adwaitaru/scalable/apps/sticky-notes-canvas.svg" alt="Sticky Notes Canvas icon"/>
 					<figcaption>Sticky Notes Canvas</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://flathub.org/apps/io.github.ellie_commons.jorts">
 				<figure>
-					<img src="scalable/apps/io.github.ellie_commons.jorts.svg" alt="Jorts icon"/>
+					<img src="Adwaitaru/scalable/apps/io.github.ellie_commons.jorts.svg" alt="Jorts icon"/>
 					<figcaption>Jorts</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://flathub.org/apps/org.gnome.Notes">
 				<figure>
-					<img src="scalable/apps/org.gnome.Notes.svg" alt="Gnome Notes icon"/>
+					<img src="Adwaitaru/scalable/apps/org.gnome.Notes.svg" alt="Gnome Notes icon"/>
 					<figcaption>Notes</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://flathub.org/apps/org.gnome.Gnote">
 				<figure>
-					<img src="scalable/apps/tomboy.svg" alt="Gnote icon"/>
+					<img src="Adwaitaru/scalable/apps/tomboy.svg" alt="Gnote icon"/>
 					<figcaption>Gnote</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://wiki.gnome.org/Apps/Tomboy">
 				<figure>
-					<img src="scalable/apps/tomboy.svg" alt="Tomboy icon"/>
+					<img src="Adwaitaru/scalable/apps/tomboy.svg" alt="Tomboy icon"/>
 					<figcaption>Tomboy</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://flathub.org/apps/com.adilhanney.saber">
 				<figure>
-					<img src="scalable/apps/saber.svg" alt="Saber icon"/>
+					<img src="Adwaitaru/scalable/apps/saber.svg" alt="Saber icon"/>
 					<figcaption>Saber</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://standardnotes.com/">
 				<figure>
-					<img src="scalable/apps/standard-notes.svg" alt="Standard Notes icon"/>
+					<img src="Adwaitaru/scalable/apps/standard-notes.svg" alt="Standard Notes icon"/>
 					<figcaption>Standard Notes</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://apps.gnome.org/Calendar/">
 				<figure>
-					<img src="scalable/apps/org.gnome.Calendar.svg" alt="Gnome Calendar icon"/>
+					<img src="Adwaitaru/scalable/apps/org.gnome.Calendar.svg" alt="Gnome Calendar icon"/>
 					<figcaption>Calendar</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://github.com/WinFF/winff">
 				<figure>
-					<img src="scalable/apps/winff.svg" alt="WinFF icon"/>
+					<img src="Adwaitaru/scalable/apps/winff.svg" alt="WinFF icon"/>
 					<figcaption>WinFF</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://flathub.org/apps/io.github.denysmb.unify">
 				<figure>
-					<img src="scalable/apps/io.github.denysmb.unify.svg" alt="Unify icon"/>
+					<img src="Adwaitaru/scalable/apps/io.github.denysmb.unify.svg" alt="Unify icon"/>
 					<figcaption>Unify</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://www.remnote.com/">
 				<figure>
-					<img src="scalable/apps/remnote.svg" alt="RemNote icon"/>
+					<img src="Adwaitaru/scalable/apps/remnote.svg" alt="RemNote icon"/>
 					<figcaption>RemNote</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://flathub.org/apps/net.mkiol.SpeechNote">
 				<figure>
-					<img src="scalable/apps/speechnote.svg" alt="Speech Note icon"/>
+					<img src="Adwaitaru/scalable/apps/speechnote.svg" alt="Speech Note icon"/>
 					<figcaption>Speech Note</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://transmissionbt.com/">
 				<figure>
-					<img src="scalable/apps/transmission.svg" alt="Transmission icon"/>
+					<img src="Adwaitaru/scalable/apps/transmission.svg" alt="Transmission icon"/>
 					<figcaption>Transmission</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://apps.gnome.org/Logs/">
 				<figure>
-					<img src="scalable/apps/org.gnome.Logs.svg" alt="Gnome Logs icon"/>
+					<img src="Adwaitaru/scalable/apps/org.gnome.Logs.svg" alt="Gnome Logs icon"/>
 					<figcaption>Logs</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://flathub.org/apps/org.gnome.PowerStats">
 				<figure>
-					<img src="scalable/apps/org.gnome.PowerStats.svg" alt="Gnome Power Stats icon"/>
+					<img src="Adwaitaru/scalable/apps/org.gnome.PowerStats.svg" alt="Gnome Power Stats icon"/>
 					<figcaption>Power Statistics</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://github.com/GNOME/gnome-tweaks">
 				<figure>
-					<img src="scalable/apps/gnome-tweak-tool.svg" alt="Gnome Tweak Tool icon"/>
+					<img src="Adwaitaru/scalable/apps/gnome-tweak-tool.svg" alt="Gnome Tweak Tool icon"/>
 					<figcaption>Tweaks</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://apps.gnome.org/DconfEditor/">
 				<figure>
-					<img src="scalable/apps/dconf-editor.svg" alt="DConf Editor icon"/>
+					<img src="Adwaitaru/scalable/apps/dconf-editor.svg" alt="DConf Editor icon"/>
 					<figcaption>DConf Editor</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://www.spyder-ide.org/">
 				<figure>
-					<img src="scalable/apps/spyder.svg" alt="Spyder icon"/>
+					<img src="Adwaitaru/scalable/apps/spyder.svg" alt="Spyder icon"/>
 					<figcaption>Spyder</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://gitlab.gnome.org/GNOME/alacarte">
 				<figure>
-					<img src="scalable/apps/menulibre.svg" alt="Alacarte icon"/>
+					<img src="Adwaitaru/scalable/apps/menulibre.svg" alt="Alacarte icon"/>
 					<figcaption>Alacarte</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://github.com/bluesabre/menulibre">
 				<figure>
-					<img src="scalable/apps/menulibre.svg" alt="Menu Libre icon"/>
+					<img src="Adwaitaru/scalable/apps/menulibre.svg" alt="Menu Libre icon"/>
 					<figcaption>Menu Libre</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://flathub.org/apps/page.codeberg.libre_menu_editor.LibreMenuEditor">
 				<figure>
-					<img src="scalable/apps/libre-menu-editor.svg" alt="Libre Menu Editor icon"/>
+					<img src="Adwaitaru/scalable/apps/libre-menu-editor.svg" alt="Libre Menu Editor icon"/>
 					<figcaption>Libre Menu Editor</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://buildandmeasure.app/">
 				<figure>
-					<img src="scalable/apps/build-and-measure.svg" alt="Build and Measure icon"/>
+					<img src="Adwaitaru/scalable/apps/build-and-measure.svg" alt="Build and Measure icon"/>
 					<figcaption>Build and Measure</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://filebot.net/">
 				<figure>
-					<img src="scalable/apps/filebot.svg" alt="FileBot icon"/>
+					<img src="Adwaitaru/scalable/apps/filebot.svg" alt="FileBot icon"/>
 					<figcaption>FileBot</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://apps.gnome.org/Secrets/">
 				<figure>
-					<img src="scalable/apps/org.gnome.World.Secrets.svg" alt="Gnome Secrets icon"/>
+					<img src="Adwaitaru/scalable/apps/org.gnome.World.Secrets.svg" alt="Gnome Secrets icon"/>
 					<figcaption>Secrets</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://apps.gnome.org/FontViewer/">
 				<figure>
-					<img src="scalable/apps/org.gnome.font-viewer.svg" alt="Gnome Font Viewer icon"/>
+					<img src="Adwaitaru/scalable/apps/org.gnome.font-viewer.svg" alt="Gnome Font Viewer icon"/>
 					<figcaption>Fonts</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://www.koodoreader.com/">
 				<figure>
-					<img src="scalable/apps/koodo-reader.svg" alt="Koodo Reader icon"/>
+					<img src="Adwaitaru/scalable/apps/koodo-reader.svg" alt="Koodo Reader icon"/>
 					<figcaption>Koodo Reader</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://flathub.org/apps/io.github.dvlv.boxbuddyrs">
 				<figure>
-					<img src="scalable/apps/boxbuddyrs.svg" alt="Box Buddy icon"/>
+					<img src="Adwaitaru/scalable/apps/boxbuddyrs.svg" alt="Box Buddy icon"/>
 					<figcaption>Box Buddy</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://flathub.org/apps/io.github.vemonet.EmojiMart">
 				<figure>
-					<img src="scalable/apps/io.github.vemonet.EmojiMart.svg" alt="Emoji Mart icon"/>
+					<img src="Adwaitaru/scalable/apps/io.github.vemonet.EmojiMart.svg" alt="Emoji Mart icon"/>
 					<figcaption>Emoji Mart</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://flathub.org/apps/com.github.devalien.workspaces">
 				<figure>
-					<img src="scalable/apps/com.github.devalien.workspaces.svg" alt="Workspaces icon"/>
+					<img src="Adwaitaru/scalable/apps/com.github.devalien.workspaces.svg" alt="Workspaces icon"/>
 					<figcaption>Workspaces</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://flathub.org/apps/dev.tchx84.Portfolio">
 				<figure>
-					<img src="scalable/apps/dev.tchx84.Portfolio.svg" alt="Portfolio icon"/>
+					<img src="Adwaitaru/scalable/apps/dev.tchx84.Portfolio.svg" alt="Portfolio icon"/>
 					<figcaption>Portfolio</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://flathub.org/apps/io.github.shonebinu.Defuse">
 				<figure>
-					<img src="scalable/apps/io.github.shonebinu.Defuse.svg" alt="Defuse icon"/>
+					<img src="Adwaitaru/scalable/apps/io.github.shonebinu.Defuse.svg" alt="Defuse icon"/>
 					<figcaption>Defuse</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://apps.kde.org/optiimage/">
 				<figure>
-					<img src="scalable/apps/optiimage.svg" alt="KDE OptiImage icon"/>
+					<img src="Adwaitaru/scalable/apps/optiimage.svg" alt="KDE OptiImage icon"/>
 					<figcaption>OptiImage</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://linux.die.net/man/1/gnome-session-properties">
 				<figure>
-					<img src="scalable/apps/session-properties.svg" alt="Session properties icon"/>
+					<img src="Adwaitaru/scalable/apps/session-properties.svg" alt="Session properties icon"/>
 					<figcaption>Startup Applications</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://upscayl.org/">
 				<figure>
-					<img src="scalable/apps/upscayl.svg" alt="Upscayl icon"/>
+					<img src="Adwaitaru/scalable/apps/upscayl.svg" alt="Upscayl icon"/>
 					<figcaption>Upscayl</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="http://www.processing.org/">
 				<figure>
-					<img src="scalable/apps/processing.svg" alt="Processing icon"/>
+					<img src="Adwaitaru/scalable/apps/processing.svg" alt="Processing icon"/>
 					<figcaption>Processing IDE</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://flathub.org/apps/io.gitlab.ilshat_apps.gitpulsar">
 				<figure>
-					<img src="scalable/apps/io.gitlab.ilshat_apps.gitpulsar.svg" alt="Ilshat Apps GitPulsar icon"/>
+					<img src="Adwaitaru/scalable/apps/io.gitlab.ilshat_apps.gitpulsar.svg" alt="Ilshat Apps GitPulsar icon"/>
 					<figcaption>GitPulsar</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://flathub.org/apps/io.gitlab.ilshat_apps.manuscript">
 				<figure>
-					<img src="scalable/apps/io.gitlab.ilshat_apps.manuscript.svg" alt="Ilshat Apps Manuscript icon"/>
+					<img src="Adwaitaru/scalable/apps/io.gitlab.ilshat_apps.manuscript.svg" alt="Ilshat Apps Manuscript icon"/>
 					<figcaption>Manuscript</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://mimiri.io/">
 				<figure>
-					<img src="scalable/apps/mimiri-notes.svg" alt="Mimiri Notes icon"/>
+					<img src="Adwaitaru/scalable/apps/mimiri-notes.svg" alt="Mimiri Notes icon"/>
 					<figcaption>Mimiri Notes</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://flathub.org/apps/com.github.birros.WebArchives">
 				<figure>
-					<img src="scalable/apps/com.github.birros.WebArchives.svg" alt="Web Archives icon"/>
+					<img src="Adwaitaru/scalable/apps/com.github.birros.WebArchives.svg" alt="Web Archives icon"/>
 					<figcaption>WebArchives</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://journey.cloud/">
 				<figure>
-					<img src="scalable/apps/journey-desktop.svg" alt="Journey icon"/>
+					<img src="Adwaitaru/scalable/apps/journey-desktop.svg" alt="Journey icon"/>
 					<figcaption>Journey</figcaption>
+				</figure>
+			</a>
+			<a target="_blank" class="app" href="https://meetfranz.com/">
+				<figure>
+					<img src="Adwaitaru/scalable/apps/franz.svg" alt="Meet Franz Messenger icon"/>
+					<figcaption>Franz</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://cemu.info/">
 				<figure>
-					<img src="scalable/apps/cemu.svg" alt="Cemu Emulator Wii-U icon"/>
+					<img src="Adwaitaru/scalable/apps/cemu.svg" alt="Cemu Emulator Wii-U icon"/>
 					<figcaption>Cemu</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://apps.kde.org/es/drawy/">
 				<figure>
-					<img src="scalable/apps/drawy.svg" alt="KDE Drawy icon"/>
+					<img src="Adwaitaru/scalable/apps/drawy.svg" alt="KDE Drawy icon"/>
 					<figcaption>Drawy</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://nextcloud.com/">
 				<figure>
-					<img src="scalable/apps/nextcloud.svg" alt="NextCloud icon"/>
+					<img src="Adwaitaru/scalable/apps/nextcloud.svg" alt="NextCloud icon"/>
 					<figcaption>NextCloud</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://joplinapp.org/">
 				<figure>
-					<img src="scalable/apps/joplin.svg" alt="Joplin icon"/>
+					<img src="Adwaitaru/scalable/apps/joplin.svg" alt="Joplin icon"/>
 					<figcaption>Joplin</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://www.notes-foss.com/">
 				<figure>
-					<img src="scalable/apps/notes.svg" alt="Notes FOSS icon"/>
+					<img src="Adwaitaru/scalable/apps/notes.svg" alt="Notes FOSS icon"/>
 					<figcaption>Notes-FOSS</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://mindwtr.app/">
 				<figure>
-					<img src="scalable/apps/mindwtr.svg" alt="Mindwtr icon"/>
+					<img src="Adwaitaru/scalable/apps/mindwtr.svg" alt="Mindwtr icon"/>
 					<figcaption>Mindwtr</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://flathub.org/apps/io.github.alamahant.Jasmine">
 				<figure>
-					<img src="scalable/apps/io.github.alamahant.Jasmine.svg" alt="Jasmine Web Launcher icon"/>
+					<img src="Adwaitaru/scalable/apps/io.github.alamahant.Jasmine.svg" alt="Jasmine Web Launcher icon"/>
 					<figcaption>Jasmine</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://photoqt.org/">
 				<figure>
-					<img src="scalable/apps/photoqt.svg" alt="PhotoQt icon"/>
+					<img src="Adwaitaru/scalable/apps/photoqt.svg" alt="PhotoQt icon"/>
 					<figcaption>PhotoQt</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://photoqt.org/previewqt">
 				<figure>
-					<img src="scalable/apps/previewqt.svg" alt="PreviewQt icon"/>
+					<img src="Adwaitaru/scalable/apps/previewqt.svg" alt="PreviewQt icon"/>
 					<figcaption>PreviewQt</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://flathub.org/apps/me.iepure.devtoolbox">
 				<figure>
-					<img src="scalable/apps/me.iepure.devtoolbox.svg" alt="Dev Toolbox icon"/>
+					<img src="Adwaitaru/scalable/apps/me.iepure.devtoolbox.svg" alt="Dev Toolbox icon"/>
 					<figcaption>Developer Toolbox</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://appimagelauncher.com/">
 				<figure>
-					<img src="scalable/apps/AppImageLauncher.svg" alt="AppImage Launcher icon"/>
+					<img src="Adwaitaru/scalable/apps/AppImageLauncher.svg" alt="AppImage Launcher icon"/>
 					<figcaption>AppImage Launcher</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://termius.com/">
 				<figure>
-					<img src="scalable/apps/termius.svg" alt="Termius icon"/>
+					<img src="Adwaitaru/scalable/apps/termius.svg" alt="Termius icon"/>
 					<figcaption>Termius</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://www.stellarium.org/">
 				<figure>
-					<img src="scalable/apps/stellarium.svg" alt="Stellarium icon"/>
+					<img src="Adwaitaru/scalable/apps/stellarium.svg" alt="Stellarium icon"/>
 					<figcaption>Stellarium</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://wireframesketcher.com/">
 				<figure>
-					<img src="scalable/apps/wireframesketcher.svg" alt="Wireframe Sketcher icon"/>
+					<img src="Adwaitaru/scalable/apps/wireframesketcher.svg" alt="Wireframe Sketcher icon"/>
 					<figcaption>Wireframe Sketcher</figcaption>
+				</figure>
+			</a>
+			<a target="_blank" class="app" href="https://feedflow.dev/">
+				<figure>
+					<img src="Adwaitaru/scalable/apps/feedflow.svg" alt="FeedFlow icon"/>
+					<figcaption>FeedFlow</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://flathub.org/apps/com.ktechpit.colorsmith">
 				<figure>
-					<img src="scalable/apps/colorsmith.svg" alt="ColorSmith icon"/>
+					<img src="Adwaitaru/scalable/apps/colorsmith.svg" alt="ColorSmith icon"/>
 					<figcaption>ColorSmith</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://apps.kde.org/kasts/">
 				<figure>
-					<img src="scalable/apps/kasts.svg" alt="KDE Kasts icon"/>
+					<img src="Adwaitaru/scalable/apps/kasts.svg" alt="KDE Kasts icon"/>
 					<figcaption>Kasts</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://nuclearplayer.com/">
 				<figure>
-					<img src="scalable/apps/nuclear.svg" alt="Nuclear Player icon"/>
+					<img src="Adwaitaru/scalable/apps/nuclear.svg" alt="Nuclear Player icon"/>
 					<figcaption>Nuclear</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://flathub.org/apps/org.x.Warpinator">
 				<figure>
-					<img src="scalable/apps/warpinator.svg" alt="Warpinator icon"/>
+					<img src="Adwaitaru/scalable/apps/warpinator.svg" alt="Warpinator icon"/>
 					<figcaption>Warpinator</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://thegates.io/">
 				<figure>
-					<img src="scalable/apps/io.itch.nordup.TheGates.svg" alt="The Gates Browser icon"/>
+					<img src="Adwaitaru/scalable/apps/io.itch.nordup.TheGates.svg" alt="The Gates Browser icon"/>
 					<figcaption>The Gates</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://devpod.sh/">
 				<figure>
-					<img src="scalable/apps/devpod.svg" alt="DevPod icon"/>
+					<img src="Adwaitaru/scalable/apps/devpod.svg" alt="DevPod icon"/>
 					<figcaption>DevPod</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://slack.com/">
 				<figure>
-					<img src="scalable/apps/slack.svg" alt="Slack icon"/>
+					<img src="Adwaitaru/scalable/apps/slack.svg" alt="Slack icon"/>
 					<figcaption>Slack</figcaption>
 				</figure>
 			</a>
-			<a target="_blank" class="app" href="https://desktop.telegram.org/">
+			<a target="_blank" class="app" href="https://apps.gnome.org/app/re.sonny.Tangram/">
 				<figure>
-					<img src="scalable/apps/re.sonny.Tangram.svg" alt="Tangram Browser icon"/>
+					<img src="Adwaitaru/scalable/apps/re.sonny.Tangram.svg" alt="Tangram Browser icon"/>
 					<figcaption>Tangram</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://www.affinity.studio/">
 				<figure>
-					<img src="scalable/apps/affinity.svg" alt="Affinity icon"/>
+					<img src="Adwaitaru/scalable/apps/affinity.svg" alt="Affinity icon"/>
 					<figcaption>Affinity Suite</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://httpie.io/desktop">
 				<figure>
-					<img src="scalable/apps/HTTPie.svg" alt="HTTPie icon"/>
+					<img src="Adwaitaru/scalable/apps/HTTPie.svg" alt="HTTPie icon"/>
 					<figcaption>HTTPie</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://www.edrawmind.com/">
 				<figure>
-					<img src="scalable/apps/mindmaster.svg" alt="MindMaster / eDrawMind icon"/>
+					<img src="Adwaitaru/scalable/apps/mindmaster.svg" alt="MindMaster / eDrawMind icon"/>
 					<figcaption>MindMaster</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://www.edrawmind.com/">
 				<figure>
-					<img src="scalable/apps/mindmaster.svg" alt="MindMaster / eDrawMind icon"/>
+					<img src="Adwaitaru/scalable/apps/mindmaster.svg" alt="MindMaster / eDrawMind icon"/>
 					<figcaption>eDrawMind</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://tabletopclub.net/">
 				<figure>
-					<img src="scalable/apps/net.tabletopclub.TabletopClub.svg" alt="TableTop Club Games icon"/>
+					<img src="Adwaitaru/scalable/apps/net.tabletopclub.TabletopClub.svg" alt="TableTop Club Games icon"/>
 					<figcaption>TableTop Club</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://bambulab.com/">
 				<figure>
-					<img src="scalable/apps/bambustudio.svg" alt="Bambu Studio icon"/>
+					<img src="Adwaitaru/scalable/apps/bambustudio.svg" alt="Bambu Studio icon"/>
 					<figcaption>Bambu Studio</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://lmms.io/">
 				<figure>
-					<img src="scalable/apps/lmms.svg" alt="Linux Multimedia Studio (LMMS) icon"/>
+					<img src="Adwaitaru/scalable/apps/lmms.svg" alt="Linux Multimedia Studio (LMMS) icon"/>
 					<figcaption>Linux Multimedia Studio</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://www.zettlr.com/">
 				<figure>
-					<img src="scalable/apps/zettlr.svg" alt="Zettlr icon"/>
+					<img src="Adwaitaru/scalable/apps/zettlr.svg" alt="Zettlr icon"/>
 					<figcaption>Zettlr</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://www.arduino.cc/">
 				<figure>
-					<img src="scalable/apps/arduino.svg" alt="Arduino icon"/>
+					<img src="Adwaitaru/scalable/apps/arduino.svg" alt="Arduino icon"/>
 					<figcaption>Arduino</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://ente.com/">
 				<figure>
-					<img src="scalable/apps/ente.svg" alt="Ente Photos icon"/>
+					<img src="Adwaitaru/scalable/apps/ente.svg" alt="Ente Photos icon"/>
 					<figcaption>Ente Photos</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://ente.com/auth">
 				<figure>
-					<img src="scalable/apps/ente-auth.svg" alt="Ente Authenticator icon"/>
+					<img src="Adwaitaru/scalable/apps/ente-auth.svg" alt="Ente Authenticator icon"/>
 					<figcaption>Ente Auth</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://opentoonz.github.io/e/">
 				<figure>
-					<img src="scalable/apps/opentoonz.svg" alt="OpenToonz icon"/>
+					<img src="Adwaitaru/scalable/apps/opentoonz.svg" alt="OpenToonz icon"/>
 					<figcaption>OpenToonz</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://morevnaproject.org/opentoonz/">
 				<figure>
-					<img src="scalable/apps/opentoonz-morevna.svg" alt="OpenToonz (Morevna Edition) icon"/>
+					<img src="Adwaitaru/scalable/apps/opentoonz-morevna.svg" alt="OpenToonz (Morevna Edition) icon"/>
 					<figcaption>OpenToonz Morevna</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://flathub.org/apps/dev.mariinkys.Cedilla">
 				<figure>
-					<img src="scalable/apps/dev.mariinkys.Cedilla.svg" alt="Cedilla icon"/>
+					<img src="Adwaitaru/scalable/apps/dev.mariinkys.Cedilla.svg" alt="Cedilla icon"/>
 					<figcaption>Cedilla</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://www.yacreader.com/">
 				<figure>
-					<img src="scalable/apps/YACReader.svg" alt="Yet Another Comic Reader (YACR) icon"/>
+					<img src="Adwaitaru/scalable/apps/YACReader.svg" alt="Yet Another Comic Reader (YACR) icon"/>
 					<figcaption>Yet Another Comic Reader</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://flathub.org/apps/io.gitlab.persiangolf.voicegen">
 				<figure>
-					<img src="scalable/apps/voicegen.svg" alt="VoiceGen icon"/>
+					<img src="Adwaitaru/scalable/apps/voicegen.svg" alt="VoiceGen icon"/>
 					<figcaption>VoiceGen</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://about.draw.io/">
 				<figure>
-					<img src="scalable/apps/draw.io.svg" alt="draw.io icon"/>
+					<img src="Adwaitaru/scalable/apps/draw.io.svg" alt="draw.io icon"/>
 					<figcaption>draw.io</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://flathub.org/apps/com.github.sakya.corechess">
 				<figure>
-					<img src="scalable/apps/corechess.svg" alt="CoreChess icon"/>
+					<img src="Adwaitaru/scalable/apps/corechess.svg" alt="CoreChess icon"/>
 					<figcaption>CoreChess</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://www.endlessos.org/">
 				<figure>
-					<img src="scalable/apps/org.endlessos.Key.svg" alt="Endless Key icon"/>
+					<img src="Adwaitaru/scalable/apps/org.endlessos.Key.svg" alt="Endless Key icon"/>
 					<figcaption>Endless Key</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://mauikit.org/apps/vvave/">
 				<figure>
-					<img src="scalable/apps/vvave.svg" alt="KDE Wave / VVave icon"/>
+					<img src="Adwaitaru/scalable/apps/vvave.svg" alt="KDE Wave / VVave icon"/>
 					<figcaption>VVave</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://revolt.chat/">
 				<figure>
-					<img src="scalable/apps/revolt-desktop.svg" alt="Revolt icon"/>
+					<img src="Adwaitaru/scalable/apps/revolt-desktop.svg" alt="Revolt icon"/>
 					<figcaption>Revolt</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://redis.com/redis-enterprise/redis-insight/">
 				<figure>
-					<img src="scalable/apps/redisinsight.svg" alt="Redis Insight icon"/>
+					<img src="Adwaitaru/scalable/apps/redisinsight.svg" alt="Redis Insight icon"/>
 					<figcaption>Redis Insight</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://snapcraft.io/another-redis-desktop-manager">
 				<figure>
-					<img src="scalable/apps/another-redis-desktop-manager.svg" alt="Another Redis Desktop Manager icon"/>
+					<img src="Adwaitaru/scalable/apps/another-redis-desktop-manager.svg" alt="Another Redis Desktop Manager icon"/>
 					<figcaption>Another Redis</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://www.nomachine.com/">
 				<figure>
-					<img src="scalable/apps/NoMachine-icon.svg" alt="NoMachine icon"/>
+					<img src="Adwaitaru/scalable/apps/NoMachine-icon.svg" alt="NoMachine icon"/>
 					<figcaption>NoMachine</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://apps.kde.org/audiotube">
 				<figure>
-					<img src="scalable/apps/audiotube.svg" alt="KDE AudioTube icon"/>
+					<img src="Adwaitaru/scalable/apps/audiotube.svg" alt="KDE AudioTube icon"/>
 					<figcaption>AudioTube</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://www.anydesk.com/">
 				<figure>
-					<img src="scalable/apps/anydesk.svg" alt="AnyDesk icon"/>
+					<img src="Adwaitaru/scalable/apps/anydesk.svg" alt="AnyDesk icon"/>
 					<figcaption>AnyDesk</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://www.tabos.org/projects/blood-pressue/">
 				<figure>
-					<img src="scalable/apps/org.tabos.bloodpressure.svg" alt="Blood Pressure icon"/>
+					<img src="Adwaitaru/scalable/apps/org.tabos.bloodpressure.svg" alt="Blood Pressure icon"/>
 					<figcaption>Blood Pressure</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://todoist.com/">
 				<figure>
-					<img src="scalable/apps/todoist.svg" alt="Todoist icon"/>
+					<img src="Adwaitaru/scalable/apps/todoist.svg" alt="Todoist icon"/>
 					<figcaption>Todoist</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://www.zrythm.org/">
 				<figure>
-					<img src="scalable/apps/zrythm.svg" alt="Zrythm icon"/>
+					<img src="Adwaitaru/scalable/apps/zrythm.svg" alt="Zrythm icon"/>
 					<figcaption>Zrythm</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://flathub.org/apps/net.xmind.XMind">
 				<figure>
-					<img src="scalable/apps/xmind.svg" alt="Xmind (2025) icon"/>
+					<img src="Adwaitaru/scalable/apps/xmind.svg" alt="Xmind (2025) icon"/>
 					<figcaption>Xmind 2025</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://flathub.org/apps/net.xmind.XMind8">
 				<figure>
-					<img src="scalable/apps/net.xmind.XMind8.svg" alt="Xmind 8 icon"/>
+					<img src="Adwaitaru/scalable/apps/net.xmind.XMind8.svg" alt="Xmind 8 icon"/>
 					<figcaption>Xmind 8</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://rocket.chat/">
 				<figure>
-					<img src="scalable/apps/rocketchat.svg" alt="Rocket Chat icon"/>
+					<img src="Adwaitaru/scalable/apps/rocketchat.svg" alt="Rocket Chat icon"/>
 					<figcaption>Rocket Chat</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://about.draw.io/">
 				<figure>
-					<img src="scalable/apps/itch.svg" alt="itch.io icon"/>
+					<img src="Adwaitaru/scalable/apps/itch.svg" alt="itch.io icon"/>
 					<figcaption>itch.io</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://www.pymol.org/">
 				<figure>
-					<img src="scalable/apps/pymol.svg" alt="Python Molecular Graphics icon"/>
+					<img src="Adwaitaru/scalable/apps/pymol.svg" alt="Python Molecular Graphics icon"/>
 					<figcaption>Python Molecular Graphics</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://mauikit.org/apps/pix">
 				<figure>
-					<img src="scalable/apps/pix.svg" alt="KDE Pix icon"/>
+					<img src="Adwaitaru/scalable/apps/pix.svg" alt="KDE Pix icon"/>
 					<figcaption>Pix</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://tesk.page/upscaler">
 				<figure>
-					<img src="scalable/apps/io.gitlab.theevilskeleton.Upscaler.svg" alt="Upscaler icon"/>
+					<img src="Adwaitaru/scalable/apps/io.gitlab.theevilskeleton.Upscaler.svg" alt="Upscaler icon"/>
 					<figcaption>Upscaler</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://cantor.kde.org/">
 				<figure>
-					<img src="scalable/apps/cantor.svg" alt="KDE Cantor icon"/>
+					<img src="Adwaitaru/scalable/apps/cantor.svg" alt="KDE Cantor icon"/>
 					<figcaption>Cantor</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://alacritty.org/">
 				<figure>
-					<img src="scalable/apps/alacritty.svg" alt="Alacritty icon"/>
+					<img src="Adwaitaru/scalable/apps/alacritty.svg" alt="Alacritty icon"/>
 					<figcaption>Alacritty</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://flathub.org/apps/io.github.nokse22.teleprompter">
 				<figure>
-					<img src="scalable/apps/teleprompter.svg" alt="Teleprompter icon"/>
+					<img src="Adwaitaru/scalable/apps/teleprompter.svg" alt="Teleprompter icon"/>
 					<figcaption>Teleprompter</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://gqrx.dk/">
 				<figure>
-					<img src="scalable/apps/gqrx.svg" alt="GQRX icon"/>
+					<img src="Adwaitaru/scalable/apps/gqrx.svg" alt="GQRX icon"/>
 					<figcaption>GQRX</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://flathub.org/apps/com.gitlab.cutecom.cutecom">
 				<figure>
-					<img src="scalable/apps/cutecom.svg" alt="Cutecom icon"/>
+					<img src="Adwaitaru/scalable/apps/cutecom.svg" alt="Cutecom icon"/>
 					<figcaption>Cutecom</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://help.gnome.org/gnome-terminal/">
 				<figure>
-					<img src="scalable/apps/org.gnome.Terminal.svg" alt="Gnome Terminal icon"/>
+					<img src="Adwaitaru/scalable/apps/org.gnome.Terminal.svg" alt="Gnome Terminal icon"/>
 					<figcaption>Terminal</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://apps.gnome.org/es/Console/">
 				<figure>
-					<img src="scalable/apps/org.gnome.Console.svg" alt="Gnome Console icon"/>
+					<img src="Adwaitaru/scalable/apps/org.gnome.Console.svg" alt="Gnome Console icon"/>
 					<figcaption>Console</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://flathub.org/apps/app.devsuite.Ptyxis">
 				<figure>
-					<img src="scalable/apps/org.gnome.Ptyxis.svg" alt="Ptyxis icon"/>
+					<img src="Adwaitaru/scalable/apps/org.gnome.Ptyxis.svg" alt="Ptyxis icon"/>
 					<figcaption>Ptyxis</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://cudatext.github.io/">
 				<figure>
-					<img src="scalable/apps/cudatext-512.svg" alt="CudaText icon"/>
+					<img src="Adwaitaru/scalable/apps/cudatext-512.svg" alt="CudaText icon"/>
 					<figcaption>CudaText</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://www.tominlab.com/en/wonderpen">
 				<figure>
-					<img src="scalable/apps/wonderpen.svg" alt="WonderPen icon"/>
+					<img src="Adwaitaru/scalable/apps/wonderpen.svg" alt="WonderPen icon"/>
 					<figcaption>WonderPen</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://www.sublimetext.com/">
 				<figure>
-					<img src="scalable/apps/sublime-text.svg" alt="Sublime Text icon"/>
+					<img src="Adwaitaru/scalable/apps/sublime-text.svg" alt="Sublime Text icon"/>
 					<figcaption>Sublime Text</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://www.sublimemerge.com/">
 				<figure>
-					<img src="scalable/apps/sublime-merge.svg" alt="Sublime Merge icon"/>
+					<img src="Adwaitaru/scalable/apps/sublime-merge.svg" alt="Sublime Merge icon"/>
 					<figcaption>Sublime Merge</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://plex.tv/">
 				<figure>
-					<img src="scalable/apps/plex.svg" alt="Plex icon"/>
+					<img src="Adwaitaru/scalable/apps/plex.svg" alt="Plex icon"/>
 					<figcaption>Plex</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://support.plex.tv/articles/htpc-getting-started/">
 				<figure>
-					<img src="scalable/apps/plex-htpc.svg" alt="Plex HTPC icon"/>
+					<img src="Adwaitaru/scalable/apps/plex-htpc.svg" alt="Plex HTPC icon"/>
 					<figcaption>Plex HTPC</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://plex.tv/plexamp">
 				<figure>
-					<img src="scalable/apps/plexamp.svg" alt="PlexAmp icon"/>
+					<img src="Adwaitaru/scalable/apps/plexamp.svg" alt="PlexAmp icon"/>
 					<figcaption>PlexAmp</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://photoflare.io/">
 				<figure>
-					<img src="scalable/apps/photoflare.svg" alt="PhotoFlare icon"/>
+					<img src="Adwaitaru/scalable/apps/photoflare.svg" alt="PhotoFlare icon"/>
 					<figcaption>PhotoFlare</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://flathub.org/apps/io.github.ans_ibrahim.Memento">
 				<figure>
-					<img src="scalable/apps/io.github.ans_ibrahim.Memento.svg" alt="Memento icon"/>
+					<img src="Adwaitaru/scalable/apps/io.github.ans_ibrahim.Memento.svg" alt="Memento icon"/>
 					<figcaption>Memento</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://portswigger.net/burp">
 				<figure>
-					<img src="scalable/apps/burp.svg" alt="Burp Suite icon"/>
+					<img src="Adwaitaru/scalable/apps/burp.svg" alt="Burp Suite icon"/>
 					<figcaption>Burp Suite</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://portswigger.net/burp/communitydownload">
 				<figure>
-					<img src="scalable/apps/BurpSuiteCommunity.svg" alt="Burp Suite Community Edition icon"/>
+					<img src="Adwaitaru/scalable/apps/BurpSuiteCommunity.svg" alt="Burp Suite Community Edition icon"/>
 					<figcaption>Burp Suite Community</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://spaceinbox.me/actioneer">
 				<figure>
-					<img src="scalable/apps/actioneer.svg" alt="Actioneer icon"/>
+					<img src="Adwaitaru/scalable/apps/actioneer.svg" alt="Actioneer icon"/>
 					<figcaption>Actioneer</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://www.open-aec.com/open-2d-studio/">
 				<figure>
-					<img src="scalable/apps/open-2d-studio.svg" alt="Open 2D Studio icon"/>
+					<img src="Adwaitaru/scalable/apps/open-2d-studio.svg" alt="Open 2D Studio icon"/>
 					<figcaption>Open 2D Studio</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://friction.graphics/">
 				<figure>
-					<img src="scalable/apps/friction.svg" alt="Friction Graphics icon"/>
+					<img src="Adwaitaru/scalable/apps/friction.svg" alt="Friction Graphics icon"/>
 					<figcaption>Friction</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://jliljebl.github.io/flowblade/">
 				<figure>
-					<img src="scalable/apps/flowblade.svg" alt="Flowblade Editor icon"/>
+					<img src="Adwaitaru/scalable/apps/flowblade.svg" alt="Flowblade Editor icon"/>
 					<figcaption>Flowblade</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://flathub.org/apps/com.matthiasn.lotti">
 				<figure>
-					<img src="scalable/apps/com.matthiasn.lotti.svg" alt="Lotti icon"/>
+					<img src="Adwaitaru/scalable/apps/com.matthiasn.lotti.svg" alt="Lotti icon"/>
 					<figcaption>Lotti</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://vpn.mozilla.org/">
 				<figure>
-					<img src="scalable/apps/mozillavpn.svg" alt="Mozilla VPN icon"/>
+					<img src="Adwaitaru/scalable/apps/mozillavpn.svg" alt="Mozilla VPN icon"/>
 					<figcaption>Mozilla VPN</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://snapcraft.io/hammer-editor">
 				<figure>
-					<img src="scalable/apps/hammer-editor.svg" alt="Hammer Editor icon"/>
+					<img src="Adwaitaru/scalable/apps/hammer-editor.svg" alt="Hammer Editor icon"/>
 					<figcaption>Hammer Editor</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://whis.ink/">
 				<figure>
-					<img src="scalable/apps/whis.svg" alt="Whis icon"/>
+					<img src="Adwaitaru/scalable/apps/whis.svg" alt="Whis icon"/>
 					<figcaption>Whis</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://zed.dev/">
 				<figure>
-					<img src="scalable/apps/zed.svg" alt="Zed icon"/>
+					<img src="Adwaitaru/scalable/apps/zed.svg" alt="Zed icon"/>
 					<figcaption>Zed</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://zen-browser.app/">
 				<figure>
-					<img src="scalable/apps/zen-browser.svg" alt="Zen Browser icon"/>
+					<img src="Adwaitaru/scalable/apps/zen-browser.svg" alt="Zen Browser icon"/>
 					<figcaption>Zen Browser</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://openwebui.com/">
 				<figure>
-					<img src="scalable/apps/open-webui.svg" alt="Open WebUI icon"/>
+					<img src="Adwaitaru/scalable/apps/open-webui.svg" alt="Open WebUI icon"/>
 					<figcaption>Open WebUI</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://notesnook.com/">
 				<figure>
-					<img src="scalable/apps/notesnook.svg" alt="NoteSnook icon"/>
+					<img src="Adwaitaru/scalable/apps/notesnook.svg" alt="NoteSnook icon"/>
 					<figcaption>NoteSnook</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://anytype.io/">
 				<figure>
-					<img src="scalable/apps/anytype.svg" alt="AnyType icon"/>
+					<img src="Adwaitaru/scalable/apps/anytype.svg" alt="AnyType icon"/>
 					<figcaption>AnyType</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://flathub.org/apps/org.gnome.NetworkDisplays">
 				<figure>
-					<img src="scalable/apps/org.gnome.NetworkDisplays.svg" alt="Gnome Network Displays icon"/>
+					<img src="Adwaitaru/scalable/apps/org.gnome.NetworkDisplays.svg" alt="Gnome Network Displays icon"/>
 					<figcaption>Network Displays</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://flathub.org/apps/org.kde.krdc">
 				<figure>
-					<img src="scalable/apps/krdc.svg" alt="KDE KRDC icon"/>
+					<img src="Adwaitaru/scalable/apps/krdc.svg" alt="KDE KRDC icon"/>
 					<figcaption>KRDC</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://mauikit.org/apps/index">
 				<figure>
-					<img src="scalable/apps/index.svg" alt="KDE Index icon"/>
+					<img src="Adwaitaru/scalable/apps/index.svg" alt="KDE Index icon"/>
 					<figcaption>Index</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://flathub.org/apps/io.github.juancarlosbernal.FolderPlay">
 				<figure>
-					<img src="scalable/apps/io.github.juancarlosbernal.FolderPlay.svg" alt="FolderPlay icon"/>
+					<img src="Adwaitaru/scalable/apps/io.github.juancarlosbernal.FolderPlay.svg" alt="FolderPlay icon"/>
 					<figcaption>FolderPlay</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://glade.gnome.org/">
 				<figure>
-					<img src="scalable/apps/org.gnome.Glade.svg" alt="Gnome Glade Designer icon"/>
+					<img src="Adwaitaru/scalable/apps/org.gnome.Glade.svg" alt="Gnome Glade Designer icon"/>
 					<figcaption>Glade Designer</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://apps.gnome.org/Graphs/">
 				<figure>
-					<img src="scalable/apps/se.sjoerd.Graphs.svg" alt="Graphs icon"/>
+					<img src="Adwaitaru/scalable/apps/se.sjoerd.Graphs.svg" alt="Graphs icon"/>
 					<figcaption>Graphs</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://readest.com/">
 				<figure>
-					<img src="scalable/apps/readest.svg" alt="Readest icon"/>
+					<img src="Adwaitaru/scalable/apps/readest.svg" alt="Readest icon"/>
 					<figcaption>Readest</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://apps.gnome.org/Podcasts/">
 				<figure>
-					<img src="scalable/apps/org.gnome.Podcasts.svg" alt="Gnome Podcasts icon"/>
+					<img src="Adwaitaru/scalable/apps/org.gnome.Podcasts.svg" alt="Gnome Podcasts icon"/>
 					<figcaption>Podcasts</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://www.ntrack.com/">
 				<figure>
-					<img src="scalable/apps/n-trackstudio.svg" alt="n-track Studio icon"/>
+					<img src="Adwaitaru/scalable/apps/n-trackstudio.svg" alt="n-track Studio icon"/>
 					<figcaption>n-track Studio</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://apps.gnome.org/Maps/">
 				<figure>
-					<img src="scalable/apps/org.gnome.Maps.svg" alt="Gnome Maps icon"/>
+					<img src="Adwaitaru/scalable/apps/org.gnome.Maps.svg" alt="Gnome Maps icon"/>
 					<figcaption>Maps</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://apps.gnome.org/Workbench/">
 				<figure>
-					<img src="scalable/apps/re.sonny.Workbench.svg" alt="Workbench icon"/>
+					<img src="Adwaitaru/scalable/apps/re.sonny.Workbench.svg" alt="Workbench icon"/>
 					<figcaption>Workbench</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://wiki.gnome.org/Apps/Seahorse">
 				<figure>
-					<img src="scalable/apps/org.gnome.seahorse.Application.svg" alt="Gnome Password Manager icon"/>
+					<img src="Adwaitaru/scalable/apps/org.gnome.seahorse.Application.svg" alt="Gnome Password Manager icon"/>
 					<figcaption>Passwords and Keys</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://minuet.kde.org/">
 				<figure>
-					<img src="scalable/apps/minuet.svg" alt="KDE Minuet icon"/>
+					<img src="Adwaitaru/scalable/apps/minuet.svg" alt="KDE Minuet icon"/>
 					<figcaption>Minuet</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://flathub.org/apps/io.github.tuner_labs.tuner">
 				<figure>
-					<img src="scalable/apps/com.github.louis77.tuner.svg" alt="Tuner icon"/>
+					<img src="Adwaitaru/scalable/apps/com.github.louis77.tuner.svg" alt="Tuner icon"/>
 					<figcaption>Tuner</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://flathub.org/apps/io.github.meehow.Receiver">
 				<figure>
-					<img src="scalable/apps/receiver.svg" alt="Receiver icon"/>
+					<img src="Adwaitaru/scalable/apps/receiver.svg" alt="Receiver icon"/>
 					<figcaption>Receiver</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://goodvibes.readthedocs.io/">
 				<figure>
-					<img src="scalable/apps/goodvibes.svg" alt="Goodvibes icon"/>
+					<img src="Adwaitaru/scalable/apps/goodvibes.svg" alt="Goodvibes icon"/>
 					<figcaption>Goodvibes</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://apps.gnome.org/Shortwave/">
 				<figure>
-					<img src="scalable/apps/de.haeckerfelix.Shortwave.svg" alt="Shortwave icon"/>
+					<img src="Adwaitaru/scalable/apps/de.haeckerfelix.Shortwave.svg" alt="Shortwave icon"/>
 					<figcaption>Shortwave</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://apps.gnome.org/Software/">
 				<figure>
-					<img src="scalable/apps/org.gnome.Software.svg" alt="Gnome Software Store icon"/>
+					<img src="Adwaitaru/scalable/apps/org.gnome.Software.svg" alt="Gnome Software Store icon"/>
 					<figcaption>Software</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://snapcraft.io/">
 				<figure>
-					<img src="scalable/apps/software-store.svg" alt="Ubuntu Software Center icon"/>
+					<img src="Adwaitaru/scalable/apps/software-store.svg" alt="Ubuntu Software Center icon"/>
 					<figcaption>Ubuntu Software</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://snapcraft.io/">
 				<figure>
-					<img src="scalable/apps/snap-store.svg" alt="Ubuntu Snap Store icon"/>
+					<img src="Adwaitaru/scalable/apps/snap-store.svg" alt="Ubuntu Snap Store icon"/>
 					<figcaption>Snap Store</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://gitlab.gnome.org/GNOME/gnome-usage">
 				<figure>
-					<img src="scalable/apps/org.gnome.Usage.svg" alt="Gnome Usage App icon"/>
+					<img src="Adwaitaru/scalable/apps/org.gnome.Usage.svg" alt="Gnome Usage App icon"/>
 					<figcaption>Usage</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://apps.gnome.org/SystemMonitor/">
 				<figure>
-					<img src="scalable/apps/org.gnome.SystemMonitor.svg" alt="Gnome System Monitor icon"/>
+					<img src="Adwaitaru/scalable/apps/org.gnome.SystemMonitor.svg" alt="Gnome System Monitor icon"/>
 					<figcaption>System Monitor</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://labplot.org/">
 				<figure>
-					<img src="scalable/apps/labplot.svg" alt="KDE LabPlot icon"/>
+					<img src="Adwaitaru/scalable/apps/labplot.svg" alt="KDE LabPlot icon"/>
 					<figcaption>LabPlot</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://kdenlive.org/">
 				<figure>
-					<img src="scalable/apps/kdenlive.svg" alt="KDEnlive icon"/>
+					<img src="Adwaitaru/scalable/apps/kdenlive.svg" alt="KDEnlive icon"/>
 					<figcaption>KDEnlive</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://aerion.3df.io/">
 				<figure>
-					<img src="scalable/apps/io.github.hkdb.Aerion.svg" alt="Aerion Mail icon"/>
+					<img src="Adwaitaru/scalable/apps/io.github.hkdb.Aerion.svg" alt="Aerion Mail icon"/>
 					<figcaption>Aerion Mail</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://www.pitivi.org/">
 				<figure>
-					<img src="scalable/apps/pitivi.svg" alt="Pitivi Editor icon"/>
+					<img src="Adwaitaru/scalable/apps/pitivi.svg" alt="Pitivi Editor icon"/>
 					<figcaption>Pitivi</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://rafostar.github.io/clapper">
 				<figure>
-					<img src="scalable/apps/clapper.svg" alt="Clapper icon"/>
+					<img src="Adwaitaru/scalable/apps/clapper.svg" alt="Clapper icon"/>
 					<figcaption>Clapper</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://www.avidemux.org/">
 				<figure>
-					<img src="scalable/apps/avidemux.svg" alt="Avidemux icon"/>
+					<img src="Adwaitaru/scalable/apps/avidemux.svg" alt="Avidemux icon"/>
 					<figcaption>Avidemux</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://www.shotcut.org/">
 				<figure>
-					<img src="scalable/apps/shotcut.svg" alt="ShotCut Editor icon"/>
+					<img src="Adwaitaru/scalable/apps/shotcut.svg" alt="ShotCut Editor icon"/>
 					<figcaption>ShotCut</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://apps.kde.org/elisa">
 				<figure>
-					<img src="scalable/apps/elisa.svg" alt="KDE Elisa Player icon"/>
+					<img src="Adwaitaru/scalable/apps/elisa.svg" alt="KDE Elisa Player icon"/>
 					<figcaption>Elisa</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://otsaloma.io/gaupol/">
 				<figure>
-					<img src="scalable/apps/gaupol.svg" alt="Gaupol icon"/>
+					<img src="Adwaitaru/scalable/apps/gaupol.svg" alt="Gaupol icon"/>
 					<figcaption>Gaupol</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://apps.gnome.org/es/Sysprof/">
 				<figure>
-					<img src="scalable/apps/org.gnome.Sysprof.svg" alt="Gnome System Profiler icon"/>
+					<img src="Adwaitaru/scalable/apps/org.gnome.Sysprof.svg" alt="Gnome System Profiler icon"/>
 					<figcaption>System Profiler</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://flathub.org/apps/com.lynnmichaelmartin.TimeTracker">
 				<figure>
-					<img src="scalable/apps/com.lynnmichaelmartin.TimeTracker.svg" alt="Time Tracker icon"/>
+					<img src="Adwaitaru/scalable/apps/com.lynnmichaelmartin.TimeTracker.svg" alt="Time Tracker icon"/>
 					<figcaption>Time Tracker</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://www.blender.org/">
 				<figure>
-					<img src="scalable/apps/blender.svg" alt="Blender 3D Studio icon"/>
+					<img src="Adwaitaru/scalable/apps/blender.svg" alt="Blender 3D Studio icon"/>
 					<figcaption>Blender</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://apps.gnome.org/Weather/">
 				<figure>
-					<img src="scalable/apps/org.gnome.Weather.svg" alt="Gnome Weather icon"/>
+					<img src="Adwaitaru/scalable/apps/org.gnome.Weather.svg" alt="Gnome Weather icon"/>
 					<figcaption>Weather</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://wiki.gnome.org/Apps/Photos">
 				<figure>
-					<img src="scalable/apps/org.gnome.Photos.svg" alt="Gnome Photos icon"/>
+					<img src="Adwaitaru/scalable/apps/org.gnome.Photos.svg" alt="Gnome Photos icon"/>
 					<figcaption>Photos</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://gearlever.mijorus.it/">
 				<figure>
-					<img src="scalable/apps/it.mijorus.gearlever.svg" alt="Gear Lever icon"/>
+					<img src="Adwaitaru/scalable/apps/it.mijorus.gearlever.svg" alt="Gear Lever icon"/>
 					<figcaption>Gear Lever</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://apps.gnome.org/Settings/">
 				<figure>
-					<img src="scalable/apps/org.gnome.Settings.svg" alt="Gnome Settings icon"/>
+					<img src="Adwaitaru/scalable/apps/org.gnome.Settings.svg" alt="Gnome Settings icon"/>
 					<figcaption>Settings</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://kdevelop.org/">
 				<figure>
-					<img src="scalable/apps/kdevelop.svg" alt="KDEvelop icon"/>
+					<img src="Adwaitaru/scalable/apps/kdevelop.svg" alt="KDEvelop icon"/>
 					<figcaption>KDEvelop</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://kde.org/applications/development/kcachegrind/">
 				<figure>
-					<img src="scalable/apps/kcachegrind.svg" alt="KDE KCacheGrind icon"/>
+					<img src="Adwaitaru/scalable/apps/kcachegrind.svg" alt="KDE KCacheGrind icon"/>
 					<figcaption>KCacheGrind</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://apps.kde.org/rocs">
 				<figure>
-					<img src="scalable/apps/rocs.svg" alt="KDE Rocs icon"/>
+					<img src="Adwaitaru/scalable/apps/rocs.svg" alt="KDE Rocs icon"/>
 					<figcaption>Rocs</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://www.gimp.org/">
 				<figure>
-					<img src="scalable/apps/gimp.svg" alt="GNU Image Manipulation Program (GIMP) Wilbur icon"/>
+					<img src="Adwaitaru/scalable/apps/gimp.svg" alt="GNU Image Manipulation Program (GIMP) Wilbur icon"/>
 					<figcaption>GIMP</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://1password.com/">
 				<figure>
-					<img src="scalable/apps/1password.svg" alt="1Password icon"/>
+					<img src="Adwaitaru/scalable/apps/1password.svg" alt="1Password icon"/>
 					<figcaption>1Password</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://appimage.github.io/Altus/">
 				<figure>
-					<img src="scalable/apps/altus.svg" alt="Altus icon"/>
+					<img src="Adwaitaru/scalable/apps/altus.svg" alt="Altus icon"/>
 					<figcaption>Altus</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://aonsoku.vercel.app/">
 				<figure>
-					<img src="scalable/apps/io.github.victoralvesf.aonsoku.svg" alt="Aonsoku icon"/>
+					<img src="Adwaitaru/scalable/apps/io.github.victoralvesf.aonsoku.svg" alt="Aonsoku icon"/>
 					<figcaption>Aonsoku</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://www.bitwig.com/">
 				<figure>
-					<img src="scalable/apps/bitwig-studio.svg" alt="Bitwig Studio icon"/>
+					<img src="Adwaitaru/scalable/apps/bitwig-studio.svg" alt="Bitwig Studio icon"/>
 					<figcaption>Bitwig Studio</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://chidiwilliams.github.io/buzz/docs">
 				<figure>
-					<img src="scalable/apps/buzz.svg" alt="Buzz icon"/>
+					<img src="Adwaitaru/scalable/apps/buzz.svg" alt="Buzz icon"/>
 					<figcaption>Buzz</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://chrome.google.com/">
 				<figure>
-					<img src="scalable/apps/chrome.svg" alt="Google Chrome icon"/>
+					<img src="Adwaitaru/scalable/apps/chrome.svg" alt="Google Chrome icon"/>
 					<figcaption>Google Chrome</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://www.chromium.org/Home">
 				<figure>
-					<img src="scalable/apps/chromium.svg" alt="Chromium icon"/>
+					<img src="Adwaitaru/scalable/apps/chromium.svg" alt="Chromium icon"/>
 					<figcaption>Chromium</figcaption>
+				</figure>
+			</a>
+			<a target="_blank" class="app" href="https://flathub.org/apps/com.github.z.Cumulonimbus">
+				<figure>
+					<img src="Adwaitaru/scalable/apps/cpod.svg" alt="Cpod Cumulonimbus icon"/>
+					<figcaption>CPod</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://www.darktable.org/">
 				<figure>
-					<img src="scalable/apps/darktable.svg" alt="Darktable icon"/>
+					<img src="Adwaitaru/scalable/apps/darktable.svg" alt="Darktable icon"/>
 					<figcaption>Darktable</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://www.blackmagicdesign.com/products/davinciresolve">
 				<figure>
-					<img src="scalable/apps/resolve.svg" alt="DaVinci Resolve icon"/>
+					<img src="Adwaitaru/scalable/apps/resolve.svg" alt="DaVinci Resolve icon"/>
 					<figcaption>DaVinci Resolve</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://discord.com/">
 				<figure>
-					<img src="scalable/apps/discord.svg" alt="Discord Messenger icon"/>
+					<img src="Adwaitaru/scalable/apps/discord.svg" alt="Discord Messenger icon"/>
 					<figcaption>Discord</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://discord.com/">
 				<figure>
-					<img src="scalable/apps/discord-canary.svg" alt="Discord Messenger Canary icon"/>
+					<img src="Adwaitaru/scalable/apps/discord-canary.svg" alt="Discord Messenger Canary icon"/>
 					<figcaption>Discord Canary</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://www.ecosia.org/browser">
 				<figure>
-					<img src="scalable/apps/ecosia.svg" alt="Ecosia Browser icon"/>
+					<img src="Adwaitaru/scalable/apps/ecosia.svg" alt="Ecosia Browser icon"/>
 					<figcaption>Ecosia</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://www.jetbrains.com/fleet/">
 				<figure>
-					<img src="scalable/apps/fleet.svg" alt="JetBrains Fleet icon"/>
+					<img src="Adwaitaru/scalable/apps/fleet.svg" alt="JetBrains Fleet icon"/>
 					<figcaption>Fleet</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://flathub.org/apps/io.github.shiftey.Desktop">
 				<figure>
-					<img src="scalable/apps/github-desktop.svg" alt="GitHub Desktop icon"/>
+					<img src="Adwaitaru/scalable/apps/github-desktop.svg" alt="GitHub Desktop icon"/>
 					<figcaption>GitHub</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://www.gitkraken.com/">
 				<figure>
-					<img src="scalable/apps/gitkraken.svg" alt="GitKraken icon"/>
+					<img src="Adwaitaru/scalable/apps/gitkraken.svg" alt="GitKraken icon"/>
 					<figcaption>GitKraken</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://apps.gnome.org/Baobab/">
 				<figure>
-					<img src="scalable/apps/org.gnome.baobab.svg" alt="Gnome Baobab icon"/>
+					<img src="Adwaitaru/scalable/apps/org.gnome.baobab.svg" alt="Gnome Baobab icon"/>
 					<figcaption>Disk Usage Analyzer</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://www.gnu.org/software/pspp/">
 				<figure>
-					<img src="scalable/apps/pspp.svg" alt="GNU PSPP icon"/>
+					<img src="Adwaitaru/scalable/apps/pspp.svg" alt="GNU PSPP icon"/>
 					<figcaption>GNU PSPP</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://flathub.org/apps/org.gnome.Brasero">
 				<figure>
-					<img src="scalable/apps/org.gnome.brasero.svg" alt="Gnome Brasero icon"/>
+					<img src="Adwaitaru/scalable/apps/org.gnome.brasero.svg" alt="Gnome Brasero icon"/>
 					<figcaption>Brasero</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://apps.gnome.org/Clocks/">
 				<figure>
-					<img src="scalable/apps/org.gnome.clocks.svg" alt="Gnome Clocks icon"/>
+					<img src="Adwaitaru/scalable/apps/org.gnome.clocks.svg" alt="Gnome Clocks icon"/>
 					<figcaption>Clocks</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://slgobinath.github.io/safeeyes/">
 				<figure>
-					<img src="scalable/apps/safeeyes.svg" alt="Safe Eyes icon"/>
+					<img src="Adwaitaru/scalable/apps/safeeyes.svg" alt="Safe Eyes icon"/>
 					<figcaption>Safe Eyes</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://apps.gnome.org/Resources/">
 				<figure>
-					<img src="scalable/apps/net.nokyan.Resources.svg" alt="Resources icon"/>
+					<img src="Adwaitaru/scalable/apps/net.nokyan.Resources.svg" alt="Resources icon"/>
 					<figcaption>Resources</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://oguzhaninan.github.io/Stacer-Web/">
 				<figure>
-					<img src="scalable/apps/stacer.svg" alt="Stacer icon"/>
+					<img src="Adwaitaru/scalable/apps/stacer.svg" alt="Stacer icon"/>
 					<figcaption>Stacer</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://apps.gnome.org/Connections/">
 				<figure>
-					<img src="scalable/apps/org.gnome.Connections.svg" alt="Gnome Connections icon"/>
+					<img src="Adwaitaru/scalable/apps/org.gnome.Connections.svg" alt="Gnome Connections icon"/>
 					<figcaption>Connections</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://flathub.org/apps/eu.skribisto.skribisto">
 				<figure>
-					<img src="scalable/apps/eu.skribisto.skribisto.svg" alt="Skribisto icon"/>
+					<img src="Adwaitaru/scalable/apps/eu.skribisto.skribisto.svg" alt="Skribisto icon"/>
 					<figcaption>Skribisto</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://ktechpit.com/USS/public/product.php?slug=ultimate-media-downloader">
 				<figure>
-					<img src="scalable/apps/ultimate-media-downloader.svg" alt="Ultimate Media Downloader icon"/>
+					<img src="Adwaitaru/scalable/apps/ultimate-media-downloader.svg" alt="Ultimate Media Downloader icon"/>
 					<figcaption>Ultimate Media Downloader</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://revelation.olasagasti.info/">
 				<figure>
-					<img src="scalable/apps/revelation.svg" alt="Revelation icon"/>
+					<img src="Adwaitaru/scalable/apps/revelation.svg" alt="Revelation icon"/>
 					<figcaption>Revelation</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://apps.gnome.org/Epiphany/">
 				<figure>
-					<img src="scalable/apps/org.gnome.Epiphany.svg" alt="Gnome Epiphany icon"/>
+					<img src="Adwaitaru/scalable/apps/org.gnome.Epiphany.svg" alt="Gnome Epiphany icon"/>
 					<figcaption>Web</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://apps.gnome.org/Yelp/">
 				<figure>
-					<img src="scalable/apps/org.gnome.yelp.svg" alt="Gnome Yelp icon"/>
+					<img src="Adwaitaru/scalable/apps/org.gnome.yelp.svg" alt="Gnome Yelp icon"/>
 					<figcaption>Help</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://apps.gnome.org/Music/">
 				<figure>
-					<img src="scalable/apps/org.gnome.Music.svg" alt="Gnome Music icon"/>
+					<img src="Adwaitaru/scalable/apps/org.gnome.Music.svg" alt="Gnome Music icon"/>
 					<figcaption>Music</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://janbar.github.io/noson-app/">
 				<figure>
-					<img src="scalable/apps/noson.svg" alt="Noson SONOS Player icon"/>
+					<img src="Adwaitaru/scalable/apps/noson.svg" alt="Noson SONOS Player icon"/>
 					<figcaption>Noson</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://apps.gnome.org/Snapshot/">
 				<figure>
-					<img src="scalable/apps/org.gnome.Snapshot.svg" alt="Gnome SnapShot icon"/>
+					<img src="Adwaitaru/scalable/apps/org.gnome.Snapshot.svg" alt="Gnome SnapShot icon"/>
 					<figcaption>SnapShot</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://www.digikam.org/">
 				<figure>
-					<img src="scalable/apps/digikam.svg" alt="KDE digiKam icon"/>
+					<img src="Adwaitaru/scalable/apps/digikam.svg" alt="KDE digiKam icon"/>
 					<figcaption>digiKam</figcaption>
+				</figure>
+			</a>
+			<a target="_blank" class="app" href="https://flathub.org/apps/com.getferdi.Ferdi">
+				<figure>
+					<img src="Adwaitaru/scalable/apps/ferdi.svg" alt="Ferdi / Ferdium icon"/>
+					<figcaption>Ferdi</figcaption>
+				</figure>
+			</a>
+			<a target="_blank" class="app" href="https://ferdium.org/">
+				<figure>
+					<img src="Adwaitaru/scalable/apps/ferdi.svg" alt="Ferdi / Ferdium icon"/>
+					<figcaption>Ferdium</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://glaxnimate.org/">
 				<figure>
-					<img src="scalable/apps/glaxnimate.svg" alt="KDE Glaxnimate icon"/>
+					<img src="Adwaitaru/scalable/apps/glaxnimate.svg" alt="KDE Glaxnimate icon"/>
 					<figcaption>Glaxnimate</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://insomnia.rest/">
 				<figure>
-					<img src="scalable/apps/insomnia.svg" alt="Insomnia icon"/>
+					<img src="Adwaitaru/scalable/apps/insomnia.svg" alt="Insomnia icon"/>
 					<figcaption>Insomnia</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://flathub.org/apps/io.gitlab.zulfian1732.jollpi-text-editor">
 				<figure>
-					<img src="scalable/apps/io.gitlab.zulfian1732.jollpi-text-editor.svg" alt="Jollpi Editor icon"/>
+					<img src="Adwaitaru/scalable/apps/io.gitlab.zulfian1732.jollpi-text-editor.svg" alt="Jollpi Editor icon"/>
 					<figcaption>Jollpi</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://kaidan.im/">
 				<figure>
-					<img src="scalable/apps/kaidan.svg" alt="KDE Kaidan icon"/>
+					<img src="Adwaitaru/scalable/apps/kaidan.svg" alt="KDE Kaidan icon"/>
 					<figcaption>Kaidan</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://apps.kde.org/calligra.karbon/">
 				<figure>
-					<img src="scalable/apps/karbon.svg" alt="KDE Karbon icon"/>
+					<img src="Adwaitaru/scalable/apps/karbon.svg" alt="KDE Karbon icon"/>
 					<figcaption>Karbon</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://kate-editor.org/">
 				<figure>
-					<img src="scalable/apps/kate.svg" alt="KDE Kate icon"/>
+					<img src="Adwaitaru/scalable/apps/kate.svg" alt="KDE Kate icon"/>
 					<figcaption>Kate</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://www.krita.org/">
 				<figure>
-					<img src="scalable/apps/krita.svg" alt="KDE Krita icon"/>
+					<img src="Adwaitaru/scalable/apps/krita.svg" alt="KDE Krita icon"/>
 					<figcaption>Krita</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://keepassxc.org/">
 				<figure>
-					<img src="scalable/apps/keepassxc.svg" alt="KeePassXC icon"/>
+					<img src="Adwaitaru/scalable/apps/keepassxc.svg" alt="KeePassXC icon"/>
 					<figcaption>KeePassXC</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://snapcraft.io/canonical-livepatch">
 				<figure>
-					<img src="scalable/apps/livepatch.svg" alt="Canonical LivePatch icon"/>
+					<img src="Adwaitaru/scalable/apps/livepatch.svg" alt="Canonical LivePatch icon"/>
 					<figcaption>LivePatch</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://lutris.net/">
 				<figure>
-					<img src="scalable/apps/lutris.svg" alt="Lutris icon"/>
+					<img src="Adwaitaru/scalable/apps/lutris.svg" alt="Lutris icon"/>
 					<figcaption>Lutris</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://getmailspring.com/">
 				<figure>
-					<img src="scalable/apps/mailspring.svg" alt="MailSpring icon"/>
+					<img src="Adwaitaru/scalable/apps/mailspring.svg" alt="MailSpring icon"/>
 					<figcaption>MailSpring</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://mattermost.com/">
 				<figure>
-					<img src="scalable/apps/mattermost.svg" alt="Mattermost icon"/>
+					<img src="Adwaitaru/scalable/apps/mattermost.svg" alt="Mattermost icon"/>
 					<figcaption>Mattermost</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://www.microsoft.com/en-us/edge/">
 				<figure>
-					<img src="scalable/apps/microsoft-edge.svg" alt="Microsoft Edge icon"/>
+					<img src="Adwaitaru/scalable/apps/microsoft-edge.svg" alt="Microsoft Edge icon"/>
 					<figcaption>Microsoft Edge</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://messenger.mixin.one/">
 				<figure>
-					<img src="scalable/apps/mixin.svg" alt="Mixin Messenger icon"/>
+					<img src="Adwaitaru/scalable/apps/mixin.svg" alt="Mixin Messenger icon"/>
 					<figcaption>Mixin Messenger</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://www.firefox.com/">
 				<figure>
-					<img src="scalable/apps/firefox.svg" alt="Mozilla Firefox icon"/>
+					<img src="Adwaitaru/scalable/apps/firefox.svg" alt="Mozilla Firefox icon"/>
 					<figcaption>Mozilla Firefox</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://www.firefox.com/features/focus/">
 				<figure>
-					<img src="scalable/apps/firefox-focus.svg" alt="Mozilla Firefox Focus icon"/>
+					<img src="Adwaitaru/scalable/apps/firefox-focus.svg" alt="Mozilla Firefox Focus icon"/>
 					<figcaption>Mozilla Firefox Focus</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://www.firefox.com/channel/desktop/#nightly">
 				<figure>
-					<img src="scalable/apps/firefox-nightly.svg" alt="Mozilla Firefox (Nightly) icon"/>
+					<img src="Adwaitaru/scalable/apps/firefox-nightly.svg" alt="Mozilla Firefox (Nightly) icon"/>
 					<figcaption>Mozilla Firefox (Nightly)</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://www.firefox.com/channel/desktop/developer/">
 				<figure>
-					<img src="scalable/apps/firefox-developer-edition.svg" alt="Mozilla Firefox (Developer Edition) icon"/>
+					<img src="Adwaitaru/scalable/apps/firefox-developer-edition.svg" alt="Mozilla Firefox (Developer Edition) icon"/>
 					<figcaption>Mozilla Firefox (Developer Edition)</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://www.thunderbird.net/">
 				<figure>
-					<img src="scalable/apps/thunderbird.svg" alt="Mozilla Thunderbird icon"/>
+					<img src="Adwaitaru/scalable/apps/thunderbird.svg" alt="Mozilla Thunderbird icon"/>
 					<figcaption>Mozilla Thunderbird</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://musescore.org/">
 				<figure>
-					<img src="scalable/apps/mscore2portable.svg" alt="MuseScore 2 icon"/>
+					<img src="Adwaitaru/scalable/apps/mscore2portable.svg" alt="MuseScore 2 icon"/>
 					<figcaption>MuseScore 2</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://musescore.org/">
 				<figure>
-					<img src="scalable/apps/mscore3portable.svg" alt="MuseScore 3 icon"/>
+					<img src="Adwaitaru/scalable/apps/mscore3portable.svg" alt="MuseScore 3 icon"/>
 					<figcaption>MuseScore 3</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://musescore.org/">
 				<figure>
-					<img src="scalable/apps/musescore.svg" alt="MuseScore 4 icon"/>
+					<img src="Adwaitaru/scalable/apps/musescore.svg" alt="MuseScore 4 icon"/>
 					<figcaption>MuseScore 4</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://musescore.org/">
 				<figure>
-					<img src="scalable/apps/musescore-studio.svg" alt="MuseScore Studio icon"/>
+					<img src="Adwaitaru/scalable/apps/musescore-studio.svg" alt="MuseScore Studio icon"/>
 					<figcaption>MuseScore Studio</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://musescore.org/handbook/4/installing-muse-sounds">
 				<figure>
-					<img src="scalable/apps/muse-sounds-manager.svg" alt="MuseSounds Manager icon"/>
+					<img src="Adwaitaru/scalable/apps/muse-sounds-manager.svg" alt="MuseSounds Manager icon"/>
 					<figcaption>MuseSounds Manager</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://www.musixmatch.com/">
 				<figure>
-					<img src="scalable/apps/musixmatch.svg" alt="Musixmatch icon"/>
+					<img src="Adwaitaru/scalable/apps/musixmatch.svg" alt="Musixmatch icon"/>
 					<figcaption>Musixmatch</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://flathub.org/apps/page.codeberg.lo_vely.Nucleus">
 				<figure>
-					<img src="scalable/apps/page.codeberg.lo_vely.Nucleus.svg" alt="Nucleus icon"/>
+					<img src="Adwaitaru/scalable/apps/page.codeberg.lo_vely.Nucleus.svg" alt="Nucleus icon"/>
 					<figcaption>Nucleus</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://openvpn.net/">
 				<figure>
-					<img src="scalable/apps/openvpn.svg" alt="OpenVPN icon"/>
+					<img src="Adwaitaru/scalable/apps/openvpn.svg" alt="OpenVPN icon"/>
 					<figcaption>OpenVPN</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://www.opera.com/">
 				<figure>
-					<img src="scalable/apps/opera.svg" alt="Opera Browser icon"/>
+					<img src="Adwaitaru/scalable/apps/opera.svg" alt="Opera Browser icon"/>
 					<figcaption>Opera</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://safing.io/">
 				<figure>
-					<img src="scalable/apps/portmaster.svg" alt="Safing PortMaster icon"/>
+					<img src="Adwaitaru/scalable/apps/portmaster.svg" alt="Safing PortMaster icon"/>
 					<figcaption>PortMaster</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://www.postman.com/">
 				<figure>
-					<img src="scalable/apps/postman.svg" alt="Postman icon"/>
+					<img src="Adwaitaru/scalable/apps/postman.svg" alt="Postman icon"/>
 					<figcaption>Postman</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://www.qbittorrent.org/">
 				<figure>
-					<img src="scalable/apps/qbittorrent.svg" alt="qBitTorrent icon"/>
+					<img src="Adwaitaru/scalable/apps/qbittorrent.svg" alt="qBitTorrent icon"/>
 					<figcaption>qBitTorrent</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://flathub.org/apps/io.github.qcanvas.QCanvasApp">
 				<figure>
-					<img src="scalable/apps/io.github.qcanvas.QCanvasApp.svg" alt="QCanvas icon"/>
+					<img src="Adwaitaru/scalable/apps/io.github.qcanvas.QCanvasApp.svg" alt="QCanvas icon"/>
 					<figcaption>QCanvas</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://qgis.org/">
 				<figure>
-					<img src="scalable/apps/qgis.svg" alt="QGIS icon"/>
+					<img src="Adwaitaru/scalable/apps/qgis.svg" alt="QGIS icon"/>
 					<figcaption>QGIS</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://github.com/CyberTimon/RapidRAW">
 				<figure>
-					<img src="scalable/apps/RapidRAW.svg" alt="RapidRaw icon"/>
+					<img src="Adwaitaru/scalable/apps/RapidRAW.svg" alt="RapidRaw icon"/>
 					<figcaption>RapidRaw</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://www.rawtherapee.com/">
 				<figure>
-					<img src="scalable/apps/rawtherapee.svg" alt="RawTherapee icon"/>
+					<img src="Adwaitaru/scalable/apps/rawtherapee.svg" alt="RawTherapee icon"/>
 					<figcaption>RawTherapee</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://flathub.org/apps/com.github.ryonakano.reco">
 				<figure>
-					<img src="scalable/apps/com.github.ryonakano.reco.svg" alt="Reco icon"/>
+					<img src="Adwaitaru/scalable/apps/com.github.ryonakano.reco.svg" alt="Reco icon"/>
 					<figcaption>Reco</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://db-mobile.github.io/resonance/">
 				<figure>
-					<img src="scalable/apps/resonance.svg" alt="Resonance icon"/>
+					<img src="Adwaitaru/scalable/apps/resonance.svg" alt="Resonance icon"/>
 					<figcaption>Resonance</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://gupt.app/">
 				<figure>
-					<img src="scalable/apps/com.besoeasy.gupt.svg" alt="GUPT Messenger icon"/>
+					<img src="Adwaitaru/scalable/apps/com.besoeasy.gupt.svg" alt="GUPT Messenger icon"/>
 					<figcaption>GUPT Messenger</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://rune.not.ci/">
 				<figure>
-					<img src="scalable/apps/rune.svg" alt="Rune Player icon"/>
+					<img src="Adwaitaru/scalable/apps/rune.svg" alt="Rune Player icon"/>
 					<figcaption>Rune</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://rustdesk.com/">
 				<figure>
-					<img src="scalable/apps/rustdesk.svg" alt="RustDesk icon"/>
+					<img src="Adwaitaru/scalable/apps/rustdesk.svg" alt="RustDesk icon"/>
 					<figcaption>RustDesk</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://www.scribus.net/">
 				<figure>
-					<img src="scalable/apps/scribus.svg" alt="Scribus icon"/>
+					<img src="Adwaitaru/scalable/apps/scribus.svg" alt="Scribus icon"/>
 					<figcaption>Scribus</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://getsession.org/">
 				<figure>
-					<img src="scalable/apps/session-desktop.svg" alt="Session Desktop icon"/>
+					<img src="Adwaitaru/scalable/apps/session-desktop.svg" alt="Session Desktop icon"/>
 					<figcaption>Session</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://signal.org/">
 				<figure>
-					<img src="scalable/apps/signal-desktop.svg" alt="Signal Desktop icon"/>
+					<img src="Adwaitaru/scalable/apps/signal-desktop.svg" alt="Signal Desktop icon"/>
 					<figcaption>Signal Messenger</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://simplenote.com/">
 				<figure>
-					<img src="scalable/apps/simplenote.svg" alt="SimpleNote icon"/>
+					<img src="Adwaitaru/scalable/apps/simplenote.svg" alt="SimpleNote icon"/>
 					<figcaption>SimpleNote</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://discourse.ubuntu.com/t/why-we-re-saying-goodbye-to-software-updates/76783">
 				<figure>
-					<img src="scalable/apps/software-properties.svg" alt="Software Properties icon"/>
+					<img src="Adwaitaru/scalable/apps/software-properties.svg" alt="Software Properties icon"/>
 					<figcaption>Software Properties</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://en.wikipedia.org/wiki/Software_Updater">
 				<figure>
-					<img src="scalable/apps/software-updater.svg" alt="Software Updater icon"/>
+					<img src="Adwaitaru/scalable/apps/software-updater.svg" alt="Software Updater icon"/>
 					<figcaption>Software Updater</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://open.spotify.com/download/">
 				<figure>
-					<img src="scalable/apps/spotify.svg" alt="Spotify Desktop Player icon"/>
+					<img src="Adwaitaru/scalable/apps/spotify.svg" alt="Spotify Desktop Player icon"/>
 					<figcaption>Spotify</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://store.steampowered.com/about/">
 				<figure>
-					<img src="scalable/apps/steam.svg" alt="SteamPowered Launcher icon"/>
+					<img src="Adwaitaru/scalable/apps/steam.svg" alt="SteamPowered Launcher icon"/>
 					<figcaption>Steam</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://super-productivity.com/">
 				<figure>
-					<img src="scalable/apps/superproductivity.svg" alt="Super Productivity icon"/>
+					<img src="Adwaitaru/scalable/apps/superproductivity.svg" alt="Super Productivity icon"/>
 					<figcaption>Super Productivity</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://switchyard.aly.codes/">
 				<figure>
-					<img src="scalable/apps/io.github.alyraffauf.Switchyard.svg" alt="Switchyard icon"/>
+					<img src="Adwaitaru/scalable/apps/io.github.alyraffauf.Switchyard.svg" alt="Switchyard icon"/>
 					<figcaption>Switchyard</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://desktop.telegram.org/">
 				<figure>
-					<img src="scalable/apps/telegram.svg" alt="Telegram Client icon"/>
+					<img src="Adwaitaru/scalable/apps/telegram.svg" alt="Telegram Client icon"/>
 					<figcaption>Telegram</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://teejee2008.github.io/timeshift/">
 				<figure>
-					<img src="scalable/apps/timeshift.svg" alt="TimeShift icon"/>
+					<img src="Adwaitaru/scalable/apps/timeshift.svg" alt="TimeShift icon"/>
 					<figcaption>TimeShift</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://torproject.org/download/">
 				<figure>
-					<img src="scalable/apps/tor.svg" alt="TOR Browser icon"/>
+					<img src="Adwaitaru/scalable/apps/tor.svg" alt="TOR Browser icon"/>
 					<figcaption>TOR Browser</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://tropy.org/">
 				<figure>
-					<img src="scalable/apps/tropy.svg" alt="Tropy icon"/>
+					<img src="Adwaitaru/scalable/apps/tropy.svg" alt="Tropy icon"/>
 					<figcaption>Tropy</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://vectr.com/">
 				<figure>
-					<img src="scalable/apps/vectr.svg" alt="Vectr icon"/>
+					<img src="Adwaitaru/scalable/apps/vectr.svg" alt="Vectr icon"/>
 					<figcaption>Vectr</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://vivaldi.com/">
 				<figure>
-					<img src="scalable/apps/vivaldi.svg" alt="Vivaldi Browser icon"/>
+					<img src="Adwaitaru/scalable/apps/vivaldi.svg" alt="Vivaldi Browser icon"/>
 					<figcaption>Vivaldi</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://web.whatsapp.com/">
 				<figure>
-					<img src="scalable/apps/whatsapp.svg" alt="WhatsApp Messenger icon"/>
+					<img src="Adwaitaru/scalable/apps/whatsapp.svg" alt="WhatsApp Messenger icon"/>
 					<figcaption>WhatsApp Desktop</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://ktechpit.com/USS/public/product.php?slug=wonderwall">
 				<figure>
-					<img src="scalable/apps/wonderwall.svg" alt="WonderWall icon"/>
+					<img src="Adwaitaru/scalable/apps/wonderwall.svg" alt="WonderWall icon"/>
 					<figcaption>WonderWall</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://browser.yandex.ru/">
 				<figure>
-					<img src="scalable/apps/yandex-browser.svg" alt="Yandex Browser icon"/>
+					<img src="Adwaitaru/scalable/apps/yandex-browser.svg" alt="Yandex Browser icon"/>
 					<figcaption>Yandex</figcaption>
+				</figure>
+			</a>
+			<a target="_blank" class="app" href="https://www.zaproxy.org/">
+				<figure>
+					<img src="Adwaitaru/scalable/apps/zaproxy.svg" alt="zaproxy (ZAP) by Checkmarx icon"/>
+					<figcaption>Zed Attack Proxy</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://proton.me/authenticator/">
 				<figure>
-					<img src="scalable/apps/protonauthenticator.svg" alt="Proton Authenticator icon"/>
+					<img src="Adwaitaru/scalable/apps/protonauthenticator.svg" alt="Proton Authenticator icon"/>
 					<figcaption>Proton Authenticator</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://proton.me/calendar/">
 				<figure>
-					<img src="scalable/apps/protoncalendar.svg" alt="Proton Calendar icon"/>
+					<img src="Adwaitaru/scalable/apps/protoncalendar.svg" alt="Proton Calendar icon"/>
 					<figcaption>Proton Calendar</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://proton.me/drive/">
 				<figure>
-					<img src="scalable/apps/protondrive.svg" alt="Proton Drive icon"/>
+					<img src="Adwaitaru/scalable/apps/protondrive.svg" alt="Proton Drive icon"/>
 					<figcaption>Proton Drive</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://proton.me/mail/">
 				<figure>
-					<img src="scalable/apps/protonmail-desktop.svg" alt="Proton Mail icon"/>
+					<img src="Adwaitaru/scalable/apps/protonmail-desktop.svg" alt="Proton Mail icon"/>
 					<figcaption>Proton Mail</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://proton.me/mail/bridge/">
 				<figure>
-					<img src="scalable/apps/protonmail-bridge.svg" alt="Proton Mail Bridge icon"/>
+					<img src="Adwaitaru/scalable/apps/protonmail-bridge.svg" alt="Proton Mail Bridge icon"/>
 					<figcaption>Proton Mail Bridge</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://protonvpn.com/">
 				<figure>
-					<img src="scalable/apps/protonvpn.svg" alt="Proton VPN icon"/>
+					<img src="Adwaitaru/scalable/apps/protonvpn.svg" alt="Proton VPN icon"/>
 					<figcaption>Proton VPN</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://proton.me/pass/">
 				<figure>
-					<img src="scalable/apps/protonpass.svg" alt="Proton Pass icon"/>
+					<img src="Adwaitaru/scalable/apps/protonpass.svg" alt="Proton Pass icon"/>
 					<figcaption>Proton Pass</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://www.onlyoffice.com/">
 				<figure>
-					<img src="scalable/apps/onlyoffice.svg" alt="OnlyOffice Desktop Editors icon"/>
+					<img src="Adwaitaru/scalable/apps/onlyoffice.svg" alt="OnlyOffice Desktop Editors icon"/>
 					<figcaption>OnlyOffice</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://apps.gnome.org/Extensions/">
 				<figure>
-					<img src="scalable/apps/org.gnome.Extensions.svg" alt="Gnome Extensions icon"/>
+					<img src="Adwaitaru/scalable/apps/org.gnome.Extensions.svg" alt="Gnome Extensions icon"/>
 					<figcaption>Extensions</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://godotengine.org/">
 				<figure>
-					<img src="scalable/apps/godot.svg" alt="Godot Engine icon"/>
+					<img src="Adwaitaru/scalable/apps/godot.svg" alt="Godot Engine icon"/>
 					<figcaption>Godot</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://www.audacityteam.org/">
 				<figure>
-					<img src="scalable/apps/audacity.svg" alt="Audacity icon"/>
+					<img src="Adwaitaru/scalable/apps/audacity.svg" alt="Audacity icon"/>
 					<figcaption>Audacity</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://ardour.org/">
 				<figure>
-					<img src="scalable/apps/ardour.svg" alt="Ardour icon"/>
+					<img src="Adwaitaru/scalable/apps/ardour.svg" alt="Ardour icon"/>
 					<figcaption>Ardour</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://flathub.org/apps/org.gnome.FileRoller">
 				<figure>
-					<img src="scalable/apps/org.gnome.FileRoller.svg" alt="Gnome File Roller icon"/>
+					<img src="Adwaitaru/scalable/apps/org.gnome.FileRoller.svg" alt="Gnome File Roller icon"/>
 					<figcaption>File Roller</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://apps.gnome.org/Tour/">
 				<figure>
-					<img src="scalable/apps/org.gnome.Tour.svg" alt="Gnome Welcome Tour icon"/>
+					<img src="Adwaitaru/scalable/apps/org.gnome.Tour.svg" alt="Gnome Welcome Tour icon"/>
 					<figcaption>Welcome</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://flathub.org/apps/dev.Cogitri.Health">
 				<figure>
-					<img src="scalable/apps/dev.Cogitri.Health.svg" alt="Health icon"/>
+					<img src="Adwaitaru/scalable/apps/dev.Cogitri.Health.svg" alt="Health icon"/>
 					<figcaption>Health</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://flathub.org/apps/com.luigi311.fitness-tracker">
 				<figure>
-					<img src="scalable/apps/com.luigi311.fitness-tracker.svg" alt="Fitness Tracker icon"/>
+					<img src="Adwaitaru/scalable/apps/com.luigi311.fitness-tracker.svg" alt="Fitness Tracker icon"/>
 					<figcaption>Fitness Tracker</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://icons8.com/lunacy/">
 				<figure>
-					<img src="scalable/apps/lunacy.svg" alt="icons8 Lunacy icon"/>
+					<img src="Adwaitaru/scalable/apps/lunacy.svg" alt="icons8 Lunacy icon"/>
 					<figcaption>Lunacy</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://www.openpaper.work/">
 				<figure>
-					<img src="scalable/apps/org.gnome.Software.Learn.svg" alt="PaperWork icon"/>
+					<img src="Adwaitaru/scalable/apps/org.gnome.Software.Learn.svg" alt="PaperWork icon"/>
 					<figcaption>PaperWork</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://flathub.org/apps/re.sonny.Junction">
 				<figure>
-					<img src="scalable/apps/re.sonny.Junction.svg" alt="Junction Launcher icon"/>
+					<img src="Adwaitaru/scalable/apps/re.sonny.Junction.svg" alt="Junction Launcher icon"/>
 					<figcaption>Junction</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://apps.gnome.org/Decibels/">
 				<figure>
-					<img src="scalable/apps/org.gnome.Decibels.svg" alt="Gnome Decibels icon"/>
+					<img src="Adwaitaru/scalable/apps/org.gnome.Decibels.svg" alt="Gnome Decibels icon"/>
 					<figcaption>Audio Player</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://apps.gnome.org/Totem/">
 				<figure>
-					<img src="scalable/apps/org.gnome.Totem.svg" alt="Gnome Totem icon"/>
+					<img src="Adwaitaru/scalable/apps/org.gnome.Totem.svg" alt="Gnome Totem icon"/>
 					<figcaption>Videos</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://apps.gnome.org/Showtime/">
 				<figure>
-					<img src="scalable/apps/org.gnome.Showtime.svg" alt="Gnome ShowTime icon"/>
+					<img src="Adwaitaru/scalable/apps/org.gnome.Showtime.svg" alt="Gnome ShowTime icon"/>
 					<figcaption>ShowTime</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://flathub.org/apps/re.sonny.Eloquent">
 				<figure>
-					<img src="scalable/apps/re.sonny.Eloquent.svg" alt="Eloquent icon"/>
+					<img src="Adwaitaru/scalable/apps/re.sonny.Eloquent.svg" alt="Eloquent icon"/>
 					<figcaption>Eloquent</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://flathub.org/apps/io.github.nacho.mecalin">
 				<figure>
-					<img src="scalable/apps/io.github.nacho.mecalin.svg" alt="Mecalin icon"/>
+					<img src="Adwaitaru/scalable/apps/io.github.nacho.mecalin.svg" alt="Mecalin icon"/>
 					<figcaption>Mecalin</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://obsidian.md/">
 				<figure>
-					<img src="scalable/apps/obsidian.svg" alt="Obsidian icon"/>
+					<img src="Adwaitaru/scalable/apps/obsidian.svg" alt="Obsidian icon"/>
 					<figcaption>Obsidian</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://www.videolan.org/vlc/">
 				<figure>
-					<img src="scalable/apps/vlc.svg" alt="VideoLan Media Player (VLC) icon"/>
+					<img src="Adwaitaru/scalable/apps/vlc.svg" alt="VideoLan Media Player (VLC) icon"/>
 					<figcaption>VLC Media Player</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://sioyek.info/">
 				<figure>
-					<img src="scalable/apps/sioyek.svg" alt="Sioyek icon"/>
+					<img src="Adwaitaru/scalable/apps/sioyek.svg" alt="Sioyek icon"/>
 					<figcaption>Sioyek</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://www.wolfram.com/mathematica/">
 				<figure>
-					<img src="scalable/apps/mathematica.svg" alt="Wolfram Mathematica icon"/>
+					<img src="Adwaitaru/scalable/apps/mathematica.svg" alt="Wolfram Mathematica icon"/>
 					<figcaption>Wolfram Mathematica</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://firewalld.org/">
 				<figure>
-					<img src="scalable/apps/firewall-config.svg" alt="FirewallD Applet icon"/>
+					<img src="Adwaitaru/scalable/apps/firewalld.svg" alt="FirewallD icon"/>
 					<figcaption>FirewallD Applet</figcaption>
 				</figure>
 			</a>
 			<a target="_blank" class="app" href="https://flathub.org/apps/org.gnome.frogr">
 				<figure>
-					<img src="scalable/apps/frogr.svg" alt="Frogr icon"/>
+					<img src="Adwaitaru/scalable/apps/frogr.svg" alt="Frogr icon"/>
 					<figcaption>Frogr</figcaption>
 				</figure>
 			</a>
@@ -2485,31 +2568,9 @@
     </script>
     <script type="text/javascript">
       var slider = document.getElementsByTagName('main')[0];
-      let isDown = false;
-      let startX;
       let scrollLeft;
       // Horizontal Scroll
-      window.addEventListener('wheel', function(e) {
-      slider.scrollLeft += e.deltaY});
-      // Cursor on release
-      slider.addEventListener("mouseleave", () => {
-          isDown = false});
-      slider.addEventListener("mouseup", () => {
-          isDown = false});
-      // Cursor on click
-      slider.addEventListener("mousedown", e => {
-          isDown = true;
-          startX = e.pageX - slider.offsetLeft;
-          scrollLeft = slider.scrollLeft;
-      });
-      // Drag the content
-      slider.addEventListener("mousemove", e => {
-          if (!isDown) return;
-          e.preventDefault();
-          const x = e.pageX - slider.offsetLeft;
-          const walk = x - startX;
-          slider.scrollLeft = scrollLeft - walk;
-      });
+      window.addEventListener('wheel', function(e) {slider.scrollLeft += e.deltaY});
     </script>
     <script type="text/javascript" src="current-time.js"></script>
   </body>

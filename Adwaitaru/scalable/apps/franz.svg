@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="blue" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#4CCFFF"/>
+<stop offset="1" stop-color="#00BBFF"/>
+</linearGradient>
+<linearGradient id="shine" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#FFFFFF" stop-opacity="50%"/>
+<stop offset="50%" stop-color="#FFFFFF" stop-opacity="15%"/>
+<stop offset="1" stop-color="#FFFFFF" stop-opacity="35%"/>
+</linearGradient>
+<linearGradient id="shade" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#FFFFFF"/>
+<stop offset="1" stop-color="#8CE3FF"/>
+</linearGradient>
+<filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+<feDropShadow dx="0" dy="3" flood-color="#000000" flood-opacity="20%" stdDeviation="2"/>
+</filter>
+</defs>
+<rect width="104" height="104" rx="8" x="12" y="12" fill="url(#blue)"/>
+<rect width="100" height="100" rx="6" x="14" y="14" fill="none" stroke="url(#shine)" stroke-width="4"/>
+<g stroke="#FFFFFF" stroke-width="2" stroke-linejoin="round" filter="url(#shadow)">
+<path d="M43 15C43 15 53 24.01 63 24C83 23.98 86 15 86 15C69 19 61 0 55 0C49 0 47 4 43 4C39 4 37 0 31 0C25 0 17 19 0 15C0 15 3 24 23 24C33 24 43 15 43 15Z" fill="url(#shade)" transform="translate(21 55)"/>
+<path d="M12 0C12 6 18 12 24 12C18 12 12 18 12 24C12 18 6 12 0 12C6 12 12 6 12 0Z" fill="#8CE6FF" transform="translate(52 80)"/>
+</g></svg>

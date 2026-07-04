@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs><clipPath id="pacman">
+<path d="M0 0L128 0L64 64L128 128L0 128Z"/>
+</clipPath></defs>
+<circle r="60" cx="64" cy="64" fill="#F6D32D"/>
+<g clip-path="url(#pacman)" fill="none" stroke="#3D3846" stroke-width="6">
+<circle r="49" cx="64" cy="64"/>
+<circle r="34" cx="64" cy="64"/>
+<circle r="19" cx="64" cy="64"/>
+</g></svg>

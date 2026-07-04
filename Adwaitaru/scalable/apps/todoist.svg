@@ -4,9 +4,14 @@
 <clipPath id="squircle">
 <rect width="104" height="104" rx="8" x="12" y="12"/>
 </clipPath>
+<linearGradient id="red" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#FF5F50"/>
+<stop offset="50%" stop-color="#DE3728"/>
+<stop offset="1" stop-color="#C32818"/>
+</linearGradient>
 </defs>
 <g clip-path="url(#squircle)">
-<rect width="128" height="128" fill="#E44232"/>
+<rect width="128" height="128" fill="url(#red)"/>
 <g fill="none" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
 <path d="M0 0L41 23L82 0" transform="translate(-9 34)"/>
 <path d="M0 0L41 23L82 0" transform="translate(-9 52)"/>

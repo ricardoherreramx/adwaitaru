@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<clipPath id="circle">
+<circle r="60" cx="64" cy="64"/>
+</clipPath>
+<radialGradient id="blue">
+<stop offset="0" stop-color="#4386FF"/>
+<stop offset="1" stop-color="#00549B"/>
+</radialGradient>
+</defs>
+<circle r="60" cx="64" cy="64" fill="url(#blue)"/>
+<g clip-path="url(#circle)">
+<path d="M49 1L76 39L67 42L88 69L78 73L108 112L40 73L49 68L21 47L28 43L1 22Z" stroke="#000000" stroke-width="10" stroke-linejoin="round" opacity="24%"/>
+<path d="M49 1L76 39L67 42L88 69L78 73L108 112L40 73L49 68L21 47L28 43L1 22Z" fill="#FFFFFF"/>
+<path d="M21 47L108 112L40 73L56 64L28 43L1 22L10 18L35 39Z" fill="#9A9996"/>
+</g></svg>
