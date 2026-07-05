@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="corners">
+<stop offset="0" stop-color="#808080"/>
+<stop offset="5%" stop-color="#B3B3B3"/>
+<stop offset="10%" stop-color="#808080"/>
+<stop offset="90%" stop-color="#9A9996"/>
+<stop offset="95%" stop-color="#C0BFBC"/>
+<stop offset="1" stop-color="#77767B"/>
+</linearGradient>
+<linearGradient id="shine">
+<stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/>
+<stop offset="50%" stop-color="#FFFFFF" stop-opacity="30%"/>
+<stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="gradient">
+<stop offset="0" stop-color="#48A6B7" stop-opacity="40%"/>
+<stop offset="50%" stop-color="#48A6B7" stop-opacity="40%"/>
+<stop offset="75%" stop-color="#E6E6E6" stop-opacity="0"/>
+</linearGradient>
+<clipPath id="pic">
+<rect width="46" height="88" x="16" y="16"/>
+</clipPath>
+<clipPath id="pix">
+<rect width="46" height="88" x="66" y="16"/>
+</clipPath>
+</defs>
+<rect width="104" height="104" rx="8" x="12" y="12" fill="url(#corners)"/>
+<rect width="104" height="100" rx="8" x="12" y="12" fill="#F6F5F4"/>
+<rect width="96" height="88" rx="4" x="16" y="16" fill="#2A273F"/>
+<rect width="4" height="92" x="62" y="14" fill="#F6F5F4"/>
+<rect width="104" height="100" rx="8" x="12" y="12" fill="url(#gradient)"/>
+<g clip-path="url(#pix)">
+<path d="M0 0L0 72L16 72L16 48L32 48L32 40L40 40L40 32L32 32L32 24L16 24L16 0Z" fill="#8C4257" transform="translate(64 24)"/>
+<path d="M0 0L8 0L8 8L16 8L16 16L8 16L8 24L0 24ZM0 64L0 48L8 48L8 64ZM24 48L8 48L8 32L32 32L32 40L24 40Z" fill="#EB6F92" transform="translate(64 24)"/>
+<rect width="8" height="8" fill="#F6C177" transform="translate(64 56)"/>
+<rect width="26" height="88" x="51" y="16" fill="url(#shine)"/>
+</g><g clip-path="url(#pic)">
+<g fill="#EB6F92" transform="translate(76 51)">
+<path d="M0 9C0 4 5 0 12 0C14 0 17 0 21 3L28 9L21 15C17 18 14 18 12 18C5 18 0 14 0 9Z"/>
+<path d="M0 9C0 4 5 0 12 0C14 0 17 0 21 3L28 9L21 15C17 18 14 18 12 18C5 18 0 14 0 9Z" transform="rotate(72 -12 9)"/>
+<path d="M0 9C0 4 5 0 12 0C14 0 17 0 21 3L28 9L21 15C17 18 14 18 12 18C5 18 0 14 0 9Z" transform="rotate(144 -12 9)"/>
+<path d="M0 9C0 4 5 0 12 0C14 0 17 0 21 3L28 9L21 15C17 18 14 18 12 18C5 18 0 14 0 9Z" transform="rotate(216 -12 9)"/>
+<path d="M0 9C0 4 5 0 12 0C14 0 17 0 21 3L28 9L21 15C17 18 14 18 12 18C5 18 0 14 0 9Z" transform="rotate(288 -12 9)"/>
+</g><circle r="6" cx="64" cy="60" fill="#F6C177"/>
+<rect width="26" height="88" x="51" y="16" fill="url(#shine)"/>
+</g></svg>

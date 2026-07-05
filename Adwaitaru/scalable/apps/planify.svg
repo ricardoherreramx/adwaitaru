@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="shadow1" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#000000" stop-opacity="0"/>
+<stop offset="1" stop-color="#000000" stop-opacity="0.2"/>
+</linearGradient>
+<linearGradient id="shadow2" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#000000" stop-opacity="0.2"/>
+<stop offset="1" stop-color="#000000" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="shadow3" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#000000" stop-opacity="0"/>
+<stop offset="1" stop-color="#000000" stop-opacity="0.2"/>
+</linearGradient>
+<linearGradient id="sunset" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#FFAB45"/>
+<stop offset="1" stop-color="#DD6D9F"/>
+</linearGradient>
+<linearGradient id="blue" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#4BCDF0"/>
+<stop offset="1" stop-color="#3571E4"/>
+</linearGradient>
+<linearGradient id="purple" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#EC8878" stop-opacity="0.5"/>
+<stop offset="1" stop-color="#3571E4" stop-opacity="0.5"/>
+</linearGradient>
+</defs>
+<rect width="88" height="104" rx="8" fill="url(#sunset)" transform="translate(17 13) rotate(-15 44 52)"/>
+<path d="M13.1665 0C13.1665 0 5.932 1.94 5.932 1.94C1.65 3 -0.87 7.453 0.276 11.734C0.276 11.734 13.1665 59.836 13.1665 59.836L13.1665 0Z" fill="url(#shadow1)" transform="translate(7 22.33)"/>
+<rect width="88" height="104" rx="8" fill="url(#blue)" transform="translate(20 8) rotate(15 44 52)"/>
+<path d="M0 0L0 79.84C0 79.84 17.9 13 17.9 13C19 8.8 16.5 4.426 12.23 3.28C12.23 3.28 0 0 0 0Z" fill="url(#shadow2)" transform="translate(100 15.8)"/>
+<path d="M18.164 79.836L18.164 0C18.164 0 0.2772 66.762 0.2772 66.762C-0.87 71 1.65 75.4 5.93 76.56C5.93 76.56 18.164 79.836 18.164 79.836Z" fill="url(#shadow3)" transform="translate(9.824 24.344)"/>
+<rect width="88" height="112" rx="8" x="20" y="8" fill="#F6F5F4"/>
+<g fill="#DEDEE0" transform="translate(20 0)">
+<rect width="88" height="2" y="22"/>
+<rect width="88" height="2" y="36"/>
+<rect width="88" height="2" y="50"/>
+<rect width="88" height="2" y="64"/>
+<rect width="88" height="2" y="78"/>
+<rect width="88" height="2" y="92"/>
+<rect width="88" height="2" y="106"/>
+</g>
+<rect width="4" height="112" fill="url(#purple)" x="28" y="8"/>
+<path d="M42 0L14 28L0 14" fill="none" stroke="#3C3846" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" transform="translate(43 51)"/>
+</svg>

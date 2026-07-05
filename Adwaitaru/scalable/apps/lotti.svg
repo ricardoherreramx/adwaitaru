@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<clipPath id="square">
+<rect width="104" height="104" x="12" y="12"/>
+</clipPath>
+<linearGradient id="black" x1="1" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#404040"/>
+<stop offset="1" stop-color="#000000"/>
+</linearGradient>
+<linearGradient id="lemon">
+<stop offset="0" stop-color="#FFFFFF"/>
+<stop offset="1" stop-color="#DEFA55"/>
+</linearGradient>
+</defs>
+<rect width="104" height="104" rx="8" x="12" y="12" fill="url(#black)"/>
+<rect width="112" height="40" rx="20" x="-8" y="44" fill="url(#lemon)" clip-path="url(#square)"/>
+<text x="18" y="76" font-family="Cantarell" font-size="32" font-weight="900" fill="#000000">Lotti</text>
+</svg>

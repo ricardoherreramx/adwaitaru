@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<clipPath id="pic">
+<rect width="88" height="72"/>
+</clipPath>
+<clipPath id="pile">
+<rect width="104" height="104" rx="8" x="12" y="12" transform="rotate(15, 64, 64)"/>
+</clipPath>
+<linearGradient id="sky" x1="1" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#62A0EA"/>
+<stop offset="1" stop-color="#1C71D8"/>
+</linearGradient>
+<linearGradient id="green" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#05C96B"/>
+<stop offset="1" stop-color="#028747"/>
+</linearGradient>
+<radialGradient id="glass" cx="0.5" cy="0" r="0.5">
+<stop offset="0" stop-color="#FFFFFF"/>
+<stop offset="27%" stop-color="#FFFFFF" stop-opacity="87%"/>
+<stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+</radialGradient>
+<filter id="shadow">
+<feDropShadow dx="0" dy="0" stdDeviation="4" flood-color="#000000" flood-opacity="0.4"/>
+</filter>
+</defs>
+<g clip-path="url(#pile)">
+<rect id="pic2" width="104" height="104" rx="8" x="12" y="12" fill="#CCCCCC" transform="rotate(15, 64, 64)"/>
+<rect id="pic1" width="104" height="104" rx="8" x="12" y="12" fill="#F6F5F4" filter="url(#shadow)"/>
+</g><rect id="pic1" width="104" height="104" rx="8" x="12" y="12" fill="#F6F5F4"/>
+<g clip-path="url(#pic)" transform="translate(20 20)">
+<rect width="88" height="88" fill="url(#sky)"/>
+<rect width="72" height="72" rx="8" transform="translate(56 44) rotate(45)" fill="#184696"/>
+<rect width="72" height="72" rx="8" transform="translate(16 34) rotate(45)" fill="url(#green)"/>
+<circle r="10" cx="66" cy="22" fill="#FFD76A"/>
+</g><g transform="translate(5 42)">
+<path d="M8 0L0 8" fill="none" stroke-width="6" stroke="#241F31" transform="translate(17 54)"/>
+<path d="M8 0L0 8" fill="none" stroke-width="6" stroke="#3D3846" transform="translate(17 52)"/>
+<path d="M14 0L0 14" fill="none" stroke-width="12" stroke="#5E5C64" stroke-linecap="round" transform="translate(3 62)"/>
+<path d="M14 0L0 14" fill="none" stroke-width="12" stroke="#77767B" stroke-linecap="round" transform="translate(3 60)"/>
+<path d="M0 16L16 0" fill="none" stroke-width="2" stroke="#FFFFFF" stroke-opacity="0.2" stroke-linecap="round" transform="translate(0 57)"/>
+<circle r="30" fill="none" stroke-width="4" stroke="#241F31" stroke-linejoin="round" transform="translate(47 32)"/>
+<circle r="30" fill="url(#glass)" fill-opacity="50%" stroke="#5E5C64" stroke-width="4" transform="translate(47 30)"/>
+</g></svg>

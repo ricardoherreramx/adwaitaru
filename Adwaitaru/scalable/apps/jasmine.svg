@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<radialGradient id="lake">
+<stop offset="0" stop-color="#4A90E2"/>
+<stop offset="1" stop-color="#2E5BBA"/>
+</radialGradient>
+</defs>
+<rect width="104" height="104" rx="8" x="12" y="12" fill="#184294"/>
+<rect width="104" height="100" rx="8" x="12" y="12" fill="url(#lake)"/>
+<g fill="#FFFFFF" transform="translate(64 64)">
+<ellipse rx="8" ry="16" cx="0" cy="-24"/>
+<ellipse rx="8" ry="16" cx="12" cy="20" transform="rotate(144)"/>
+<ellipse rx="8" ry="16" cx="18" cy="-14" transform="rotate(72)"/>
+<ellipse rx="8" ry="16" cx="-12" cy="20" transform="rotate(216)"/>
+<ellipse rx="8" ry="16" cx="-18" cy="-14" transform="rotate(288)"/>
+<circle r="6" cx="0" cy="0" fill="#FFF8DC"/>
+<circle r="3" cx="0" cy="0" fill="#FFD700"/>
+</g></svg>

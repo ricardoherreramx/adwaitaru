@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<clipPath id="upper">
+<rect width="104" height="20" x="12" y="12"/>
+</clipPath>
+<clipPath id="lower">
+<rect width="104" height="84" x="12" y="32"/>
+</clipPath>
+</defs>
+<g clip-path="url(#lower)">
+<rect width="104" height="104" rx="8" x="12" y="12" fill="#AAAAAA"/>
+<rect width="104" height="100" rx="8" x="12" y="12" fill="#F6F5F4"/>
+</g><g clip-path="url(#upper)">
+<rect width="104" height="28" rx="8" x="12" y="12" fill="#566069"/>
+<rect width="104" height="2" x="12" y="30" fill="#50D78D"/>
+</g><g id="buttons" fill="#F6F5F4">
+<circle r="4" cx="106" cy="22"/>
+<circle r="4" cx="92" cy="22"/>
+<circle r="4" cx="78" cy="22"/>
+</g>
+<path d="M32 0L32 32C32 41 25 48 16 48C7 48 0 41 0 32L0 0" fill="none" stroke="#50D78D" stroke-width="8" transform="translate(48 48)"/>
+</svg>

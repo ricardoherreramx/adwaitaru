@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<clipPath id="pic">
+<rect width="104" height="104" rx="8" x="12" y="12"/>
+</clipPath>
+<linearGradient id="corners">
+<stop offset="0" stop-color="#000000"/>
+<stop offset="5%" stop-color="#FFFFFF"/>
+<stop offset="10%" stop-color="#000000"/>
+<stop offset="90%" stop-color="#000000"/>
+<stop offset="95%" stop-color="#FFFFFF"/>
+<stop offset="1" stop-color="#000000"/>
+</linearGradient>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#70AAEC"/>
+<stop offset="1" stop-color="#99C2F2"/>
+</linearGradient>
+</defs>
+<g clip-path="url(#pic)">
+<rect width="104" height="104" fill="#F6F5F4" x="12" y="12"/>
+<path d="M0 0L44 0L44 8L4 8L4 16L44 16L44 24L4 24L4 32L44 32L44 40L4 40L4 48L44 48L44 56L4 56L4 64L44 64L44 72L4 72L4 80L44 80" fill="none" stroke="#C0BFBC" stroke-width="8" stroke-dasharray="8 8" transform="translate(64 20)"/>
+<rect width="52" height="104" x="12" y="12" fill="url(#sky)"/>
+<rect width="72" height="72" fill="#56E28A" rx="9" transform="translate(77 64), rotate(45)"/>
+<rect width="96" height="72" fill="#8FF0A3" rx="9" transform="translate(36 54), rotate(45)"/>
+<circle r="12" cx="88" cy="40" fill="#E5A50A"/>
+<path d="M0 0C0 4.4 3.6 8 8 8L96 8C100.4 8 104 4.4 104 0L104 6C104 10.4 100.4 14 96 14L8 14C3.6 14 0 10.4 0 6L0 6Z" fill="url(#corners)" transform="translate(12 102)" opacity="32%"/>
+<g fill="#F6F5F4">
+<path d="M25 0C21 0 17.6 2.5 16 6C15 5.5 13.7 5 12.5 5C8.5 5 5.3 8 5 12C5 12 5 12 5 12C2 12 0 14 0 17C0 20 2.26 22 5 22L25 22Z" transform="translate(39 26)"/>
+<path d="M4 12L16 12C18 12 20 10 20 8C20 6 18 4 16 4L15.7 4C15 1.7 13 0 10 0C7 0 5 1.7 4.3 4L4 4C2 4 0 6 0 8C0 10 2 12 4 12L4 12Z" transform="translate(20 20)"/>
+</g></g>
+</svg>

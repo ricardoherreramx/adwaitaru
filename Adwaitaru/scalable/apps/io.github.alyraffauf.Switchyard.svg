@@ -1,14 +1,1 @@
-<?xml version="1.0" encoding="utf-8"?>
-<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
-<defs>
-<linearGradient id="green" gradientUnits="userSpaceOnUse" x1="20" y1="20" x2="100" y2="100">
-<stop offset="0" stop-color="#6DD791"/>
-<stop offset="1" stop-color="#366946"/>
-</linearGradient>
-</defs>
-<circle r="60" cx="64" cy="64" fill="url(#green)"/>
-<circle r="36" cx="64" cy="64" fill="#FFFFFF"/>
-<g stroke="url(#green)">
-<path d="M28 34C48 34 64 52 64 64L64 100L64 64C64 52 80 34 100 34" fill="none" stroke-width="12"/>
-<circle r="7" cx="64" cy="64" fill="#FFFFFF" stroke-width="6"/>
-</g></svg>
+switchyard.svg

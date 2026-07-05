@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="paper" x1="0.8" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#DEDDDA"/>
+<stop offset="0.5" stop-color="#FFFFFF"/>
+<stop offset="1" stop-color="#C0BFBC"/>
+</linearGradient>
+<radialGradient id="blue" cx="50%" cy="0" r="180%">
+<stop offset="0" stop-color="#5E9AF3"/>
+<stop offset="1" stop-color="#002E99"/>
+</radialGradient>
+</defs>
+<path d="M0 0L0 92C0 92 80 92 80 92C84.4 92 88 88.4 88 84C88 84 88 8 88 8C88 3.6 84.4 0 80 0C80 0 0 0 0 0Z" fill="#002E99" transform="translate(20 28)"/>
+<path d="M0 0L0 70C0 70 78 70 78 70C82.4 70 86 66.4 86 62C86 62 86 8 86 8C86 3.6 82.4 0 78 0C78 0 0 0 0 0Z" fill="url(#paper)" transform="translate(22 48)"/>
+<path d="M0 0L0 84C0 84 80 84 80 84C84.4 84 88 80.4 88 76C88 76 88 8 88 8C88 3.6 84.4 0 80 0C80 0 0 0 0 0Z" fill="#002E99" transform="translate(20 28)"/>
+<path d="M0 0L8 0L8 2L2 2L2 8L8 8L8 10L0 10Z" fill="#191622" transform="translate(20 110)"/>
+<path d="M0 0L0 102C0 102 80 102 80 102C84.4 102 88 98.4 88 94C88 94 88 8 88 8C88 3.6 84.4 0 80 0C80 0 0 0 0 0Z" fill="url(#blue)" transform="translate(20 8)"/>
+<rect width="8" height="102" fill="#404248" transform="translate(20 8)"/>
+<path d="M0 0L2 0L2 102L0 102Z" fill="#FFFFFF" opacity="20%" transform="translate(22 8)"/>
+</svg>

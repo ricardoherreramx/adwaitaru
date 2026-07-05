@@ -1,11 +1,1 @@
-<?xml version="1.0" encoding="utf-8"?>
-<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
-<linearGradient id="yellow" x1="0" y1="0" x2="0" y2="1">
-<stop offset="0" stop-color="#FAD56B"/>
-<stop offset="1" stop-color="#E6AE2F"/>
-</linearGradient>
-<rect width="104" height="104" rx="8" x="12" y="12" fill="url(#yellow)"/>
-<g fill="#2A2A2A">
-<path d="M32 0C32 0 32 0 32 0C14 0 0 14 0 32C0 50 14 64 32 64C50 64 64 50 64 32L52 32C52 43 43 52 32 52C21 52 12 43 12 32C12 21 21 12 32 12Z" transform="translate(32 24) rotate(45 32 32)"/>
-<path d="M16 32C7 32 0 25 0 16L8 16C8 20.4 11.6 24 16 24C20.4 24 24 20.4 24 16C24 11.6 20.4 8 16 8L16 0C25 0 32 7 32 16C32 25 25 32 16 32Z" transform="translate(48 80)"/>
-</g></svg>
+cedilla.svg

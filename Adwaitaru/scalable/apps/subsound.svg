@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<linearGradient id="corners">
+<stop offset="0" stop-color="#000000" stop-opacity="40%"/>
+<stop offset="5%" stop-color="#FFFFFF" stop-opacity="20%"/>
+<stop offset="10%" stop-color="#000000" stop-opacity="30%"/>
+<stop offset="90%" stop-color="#000000" stop-opacity="30%"/>
+<stop offset="95%" stop-color="#FFFFFF" stop-opacity="20%"/>
+<stop offset="1" stop-color="#000000" stop-opacity="40%"/>
+</linearGradient>
+<linearGradient id="white" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#9A9996"/>
+<stop offset="1" stop-color="#F6F5F4"/>
+</linearGradient>
+<radialGradient id="dot" cx="50%" cy="33%">
+<stop offset="0" stop-color="#B8A382"/>
+<stop offset="1" stop-color="#665248"/>
+</radialGradient>
+<rect width="88" height="104" rx="8" x="20" y="16" fill="#FAA827"/>
+<rect width="88" height="104" rx="8" x="20" y="16" fill="url(#corners)"/>
+<rect width="88" height="92" rx="8" x="20" y="8" fill="#FFC034"/>
+<circle r="31" cx="64" cy="54" fill="#241F31" stroke="#665248" stroke-width="6"/>
+<g stroke="#000000" stroke-width="2">
+<circle r="23" cx="64" cy="54" fill="url(#white)"/>
+<circle r="9" cx="64" cy="54" fill="url(#dot)"/>
+</g></svg>

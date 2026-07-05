@@ -1,11 +1,1 @@
-<?xml version="1.0" encoding="utf-8"?>
-<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
-<defs>
-<linearGradient id="red" x1="0" y1="0" x2="0" y2="1">
-<stop offset="0" stop-color="#ED5353"/>
-<stop offset="1" stop-color="#C6262E"/>
-</linearGradient>
-</defs>
-<circle r="60" cx="64" cy="64" fill="url(#red)"/>
-<path d="M30 10C30 4.5 25.5 0 20 0C14.5 0 10 4.5 10 10L10 38C10 43.5 14.5 48 20 48C25.5 48 30 43.5 30 38ZM40 26L40 38C40 47.6 33 55.73 24 57.6L24 68L30 68L30 72L10 72L10 68L16 68L16 57.6C7 55.7 0 47.6 0 38L0 26L4 26L4 38C4 47 11 54 20 54C29 54 36 47 36 38L36 26Z" fill="#FFFFFF" transform="translate(44 28)"/>
-</svg>
+reco.svg

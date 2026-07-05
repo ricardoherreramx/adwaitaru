@@ -1,15 +1,1 @@
-<?xml version="1.0" encoding="utf-8"?>
-<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
-<defs>
-<linearGradient id="pulse">
-<stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/>
-<stop offset="1" stop-color="#FFFFFF"/>
-</linearGradient>
-</defs>
-<g transform="rotate(315 64 128)">
-<path d="M0 64L64 0C82 0 96 14 96 32C96 50 81.6733 64 64 64Z" fill="#872818" transform="translate(64 64)"/>
-<path d="M0 96L0 32C0 14.3269 14 0 32 0C50 0 64 14 64 32Z" fill="#AD3521" transform="translate(64 32)"/>
-</g>
-<path d="M0 96L0 32C0 14.3269 14 0 32 0C50 0 64 14 64 32C82 32 96 46 96 64C96 82 81.6733 96 64 96Z" fill="#EC482A" transform="translate(64 24) rotate(315 0 96)"/>
-<path d="M0 23L26 23L36 0L42 39L50 23L56 23" fill="none" stroke="url(#pulse)" stroke-width="4" stroke-linecap="round" transform="translate(27 47)"/>
-</svg>
+fitness-tracker.svg
