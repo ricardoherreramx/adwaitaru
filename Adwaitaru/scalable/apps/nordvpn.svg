@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<clipPath id="circle">
+<circle r="60" cx="64" cy="64"/>
+</clipPath>
+<linearGradient id="sky" x1="0" y1="25%" x2="1" y2="75%">
+<stop offset="0" stop-color="#3C5FFF"/>
+<stop offset="1" stop-color="#243999"/>
+</linearGradient>
+<linearGradient id="slope" x1="0" y1="0.5" x2="0" y2="1">
+<stop offset="0" stop-color="#F6F5F4"/>
+<stop offset="1" stop-color="#C0BFBC"/>
+</linearGradient>
+</defs>
+<g clip-path="url(#circle)">
+<rect width="128" height="128" fill="url(#sky)"/>
+<path d="M52 57L44 71L60 71ZM81 57L75 67L84 70Z" fill="#9A9996"/>
+<path d="M0 128L44 52L55 70L52 57L64 36L84 70L81 57L84 52L128 128Z" fill="url(#slope)"/>
+</g></svg>

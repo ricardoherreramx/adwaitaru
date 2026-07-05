@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<path d="M88 0C92.4 0 96 3.6 96 8L96 66C96 98 48 114 48 114C48 114 0 98 0 66C0 66 0 8 0 8C0 3.6 3.6 0 8 0Z" fill="#76B900" transform="translate(16 8)"/>
+<linearGradient id="light">
+<stop offset="0" stop-color="#FFFFFF" stop-opacity="25%"/>
+<stop offset="1" stop-color="#FFFFFF" stop-opacity="10%"/>
+</linearGradient>
+<path d="M48 48C48 48 0 32 0 0L0 6C0 38 48 54 48 54Z" fill="url(#light)" transform="translate(16 68)"/>
+<linearGradient id="dark">
+<stop offset="0" stop-color="#000000" stop-opacity="50%"/>
+<stop offset="1" stop-color="#000000" stop-opacity="25%"/>
+</linearGradient>
+<path d="M0 48C0 48 48 32 48 0L48 6C48 38 0 54 0 54Z" fill="url(#dark)" transform="translate(64 68)"/>
+<g stroke="#FFFFFF" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+<path d="M56 36L72 52L56 68" fill="none"/>
+<line x1="56" y1="84" x2="72" y2="84"/>
+</g></svg>
