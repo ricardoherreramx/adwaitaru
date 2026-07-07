@@ -1,21 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="88" height="112" rx="8" ry="8" fill="#505050" transform="translate(20 8)"/>
-<rect width="68" height="72" fill="#303030" transform="translate(30 22)"/>
-<rect width="64" height="48" fill="#285AF0" transform="translate(32 24)"/>
-<rect width="64" height="20" fill="#F6F5F4" transform="translate(32 72)"/>
-<rect width="6" height="4" fill="#285AF0" transform="translate(52 84)"/>
-<rect width="12" height="4" fill="#285AF0" transform="translate(36 84)"/>
-<rect width="68" height="18" fill="#303030" transform="translate(30 102)"/>
-<g fill="#F9F06B" transform="translate(34 102)">
-<path d="M2 0C3.1 0 4 0.9 4 2L4 13L0 13L0 2C0 0.9 0.9 0 2 0Z" transform="translate(0 5)"/>
-<path d="M2 0C3.1 0 4 0.9 4 2L4 13L0 13L0 2C0 0.9 0.9 0 2 0Z" transform="translate(8 5)"/>
-<path d="M2 0C3.1 0 4 0.9 4 2L4 13L0 13L0 2C0 0.9 0.9 0 2 0Z" transform="translate(16 5)"/>
-<path d="M2 0C3.1 0 4 0.9 4 2L4 13L0 13L0 2C0 0.9 0.9 0 2 0Z" transform="translate(24 5)"/>
-<path d="M2 0C3.1 0 4 0.9 4 2L4 13L0 13L0 2C0 0.9 0.9 0 2 0Z" transform="translate(32 5)"/>
-<path d="M2 0C3.1 0 4 0.9 4 2L4 13L0 13L0 2C0 0.9 0.9 0 2 0Z" transform="translate(40 5)"/>
-<path d="M2 0C3.1 0 4 0.9 4 2L4 13L0 13L0 2C0 0.9 0.9 0 2 0Z" transform="translate(48 5)"/>
-<path d="M2 0C3.1 0 4 0.9 4 2L4 13L0 13L0 2C0 0.9 0.9 0 2 0Z" transform="translate(56 5)"/>
-</g>
-<path d="M0 4L0 0C0 4.418 3.582 8 8 8L80 8C84.4166 8 88 4.42 88 0L88 4C88 8.418 84.418 12 80 12L8 12C3.582 12 0 8.418 0 4L0 4Z" fill="#000000" opacity="0.4" transform="translate(20 108)"/>
-</svg>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="corners">
+<stop offset="0" stop-color="#241F31"/>
+<stop offset="4%" stop-color="#5E5C64"/>
+<stop offset="12%" stop-color="#3D3846"/>
+<stop offset="88%" stop-color="#3D3846"/>
+<stop offset="96%" stop-color="#5E5C64"/>
+<stop offset="1" stop-color="#241F31"/>
+</linearGradient>
+<clipPath id="cut">
+<rect width="88" height="112" rx="8" x="20" y="8"/>
+</clipPath>
+</defs>
+<rect width="88" height="104" rx="8" x="20" y="16" fill="url(#corners)"/>
+<rect width="88" height="106" rx="8" x="20" y="8" fill="#5E5C64"/>
+<rect width="68" height="72" x="30" y="22" fill="#3D3846"/>
+<rect width="64" height="20" x="32" y="72" fill="#F6F5F4"/>
+<g fill="#3256E9">
+<rect width="64" height="48" x="32" y="24"/>
+<rect width="12" height="4" x="36" y="84"/>
+<rect width="6" height="4" x="52" y="84"/>
+</g><g clip-path="url(#cut)">
+<rect width="68" height="18" x="30" y="102" fill="#3D3846"/>
+<path d="M0 0L0 12M8 0L8 12M16 0L16 12M24 0L24 12M32 0L32 12M40 0L40 12M48 0L48 12M56 0L56 12" fill="none" stroke="#F8E45C" stroke-width="4" stroke-linecap="round" transform="translate(36 108)"/>
+<rect width="68" height="6" x="30" y="114" fill="#000000" opacity="36%"/>
+</g></svg>

@@ -17,6 +17,7 @@
     <style type="text/css">
       a#Apps {background-color: #4B4B4B;pointer-events: none}
       #panel {background-color: transparent}
+      #panel svg {fill: white}
       main.apps {
       display: flex;
       flex-flow: column wrap;
@@ -113,7 +114,7 @@
       </svg>
       <time id="live-clock">Loading time ...</time>
       <div class="pill" id="session">
-        <svg width="16" height="16" fill="white">
+        <svg width="16" height="16">
           <circle r="2" cx="8" cy="13"/>
           <g transform="translate(8 13) rotate(225)">
             <path d="M0 11C6 11 11 6 11 0L10 0C10 5.5 5.5 10 0 10Z"/>
@@ -121,7 +122,7 @@
             <path d="M0 5C2.8 5 5 2.8 5 0L4 0C4 2.2 2.2 4 0 4Z"/>
           </g>
         </svg>
-        <svg width="16" height="16" fill="white">
+        <svg width="16" height="16">
           <defs>
             <clipPath id="waves">
               <rect width="6" height="16" x="10"/>
@@ -130,7 +131,10 @@
           <path d="M8 1L4 5L1 5L1 11L4 11L8 15Z"/>
           <path clip-path="url(#waves)" d="M15 8C15 11.85 11.85 15 8 15L8 14C11.3 14 14 11.3 14 8C14 4.7 11.3 2 8 2L8 1C11.85 1 15 4.2 15 8ZM12 8C12 10.2 10.2 12 8 12L8 11C9.65 11 11 9.65 11 8C11 6.35 9.65 5 8 5L8 4C10.2 4 12 5.8 12 8Z"/>
         </svg>
-        <img style="width:16px;height:16px" src="Adwaitaru/symbolic/actions/system-shutdown-symbolic.svg">
+        <svg width="16" height="16">
+          <path d="M0 7.5C0 11.6 3.4 15 7.5 15C11.6 15 15 11.6 15 7.5C15 3.4 11.6 0 7.5 0L7.5 1C11 1 14 4 14 7.5C14 11 11 14 7.5 14C4 14 1 11 1 7.5Z" transform="rotate(45 7.5 7.5)"/>
+          <rect width="1" height="8" x="7"/>
+        </svg>
       </div>
     </header>
     <nav id="dock">
@@ -636,7 +640,7 @@
 			</a>
 			<a target="_blank" class="app" href="https://gsmartcontrol.shaduri.dev/">
 				<figure>
-					<img src="Adwaitaru/scalable/apps/gsmartcontrol.svg" alt="GSmartControl icon"/>
+					<img src="Adwaitaru/scalable/devices/drive-harddisk.svg" alt="Gnome Smart Control icon"/>
 					<figcaption>GSmartControl</figcaption>
 				</figure>
 			</a>

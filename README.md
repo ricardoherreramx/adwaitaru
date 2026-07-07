@@ -82,7 +82,7 @@ Built largely upon the graphic work of GNOME's [Adwaita designers](https://gitla
 ![icon](./Adwaitaru/scalable/apps/app-center.svg "Ubuntu App Center")
 ![icon](./Adwaitaru/scalable/apps/org.gnome.DiskUtility.svg "GNOME Disks")
 ![icon](./Adwaitaru/scalable/apps/gparted.svg "GParted")
-![icon](./Adwaitaru/scalable/apps/gsmartcontrol.svg "GSmartControl")
+![icon](./Adwaitaru/scalable/devices/drive-harddisk.svg "GSmartControl")
 ![icon](./Adwaitaru/scalable/apps/bleachbit.svg "BleachBit")
 ![icon](./Adwaitaru/scalable/apps/ubiquity.svg "Ubiquity")
 ![icon](./Adwaitaru/scalable/apps/synaptic.svg "Synaptic Package Manager")
