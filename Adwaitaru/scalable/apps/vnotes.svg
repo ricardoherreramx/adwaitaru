@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<linearGradient id="corners">
+<stop offset="0" stop-color="#BABAB6"/>
+<stop offset="4%" stop-color="#F6F5F4"/>
+<stop offset="8%" stop-color="#BEBEB8"/>
+<stop offset="92%" stop-color="#BEBEB8"/>
+<stop offset="96%" stop-color="#EEEEEC"/>
+<stop offset="1" stop-color="#BABAB6"/>
+</linearGradient>
+<rect width="88" height="40" rx="8" x="20" y="80" fill="url(#corners)"/>
+<rect width="88" height="104" rx="8" x="20" y="8" fill="#F6F5F4"/>
+<path d="M28 0L28 20C28 24.4 24.4 28 20 28L0 28Z" fill="#C0BFBC" transform="translate(80 84)"/>
+<path d="M0 26L0 7C0 3 3 0 7 0L26 0Z" fill="none" stroke="#C0BFBC" stroke-width="2" stroke-linejoin="round" transform="translate(81 85)"/>
+<path d="M0 0L8 0L20 36L32 0L40 0L24 48L16 48Z" fill="#3D3846" transform="translate(44 40)"/>
+<g fill="#C0BFBC" transform="translate(34 22)">
+<circle r="3"/>
+<circle r="3" cx="12"/>
+<circle r="3" cx="24"/>
+<circle r="3" cx="36"/>
+<circle r="3" cx="48"/>
+<circle r="3" cx="60"/>
+</g></svg>

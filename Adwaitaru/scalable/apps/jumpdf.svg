@@ -15,7 +15,11 @@
 <stop offset="55%" stop-color="#FFFFFF"/>
 <stop offset="60%" stop-color="#F6F5F4"/>
 </linearGradient>
-<rect width="112" height="78" rx="8" x="8" y="40" fill="#E01B24"/>
+<linearGradient id="red">
+<stop offset="0" stop-color="#ED333B"/>
+<stop offset="1" stop-color="#C01C28"/>
+</linearGradient>
+<rect width="112" height="78" rx="8" x="8" y="40" fill="url(#red)"/>
 <rect width="112" height="76" rx="8" x="8" y="40" fill="url(#corners)"/>
 <path d="M8 0C3.6 0 0 3.6 0 8L0 68C0 72.4 3.6 76 8 76L44 76C50.6 76 56 81.4 56 88C56 81.4 61.4 76 68 76L104 76C108.4 76 112 72.4 112 68L112 8C112 3.6 108.4 0 104 0L68 0C61.4 0 56 5.4 56 12C56 5.4 50.6 0 44 0Z" fill="url(#pages)" transform="translate(8 28)"/>
 <path d="M16 0L16 32L8 24L0 32L0 0Z" fill="#E5A50A" transform="translate(84 28)"/>

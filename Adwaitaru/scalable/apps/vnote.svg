@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="paper">
+<stop offset="90%" stop-color="#DEDDDA"/>
+<stop offset="95%" stop-color="#F6F5F4"/>
+<stop offset="1" stop-color="#C0BFBC"/>
+</linearGradient>
+<clipPath id="V">
+<path d="M44 0L62 0L62 20L34 56L18 56L0 6L16 6L29 42L53.6 10.7Z"/>
+</clipPath>
+<filter id="shadow1">
+<feDropShadow dx="2" dy="0" flood-color="#999999" stdDeviation="2"/>
+</filter>
+<filter id="shadow2">
+<feDropShadow dx="0" dy="2" flood-color="#999999" stdDeviation="2"/>
+</filter>
+</defs>
+<path d="M0 0L0 18L80 18C84.4 18 88 14.4 88 10L88 0Z" fill="#00665C" transform="translate(20 102)"/>
+<path d="M0 8L0 14L78 14C82.4 14 86 10.4 86 6L86 0C86 4.4 82.4 8 78 8Z" fill="url(#paper)" transform="translate(22 104)"/>
+<path d="M0 0L0 102L80 102C84.4 102 88 98.4 88 94L88 8C88 3.6 84.4 0 80 0Z" fill="#00897B" transform="translate(20 8)"/>
+<rect width="2" height="102" x="22" y="8" fill="#FFFFFF" opacity="22%"/>
+<g clip-path="url(#V)" fill="#FFFFFF" transform="translate(34 32)">
+<path d="M44 0L44 20L16 56L0 56Z" transform="translate(18 0)" fill="#DDDDDD"/>
+<path d="M0 0L16 0L34 50L18 50Z" transform="translate(0 6)" filter="url(#shadow1)"/>
+<path d="M0 0L18 0L18 20Z" transform="translate(44 0)" filter="url(#shadow2)"/>
+</g></svg>
