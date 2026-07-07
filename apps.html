@@ -15,18 +15,17 @@
     <link rel="shortcut icon" href="Adwaitaru/symbolic/categories/emoji-nature-symbolic.svg" type="image/x-icon">
     <link href="showcase.css" rel="stylesheet" type="text/css">
     <style type="text/css">
-      a#Apps {background-color: #4B4B4B;pointer-events: none;}
-      #panel {background-color: #222222}
+      a#Apps {background-color: #4B4B4B;pointer-events: none}
+      #panel {background-color: transparent}
       main.apps {
       display: flex;
       flex-flow: column wrap;
       align-content: flex-start;
       justify-content: center;
       overflow: scroll;
-      padding: 140px 0;
+      padding: 130px 0;
       margin: 0 auto;
       height: 100vh;
-      width: 1160px;
       gap: 0 36px;
       user-select: none;
       scroll-snap-type: x mandatory;
@@ -91,6 +90,15 @@
       align-self: center;
       inset: 0;
       }
+      @media (min-width: 876px) {main.apps {width: 556px}}
+      @media (min-width: 1024px) {main.apps {width: 704px}}
+      @media (min-width: 1172px) {main.apps {width: 852px}}
+      @media (min-width: 1320px) {main.apps {width: 1000px}}
+      @media (min-width: 1468px) {main.apps {width: 1148px}}
+      @media (min-width: 1616px) {main.apps {width: 1296px}}
+      @media (min-width: 1764px) {main.apps {width: 1444px}}
+      @media (min-width: 1912px) {main.apps {width: 1592px}}
+      @media (min-width: 2060px) {main.apps {width: 1740px}}
     </style>
   </head>
   <body>
