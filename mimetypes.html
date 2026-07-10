@@ -19,7 +19,7 @@
       #panel svg {fill: white}
       body {
       display: grid;
-      grid-template-columns: 240px 1fr;
+      grid-template-columns: max-content 1fr;
       grid-template-rows: 32px 46px 1fr;
       grid-template-areas:
       "header header"
@@ -31,7 +31,6 @@
       grid-area: header;
       }
       aside {
-      width: 240px;
       height: 100%;
       padding: 6px;
       display: flex;
@@ -135,6 +134,19 @@
       }
       #searchbar:placeholder-shown + #erase {display: none}
       #searchbar:not(:placeholder-shown) + #erase {display: block}
+      @media (max-width: 680px) {
+      aside, header.sidebar {
+      display: none;
+      width: 0;
+      }
+      }
+      @media (min-width: 680px) {
+      aside {
+      width: 20vw;
+      min-width: 180px;
+      max-width: 240px;
+      }
+      }
     </style>
   </head>
   <body>
