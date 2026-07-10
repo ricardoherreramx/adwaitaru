@@ -53,17 +53,14 @@ margin: 0;
 
 header {
 z-index: 3;
-position: fixed;
-user-select: none;
-background-color: #121212;
 width: 100%;
 display: block;
 align-content: center;
-justify-items: center;
 text-align: center;
 }
 
 #panel {
+position: fixed;
 user-select: none;
 background-color: #121212;
 height: 32px;
@@ -103,6 +100,8 @@ display: block;
 object-fit: cover;
 }
 
+img[src$="symbolic.svg"] {filter: brightness(200%)}
+
 nav#dock {
 display: flex;
 flex-flow: row nowrap;
@@ -134,29 +133,27 @@ width: 64px;
 height: 64px;
 }
 
-a#Apps svg {
+a#Apps img {
 width: 64px;
 height: 64px;
 }
 
-main.apps {
+main.grid {
 display: flex;
-flex-flow: row wrap;
-gap: 0 36px;
+align-items: flex-start;
+align-content: flex-start;
+overflow: scroll;
+height: 100%;
 }
 
-main.apps figure {
-width: 112px;
+main.grid figure {
 text-align: center;
-border-radius: 20px;
-padding: 12px 6px;
+width: 112px;
 }
 
-main.apps > a:hover figure,
-main.apps > a:focus figure {background-color: #353535}
-main.apps figcaption {margin-top: 6px}
+main.grid figcaption {margin-top: 6px}
 
-main.apps img {
+main.scalable figure img {
 width: 64px;
 height: 64px;
 margin: 0 auto;

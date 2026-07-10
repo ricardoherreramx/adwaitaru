@@ -19,20 +19,15 @@
       #panel {background-color: transparent}
       #panel svg {fill: white}
       main.apps {
-      display: flex;
       flex-flow: column wrap;
-      align-content: flex-start;
       justify-content: center;
-      overflow: scroll;
       padding: 130px 0;
       margin: 0 auto;
-      height: 100vh;
       gap: 0 36px;
       user-select: none;
       scroll-snap-type: x mandatory;
       }
       main.apps figure {
-      width: 112px;
       border-radius: 18px;
       padding: 12px 6px;
       }
@@ -42,6 +37,8 @@
       height: 148px;
       }
       main.apps > a:focus {outline: none}
+      main.apps > a:hover figure,
+      main.apps > a:focus figure {background-color: #353535}
       main.apps > a:focus figure {outline: 2px solid gray}
       main.apps > a.hidden {display: none !important}
       #searchform {
@@ -114,27 +111,9 @@
       </svg>
       <time id="live-clock">Loading time ...</time>
       <div class="pill" id="session">
-        <svg width="16" height="16">
-          <circle r="2" cx="8" cy="13"/>
-          <g transform="translate(8 13) rotate(225)">
-            <path d="M0 11C6 11 11 6 11 0L10 0C10 5.5 5.5 10 0 10Z"/>
-            <path d="M0 8C4.5 8 8 4.5 8 0L7 0C7 4 4 7 0 7Z"/>
-            <path d="M0 5C2.8 5 5 2.8 5 0L4 0C4 2.2 2.2 4 0 4Z"/>
-          </g>
-        </svg>
-        <svg width="16" height="16">
-          <defs>
-            <clipPath id="waves">
-              <rect width="6" height="16" x="10"/>
-            </clipPath>
-          </defs>
-          <path d="M8 1L4 5L1 5L1 11L4 11L8 15Z"/>
-          <path clip-path="url(#waves)" d="M15 8C15 11.85 11.85 15 8 15L8 14C11.3 14 14 11.3 14 8C14 4.7 11.3 2 8 2L8 1C11.85 1 15 4.2 15 8ZM12 8C12 10.2 10.2 12 8 12L8 11C9.65 11 11 9.65 11 8C11 6.35 9.65 5 8 5L8 4C10.2 4 12 5.8 12 8Z"/>
-        </svg>
-        <svg width="16" height="16">
-          <path d="M0 7.5C0 11.6 3.4 15 7.5 15C11.6 15 15 11.6 15 7.5C15 3.4 11.6 0 7.5 0L7.5 1C11 1 14 4 14 7.5C14 11 11 14 7.5 14C4 14 1 11 1 7.5Z" transform="rotate(45 7.5 7.5)"/>
-          <rect width="1" height="8" x="7"/>
-        </svg>
+        <img src="Adwaitaru/symbolic/devices/network-wireless-symbolic.svg"/>
+        <img src="Adwaitaru/symbolic/devices/audio-speakers-symbolic.svg"/>
+        <img src="Adwaitaru/symbolic/actions/system-shutdown-symbolic.svg"/>
       </div>
     </header>
     <nav id="dock">
@@ -154,17 +133,7 @@
         <img src="Adwaitaru/scalable/mimetypes/package-x-generic.svg">
       </a>
       <a id="Apps" href="apps.html">
-        <svg width="64" height="64" fill="white">
-          <circle r="4" cx="16" cy="16"/>
-          <circle r="4" cx="32" cy="16"/>
-          <circle r="4" cx="48" cy="16"/>
-          <circle r="4" cx="16" cy="32"/>
-          <circle r="4" cx="32" cy="32"/>
-          <circle r="4" cx="48" cy="32"/>
-          <circle r="4" cx="16" cy="48"/>
-          <circle r="4" cx="32" cy="48"/>
-          <circle r="4" cx="48" cy="48"/>
-        </svg>
+        <img src="Adwaitaru/symbolic/actions/view-app-grid-symbolic.svg"/>
       </a>
     </nav>
     <svg width="10" height="20" class="arrow" style="left:75px">

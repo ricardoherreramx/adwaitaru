@@ -1,0 +1,1177 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Adwaitaru • Apps</title>
+    <meta name="author" content="Ricardo Herrera">
+    <meta name="description" content="Adwaitaru: the finest Adwaita-styled icons for the Linux Gnome Desktop">
+    <meta name="keywords" content="Adwaitaru, Adwaita, Libadwaita, MoreWaita, Neowaita, Neuwaita, Yaru, Suru, Gnome, Fedora, Linux, Ubuntu, Canonical, Icon, Icons, Icon Theme, Icon Set, Icon Pack, Snap, Flatpak, FlatHub">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index,follow">
+    <meta property="og:title" content="Adwaitaru Icon Pack">
+    <meta property="og:description" content="Adwaita icons for the Gnome Desktop">
+    <meta property="og:site_name" content="Adwaitaru • Showcase">
+    <meta property="og:image">
+    <link rel="shortcut icon" href="Adwaitaru/symbolic/categories/emoji-nature-symbolic.svg" type="image/x-icon">
+    <link href="showcase.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+      a#Files {background-color: #4B4B4B;pointer-events: none}
+      #panel svg {fill: white}
+      body {
+      display: grid;
+      grid-template-columns: 240px 1fr;
+      grid-template-rows: 32px 46px 1fr;
+      grid-template-areas:
+      "header header"
+      "sidebar main"
+      "sidebar main";
+      }
+      #panel {
+      position: initial;
+      grid-area: header;
+      }
+      aside {
+      width: 240px;
+      height: 100%;
+      padding: 6px;
+      display: flex;
+      flex-flow: column nowrap;
+      background-color: #303030;
+      grid-area: sidebar;
+      padding-top: 48px;
+      gap: 2px;
+      }
+      aside a{
+      width: 100%;
+      height: 36px;
+      padding: 10px;
+      }
+      aside a > * {
+      float: left;
+      margin: 0 8px;
+      }
+      aside img {filter: brightness(140%)}
+      header img {
+      width: 16px;
+      height: 16px;
+      filter: brightness(1000%);
+      }
+      header.window {
+      height: 46px;
+      padding: 5px;
+      }
+      header.window h2 {
+      font-weight: bold;
+      font-size: 12pt;
+      }
+      header.window > img {margin: 0 10px}
+      header.title {grid-area: 2 / 2 / 3 / 3}
+      header.title img.arrow {float: left}
+      header.sidebar {
+      display: flex;
+      flex-flow: row nowrap;
+      grid-area: 2 / 1 / 3 / 2;
+      justify-content: space-between;
+      align-items: center;
+      }
+      main.files {
+      flex-flow: row wrap;
+      justify-content: space-around;
+      padding-top: 48px;
+      padding-bottom: 130px;
+      grid-area: main;
+      width: 100%;
+      }
+      main.files,
+      header.title {background-color: #1E1E1E}
+      main.files figure {
+      border-radius: 12px;
+      padding: 6px;
+      }
+      main.files figcaption {
+      text-wrap: wrap;
+      word-break: break-word;
+      overflow-wrap: anywhere;
+      }
+      main.files > a.hidden {display: none !important}
+      #searchform {
+      position: fixed;
+      top: 56px;
+      left: 50%;
+      width: 372px;
+      height: 42px;
+      transform: translateX(-50%);
+      }
+      #searchbar {
+      color: inherit;
+      font-family: inherit;
+      font-size: inherit;
+      width: 372px;
+      height: 42px;
+      background-color: #353535;
+      background-image: url(Adwaitaru/symbolic/actions/search-symbolic.svg);
+      background-position: 14px center;
+      background-size: 16px 16px;
+      background-repeat: no-repeat;
+      border: thin solid transparent;
+      border-radius: 21px;
+      outline: none;
+      padding: 0 42px;
+      padding-left: 42px;
+      }
+      #searchbar::placeholder {color: gray}
+      #searchbar:active, #searchbar:hover {background-color: #404040}
+      #searchbar:active, #searchbar:focus {border-color: #C0C0C0}
+      #erase {
+      position: absolute;
+      right: 14px;
+      top: 14px;
+      width: 16px;
+      height: 16px;
+      border: none;
+      background: none;
+      }
+      #searchbar:placeholder-shown + #erase {display: none}
+      #searchbar:not(:placeholder-shown) + #erase {display: block}
+    </style>
+  </head>
+  <body>
+    <header id="panel">
+      <svg class="pill" id="workspacer" width="84" height="26">
+        <g fill="#A0A0A0" transform="translate(0 10)">
+          <rect width="6" height="6" rx="3" x="12"></rect>
+          <rect width="24" height="6" rx="3" x="24" fill="#F2F2F2" stroke="#F2F2F2" stroke-width="2"></rect>
+          <rect width="6" height="6" rx="3" x="54"></rect>
+          <rect width="6" height="6" rx="3" x="66"></rect>
+        </g>
+      </svg>
+      <time id="live-clock">Loading time ...</time>
+      <div class="pill" id="session">
+        <img src="Adwaitaru/symbolic/devices/network-wireless-symbolic.svg"/>
+        <img src="Adwaitaru/symbolic/devices/audio-speakers-symbolic.svg"/>
+        <img src="Adwaitaru/symbolic/actions/system-shutdown-symbolic.svg"/>
+      </div>
+    </header>
+    <nav id="dock">
+      <a id="Welcome" href="index.html">
+        <img src="Adwaitaru/scalable/apps/org.gnome.Tour.svg">
+      </a>
+      <a id="Files" href="mimetypes.html">
+        <img src="Adwaitaru/scalable/apps/org.gnome.Nautilus.svg">
+      </a>
+      <a id="Tweaks" href="tweaks.html">
+        <img src="Adwaitaru/scalable/apps/gnome-tweak-tool.svg">
+      </a>
+      <a id="HowTo" href="help.html">
+        <img src="Adwaitaru/scalable/apps/org.gnome.yelp.svg">
+      </a>
+      <a id="Download (.zip)">
+        <img src="Adwaitaru/scalable/mimetypes/package-x-generic.svg">
+      </a>
+      <a id="Apps" href="apps.html">
+        <img src="Adwaitaru/symbolic/actions/view-app-grid-symbolic.svg"/>
+      </a>
+    </nav>
+    <header class="window sidebar">
+      <img src="Adwaitaru/symbolic/actions/search-symbolic.svg"/>
+      <h2>Files</h2>
+      <img src="Adwaitaru/symbolic/actions/open-menu-symbolic.svg"/>
+    </header>
+    <aside>
+      <a><img src="Adwaitaru/symbolic/places/user-home-symbolic.svg"/><p>Home</p></a>
+      <a><img src="Adwaitaru/symbolic/places/folder-recent-symbolic.svg"/><p>Recent</p></a>
+      <a><img src="Adwaitaru/symbolic/status/starred-symbolic.svg"/><p>Starred</p></a>
+      <a><img src="Adwaitaru/symbolic/places/network-server-symbolic.svg"/><p>Network</p></a>
+      <a><img src="Adwaitaru/symbolic/places/user-trash-symbolic.svg"/><p>Trash</p></a>
+      <a><img src="Adwaitaru/symbolic/places/folder-documents-symbolic.svg"/><p>Documents</p></a>
+      <a><img src="Adwaitaru/symbolic/places/folder-music-symbolic.svg"/><p>Music</p></a>
+      <a><img src="Adwaitaru/symbolic/places/folder-pictures-symbolic.svg"/><p>Pictures</p></a>
+      <a><img src="Adwaitaru/symbolic/places/folder-videos-symbolic.svg"/><p>Videos</p></a>
+      <a><img src="Adwaitaru/symbolic/places/folder-download-symbolic.svg"/><p>Downloads</p></a>
+    </aside>
+    <form id="searchform" onsubmit="event.preventDefault();">
+      <input type="text" id="searchbar" placeholder="Search for your app">
+      <button type="reset" id="erase" aria-label="Clear search">
+        <svg width="16" height="16" fill="gray" viewBox="0 0 16 16">
+          <path d="m4.93 3-4.223 4.223-0-0-0.7 0.7 0 0-0 0 0.7 0.7 0-0 3 3 1.24 1.24v2e-3l0.1 0.1h10.93v-10h-11zm0.4 1h9.65v8h-9.5l-4.1-4.1zm2.36 1-0.7 0.7 2.3 2.3-2.3 2.3 0.7 0.7 2.3-2.3 2.3 2.3 0.7-0.7-2.3-2.3 2.3-2.3-0.7-0.7-2.3 2.3z" fill-rule="evenodd"/>
+        </svg>
+      </button>
+    </form>
+    <header class="window title">
+      <img class="arrow" src="Adwaitaru/symbolic/actions/go-previous-symbolic.svg"/>
+      <img class="arrow" src="Adwaitaru/symbolic/actions/go-next-symbolic.svg"/>
+    </header>
+    <main class="files grid scalable icons">
+      <figure>
+        <img src="Adwaitaru/scalable/places/user-home.svg" alt="Folder User Home icon"/>
+        <figcaption>Home</figcaption>
+      </figure>
+      <figure>
+        <img src="Adwaitaru/scalable/places/folder-recent.svg" alt="Folder Recent icon"/>
+        <figcaption>Recent</figcaption>
+      </figure>
+      <figure>
+        <img src="Adwaitaru/scalable/places/user-desktop.svg" alt="Folder Desktop icon"/>
+        <figcaption>Desktop</figcaption>
+      </figure>
+      <figure>
+        <img src="Adwaitaru/scalable/places/folder-documents.svg" alt="Folder Documents icon"/>
+        <figcaption>Documents</figcaption>
+      </figure>
+      <figure>
+        <img src="Adwaitaru/scalable/places/folder-download.svg" alt="Folder Downloads icon"/>
+        <figcaption>Downloads</figcaption>
+      </figure>
+      <figure>
+        <img src="Adwaitaru/scalable/places/folder-music.svg" alt="Folder Music icon"/>
+        <figcaption>Music</figcaption>
+      </figure>
+      <figure>
+        <img src="Adwaitaru/scalable/places/folder-pictures.svg" alt="Folder ictures icon"/>
+        <figcaption>Pictures</figcaption>
+      </figure>
+      <figure>
+        <img src="Adwaitaru/scalable/places/folder-private.svg" alt="Folder Private icon"/>
+        <figcaption>Private</figcaption>
+      </figure>
+      <figure>
+        <img src="Adwaitaru/scalable/places/folder-publicshare.svg" alt="Folder Public Share icon"/>
+        <figcaption>Public</figcaption>
+      </figure>
+      <figure>
+        <img src="Adwaitaru/scalable/places/folder-templates.svg" alt="Folder Templates icon"/>
+        <figcaption>Templates</figcaption>
+      </figure>
+      <figure>
+        <img src="Adwaitaru/scalable/places/folder-videos.svg" alt="Folder Videos icon"/>
+        <figcaption>Videos</figcaption>
+      </figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-x-executable.svg" alt="Executable File icon"/>
+				<figcaption>Executable File</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-x-sharedlib.svg" alt="Shared Library icon"/>
+				<figcaption>Shared Object File.so</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-vnd.appimage.svg" alt="AppImage icon"/>
+				<figcaption>AppImage.appimage</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/text-x-dart.svg" alt="Dart File/Application icon"/>
+				<figcaption>Dart File.dart</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-x-ms-dos-executable.svg" alt="Microsoft Windows App icon"/>
+				<figcaption>Windows Executable.exe</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-apk.svg" alt="Android App icon"/>
+				<figcaption>Android App.apk</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/package-x-generic.svg" alt="Generic Package icon"/>
+				<figcaption>Compressed File (generic)</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/x-package-repository.svg" alt="Package Repository icon"/>
+				<figcaption>Package Repository</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-x-rar.svg" alt="RAR Compressed File icon"/>
+				<figcaption>Compressed File.rar</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-x-addon.svg" alt="Extension puzzle piece icon"/>
+				<figcaption>Extension</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/font-x-generic.svg" alt="Generic Font File icon"/>
+				<figcaption>Font File (generic)</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/image-x-generic.svg" alt="Generic Image icon"/>
+				<figcaption>Image (generic)</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/image-jpeg.svg" alt="Joint Photography (JPG/JPEG) icon"/>
+				<figcaption>Joint Photography.jpg</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/image-tiff.svg" alt="Tagged Image (TIFF) icon"/>
+				<figcaption>Tagged Image.tiff</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/image-gif.svg" alt="Graphics Interchange (GIF) icon"/>
+				<figcaption>Graphics Interchange.gif</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/image-svg+xml.svg" alt="Scalable Vector Graphic (SVG) icon"/>
+				<figcaption>Scalable Vector Graphic.svg</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/image-bmp.svg" alt="BitMap (BMP)"/>
+				<figcaption>BitMap.bmp</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/image-ico.svg" alt="Icon"/>
+				<figcaption>Windows Icon File.ico</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/image-png.svg" alt="Portable Networks Graphic (PNG)"/>
+				<figcaption>Portable Networks Graphic.png</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/image-x-cursor.svg" alt="Cursor icon"/>
+				<figcaption>X11 Cursor</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/rom.svg" alt="ROM File icon"/>
+				<figcaption>ROM File (generic)</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-x-note.svg" alt="Note icon"/>
+				<figcaption>Note (generic)</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/video-x-generic.svg" alt="Generic Video Film icon"/>
+				<figcaption>Video File (generic)</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/audio-x-generic.svg" alt="Generic Vinyl Audio icon"/>
+				<figcaption>Audio File (generic)</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/audio-x-playlist.svg" alt="Playlist icon"/>
+				<figcaption>Audio Playlist.m3u</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/apps/org.gnome.Podcasts.svg" alt="Podcast tape icon"/>
+				<figcaption>Podcast Audio.m4a</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-x-firmware.svg" alt="Firmware icon"/>
+				<figcaption>Firmware.dfu</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-certificate.svg" alt="Certificate icon"/>
+				<figcaption>Certificate</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-pgp-encrypted.svg" alt="PGP Encrypted icon"/>
+				<figcaption>PGP Encrypted.pgp</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-pgp-keys.svg" alt="PGP Key icon"/>
+				<figcaption>PGP Key.asc</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-pgp-signature.svg" alt="PGP Signature icon"/>
+				<figcaption>PGP Signature.sig</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-x-hwp.svg" alt="Hangul Word Processor HWP/HWPX File icon"/>
+				<figcaption>Hangul Word Document.hwp</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-drawing.svg" alt="Generic Drawing / GIMP File (XCF) icon"/>
+				<figcaption>Drawing.xcf</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-x-krita.svg" alt="Krita Drawing icon"/>
+				<figcaption>Krita Drawing Project.kra</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-epub+zip.svg" alt="eBook icon"/>
+				<figcaption>Electronic Book.epub</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-x-fictionbook.svg" alt="FictionBook icon"/>
+				<figcaption>Fiction Book.fb2</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-geo+json.svg" alt="Map File icon"/>
+				<figcaption>Map.geojson</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-x-desktop.svg" alt="Desktop File icon"/>
+				<figcaption>Application.desktop</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-x-partial-download.svg" alt="Partial Download icon"/>
+				<figcaption>Partial Download.part</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-x-cd-image.svg" alt="ISO/CD Image icon"/>
+				<figcaption>Raw CD Image.iso</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-x-compressed-iso.svg" alt="Compressed ISO/CD Image icon"/>
+				<figcaption>Compressed CD Image.cso</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/message.svg" alt="Message File icon"/>
+				<figcaption>Message</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-x-rss+xml.svg" alt="RSS Feed icon"/>
+				<figcaption>RSS Feed.rss</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-pdf.svg" alt="Portable Document (PDF) icon"/>
+				<figcaption>Portable Document.pdf</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-postscript.svg" alt="PostScript (EPS) File icon"/>
+				<figcaption>PostScript Document.eps</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-xps.svg" alt="XML Paper Specific (XPS) Document icon"/>
+				<figcaption>XML Paper Document.xps</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-rnote.svg" alt="Rnote mime icon"/>
+				<figcaption>Rnote Drawing.rnote</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-vnd.font-fontforge-sfd.svg" alt="FontForge Spline Font icon"/>
+				<figcaption>Spline Font Database.sfd</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-x-xopp.svg" alt="Xopp File icon"/>
+				<figcaption>Xournal.xopp</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-vnd.comicbook+zip.svg" alt="Comic Book icon"/>
+				<figcaption>Comic Book.cbz</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-x-musescore.svg" alt="Sheet Music icon"/>
+				<figcaption>MusicXML.mxl</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-x-musescore.svg" alt="Sheet Music icon"/>
+				<figcaption>MuseScore File.mscz</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-x-musescore.svg" alt="Sheet Music icon"/>
+				<figcaption>MuseScore uncompressed File.mscx</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/text-x-sql.svg" alt="Database icon"/>
+				<figcaption>Database.sql</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/x-office-calendar.svg" alt="Calendar File icon"/>
+				<figcaption>Calendar</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-mbox.svg" alt="Mail Box icon"/>
+				<figcaption>Mailbox.mbox</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/x-office-addressbook.svg" alt="Addressbook icon"/>
+				<figcaption>Address Book</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/x-office-contact.svg" alt="Vcard icon"/>
+				<figcaption>Contact Card</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/document.svg" alt="Generic Document icon"/>
+				<figcaption>Document (generic)</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/x-office-document.svg" alt="Office Document icon"/>
+				<figcaption>Office Document</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/x-office-document-template.svg" alt="Office Document Template icon"/>
+				<figcaption>Document Template</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/x-office-presentation.svg" alt="Office Presentation icon"/>
+				<figcaption>Slideshow</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/x-office-presentation-template.svg" alt="Office Presentation Template icon"/>
+				<figcaption>Slideshow Template</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/x-office-spreadsheet.svg" alt="Office Spreadsheet icon"/>
+				<figcaption>Spreadsheet</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/x-office-spreadsheet-template.svg" alt="Office Spreadsheet Template icon"/>
+				<figcaption>Spreadsheet Template</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/x-office-drawing.svg" alt="Office Drawing File icon"/>
+				<figcaption>Office Drawing</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/text-mathml.svg" alt="Math Formula File icon"/>
+				<figcaption>Math Formula</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-vnd.ms-access.svg" alt="Microsoft Access Database icon"/>
+				<figcaption>Microsoft Access Database.accdb</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-vnd.ms-excel.svg" alt="Microsoft Excel Sheet icon"/>
+				<figcaption>Microsoft Excel Spreadsheet.xlsx</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-msonenote.svg" alt="Microsoft OneNote Notebook icon"/>
+				<figcaption>Microsoft OneNote Notebook.one</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-msoutlook.svg" alt="Microsoft Outlook Mail icon"/>
+				<figcaption>Microsoft Outlook Message.msg</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-vnd.ms-powerpoint.svg" alt="Microsoft PowerPoint Presentation icon"/>
+				<figcaption>Microsoft PowerPoint Presentation.pptx</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-vnd.ms-project.svg" alt="Microsoft Project File icon"/>
+				<figcaption>Microsoft Project.mpp</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-vnd.ms-publisher.svg" alt="Microsoft Publisher File icon"/>
+				<figcaption>Microsoft Publisher Project.pub</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-vnd.ms-word.svg" alt="Microsoft Word Document icon"/>
+				<figcaption>Microsoft Word Document.docx</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/wps-office-doc.svg" alt="WPS Word Document icon"/>
+				<figcaption>WPS Word Document.doc</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/wps-office-ppt.svg" alt="WPS Presentation icon"/>
+				<figcaption>WPS Presentation.ppt</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/wps-office-xls.svg" alt="WPS Spreadsheet icon"/>
+				<figcaption>WPS Spreadsheet.xls</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/apps/google-docs.svg" alt="Google Document icon"/>
+				<figcaption>Google Document</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/apps/google-sheets.svg" alt="Google SpreadSheet icon"/>
+				<figcaption>Google Spreadsheet</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/apps/google-slides.svg" alt="Google Slideshow icon"/>
+				<figcaption>Google Slideshow</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/apps/google-drawing.svg" alt="Google Drawing icon"/>
+				<figcaption>Google Drawing</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/apps/google-forms.svg" alt="Google Form icon"/>
+				<figcaption>Google Form</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/apps/google-sites.svg" alt="Google WebSite icon"/>
+				<figcaption>Google Site</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/apps/google-my-maps.svg" alt="Google Map icon"/>
+				<figcaption>Google Map</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/apps/google-script.svg" alt="Google Script icon"/>
+				<figcaption>Google Script</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-vnd.iccprofile.svg" alt="ICC Profile File icon"/>
+				<figcaption>Color Profile.icc</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-x-theme.svg" alt="Custom Theme File icon"/>
+				<figcaption>index.theme</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/text-x-sagemath.svg" alt="SageMath File icon"/>
+				<figcaption>SageMath file.sage</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-mathematica.svg" alt="Mathematica File icon"/>
+				<figcaption>Mathematica Notebook.ma</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-vnd.wolfram.player.svg" alt="Mathematica Player icon"/>
+				<figcaption>Mathematica Notebook Player.nbp</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-vnd.wolfram.mathematica.package.svg" alt="Mathematica Package icon"/>
+				<figcaption>Wolfram Package.m</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-x-ardour.svg" alt="Ardour Project File icon"/>
+				<figcaption>Ardour Project.ardour</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-x-audacity-project.svg" alt="Audacity Project File icon"/>
+				<figcaption>Audacity Project.aup</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-x-lmms-project.svg" alt="Linux Multimedia (LMMS) Project File icon"/>
+				<figcaption>Linux Multimedia Project.mmp</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-x-bitwig-studio.svg" alt="BitWig Project File icon"/>
+				<figcaption>Bitwig Project.bwproject</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-vnd.scribus.svg" alt="Scribus File icon"/>
+				<figcaption>Scribus Design.sla</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-x-free.svg" alt="Lunacy File icon"/>
+				<figcaption>Sketch Project.sketch</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-x-free.svg" alt="Lunacy File icon"/>
+				<figcaption>Lunacy Project.free</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-x-bittorrent.svg" alt="BitTorrent File icon"/>
+				<figcaption>BitTorrent.torrent</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/image-vnd.djvu.svg" alt="DjVu Document icon"/>
+				<figcaption>Deja-Vu.djvu</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-vnd.flowblade-project.svg" alt="FlowBlade Project icon"/>
+				<figcaption>FlowBlade Project</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/text-x-xptv.svg" alt="Pitivi Video Edition icon"/>
+				<figcaption>Pitivi Project.xges</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/image-x-3ds.svg" alt="AutoDesk 3ds Max Project icon"/>
+				<figcaption>3DStudioMax.3ds</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/model.svg" alt="Generic Model icon"/>
+				<figcaption>Model (generic)</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-x-glade.svg" alt="Glade Interface icon"/>
+				<figcaption>User Interface Design.ui</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-x-glade.svg" alt="Glade Interface icon"/>
+				<figcaption>Glade Interface.glade</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-x-godot-project.svg" alt="Godot File icon"/>
+				<figcaption>Godot Project.godot</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-x-godot-project.svg" alt="Godot File icon"/>
+				<figcaption>Godot Resource.tscn</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-x-godot-project.svg" alt="Godot File icon"/>
+				<figcaption>Godot Scene.tscn</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-x-gdscript.svg" alt="Godot gdscript icon"/>
+				<figcaption>Godot Script.gd</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-x-karbon.svg" alt="Karbon Design File icon"/>
+				<figcaption>Karbon Design.karbon</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-x-kdenlive.svg" alt="KDEnlive Video File icon"/>
+				<figcaption>KDEnlive Project.kdenlive</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-x-labplot.svg" alt="LabPlot File icon"/>
+				<figcaption>Labplot File.lml</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/video-quicktime.svg" alt="QuickTime Video"/>
+				<figcaption>QuickTime Video.mov</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/text-x-sub.svg" alt="Subtitle File icon"/>
+				<figcaption>Subtitles (generic)</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-software.svg" alt="Software App icon"/>
+				<figcaption>Software Application</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-x-deb.svg" alt="Debian Package icon"/>
+				<figcaption>Debian Package.deb</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-x-rpm.svg" alt="RedHat Package icon"/>
+				<figcaption>RedHat Package.rpm</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-x-alpm-package.svg" alt="Arch (ALPM) Package icon"/>
+				<figcaption>Arch Linux Package.alpm</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-vnd.snap.svg" alt="Snappy Package (Snap) icon"/>
+				<figcaption>Snappy Package.snap</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-appx.svg" alt="Microsoft Windows Package icon"/>
+				<figcaption>Microsoft Store Package Installer.appx</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-appx.svg" alt="Microsoft Windows Package icon"/>
+				<figcaption>Microsoft Package Installer.msix</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-appx.svg" alt="Microsoft Windows Package icon"/>
+				<figcaption>Microsoft Installer.msi</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-vnd.flatpak.svg" alt="FlatPak icon"/>
+				<figcaption>Flatpak.flatpak</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-vnd.flatpak.svg" alt="FlatPak icon"/>
+				<figcaption>Flatpak Repository.flatpakrepo</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-vnd.flatpak.ref.svg" alt="FlatPak Reference icon"/>
+				<figcaption>Flatpak Reference.flatpakref</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/text-dockerfile.svg" alt="Docker File icon"/>
+				<figcaption>Dockerfile.docker</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-birdfont.svg" alt="BirdFont Project File icon"/>
+				<figcaption>BirdFont Project.bf</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/text-x-gettext-translation.svg" alt="Translation File icon"/>
+				<figcaption>Portable Object.po</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/text-x-generic.svg" alt="Plain Text File icon"/>
+				<figcaption>Text.txt</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/text-richtext.svg" alt="Enriched Format Text icon"/>
+				<figcaption>Rich Text.rtf</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/text-x-authors.svg" alt="Authors List icon"/>
+				<figcaption>AUTHORS</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/text-x-copying.svg" alt="Copying License icon"/>
+				<figcaption>COPYING</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/text-x-install.svg" alt="Installation Instructions"/>
+				<figcaption>INSTALL</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/text-x-readme.svg" alt="Read-me Text icon"/>
+				<figcaption>README</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/text-markdown.svg" alt="Markdown File icon"/>
+				<figcaption>Markdown.md</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-latex.svg" alt="LaTeX File icon"/>
+				<figcaption>LaTeX File.latex</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/text-x-tex.svg" alt="TeX File icon"/>
+				<figcaption>TeX File.tex</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/text-x-cobol.svg" alt="Cobol File icon"/>
+				<figcaption>Cobol.cbl</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/text-x-log.svg" alt="Log File icon"/>
+				<figcaption>Log.log</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/text-x-changelog.svg" alt="Changelog File icon"/>
+				<figcaption>changelog</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/text-x-script.svg" alt="Common Script File icon"/>
+				<figcaption>Script (generic)</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/text-html.svg" alt="HyperText Markup (HTML) File icon"/>
+				<figcaption>HyperText Markup File.html</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-x-bin.svg" alt="Binary Code icon"/>
+				<figcaption>Binary.bin</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/chemical-x-pdb.svg" alt="Protein Data Bank icon"/>
+				<figcaption>Protein Data Bank.pdb</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-x-chess-pgn.svg" alt="Chess Portable Game Notation File icon"/>
+				<figcaption>Chess Game Notation.pgn</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/text-x-makefile.svg" alt="Makefile icon"/>
+				<figcaption>Makefile.mk</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/text-x-patch.svg" alt="Patch File icon"/>
+				<figcaption>Patch File.patch</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/text-x-patch.svg" alt="Patch File icon"/>
+				<figcaption>Differences between texts.diff</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/text-x-hex.svg" alt="Hexadecimal File icon"/>
+				<figcaption>Hexadecimal code.hex</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-x-shellscript.svg" alt="Shell Script icon"/>
+				<figcaption>Shell Script.sh</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/text-xml.svg" alt="Extended Markup File (XML) icon"/>
+				<figcaption>Extended Markup File.xml</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-x-yaml.svg" alt="Yet Another Markup File (YAML) icon"/>
+				<figcaption>Yet Another Markup File.yaml</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/text-x-c.svg" alt="C Source Code File icon"/>
+				<figcaption>C Source code.c</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/text-x-cpp.svg" alt="C++ Source Code File icon"/>
+				<figcaption>C++ Source code.cpp</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/text-x-csharp.svg" alt="C# Source Code File icon"/>
+				<figcaption>C# Source code.cs</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/text-x-chdr.svg" alt="H Source Code File icon"/>
+				<figcaption>C Source code header.h</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/text-x-cpphdr.svg" alt="H++ Source Code File icon"/>
+				<figcaption>C++ Source code header.hpp</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/text-x-v.svg" alt="V Script File icon"/>
+				<figcaption>Vlang Script.v</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/text-x-python.svg" alt="Python Script File icon"/>
+				<figcaption>Python.py</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/text-x-octave.svg" alt="Octave Numeric Calc/Graphic icon"/>
+				<figcaption>GNU Octave Numeric Calculation.m</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/text-x-java.svg" alt="Java File icon"/>
+				<figcaption>Java.java</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/text-x-javascript.svg" alt="JavaScript File icon"/>
+				<figcaption>JavaScript.js</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/text-x-typescript.svg" alt="TypeScript File icon"/>
+				<figcaption>TypeScript.ts</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/text-css.svg" alt="Cascading StyleSheet (CSS) File icon"/>
+				<figcaption>Cascading StyleSheet.css</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/text-less.svg" alt="Leaner StyleSheet File icon"/>
+				<figcaption>Leaner StyleSheet.less</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/text-x-sass.svg" alt="SASS/SCSS File icon"/>
+				<figcaption>Syntactically Awesome StyleSheet.sass</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/text-x-qml.svg" alt="QML File icon"/>
+				<figcaption>Qt Markup File.qml</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/text-x-kotlin.svg" alt="Kotlin Script File icon"/>
+				<figcaption>Kotlin.kt</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/text-x-meson.svg" alt="Meson Build icon"/>
+				<figcaption>meson.build</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-wasm.svg" alt="WebAssembly icon"/>
+				<figcaption>WebAssembly.wasm</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/text-x-php.svg" alt="HyperText Preprocessor (PHP) icon"/>
+				<figcaption>HyperText Preprocessor.php</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/text-x-haskell.svg" alt="Haskell File icon"/>
+				<figcaption>Haskell.hs</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/text-x-fortran.svg" alt="Fortran Script File icon"/>
+				<figcaption>Fortran.for</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/text-x-vala.svg" alt="Vala Script File icon"/>
+				<figcaption>Vala.vala</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/text-x-lua.svg" alt="Lua Script File icon"/>
+				<figcaption>Lua.lua</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/text-x-basic.svg" alt="Basic File icon"/>
+				<figcaption>Basic.bas</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/text-x-ruby.svg" alt="Ruby Gem icon"/>
+				<figcaption>Ruby Gem.rb</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/text-x-scala.svg" alt="Scala Script icon"/>
+				<figcaption>Scala.scala</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-json.svg" alt="JSON File icon"/>
+				<figcaption>JavaScript Object.json</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/text-rust.svg" alt="Rust Script File icon"/>
+				<figcaption>Rust.rs</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/text-x-systemd-unit.svg" alt="SystemD Unit icon"/>
+				<figcaption>systemd unit</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/text-x-julia.svg" alt="Julia Script File icon"/>
+				<figcaption>Julia.jl</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/text-rdf.svg" alt="RDF File icon"/>
+				<figcaption>Resource Description.rdf</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/text-x-r.svg" alt="R File icon"/>
+				<figcaption>R.r</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/text-x-arduino.svg" alt="Arduino File icon"/>
+				<figcaption>Arduino.ino</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/text-x-go.svg" alt="GO File icon"/>
+				<figcaption>Golang.go</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/text-x-fsharp.svg" alt="F# icon"/>
+				<figcaption>Fsharp.fs</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/text-x-gradle.svg" alt="Gradle Build icon"/>
+				<figcaption>Gradle Build.gradle</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/text-x-gradle.svg" alt="Gradle Build icon"/>
+				<figcaption>Kotlin-based Gradle Script.gradle.kts</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/text-vnd.typst.svg" alt="Typst File icon"/>
+				<figcaption>Typst Document.typ</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-toml.svg" alt="Tom's Language (TOML) File icon"/>
+				<figcaption>Tom's Language File.toml</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/text-x-coffeescript.svg" alt="CoffeeScript icon"/>
+				<figcaption>CoffeeScript.coffee</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/text-x-zig.svg" alt="Zig File icon"/>
+				<figcaption>Zig.zig</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/text-x-maven+xml.svg" alt="Maven XML File icon"/>
+				<figcaption>Project Object Model.pom</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/text-x-maven+xml.svg" alt="Maven XML File icon"/>
+				<figcaption>Apache Maven Application.pom.xml</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-xmind.svg" alt="Xmind File icon"/>
+				<figcaption>Xmind Workbook.xmind</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/text-x-swift.svg" alt="Swift File icon"/>
+				<figcaption>Apple Swift File.swift</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/text-x-twig.svg" alt="Twig Template icon"/>
+				<figcaption>Twig Template.twig</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-affinity.svg" alt="Affinity Project icon"/>
+				<figcaption>Affinity Project.af</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-vnd.adobe.aftereffects.project.svg" alt="Adobe AfterEffects Project icon"/>
+				<figcaption>Adobe AfterEffects Project.aep</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-illustrator.svg" alt="Adobe Illustrator Project icon"/>
+				<figcaption>Adobe Illustrator Project.ai</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-x-photoshop.svg" alt="Adobe Photoshop Project icon"/>
+				<figcaption>Adobe PhotoShop Project.ps</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-vnd.adobe.xd.svg" alt="Adobe Xd Prototype icon"/>
+				<figcaption>Adobe Xd Prototype.xd</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-flash.svg" alt="Adobe Flash Video icon"/>
+				<figcaption>Adobe Flash Video.flv</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-x-shockwave-flash.svg" alt="Adobe ShockWave Video icon"/>
+				<figcaption>Adobe ShockWave Video.dcr</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-x-ipynb+json.svg" alt="Jupyter Notebook icon"/>
+				<figcaption>Jupyter Notebook.ipynb</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/virtualbox-vbox.svg" alt="VirtualBox VBox Image icon"/>
+				<figcaption>VirtualBox.vbox</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/virtualbox-vbox-extpack.svg" alt="VirtualBox VBox Extension Pack icon"/>
+				<figcaption>VirtualBox Extension Pack.vbox-extpack</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/virtualbox-hdd.svg" alt="VirtualBox HDD Image icon"/>
+				<figcaption>VirtualBox Hard Disk Drive.hdd</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/virtualbox-ova.svg" alt="VirtualBox OVA Image icon"/>
+				<figcaption>VirtualBox Open Virtual Appliance.ova</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/virtualbox-ovf.svg" alt="VirtualBox OVF Image icon"/>
+				<figcaption>VirtualBox Open Virtualization File.ovf</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/virtualbox-vdi.svg" alt="VirtualBox VDI Image icon"/>
+				<figcaption>VirtualBox Virtual Disk Image.vdi</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/virtualbox-vhd.svg" alt="VirtualBox VHD Image icon"/>
+				<figcaption>VirtualBox Virtual Hard Disk.vdh</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/virtualbox-vmdk.svg" alt="VirtualBox VMDK Image icon"/>
+				<figcaption>VirtualBox Virtual Machine Disk.vmdk</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-x-mobipocket-ebook.svg" alt="MobiPocket eBook icon"/>
+				<figcaption>MobiPocket eBook.mobi</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-x-trash.svg" alt="Trash/Cache File icon"/>
+				<figcaption>Backup or Cache File.bak</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/application-x-generic.svg" alt="Generic File icon"/>
+				<figcaption>File (generic)</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/empty.svg" alt="Empty File icon"/>
+				<figcaption>empty</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/unknown.svg" alt="Unknown Filetype icon"/>
+				<figcaption>Unknown</figcaption>
+			</figure>
+			<figure>
+				<img src="Adwaitaru/scalable/mimetypes/inode-symlink.svg" alt="Symbolic Link icon"/>
+				<figcaption>Symbolic link</figcaption>
+			</figure>
+    </main>
+    <script type="text/javascript">
+      // Grab the searchbar and all the searchable hyperlinks
+      const searchbar = document.getElementById('searchbar');
+      const cards = document.querySelectorAll('.app');
+      // Listen for user input in the searchbar (fires instantly on every keystroke)
+      searchbar.addEventListener('input', function(event) {
+        // Convert the user's input to lowercase so the search can be case-agnostic
+        const searchTerm = event.target.value.toLowerCase();
+        // Loop through every single card to see if it matches
+        cards.forEach(function(card) {
+          // Fetch the text from the figcaption
+          const figcaptionText = card.querySelector('figcaption').textContent.toLowerCase();
+          // Fetch the alt text from the image
+          const altText = card.querySelector('img').getAttribute('alt').toLowerCase();
+          // Check if the search term exists in ANY of the targets
+          if (
+            figcaptionText.includes(searchTerm) || 
+            altText.includes(searchTerm)
+          ) {
+            // make the hyperlink visible on match
+            card.classList.remove('hidden');
+          } else {
+            // make the hyperlink hidden on mismatch
+            card.classList.add('hidden');
+          }
+        });
+      });
+      // Grab the form element
+      const searchForm = document.getElementById('searchform');
+      // Listen for when the clear button is clicked
+      searchForm.addEventListener('reset', function() {
+        // Loop through all cards and instantly unhide them
+        cards.forEach(function(card) {
+          card.classList.remove('hidden');
+        });
+      });
+    </script>
+    <script type="text/javascript" src="current-time.js"></script>
+  </body>
+</html>
