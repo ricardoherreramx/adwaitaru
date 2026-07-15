@@ -17,10 +17,10 @@
 <path d="M0 8L0 14L78 14C82.4 14 86 10.4 86 6L86 0C86 4.4 82.4 8 78 8Z" transform="translate(22 94)"/>
 </g><rect width="2" height="92" x="22" y="8" fill="#FFFFFF" opacity="20%"/>
 <line x1="0" y1="0" x2="88" y2="0" stroke="#FFFFFF" stroke-width="2" opacity="24%" transform="translate(20 29)"/>
-<text font-family="Liberation Serif" fill="#FFFFFF">
-<tspan x="32" y="20" font-size="7.5">Dictionary / Thesaurus</tspan>
-<tspan x="30" y="70" font-size="44">Star</tspan>
-<tspan x="36" y="88" font-size="5">Lorem Ipsum Dolor Sit Amet</tspan>
-<tspan x="58" y="94" font-size="5">Etiam</tspan>
+<text text-anchor="middle" font-family="Liberation Serif" fill="#FFFFFF">
+<tspan x="64" y="20" font-size="7.5">Dictionary / Thesaurus</tspan>
+<tspan x="64" y="70" font-size="44">Star</tspan>
+<tspan x="64" y="88" font-size="5">Lorem Ipsum Dolor Sit Amet</tspan>
+<tspan x="64" y="94" font-size="5">Etiam</tspan>
 </text>
 </svg>

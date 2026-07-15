@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="corners" x1="0" y1="0" x2="100%" y2="0">
+<stop offset="0" stop-color="#BABAB6"/>
+<stop offset="4%" stop-color="#EEEEEC"/>
+<stop offset="8%" stop-color="#BEBEB8"/>
+<stop offset="92%" stop-color="#BEBEB8"/>
+<stop offset="96%" stop-color="#F6F5F4"/>
+<stop offset="100%" stop-color="#BABAB6"/>
+</linearGradient>
+<radialGradient id="glass" cx="50%" cy="0">
+<stop offset="0" stop-color="#FFFFFF"/>
+<stop offset="27%" stop-color="#FFFFFF" stop-opacity="87%"/>
+<stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+</radialGradient>
+<clipPath id="upper">
+<path d="M0 0L128 0L128 24L0 24ZM0 88L128 88L128 128L0 128Z"/>
+</clipPath>
+<clipPath id="lower">
+<path d="M0 24L128 24L128 128L0 128Z"/>
+</clipPath>
+</defs>
+<g clip-path="url(#upper)">
+<rect width="88" height="24" rx="8" x="20" y="96" fill="#1A5FB4"/>
+<rect width="88" height="24" rx="8" x="20" y="8" fill="#3584E4"/>
+<rect width="88" height="2" x="20" y="22" fill="#1A5FB4"/>
+</g><g clip-path="url(#lower)">
+<rect width="88" height="38" rx="8" x="20" y="80" fill="url(#corners)"/>
+<rect width="88" height="104" rx="8" x="20" y="8" fill="#F6F5F4"/>
+</g><g fill="#C0BFBC" transform="translate(32 36)"><g fill="#9A9996">
+<rect width="38" height="6" rx="3"/>
+<rect width="18" height="4" rx="2" y="12"/></g>
+<rect width="64" height="4" rx="2" y="30"/>
+<rect width="48" height="4" rx="2" y="40"/>
+<rect width="64" height="4" rx="2" y="50"/>
+<rect width="56" height="4" rx="2" y="60"/>
+</g><g transform="translate(46 42)">
+<g stroke-width="6">
+<line x1="52" y1="54" x2="60" y2="62" stroke="#FF7800"/>
+<line x1="52" y1="52" x2="60" y2="60" stroke="#FFA348"/>
+</g><g stroke-width="12" stroke-linecap="round">
+<line x1="60" y1="62" x2="74" y2="76" stroke="#E5A50A"/>
+<line x1="60" y1="60" x2="74" y2="74" stroke="#F6D32D"/>
+<line x1="61" y1="57" x2="77" y2="73" stroke="#FFFFFF" stroke-width="2" opacity="20%"/>
+</g><g fill-opacity="50%" stroke-width="4">
+<circle r="30" cx="30" cy="32" fill="#FFFFFF" stroke="#E5A50A"/>
+<circle r="30" cx="30" cy="30" fill="url(#glass)" stroke="#F6D32D"/>
+</g></g></svg>

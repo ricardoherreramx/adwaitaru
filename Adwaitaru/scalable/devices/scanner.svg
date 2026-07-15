@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
-<defs>
-<linearGradient id="corners" x1="0" y1="0" x2="1" y2="0">
+<linearGradient id="corners">
 <stop offset="0" stop-color="#A8A7A5"/>
 <stop offset="5%" stop-color="#E3E0DC"/>
 <stop offset="10%" stop-color="#9A9996"/>
@@ -14,21 +13,11 @@
 <stop offset="50%" stop-color="#F8EF6B"/>
 <stop offset="1" stop-color="#F8EF6B" stop-opacity="0"/>
 </linearGradient>
-</defs>
 <rect width="88" height="112" rx="8" x="20" y="8" fill="url(#corners)"/>
 <rect width="86" height="102" rx="7" x="21" y="9" fill="#3D3846" stroke="#DEDDDA" stroke-width="2"/>
 <path d="M4 80C1.8 80 0 78.2 0 76L0 4C0 1.8 1.8 0 4 0L42 0L64 22L64 76C64 78.2 62.2 80 60 80Z" fill="#F6F5F4" transform="translate(32 20)"/>
-<path d="M22 22L0 0L0 18C0 20.2 1.8 22 4 22Z" fill="#BFBFBF" transform="translate(74 20)"/>
-<g fill="#BFBFBF" transform="translate(40 32)">
-<rect width="28" height="2"/>
-<rect width="28" height="2" y="8"/>
-<rect width="48" height="2" y="16"/>
-<rect width="48" height="2" y="24"/>
-<rect width="48" height="2" y="32"/>
-<rect width="48" height="2" y="40"/>
-<rect width="48" height="2" y="48"/>
-<rect width="48" height="2" y="56"/>
-</g>
+<path d="M22 22L0 0L0 18C0 20.2 1.8 22 4 22Z" fill="#C0BFBC" transform="translate(74 20)"/>
+<path d="M0 0L28 0M0 8L28 8M0 16L48 16M0 24L48 24M0 32L48 32M0 40L48 40M0 48L48 48M0 56L48 56" fill="none" stroke="#C0BFBC" stroke-width="2" transform="translate(40 33)"/>
 <rect width="84" height="20" x="22" y="48" fill="url(#shine)"/>
 <rect width="64" height="12" x="32" y="52" fill="#F8EF6B"/>
 <rect width="84" height="4" x="22" y="56" fill="#FFFFFF"/>

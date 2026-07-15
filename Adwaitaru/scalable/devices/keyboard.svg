@@ -9,7 +9,7 @@
 <stop offset="96%" stop-color="#DEDDDA"/>
 <stop offset="1" stop-color="#5E5C64"/>
 </linearGradient>
-<filter id="shadow">
+<filter y="-50%" height="200%" id="shadow">
 <feDropShadow dx="0" dy="1" flood-color="#241F31" stdDeviation="0"/>
 </filter>
 </defs>

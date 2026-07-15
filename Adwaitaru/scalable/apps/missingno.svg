@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="corners">
+<stop offset="0" stop-color="#603482"/>
+<stop offset="4%" stop-color="#9041AB"/>
+<stop offset="12%" stop-color="#603482"/>
+<stop offset="88%" stop-color="#613583"/>
+<stop offset="96%" stop-color="#9041AB"/>
+<stop offset="1" stop-color="#613583"/>
+</linearGradient>
+<linearGradient id="screen" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#BED0D6"/>
+<stop offset="1" stop-color="#305848"/>
+</linearGradient>
+<filter id="shadow2">
+<feDropShadow dx="0" dy="2" flood-color="#000000" stdDeviation="0"/>
+</filter>
+<filter id="shadow1" y="-50%" height="200%">
+<feDropShadow dx="0" dy="1" flood-color="#000000" stdDeviation="0"/>
+</filter>
+</defs>
+<rect width="88" height="112" rx="8" x="20" y="8" fill="url(#corners)"/>
+<rect width="88" height="104" rx="8" x="20" y="8" fill="#C061CB"/>
+<rect width="72" height="48" rx="4" x="28" y="16" fill="#000000"/>
+<rect width="44" height="36" rx="2" x="42" y="22" fill="url(#screen)"/>
+<g fill="#3D3846"><g filter="url(#shadow2)">
+<rect width="12" height="12" rx="6" x="68" y="84"/>
+<rect width="12" height="12" rx="6" x="82" y="74"/>
+<rect width="24" height="8" rx="4" x="32" y="80"/>
+<rect width="8" height="24" rx="4" x="40" y="72"/>
+</g><g filter="url(#shadow1)">
+<rect width="10" height="4" rx="2" x="52" y="104"/>
+<rect width="10" height="4" rx="2" x="66" y="104"/>
+</g></g></svg>

@@ -1,3 +1,9 @@
-<svg version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
- <path d="m8 0v7h-3l1.0469 2.3516 4.2305-4.2305-2.2773-5.1211zm7.2422 0.94922-14.143 14.143 0.70703 0.70703 4.9219-4.9219 2.2793 5.123-0.0078125-7h3l-1.043-2.3516 4.9922-4.9922-0.70703-0.70703z" fill="#808080" opacity=".5" stroke-width=".18178"/>
-</svg>
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="16" height="16" viewBox="0 0 16 16" fill="gray" xmlns="http://www.w3.org/2000/svg">
+<defs><clipPath id="triangles">
+<path d="M0 14L0 0L14 0ZM16 0L16 16L0 16Z"/>
+</clipPath></defs>
+<g opacity="50%">
+<path d="M9 7L9 0L3 9L7 9L7 16L13 7Z" clip-path="url(#triangles)"/>
+<rect width="1" height="24" x="7.5" y="-4" transform="rotate(45 8 8)"/>
+</g></svg>

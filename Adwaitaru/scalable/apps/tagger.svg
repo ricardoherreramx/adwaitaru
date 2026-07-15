@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="blue" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#99C1F1"/>
+<stop offset="1" stop-color="#3584E4"/>
+</linearGradient>
+<radialGradient id="orange" cx="50%" cy="25%">
+<stop offset="0" stop-color="#FFA348"/>
+<stop offset="1" stop-color="#FF7800"/>
+</radialGradient>
+<clipPath id="sheet">
+<rect width="88" height="104" rx="8" transform="translate(5 26), rotate(345)"/>
+</clipPath>
+<filter id="shadow">
+<feDropShadow dx="0" dy="0" flood-color="#000000" flood-opacity="50%" stdDeviation="4"/>
+</filter>
+</defs>
+<rect width="88" height="104" rx="8" fill="url(#blue)" transform="translate(5 26), rotate(345)"/>
+<rect width="88" height="112" rx="8" x="20" y="8" fill="#F6F5F4" filter="url(#shadow)" clip-path="url(#sheet)"/>
+<rect width="88" height="112" rx="8" x="20" y="8" fill="#F6F5F4"/>
+<g fill="#5E5C64" opacity="20%" transform="translate(52 22)">
+<rect width="40" height="6" rx="3"/>
+<rect width="32" height="4" rx="2" y="10"/>
+<rect width="32" height="4" rx="2" y="42"/>
+<rect width="24" height="4" rx="2" y="50"/>
+<rect width="32" height="4" rx="2" y="58"/>
+<rect width="28" height="4" rx="2" y="66"/>
+<rect width="32" height="4" rx="2" y="74"/>
+</g><g fill="#E66100" transform="translate(12 48)">
+<rect width="36" height="8" rx="4" x="24"/>
+<rect width="8" height="62" rx="4" x="24"/>
+<rect width="32" height="30" rx="16" ry="15" y="42"/>
+</g><g fill="#FFA348" transform="translate(12 44)">
+<rect width="36" height="8" rx="4" x="24"/>
+<rect width="8" height="62" rx="4" x="24"/>
+<rect width="32" height="30" rx="16" ry="15" y="44"/>
+</g><g fill="#FF7800" transform="translate(12 46)">
+<rect width="36" height="8" rx="4" x="24"/>
+<rect width="8" height="62" rx="4" x="24"/>
+<rect width="32" height="28" rx="16" ry="14" y="44" fill="url(#orange)"/>
+</g></svg>

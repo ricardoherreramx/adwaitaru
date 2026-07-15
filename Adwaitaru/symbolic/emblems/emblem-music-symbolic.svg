@@ -1,1 +1,6 @@
-../places/folder-music-symbolic.svg
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="16" height="16" viewBox="0 0 16 16" fill="gray" xmlns="http://www.w3.org/2000/svg">
+<path d="M5 1L15 1L15 12.5L14 12.5L14 4L6 4L6 12.5L5 12.5Z"/>
+<circle r="2.5" cx="12.5" cy="12.5"/>
+<circle r="2.5" cx="3.5" cy="12.5"/>
+</svg>
