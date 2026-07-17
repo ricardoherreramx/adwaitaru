@@ -35,7 +35,7 @@ margin: 0;
 body {
 width: 100vw;
 height: 100vh;
-min-width: 320px;
+min-width: 360px;
 min-height: 100vh;
 min-height: -webkit-fill-available;
 box-sizing: border-box;
@@ -67,7 +67,7 @@ height: 32px;
 padding: 3px;
 }
 
-#panel time{
+#panel time {
 position: fixed;
 inset: 0;
 top: 8px;
@@ -115,11 +115,34 @@ height: 100px;
 justify-self: center;
 }
 
+nav#dock img {
+width: 64px;
+height: 64px;
+}
+
 nav#dock a {
 width: 76px;
 height: 76px;
 padding: 6px;
+position: relative;
 border-radius: 16px;
+}
+
+nav#dock a::after {
+content: attr(data-tooltip);
+position: absolute;
+top: -50px; 
+left: 50%;
+transform: translateX(-50%);
+color: #ffffff;
+background-color: #222222;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+outline: thin solid #464646;
+padding: 6px 12px;
+border-radius: 15px;
+white-space: nowrap;
+pointer-events: none;
+opacity: 0;
 }
 
 nav#dock a:hover {background-color: #4B4B4B}
@@ -127,11 +150,8 @@ nav#dock a:focus {
 background-color: #585858;
 outline: none;
 }
-
-nav#dock img {
-width: 64px;
-height: 64px;
-}
+nav#dock a:hover::after,
+nav#dock a:focus::after {opacity: 1}
 
 a#Apps img {
 width: 64px;
@@ -165,4 +185,9 @@ background-color: #4C4C4C;
 margin: 7px 0;
 height: 1px;
 }
+}
+
+@media (max-width: 360px) { /* Mobile */ 
+#panel {height: 26px; padding: 0;}
+#panel time {display: none}
 }

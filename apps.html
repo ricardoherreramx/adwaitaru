@@ -15,7 +15,7 @@
     <link rel="shortcut icon" href="Adwaitaru/symbolic/categories/emoji-nature-symbolic.svg" type="image/x-icon">
     <link href="showcase.css" rel="stylesheet" type="text/css">
     <style type="text/css">
-      a#Apps {background-color: #4B4B4B;pointer-events: none}
+      a[data-tooltip="Apps"] {background-color: #4B4B4B;pointer-events: none}
       #panel {background-color: transparent}
       #panel svg {fill: white}
       main.apps {
@@ -25,14 +25,12 @@
       margin: 0 auto;
       gap: 0 36px;
       user-select: none;
-      scroll-snap-type: x mandatory;
       }
       main.apps figure {
       border-radius: 18px;
       padding: 12px 6px;
       }
       main.apps > a {
-      scroll-snap-align: start;
       width: fit-content;
       height: 148px;
       }
@@ -45,34 +43,34 @@
       position: fixed;
       top: 56px;
       left: 50%;
-      width: 372px;
-      height: 42px;
+      width: 370px;
+      height: 40px;
       transform: translateX(-50%);
       }
       #searchbar {
       color: inherit;
       font-family: inherit;
       font-size: inherit;
-      width: 372px;
-      height: 42px;
+      width: 370px;
+      height: 40px;
       background-color: #353535;
       background-image: url(Adwaitaru/symbolic/actions/search-symbolic.svg);
-      background-position: 14px center;
+      background-position: 12px center;
       background-size: 16px 16px;
       background-repeat: no-repeat;
       border: thin solid transparent;
-      border-radius: 21px;
+      border-radius: 20px;
       outline: none;
-      padding: 0 42px;
-      padding-left: 42px;
+      padding: 0 40px;
+      padding-left: 40px;
       }
       #searchbar::placeholder {color: gray}
       #searchbar:active, #searchbar:hover {background-color: #404040}
       #searchbar:active, #searchbar:focus {border-color: #C0C0C0}
       #erase {
       position: absolute;
-      right: 14px;
-      top: 14px;
+      right: 12px;
+      top: 12px;
       width: 16px;
       height: 16px;
       border: none;
@@ -87,6 +85,24 @@
       position: fixed;
       align-self: center;
       inset: 0;
+      }
+      @media (max-width: 360px) {
+      #searchform {top: 36px;}
+      #searchform, #searchbar {max-width: 270px;}
+      main.apps {flex-flow: row wrap; gap: 0;}
+      main.apps > a {height: fit-content; min-height: 108px;}
+      main.apps figure {padding: 10px; width: 84px;}
+      svg.arrow {display: none}
+      main.apps figcaption {
+      font-size: 9pt;
+      text-wrap: wrap;
+      word-break: break-word;
+      overflow-wrap: anywhere;
+      }
+      }
+      @media (min-width: 361px) {
+      main.apps {scroll-snap-type: x mandatory;}
+      main.apps > a {scroll-snap-align: start;}
       }
       @media (min-width: 876px) {main.apps {width: 556px}}
       @media (min-width: 1024px) {main.apps {width: 704px}}
@@ -117,23 +133,23 @@
       </div>
     </header>
     <nav id="dock">
-      <a id="Welcome" href="index.html">
-        <img src="Adwaitaru/scalable/apps/org.gnome.Tour.svg">
+      <a data-tooltip="Welcome" href="index.html">
+        <img src="Adwaitaru/scalable/apps/org.gnome.Tour.svg" alt="Welcome">
       </a>
-      <a id="Files" href="mimetypes.html">
-        <img src="Adwaitaru/scalable/apps/org.gnome.Nautilus.svg">
+      <a data-tooltip="Mimetypes" href="mimetypes.html">
+        <img src="Adwaitaru/scalable/apps/org.gnome.Nautilus.svg" alt="Mimetypes">
       </a>
-      <a id="Tweaks" href="tweaks.html">
-        <img src="Adwaitaru/scalable/apps/gnome-tweak-tool.svg">
+      <a data-tooltip="Download (.zip)">
+        <img src="Adwaitaru/scalable/mimetypes/package-x-generic.svg" alt="Download (.zip)">
       </a>
-      <a id="HowTo" href="help.html">
-        <img src="Adwaitaru/scalable/apps/org.gnome.yelp.svg">
+      <a data-tooltip="HowTo" href="help.html">
+        <img src="Adwaitaru/scalable/apps/org.gnome.yelp.svg" alt="Help">
       </a>
-      <a id="Download (.zip)">
-        <img src="Adwaitaru/scalable/mimetypes/package-x-generic.svg">
+      <a data-tooltip="Tweaks" href="tweaks.html">
+        <img src="Adwaitaru/scalable/apps/gnome-tweak-tool.svg" alt="Tweaks">
       </a>
-      <a id="Apps" href="apps.html">
-        <img src="Adwaitaru/symbolic/actions/view-app-grid-symbolic.svg"/>
+      <a data-tooltip="Apps" href="apps.html">
+        <img src="Adwaitaru/symbolic/actions/view-app-grid-symbolic.svg" alt="Apps"/>
       </a>
     </nav>
     <svg width="10" height="20" class="arrow" style="left:75px">
