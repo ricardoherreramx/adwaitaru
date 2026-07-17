@@ -153,10 +153,14 @@ outline: none;
 nav#dock a:hover::after,
 nav#dock a:focus::after {opacity: 1}
 
-a#Apps img {
-width: 64px;
-height: 64px;
+#erase {
+position: absolute;
+background: none;
+border: none;
 }
+#searchbar:placeholder-shown + #erase {display: none}
+#searchbar:not(:placeholder-shown) + #erase {display: block}
+main > .hidden {display: none !important}
 
 main.grid {
 display: flex;
@@ -184,6 +188,30 @@ border: none;
 background-color: #4C4C4C;
 margin: 7px 0;
 height: 1px;
+}
+
+#empty {
+width: 100%;
+height: 100%;
+display: flex;
+flex-flow: column nowrap;
+align-items: center;
+justify-content: center;
+text-align: center;
+pointer-events: none;
+gap: 12px;
+}
+
+#empty img {
+width: 128px;
+height: 128px;
+filter: initial;
+}
+
+#empty h1 {
+margin-top: 24px;
+font-weight: bold;
+font-size: 20pt;
 }
 }
 
