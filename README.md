@@ -410,7 +410,6 @@ Built largely upon the graphic work of GNOME's [Adwaita designers](https://gitla
 ![icon](./Adwaitaru/scalable/apps/obsidian.svg "Obsidian")
 ![icon](./Adwaitaru/scalable/apps/vlc.svg "VideoLan (VLC)")
 ![icon](./Adwaitaru/scalable/apps/mathematica.svg "Wolfram Mathematica")
-![icon](./Adwaitaru/scalable/apps/recordapps.svg "Record Apps")
 ![icon](./Adwaitaru/scalable/apps/firewalld.svg "FirewallD Applet")
 ![icon](./Adwaitaru/scalable/apps/frogr.svg "Frogr")
 </details>

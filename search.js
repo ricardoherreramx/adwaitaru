@@ -9,16 +9,20 @@ function filterCards() {
   const searchTerm = searchbar.value.toLowerCase();
   let visibleCardsCount = 0; // Track how many cards remain visible
   cards.forEach(function(card) {
-    // Fetch Figcaption Text
+    // Fetch Figcaption Text (with safety check in case a card lacks a figcaption)
     const figcaptionText = card.querySelector('figcaption').textContent.toLowerCase();
-    // Fetch Image Alt Text
-    const altText = card.querySelector('img').getAttribute('alt').toLowerCase();
-    // Fetch Image data-attribute
+    // Fetch Image Alt Text (with safety check in case an image lacks alt text)
+    const imgElement = card.querySelector('img');
+    const altText = (imgElement && imgElement.getAttribute('alt')) ? imgElement.getAttribute('alt').toLowerCase() : '';
+    // Fetch Image Filename (safe fallback: if attribute is missing/null, use empty string '')
+    const filenameText = (card.getAttribute('data-filename') || '').toLowerCase();
+    // Fetch Card's Classes
     const classText = card.className.toLowerCase();
-    // E. Evaluate Matches
+    // Evaluate Matches
     if (
       figcaptionText.includes(searchTerm) || 
       altText.includes(searchTerm) || 
+      filenameText.includes(searchTerm) || 
       classText.includes(searchTerm)
     ) {
       card.classList.remove('hidden');

@@ -199,6 +199,7 @@ align-items: center;
 justify-content: center;
 text-align: center;
 pointer-events: none;
+user-select: none;
 gap: 12px;
 }
 
