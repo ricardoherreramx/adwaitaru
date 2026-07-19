@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
 <defs>
-<clipPath id="squircle">
-<rect width="104" height="104" rx="8"/>
+<clipPath id="pic">
+<rect width="104" height="104" rx="8" x="12" y="12"/>
 </clipPath>
 <filter id="shadow">
 <feDropShadow dx="0" dy="3" flood-color="#000000" stdDeviation="1"/>
 </filter>
-<linearGradient id="gradient" gradientUnits="userSpaceOnUse" x1="-0" y1="0" x2="80" y2="0">
+<linearGradient id="gradient">
 <stop offset="0" stop-color="#3D3846"/>
-<stop offset="0.05" stop-color="#77767B"/>
-<stop offset="0.1" stop-color="#5E5C64"/>
-<stop offset="0.9" stop-color="#504E56"/>
-<stop offset="0.95" stop-color="#77767B"/>
+<stop offset="5%" stop-color="#77767B"/>
+<stop offset="10%" stop-color="#5E5C64"/>
+<stop offset="90%" stop-color="#504E56"/>
+<stop offset="95%" stop-color="#77767B"/>
 <stop offset="1" stop-color="#3D3846"/>
 </linearGradient>
 </defs>
-<g clip-path="url(#squircle)" transform="translate(12 12)">
-<rect width="104" height="104" rx="8" fill="#F6F5F4"/>
-<rect width="102" height="102" rx="7" x="1" y="1" fill="none" stroke="black" stroke-width="2" opacity="0.3"/>
-<rect fill="#FE9900" width="72" height="72" rx="9" x="64" y="52" transform="rotate(45 64 52)"/>
-<rect fill="#2953FF" width="96" height="72" rx="10" x="24" y="42" transform="rotate(45 24 42)"/>
-<circle r="12" fill="#FF354A" transform="translate(76 28)"/>
+<g clip-path="url(#pic)">
+<rect width="104" height="100" rx="8" x="12" y="12" fill="#FFFFFF"/>
+<rect width="102" height="102" rx="7" x="13" y="13" fill="none" stroke="#000000" stroke-width="2" opacity="30%"/>
+<rect width="72" height="72" rx="9" fill="#E5A50A" transform="translate(76 64) rotate(45)"/>
+<rect width="96" height="96" rx="10" fill="#1C71D8" transform="translate(36 54) rotate(45)"/>
+<circle r="12" cx="88" cy="40" fill="#ED333B"/>
 </g><g id="cursor" transform="translate(48 54)">
 <rect width="80" height="74" rx="8" fill="url(#gradient)"/>
 <rect width="80" height="66" rx="8" fill="#3D3846"/>

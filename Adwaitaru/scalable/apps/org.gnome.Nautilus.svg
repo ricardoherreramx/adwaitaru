@@ -10,50 +10,31 @@
 <stop offset="1" stop-color="#9A9996"/>
 </linearGradient>
 <linearGradient id="handles">
-<stop offset="0" stop-color="#DEDDDA"/>
+<stop offset="0" stop-color="#C0BFBC"/>
 <stop offset="5%" stop-color="#EEEEEC"/>
-<stop offset="10%" stop-color="#DEDDDA"/>
-<stop offset="90%" stop-color="#DEDDDA"/>
+<stop offset="12%" stop-color="#DEDDDA"/>
+<stop offset="88%" stop-color="#DEDDDA"/>
 <stop offset="95%" stop-color="#EEEEEC"/>
 <stop offset="1" stop-color="#C0BFBC"/>
 </linearGradient>
-<linearGradient id="downers" x1="0" y1="0" x2="0" y2="0.5">
+<linearGradient id="downers" x1="0" y1="0" x2="0" y2="1">
 <stop offset="0" stop-color="#C0BFBC"/>
-<stop offset="1" stop-color="#999894"/>
+<stop offset="1" stop-color="#9A9996"/>
 </linearGradient>
-<clipPath id="handler">
-<path d="M0 0L24 0L24 8L20 8L20 6L4 6L4 8L0 8Z"/>
-</clipPath>
+<g id="handler"><g fill="#000000" fill-opacity="10%">
+<rect width="24" height="4" rx="2" y="6"/>
+<rect width="16" height="2" x="4" y="6"/></g>
+<path d="M20 5L20 8L24 8L24 3C24 1.35 22.65 0 21 0L3 0C1.35 0 0 1.35 0 3L0 8L4 8L4 5Z" fill="url(#handles)"/>
+<path d="M20 6L20 8L24 8L24 7C24 5.35 22.65 4 21 4L3 4C1.35 4 0 5.35 0 7L0 8L4 8L4 6Z" fill="url(#downers)"/></g>
 </defs>
 <rect width="88" height="112" rx="8" x="20" y="8" fill="url(#corners)"/>
 <rect width="88" height="108" rx="8" x="20" y="8" fill="#F6F5F4"/>
-<rect width="80" height="100" rx="4" x="24" y="12" fill="#1A5FB4"/>
+<rect width="80" height="98" rx="4" x="24" y="14" fill="#1A5FB4"/>
 <rect width="80" height="98" rx="4" x="24" y="12" fill="#3584E4"/>
 <g fill="#1A5FB4">
 <rect width="80" height="2" x="24" y="76"/>
-<rect width="80" height="2" x="24" y="44"/>
-</g><g transform="translate(52 24)">
-<g fill="#000000" fill-opacity="10%">
-<rect width="24" height="4" rx="2" y="6"/>
-<rect width="16" height="2" x="4" y="6"/>
-</g><g clip-path="url(#handler)">
-<rect width="24" height="12" rx="3" fill="url(#handles)"/>
-<rect width="24" height="8" rx="3" y="4" fill="url(#downers)"/>
-</g></g>
-<g transform="translate(52 56)">
-<g fill="#000000" fill-opacity="10%">
-<rect width="24" height="4" rx="2" y="6"/>
-<rect width="16" height="2" x="4" y="6"/>
-</g><g clip-path="url(#handler)">
-<rect width="24" height="12" rx="3" fill="url(#handles)"/>
-<rect width="24" height="8" rx="3" y="4" fill="url(#downers)"/>
-</g></g>
-<g transform="translate(52 88)">
-<g fill="#000000" fill-opacity="10%">
-<rect width="24" height="4" rx="2" y="6"/>
-<rect width="16" height="2" x="4" y="6"/>
-</g><g clip-path="url(#handler)">
-<rect width="24" height="12" rx="3" fill="url(#handles)"/>
-<rect width="24" height="8" rx="3" y="4" fill="url(#downers)"/>
-</g></g>
+<rect width="80" height="2" x="24" y="44"/></g>
+<use href="#handler" x="52" y="24"/>
+<use href="#handler" x="52" y="56"/>
+<use href="#handler" x="52" y="88"/>
 </svg>

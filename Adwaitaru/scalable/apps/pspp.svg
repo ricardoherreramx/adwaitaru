@@ -8,15 +8,14 @@
 <path d="M4 6L64 6L64 60Z"/>
 </clipPath>
 <linearGradient id="gradient">
-<stop offset="0" stop-color="#FFFFFF" stop-opacity="25%"/>
-<stop offset="33%" stop-color="#FFFFFF" stop-opacity="50%"/>
-<stop offset="66%" stop-color="#000000" stop-opacity="25%"/>
-<stop offset="100%" stop-color="#000000" stop-opacity="50%"/>
+<stop offset="0" stop-color="#A51D2D"/>
+<stop offset="33%" stop-color="#F66151"/>
+<stop offset="66%" stop-color="#C01C28"/>
+<stop offset="100%" stop-color="#A51D2D"/>
 </linearGradient>
 </defs>
-<rect width="120" height="112" rx="60" ry="56" x="4" y="12" fill="#E01B24"/>
 <rect width="120" height="112" rx="60" ry="56" x="4" y="12" fill="url(#gradient)"/>
-<ellipse rx="60" ry="54" cx="64" cy="66" fill="#E01B24"/>
+<ellipse rx="60" ry="54" cx="64" cy="66" fill="#ED333B"/>
 <ellipse rx="60" ry="54" cx="64" cy="60" fill="#57E389" clip-path="url(#slice)"/>
 <path d="M0 0L42.4 38.2L42.4 44.2L0 6Z" fill="#26A269" transform="translate(21.6 21.8)"/>
 <ellipse rx="60" ry="54" cx="64" cy="58" fill="#62A0EA" clip-path="url(#frame)"/>
