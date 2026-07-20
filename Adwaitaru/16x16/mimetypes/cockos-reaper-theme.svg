@@ -1,23 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
-<defs><clipPath id="sheet">
-<path d="M28 0L44 0C44 8 53 14 64 14C75 14 84 8 84 0L100 0L128 14L116 38L104 32L104 112L24 112L24 32L12 38L0 14Z" transform="translate(0 8)"/>
-</clipPath></defs>
-<g clip-path="url(#sheet)">
-<rect width="128" height="128" fill="#969696"/><g display="none">
-<circle r="41" cx="79" cy="35" fill="#2068A4"/>
-<circle r="35" cx="82" cy="38" fill="#2093CD"/></g>
-<circle r="46" cx="59" cy="92" fill="#854A1B"/>
-<rect width="80" height="24" x="28" y="96" fill="#B86652"/>
-<circle r="37" cx="67" cy="88" fill="#B86652"/>
-<circle r="34" cx="33" cy="87" fill="#F09000" opacity="40%"/>
-<circle r="34" cx="30" cy="92" fill="#64C22E"/>
-<path d="M26.75 5C21.25 5 16.25 6 10.5 8.75C12.5 12.25 14.75 15.5 17.25 18C25.25 26 26.25 35 26.25 41C26.25 48 24.25 55 19.75 61C22.25 56 23.25 51 23.25 46C23.25 24 6.25 21 0 3.75C6.25 1 11.75 0 18.25 0C31.75 0 44.25 6 52.25 15C45.25 9 37.25 5 26.75 5Z" fill="#FFFFFF" transform="translate(40.75 46)"/>
-</g><g stroke="#000000" opacity="26%"><g stroke-width="4.5">
-<line x1="0" y1="24" x2="12" y2="0" transform="translate(114 21)"/>
-<line x1="0" y1="0" x2="12" y2="24" transform="translate(2 21)"/>
-</g><g stroke-width="4">
-<line x1="0" y1="0" x2="80" y2="0" transform="translate(24 118)"/>
-<path d="M44 0C44 9 34 16 22 16C10 16 0 9 0 0" fill="none" transform="translate(42 8)"/>
-</g></g>
+<svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 0L5 0C5 1.65 6.35 3 8 3C9.65 3 11 1.65 11 0L16 0L16 5L13 5L13 16L3 16L3 5L0 5Z" fill="#808080"/>
 </svg>

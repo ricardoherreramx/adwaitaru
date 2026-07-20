@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
-<defs><clipPath id="sheet">
-<path d="M88 28L88 104C88 108.4 84.4 112 80 112L8 112C3.6 112 0 108.4 0 104L0 8C0 3.6 3.6 0 8 0L60 0Z" transform="translate(20 8)"/>
-</clipPath></defs>
-<g clip-path="url(#sheet)" filter="grayscale(1)">
-<rect width="128" height="128" fill="#5F6F6F"/>
-<circle r="41" cx="79" cy="35" fill="#2068A4"/>
-<circle r="35" cx="82" cy="38" fill="#2093CD"/>
-<circle r="46" cx="59" cy="92" fill="#854A1B"/>
-<circle r="37" cx="67" cy="88" fill="#B86652"/>
-<circle r="34" cx="33" cy="87" fill="#F09000" opacity="40%"/>
-<circle r="34" cx="30" cy="92" fill="#64C22E"/>
+<svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+<g transform="translate(0.8 0)">
+<g transform="scale(0.2)">
+<path d="M36 0C52 0 72 10 72 30C72 50 50 80 36 80C22 80 0 50 0 30C0 10 20 0 36 0Z" fill="#727272"/>
+<g transform="translate(-28 -32)">
 <path d="M26.75 5C21.25 5 16.25 6 10.5 8.75C12.5 12.25 14.75 15.5 17.25 18C25.25 26 26.25 35 26.25 41C26.25 48 24.25 55 19.75 61C22.25 56 23.25 51 23.25 46C23.25 24 6.25 21 0 3.75C6.25 1 11.75 0 18.25 0C31.75 0 44.25 6 52.25 15C45.25 9 37.25 5 26.75 5Z" fill="#FFFFFF" transform="translate(40.75 46)"/>
-<path d="M28 28L0 28L0 0Z" fill="#2068A4" transform="translate(80 8)"/>
-</g></svg>
+</g></g></g></svg>
